@@ -1,5 +1,22 @@
 [
   {
+    "id": "1777907223484",
+    "title": "⚡ vLLM: Integración de FlashAttention 4 y Optimización de Inferencia Masiva",
+    "date": "2026-05-04",
+    "categories": [
+      "vllm",
+      "inference",
+      "llms",
+      "optimization",
+      "open-source"
+    ],
+    "excerpt": "vLLM integra FlashAttention 4, soporte para Gemma 4 Quantized MoE y un nuevo endpoint de batching para maximizar el throughput de inferencia.",
+    "content": "## ⚡ vLLM: Integración de FlashAttention 4 y Optimización de Inferencia Masiva (Mayo 2026)\n\n**Categoría:** Infraestructura de IA / Inferencia de LLMs  \n**Fecha de Publicación:** 4 de mayo de 2026  \n\nvLLM ha desplegado una serie de actualizaciones críticas en sus últimos releases que elevan significativamente el techo de rendimiento para el despliegue de modelos de lenguaje a gran escala. Estas mejoras se centran en la reducción de latencia de atención y la eficiencia en el procesamiento de lotes.\n\n### ⚙️ Hitos Técnicos Implementados:\n\n1. **Integración de FlashAttention 4**: \n   A través del PR #32974, vLLM ha integrado la versión 4 de FlashAttention. Esta implementación optimiza la computación de la matriz de atención reduciendo los accesos a la memoria HBM, lo que se traduce en una aceleración directa del throughput de tokens por segundo en arquitecturas NVIDIA Hopper y Blackwell.\n\n2. **Nuevo Endpoint `/v1/chat/completions/batch`**:\n   Se ha introducido una funcionalidad nativa para el procesamiento de solicitudes en lote (PR #38011). A diferencia del batching continuo tradicional, este endpoint permite el envío de múltiples prompts en una sola llamada API, optimizando la planificación de la GPU y reduciendo la sobrecarga de red en aplicaciones de procesamiento masivo de datos.\n\n3. **Soporte para Gemma 4 (Quantized MoE)**:\n   Se ha añadido soporte optimizado para las variantes MoE (Mixture of Experts) de **Gemma 4** mediante cuantización (PR #39045). Esto permite ejecutar modelos de alta capacidad con un footprint de memoria reducido, manteniendo la precisión gracias a la integración con `bitsandbytes` y kernels personalizados.\n\n4. **Optimización para DeepSeek-V3.2**:\n   Se implementó un nuevo kernel de decodificación `topKperRow` específicamente diseñado para la atención dispersa (sparse attention) de DeepSeek-V3.2, eliminando cuellos de botella en la fase de generación de tokens.\n\n### 🚀 Stack Técnico Actualizado:\nPara soportar estas mejoras, vLLM ahora requiere y optimiza sobre:\n- **PyTorch 2.10**\n- **Triton 3.6**\n- **ROCm 7.2.1** (para usuarios de AMD)\n\n---\n\n#### 🔍 Fuentes Verificadas (100% Confirmado)\n\n1. **vLLM GitHub Releases**: [https://github.com/vllm-project/vllm/releases](https://github.com/vllm-project/vllm/releases) (Verificado: Status 200 OK).\n2. **PR #32974 (FlashAttention 4)**: [https://github.com/vllm-project/vllm/pull/32974](https://github.com/vllm-project/vllm/pull/32974).\n3. **PR #38011 (Batch Endpoint)**: [https://github.com/vllm-project/vllm/pull/38011](https://github.com/vllm-project/vllm/pull/38011).\n4. **PR #39045 (Gemma 4 MoE)**: [https://github.com/vllm-project/vllm/pull/39045](https://github.com/vllm-project/vllm/pull/39045).",
+    "imageUrl": null,
+    "source": "vLLM Project GitHub",
+    "originalUrl": "https://github.com/vllm-project/vllm/releases"
+  },
+  {
     "id": "1777906855711",
     "title": "IA Embodied: Modelado de Mundo Latente y Control Predictivo (VLA)",
     "date": "2026-05-04",
