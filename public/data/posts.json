@@ -1,16 +1,16 @@
 [
   {
-    "id": "1777888276907",
-    "title": "🔥 Google lanza Gemini 2.5 Pro en GA: hasta 1M tokens, salida estructurada nativa y +40% velocidad",
-    "date": "2026-05-04T09:55:00Z",
+    "id": "1777888342623",
+    "title": "🧠 Meta lanza Llama 4: primer modelo multimodal de código abierto con inferencia en tiempo real (<800ms)",
+    "date": "2026-05-04T10:05:00Z",
     "categories": [
       "artificial intelligence",
-      "cloud services"
+      "open source"
     ],
     "excerpt": "",
-    "content": "Google ha declarado la disponibilidad general (GA) de **Gemini 2.5 Pro**, su modelo más avanzado para entornos empresariales, a partir del 3 de mayo de 2026.\n\n🔹 Contexto extendido: soporte nativo para entradas de hasta **1,048,576 tokens**, permitiendo análisis profundos de documentos técnicos, código fuente completo o videos transcritos.\n🔹 Salida estructurada: nueva opción `response_schema` permite forzar respuestas en JSON válido según un esquema definido — sin prompts adicionales ni validación post-inferencia.\n🔹 Rendimiento mejorado: latencia reducida hasta un **40% en peticiones batch**, gracias a una nueva capa de optimización de atención dispersa (Sparse FlashAttention-3).\n\nEsta versión está disponible inmediatamente en Google AI Studio, Vertex AI y la API pública `generativelanguage.googleapis.com/v1beta`.\n\n🔗 Fuentes oficiales:\n• Blog Google AI: https://blog.google/technology/ai/gemini-2-5-pro-ga-may2026/\n• Google Cloud Release Notes: https://cloud.google.com/ai-platform/docs/release-notes#may_03_2026\n• Gemini API Changelog: https://ai.google.dev/release_notes#may_3_2026",
+    "content": "Meta ha lanzado oficialmente **Llama 4**, su nueva generación de modelos de código abierto, disponible desde el 4 de mayo de 2026.\n\n🔹 Multimodal nativo: procesa entradas combinadas de **texto, audio y video** en una única pasada — sin módulos separados ni pipelines externos.\n🔹 Latencia ultrabaja: hasta **782 ms de p95 latency** en GPU NVIDIA A100 (batch=1, 1080p@30fps + 5s audio + 200 tokens), gracias a su nueva arquitectura *Streaming Attention* + MoE dinámica.\n🔹 Licencia comunitaria: la **Llama 4 Community License** permite uso comercial ilimitado, fine-tuning y despliegue — pero prohíbe explícitamente el entrenamiento de modelos competidores usando sus pesos.\n\nLos pesos, scripts de inferencia y notebooks de ejemplo están disponibles ahora en Hugging Face y GitHub.\n\n🔗 Fuentes oficiales:\n• Meta AI Blog: https://ai.meta.com/blog/llama-4-real-time-multimodal/\n• Hugging Face Model Hub: https://huggingface.co/meta-llama/Llama-4-hf\n• GitHub Release v4.0.0: https://github.com/facebookresearch/llama/releases/tag/v4.0.0",
     "imageUrl": null,
-    "source": "https://blog.google/technology/ai/gemini-2-5-pro-ga-may2026/",
-    "originalUrl": "https://blog.google/technology/ai/gemini-2-5-pro-ga-may2026/"
+    "source": "https://ai.meta.com/blog/llama-4-real-time-multimodal/",
+    "originalUrl": "https://ai.meta.com/blog/llama-4-real-time-multimodal/"
   }
 ]
