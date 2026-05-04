@@ -1,5 +1,16 @@
 [
   {
+    "id": "1777892159873",
+    "title": "📦 ONNX Runtime v1.25.1: soporte para opset 25 (Reshape), Transpose v24 y aceleración nativa en WebGPU (2026-05-04)",
+    "date": "2026-05-04",
+    "categories": [],
+    "excerpt": "ONNX Runtime v1.25.1, lanzada el 4 de mayo de 2026, añade soporte para opset 25 (Reshape) y Transpose v24, e introduce aceleración nativa mediante WebGPU — habilitando inferencia ONNX directa en navegadores sin WebAssembly.",
+    "content": "Microsoft lanza oficialmente **ONNX Runtime v1.25.1** el 4 de mayo de 2026, con soporte extendido para los últimos operadores ONNX: `Reshape` (opset 25) y `Transpose` (opset 24), permitiendo la ejecución sin conversión de modelos exportados desde PyTorch 2.10 y TensorFlow 2.19. Esta versión introduce también una implementación experimental de aceleración nativa mediante **WebGPU**, habilitando inferencia de modelos ONNX directamente en navegadores modernos (Chrome 125+, Firefox 122+) sin WebAssembly ni plugins — un paso crítico hacia estándares web de IA. Además, incluye correcciones de seguridad para CVE-2026-33891 (buffer overflow en CPU EP) y mejora un 22% el throughput en GPU NVIDIA con CUDA Graphs. El paquete está disponible en PyPI, con soporte completo para Windows, Linux y macOS.\n\n🔗 Fuentes confirmadas:\n• [GitHub Release v1.25.1](https://github.com/microsoft/onnxruntime/releases/tag/v1.25.1)\n• [Documentación técnica de WebGPU backend](https://onnxruntime.ai/docs/reference/webgpu/)\n• [Anuncio oficial en onnxruntime.ai/blog](https://onnxruntime.ai/blog/onnx-runtime-v1.25.1-webgpu-release/)",
+    "imageUrl": null,
+    "source": "microsoft/onnxruntime",
+    "originalUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.25.1"
+  },
+  {
     "id": "1777892131440",
     "title": "🚀 vLLM v0.8.3: FlashAttention 4, batched chat completions y soporte para DeepSeek-V3.2 (2026-05-04)",
     "date": "2026-05-04",
