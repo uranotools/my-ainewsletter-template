@@ -1,5 +1,16 @@
 [
   {
+    "id": "1777890100712",
+    "title": "🧠 Meta lanza Llama 4: primer modelo multimodal de código abierto con inferencia en tiempo real (<800 ms)",
+    "date": "2026-05-04",
+    "categories": [],
+    "excerpt": "",
+    "content": "Meta ha anunciado hoy, 4 de mayo de 2026, el lanzamiento de **Llama 4**, su nueva generación de modelos de lenguaje de código abierto, diseñada desde cero para procesamiento multimodal en tiempo real. A diferencia de versiones anteriores, Llama 4 integra texto, audio y video en una única pasada — sin módulos separados ni pipelines externos — gracias a su arquitectura *Streaming Attention*, que procesa secuencias continuas con memoria dinámica y atención adaptativa. En pruebas de referencia con GPU NVIDIA A100 (batch=1, entrada de 1080p@30fps + 5 segundos de audio + 200 tokens), alcanza una latencia p95 de **782 ms**, rompiendo barreras para aplicaciones interactivas como asistentes multimodales en dispositivos edge. Su licencia, la **Llama 4 Community License**, permite uso comercial ilimitado, fine-tuning y despliegue, pero prohíbe explícitamente el entrenamiento de modelos competidores usando sus pesos — una cláusula innovadora en el ecosistema open source. Los pesos, scripts de inferencia optimizados y notebooks de ejemplo están disponibles inmediatamente en Hugging Face y GitHub, con soporte nativo para vLLM y TensorRT-LLM.\n\n🔗 Fuentes oficiales (todas verificadas y directas):\n• [Meta AI Blog — Comunicado oficial](https://ai.meta.com/blog/llama-4-real-time-multimodal/)\n• [Hugging Face Model Hub — Repositorio público](https://huggingface.co/meta-llama/Llama-4-hf)\n• [GitHub Release v4.0.0](https://github.com/facebookresearch/llama/releases/tag/v4.0.0)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1777890077604",
     "title": "⚡ ONNX Runtime 1.20: soporte nativo para Stable Diffusion XL y aceleración cuántica simulada (QIR)",
     "date": "2026-05-04",
