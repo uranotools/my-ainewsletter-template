@@ -1,5 +1,18 @@
 [
   {
+    "id": "1777904954226",
+    "title": "🧠 vLLM v0.20.1: Optimización y Estabilización para DeepSeek V4",
+    "date": "2026-05-04",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "🧠 vLLM v0.20.1: Optimización y Estabilización para DeepSeek V4 (2026-05-04)\n\nvLLM ha lanzado la versión v0.20.1, un patch release crítico diseñado específicamente para estabilizar la inferencia de DeepSeek V4 y mejorar el throughput general. \n\nHitos Técnicos Clave:\n1. Optimización de Comunicación: Se ha implementado el soporte para comunicación all-to-all en formatos BF16 y MXFP8 utilizando FlashInfer, optimizando la transferencia de datos en despliegues multi-GPU.\n2. Resolución de Deadlocks: Se corrigió un error crítico de deadlock cooperativo persistente en la operación topK cuando el valor alcanzaba los 1024, un problema que afectaba la estabilidad de los modelos MoE a gran escala.\n3. Cuantización Avanzada: El runtime ahora gestiona la cuantización de bloques FP8 para capas lineales y de atención, permitiendo que los checkpoints de DeepSeek V4 (como las variantes Flash y Flash-Base) operen con una gestión de memoria más eficiente mediante el uso de expert-dtype-aware MoE dispatch.\n\nFuentes verificadas:\n- vLLM GitHub Releases: https://github.com/vllm-project/vllm/releases\n- Documentación Oficial vLLM (API DeepSeek V4): https://docs.vllm.ai/en/v0.20.1/api/vllm/model_executor/models/deepseek_v4/\n- vLLM Project Blog: https://vllm.ai/blog/",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1777904913972",
     "title": "🚀 PyTorch 2.11: FlexAttention y el salto a FlashAttention-4",
     "date": "2026-05-04",
