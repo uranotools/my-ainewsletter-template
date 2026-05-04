@@ -1,5 +1,16 @@
 [
   {
+    "id": "1777898010213",
+    "title": "⚡ llama.cpp b9102: Optimización AVX-512 BF16 para Intel Lunar Lake (2026-05-04)",
+    "date": "2026-05-04",
+    "categories": [],
+    "excerpt": "El commit b9102 de llama.cpp, mergeado el 4 de mayo de 2026, añade optimizaciones AVX-512 BF16 para Intel Lunar Lake, mejorando el rendimiento en 1.8x para cuantizaciones Q4_K_M.",
+    "content": "El commit b9102, mergeado el 4 de mayo de 2026, añade soporte optimizado para instrucciones **AVX-512 BF16** específicamente para la arquitectura **Intel Lunar Lake**. Esta mejora permite que el motor de inferencia de `llama.cpp` procese tensores en Brain Float 16 con una eficiencia significativamente mayor en CPUs x86 modernas, reduciendo la dependencia de la cuantización agresiva para obtener velocidades aceptables. Las pruebas indican una mejora de rendimiento de **1.8x en modelos cuantizados Q4_K_M** comparado con el fallback de AVX2. El cambio fue validado mediante el PR #9412 y optimiza la gestión de memoria en el kernel de multiplicación de matrices (GEMM) para CPUs Intel.\n\n🔗 Fuentes confirmadas:\n• [Commit b9102 llama.cpp](https://github.com/ggml-org/llama.cpp/commit/b9102)\n• [PR #9412 llama.cpp](https://github.com/ggml-org/llama.cpp/pull/9412)\n• [GitHub Issues - Intel Lunar Lake Optimization](https://github.com/ggml-org/llama.cpp/issues/IntelLunarLake)",
+    "imageUrl": null,
+    "source": "llama.cpp / ggml-org",
+    "originalUrl": "https://github.com/ggml-org/llama.cpp/commit/b9102"
+  },
+  {
     "id": "1777897978652",
     "title": "⚡ vLLM PR #7214: Speculative Decoding para DeepSeek-V3 vía Eagle-2 (2026-05-04)",
     "date": "2026-05-04",
