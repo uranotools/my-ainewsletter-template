@@ -1,5 +1,21 @@
 [
   {
+    "id": "1777899744944",
+    "title": "⚙️ llama.cpp b8983: Optimización de Memoria Virtual para Qualcomm Hexagon (2026-05-04)",
+    "date": "2026-05-04",
+    "categories": [
+      "llama.cpp",
+      "ggml",
+      "edge computing",
+      "qualcomm"
+    ],
+    "excerpt": "llama.cpp b8983 añade configuración dinámica de vmem y buffer-size para el backend Hexagon, optimizando el despliegue de LLMs en hardware Qualcomm.",
+    "content": "⚙️ El proyecto **llama.cpp** ha publicado el release **b8983**, el cual introduce mejoras críticas para el backend de **Qualcomm Hexagon DSP**. El cambio principal, implementado en el **PR #22487**, hace que los parámetros `vmem` (virtual memory) y `buffer-size` sean ahora configurables dinámicamente.\n\nEsta modificación técnica es vital para el despliegue de modelos en dispositivos Edge y móviles, ya que permite a los desarrolladores ajustar la asignación de memoria del DSP según las capacidades específicas del hardware del dispositivo, evitando errores de desbordamiento de buffer y optimizando el uso de la memoria compartida entre la CPU y el DSP. Al poder tunear el `buffer-size`, se reduce la fragmentación de memoria durante la inferencia de modelos grandes en cuantizaciones GGUF, mejorando la estabilidad del sistema en dispositivos Android con chips Snapdragon modernos.\n\n🔗 **Fuentes verificadas:**\n• [llama.cpp Releases (Build b8983)](https://github.com/ggml-org/llama.cpp/releases)\n• [llama.cpp PR #22487: Hexagon vmem config](https://github.com/ggml-org/llama.cpp/pull/22487)\n• [GGML-org GitHub Repository](https://github.com/ggml-org/llama.cpp)",
+    "imageUrl": null,
+    "source": "llama.cpp / GGML",
+    "originalUrl": "https://github.com/ggml-org/llama.cpp/releases"
+  },
+  {
     "id": "1777898041274",
     "title": "⚡ HF Accelerate PR #1055: FSDP2 Nativo para Apple Silicon (2026-05-04)",
     "date": "2026-05-04",
