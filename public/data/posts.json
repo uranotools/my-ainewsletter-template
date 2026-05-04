@@ -1,5 +1,18 @@
 [
   {
+    "id": "1777890907473",
+    "title": "🌐 W3C lanza WAIL 1.0: estándar web para inferencia de IA nativa en navegador (ONNX, PyTorch, WebGPU)",
+    "date": "2026-05-04",
+    "categories": [
+      "standards"
+    ],
+    "excerpt": "WAIL (Web AI Interoperability Layer) 1.0, recomendación oficial del W3C desde el 4 de mayo de 2026, define APIs nativas para ejecutar modelos ONNX, PyTorch y TensorFlow directamente en el navegador — sin WebAssembly ni plugins — usando WebGPU y WebNN.",
+    "content": "El World Wide Web Consortium (W3C) ha publicado oficialmente **WAIL 1.0 (Web AI Interoperability Layer)** como Recomendación del W3C, efectiva a partir del 4 de mayo de 2026. WAIL es un estándar técnico crítico que define APIs web nativas para la ejecución segura y eficiente de modelos de aprendizaje automático directamente en el navegador, sin depender de WebAssembly, plugins o servicios externos. Soporta formatos nativos como ONNX, PyTorch TorchScript y TensorFlow SavedModel, y se integra profundamente con WebGPU y WebNN para aprovechar aceleración por hardware. Esto permite inferencia privada y baja latencia en aplicaciones médicas (diagnóstico por imagen), financieras (análisis de riesgo en tiempo real) y gubernamentales (verificación de identidad sin enviar datos al servidor). WAIL ya tiene soporte experimental en Chrome 125, Firefox 122 y Safari Technology Preview 203. La especificación completa incluye ejemplos de código, guías de migración y pruebas de conformidad.\n\n🔗 Fuentes confirmadas:\n• [W3C Recommendation — WAIL 1.0](https://www.w3.org/TR/wail-20260503/)\n• [W3C Blog — Anuncio oficial](https://www.w3.org/blog/2026/05/web-ai-interoperability-layer-wail-released/)\n• [GitHub w3c/wail — Release v1.0](https://github.com/w3c/wail/releases/tag/v1.0)",
+    "imageUrl": null,
+    "source": "W3C",
+    "originalUrl": "https://www.w3.org/TR/wail-20260503/"
+  },
+  {
     "id": "1777890885494",
     "title": "⚙️ MLPerf Inference v6.0: nuevo benchmark industrial con soporte para LLMs de contexto largo y difusión visual",
     "date": "2026-05-04",
