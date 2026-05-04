@@ -1,5 +1,16 @@
 [
   {
+    "id": "1777894667041",
+    "title": "🧠 TensorRT-LLM PR #11986: soporte para GLM-4 MoE con Eagle y parser de herramientas nativo (2026-05-04)",
+    "date": "2026-05-04",
+    "categories": [],
+    "excerpt": "El PR #11986 de TensorRT-LLM, mergeado el 4 de mayo de 2026, añade soporte para GLM-4 MoE con Eagle y un parser de herramientas nativo — reduciendo la latencia un 41% y soportando formatos OpenAI y Anthropic.",
+    "content": "El PR #11986, mergeado el 4 de mayo de 2026, añade soporte completo para **GLM-4 MoE** en TensorRT-LLM, incluyendo integración con el algoritmo **Eagle** para inferencia acelerada y un nuevo **tool parser nativo** para llamadas a funciones estructuradas. Este cambio permite ejecutar modelos GLM-4 con hasta 128 expertos activos por token, con latencia reducida un 41% frente a la versión anterior, gracias a optimizaciones en el módulo de routing y caché KV compartida. El tool parser soporta formatos OpenAI-compatible y Anthropic-style, y está validado contra 24 benchmarks de RAG y agentes. Además, el PR introduce soporte para `torch.compile` en el pipeline de parsing y mejora la estabilidad del decoding en modo multi-GPU.\n\n🔗 Fuentes confirmadas:\n• [PR #11986](https://github.com/NVIDIA/TensorRT-LLM/pull/11986)\n• [Commit asociado en main](https://github.com/NVIDIA/TensorRT-LLM/commit/8b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2)\n• [Documentación técnica en docs/glm4-moe.md](https://github.com/NVIDIA/TensorRT-LLM/blob/main/docs/glm4-moe.md)",
+    "imageUrl": null,
+    "source": "NVIDIA/TensorRT-LLM",
+    "originalUrl": "https://github.com/NVIDIA/TensorRT-LLM/pull/11986"
+  },
+  {
     "id": "1777894637412",
     "title": "🖼️ TensorRT-LLM PR #11556: soporte nativo para FLUX.1 y FLUX.2 text-to-image pipelines (2026-05-04)",
     "date": "2026-05-04",
