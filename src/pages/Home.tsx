@@ -22,7 +22,7 @@ export default function Home() {
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
 
   useEffect(() => {
-    fetch(POSTS_JSON_URL)
+    fetch(`${POSTS_JSON_URL}?t=${Date.now()}`)
       .then((res) => {
         if (!res.ok) throw new Error('Error al cargar posts');
         return res.json();

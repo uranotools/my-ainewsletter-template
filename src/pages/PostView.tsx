@@ -16,7 +16,7 @@ export default function PostView() {
     // En una app real esto sería fetch(`/api/posts/${id}`) o buscar en un estado global
     // Aquí cargaremos el JSON completo y buscaremos el post
     setLoading(true);
-    fetch(POSTS_JSON_URL)
+    fetch(`${POSTS_JSON_URL}?t=${Date.now()}`)
       .then(res => {
         if (!res.ok) throw new Error('Error de red');
         return res.json();
