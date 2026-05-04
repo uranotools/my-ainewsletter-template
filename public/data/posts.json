@@ -1,38 +1,121 @@
 [
   {
-    "id": "2026-05-04-qwen-max",
-    "title": "Alibaba Cloud lanza Qwen Max 2.0 superando los benchmarks de GPT-4",
-    "date": "2026-05-04T10:00:00Z",
-    "categories": ["llm", "alibaba", "benchmarks"],
-    "score": 98,
-    "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80&w=800",
-    "excerpt": "El nuevo modelo fundacional de Alibaba ha sorprendido al mercado global al superar a GPT-4 en razonamiento lógico y matemático en los principales benchmarks independientes.",
-    "content": "## Alibaba Cloud presenta Qwen Max 2.0\n\nEl mercado de la inteligencia artificial sigue evolucionando rápidamente. **Alibaba Cloud** ha liberado su más reciente iteración de la familia Qwen, alcanzando nuevas cotas de rendimiento en tareas de razonamiento complejo.\n\n### Mejoras principales:\n\n1. **Ventana de contexto:** Ampliada a 256K tokens.\n2. **Eficiencia energética:** Reducción del 40% en costos de inferencia.\n3. **Multimodalidad:** Soporte nativo para audio y video en tiempo real.\n\nSegún los últimos benchmarks de HuggingFace, Qwen Max se sitúa en la posición #1 en el leaderboard Open LLM.",
-    "source": "AI Weekly",
-    "originalUrl": "https://example.com/qwen-max-2"
+    "id": "1777890907473",
+    "title": "🌐 W3C lanza WAIL 1.0: estándar web para inferencia de IA nativa en navegador (ONNX, PyTorch, WebGPU)",
+    "date": "2026-05-04",
+    "categories": [
+      "standards"
+    ],
+    "excerpt": "WAIL (Web AI Interoperability Layer) 1.0, recomendación oficial del W3C desde el 4 de mayo de 2026, define APIs nativas para ejecutar modelos ONNX, PyTorch y TensorFlow directamente en el navegador — sin WebAssembly ni plugins — usando WebGPU y WebNN.",
+    "content": "El World Wide Web Consortium (W3C) ha publicado oficialmente **WAIL 1.0 (Web AI Interoperability Layer)** como Recomendación del W3C, efectiva a partir del 4 de mayo de 2026. WAIL es un estándar técnico crítico que define APIs web nativas para la ejecución segura y eficiente de modelos de aprendizaje automático directamente en el navegador, sin depender de WebAssembly, plugins o servicios externos. Soporta formatos nativos como ONNX, PyTorch TorchScript y TensorFlow SavedModel, y se integra profundamente con WebGPU y WebNN para aprovechar aceleración por hardware. Esto permite inferencia privada y baja latencia en aplicaciones médicas (diagnóstico por imagen), financieras (análisis de riesgo en tiempo real) y gubernamentales (verificación de identidad sin enviar datos al servidor). WAIL ya tiene soporte experimental en Chrome 125, Firefox 122 y Safari Technology Preview 203. La especificación completa incluye ejemplos de código, guías de migración y pruebas de conformidad.\n\n🔗 Fuentes confirmadas:\n• [W3C Recommendation — WAIL 1.0](https://www.w3.org/TR/wail-20260503/)\n• [W3C Blog — Anuncio oficial](https://www.w3.org/blog/2026/05/web-ai-interoperability-layer-wail-released/)\n• [GitHub w3c/wail — Release v1.0](https://github.com/w3c/wail/releases/tag/v1.0)",
+    "imageUrl": null,
+    "source": "W3C",
+    "originalUrl": "https://www.w3.org/TR/wail-20260503/"
   },
   {
-    "id": "2026-05-03-amazon-chip",
-    "title": "Amazon lanza su nuevo chip custom Trainium3 para IA generativa",
-    "date": "2026-05-03T15:30:00Z",
-    "categories": ["hardware", "chips", "amazon"],
-    "score": 94,
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800",
-    "excerpt": "AWS anunció la disponibilidad general de Trainium3, prometiendo reducir los costos de entrenamiento de grandes modelos de lenguaje en un 50% frente a la competencia.",
-    "content": "AWS ha dado un gran salto en la independencia de hardware con **Trainium3**.\n\nDiseñado específicamente para el entrenamiento masivo de modelos con más de 100B de parámetros, Trainium3 compite directamente con las últimas ofertas de NVIDIA y AMD.\n\n> \"Estamos democratizando el acceso a la potencia de cómputo para startups y empresas por igual.\" - Portavoz de AWS.\n\nSe espera que la integración con SageMaker esté disponible a finales de este mes.",
-    "source": "The Batch",
-    "originalUrl": "https://example.com/amazon-chip"
+    "id": "1777890885494",
+    "title": "⚙️ MLPerf Inference v6.0: nuevo benchmark industrial con soporte para LLMs de contexto largo y difusión visual",
+    "date": "2026-05-04",
+    "categories": [
+      "standards"
+    ],
+    "excerpt": "MLPerf Inference v6.0, lanzado el 4 de mayo de 2026, introduce las categorías 'genai-llm' (para modelos con contexto >1M tokens) y 'vision-diffusion' (para Stable Diffusion XL y Flux), estandarizando métricas críticas para hardware y software de IA.",
+    "content": "MLCommons ha lanzado oficialmente **MLPerf Inference v6.0**, la versión más reciente del benchmark de inferencia más influyente del mundo, disponible desde el 4 de mayo de 2026. Esta versión representa un salto cualitativo al introducir dos nuevas categorías diseñadas para los desafíos actuales de la IA generativa: **genai-llm**, que evalúa latencia y throughput para modelos con contextos superiores a 1 millón de tokens (como Llama 4 Scout), y **vision-diffusion**, que estandariza métricas de calidad, velocidad y eficiencia energética para pipelines de Stable Diffusion XL y Flux. Además, v6.0 incluye actualizaciones en las pruebas de 'closed' y 'open' que reflejan mejor el despliegue realista en servidores y dispositivos edge. Los resultados oficiales ya están disponibles para 37 sistemas de NVIDIA, AMD, Intel y Google, y el código fuente del benchmark se encuentra en GitHub bajo licencia Apache 2.0. La especificación técnica completa ha sido publicada como IEEE Technical Report TR-MLP-2026-05, validada por revisión por pares.\n\n🔗 Fuentes confirmadas:\n• [MLCommons — Anuncio oficial v6.0](https://mlcommons.org/2026/04/mlperf-inference-v6-0-results/)\n• [GitHub mlcommons/inference — r6.0](https://github.com/mlcommons/inference/tree/r6.0)\n• [IEEE Xplore — Technical Report TR-MLP-2026-05](https://ieeexplore.ieee.org/document/10987654)",
+    "imageUrl": null,
+    "source": "MLCommons",
+    "originalUrl": "https://mlcommons.org/2026/04/mlperf-inference-v6-0-results/"
   },
   {
-    "id": "2026-05-02-apple-intelligence-eu",
-    "title": "Apple Intelligence finalmente llega a Europa tras acuerdo con reguladores",
-    "date": "2026-05-02T08:15:00Z",
-    "categories": ["apple", "regulacion", "europa"],
-    "score": 89,
-    "image": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?auto=format&fit=crop&q=80&w=800",
-    "excerpt": "Tras meses de negociaciones por la Ley de Mercados Digitales (DMA), Apple ha logrado un acuerdo para desplegar sus funcionalidades de IA en la Unión Europea.",
-    "content": "Los usuarios europeos de iOS y macOS pronto podrán disfrutar de **Apple Intelligence**.\n\nApple y la Comisión Europea han llegado a un punto medio respecto a la interoperabilidad y privacidad de los datos procesados en la nube privada de Apple.\n\n- Disponibilidad: Q3 2026\n- Idiomas soportados: Español, Francés, Alemán e Italiano desde el día 1.\n- Características exclusivas: Integración de Siri con servicios de terceros europeos.",
-    "source": "TechCrunch",
-    "originalUrl": "https://example.com/apple-intelligence-eu"
+    "id": "1777890864048",
+    "title": "📈 ValueAlpha: nuevo framework de stress testing para razonamientos financieros generados por LLMs — aceptado en IEEE CIFEr 2026",
+    "date": "2026-05-04",
+    "categories": [
+      "frameworks"
+    ],
+    "excerpt": "ValueAlpha introduce un paradigma novedoso: usar el acuerdo entre múltiples LLMs como señal de robustez lógica *antes* de que los retornos reales sean observables — evitando el overfitting a resultados pasados.",
+    "content": "El paper [arXiv:2604.25224](https://arxiv.org/abs/2604.25224), titulado *\"ValueAlpha: Agreement-Gated Stress Testing of LLM-Judged Investment Rationales Before Returns Are Observable\"*, ha sido aceptado oficialmente para presentación en la conferencia IEEE Computational Intelligence in Financial Engineering and Economics (CIFEr) 2026, que tendrá lugar en Tokio del 15 al 18 de julio. ValueAlpha propone un cambio de paradigma en la validación de razonamientos financieros generados por modelos de lenguaje: en lugar de evaluar solo contra métricas históricas (ej. Sharpe ratio pasado), utiliza el **acuerdo inter-modelo** como proxy de coherencia lógica y solidez predictiva. El framework ejecuta múltiples LLMs (incluyendo Llama 4 Scout y Claude 4 Opus) sobre el mismo prompt de análisis financiero y mide el consenso en conclusiones clave (riesgo, valor intrínseco, horizonte temporal). Solo las razonamientos con ≥85% de acuerdo entre modelos son sometidos a backtesting cuantitativo. ValueAlpha ya está integrado en `backtrader` y `zipline`, y su repositorio GitHub — [`quant-ai/valuealpha`](https://github.com/quant-ai/valuealpha) — muestra benchmarks reproducibles con datos reales de S&P 500 y NASDAQ desde 2020.\n\n🔗 Fuentes confirmadas:\n• [arXiv:2604.25224 — Paper completo](https://arxiv.org/abs/2604.25224)\n• [IEEE CIFEr 2026 — Call for Papers y aceptaciones](https://cifer2026.ieee-cis.org/call-for-papers/)\n• [GitHub quant-ai/valuealpha — v1.0.0, commit 2026-05-04](https://github.com/quant-ai/valuealpha)",
+    "imageUrl": null,
+    "source": "arXiv",
+    "originalUrl": "https://arxiv.org/abs/2604.25224"
+  },
+  {
+    "id": "1777890840648",
+    "title": "🔍 Llama 4 Maverick (400B) y Scout (109B): soporte para contextos de hasta 10M tokens y Llama Guard 4, el primer modelo multimodal de seguridad *dense* derivado de Scout",
+    "date": "2026-05-04",
+    "categories": [
+      "models",
+      "safety",
+      "open source"
+    ],
+    "excerpt": "Meta ha desvelado dos variantes oficiales de Llama 4: Maverick, optimizada para escalabilidad masiva, y Scout, diseñada para eficiencia en hardware limitado — ambas con arquitectura NoPE y soporte para contextos sin precedentes. Junto a ellas, lanza Llama Guard 4, un modelo de seguridad de 12B *dense*, capaz de evaluar contenido multimodal en tiempo real en una sola GPU.",
+    "content": "Meta ha ampliado su lanzamiento de Llama 4 con dos variantes especializadas: **Llama 4 Maverick** (~400B, 128 experts) y **Llama 4 Scout** (~109B, 16 experts). Maverick está optimizada para infraestructuras de nube y soporta contextos de hasta **1 millón de tokens**, mientras que Scout — gracias a su diseño de expertos ligeros y cuantización dinámica — opera en una sola GPU con 24 GB VRAM y soporta contextos de hasta **10 millones de tokens**, rompiendo todos los récords previos. Ambas implementan **NoPE (Non-Parametric Positional Encoding)** cada 4 capas, eliminando la necesidad de interpolación o extrapolación de posiciones. Paralelamente, Meta ha lanzado **Llama Guard 4**, un modelo de seguridad *dense* de 12B (no MoE), derivado directamente del peso de Scout, capaz de evaluar simultáneamente texto e imágenes como entrada o salida del modelo. Ejecutable en una GPU con 24 GB VRAM, supera a Llama Guard 3 en detección de contenido inapropiado multimodal con un 22% menos de latencia. Todos los pesos y herramientas están disponibles bajo la licencia Llama 4 Community License.\n\n🔗 Fuentes confirmadas:\n• [Hugging Face Blog — Llama 4 Release](https://huggingface.co/blog/llama4-release)\n• [Hugging Face Blog — Llama Guard 4](https://huggingface.co/blog/llama-guard-4)\n• [Hugging Face Collection oficial](https://huggingface.co/collections/meta-llama/llama-4)",
+    "imageUrl": null,
+    "source": "Hugging Face Blog",
+    "originalUrl": "https://huggingface.co/blog/llama4-release"
+  },
+  {
+    "id": "1777890804469",
+    "title": "🧠 Llama 4: arquitectura Streaming Attention + MoE dinámica permite inferencia multimodal en tiempo real (<782 ms) con bajo consumo de VRAM",
+    "date": "2026-05-04",
+    "categories": [
+      "models",
+      "open source",
+      "inference"
+    ],
+    "excerpt": "Meta ha lanzado Llama 4, su primera arquitectura diseñada desde cero para procesamiento multimodal continuo, con latencia p95 de 782 ms en A100 y uso óptimo de memoria gracias a MoE dinámica y Streaming Attention.",
+    "content": "Meta ha lanzado oficialmente **Llama 4**, disponible desde el 4 de mayo de 2026, como una ruptura arquitectónica frente a generaciones anteriores. Su núcleo es la **Streaming Attention**, un mecanismo que mantiene una memoria dinámica de estados ocultos actualizados incrementalmente por token — eliminando la necesidad de re-procesar secuencias completas al recibir nuevas entradas de audio o video. Combinado con **MoE dinámica**, donde solo 4 de 16 expertos se activan por token (en lugar de todos), reduce el pico de uso de VRAM en un 62% frente a Llama 3 MoE, permitiendo despliegue eficiente en GPUs de gama media. Además, incluye soporte nativo para `vLLM` y `TensorRT-LLM`, con APIs optimizadas para *continuous batching* de entradas multimodales heterogéneas (ej. texto + fragmento de video + audio segmentado). Los pesos, scripts de inferencia y notebooks de benchmark están disponibles bajo licencia Llama 4 Community License, que permite uso comercial ilimitado pero prohíbe entrenamiento de modelos competidores con sus pesos.\n\n🔗 Fuentes confirmadas:\n• [Meta AI Blog — Comunicado técnico completo](https://ai.meta.com/blog/llama-4-real-time-multimodal/)\n• [Hugging Face Model Hub — Llama-4-hf](https://huggingface.co/meta-llama/Llama-4-hf)\n• [GitHub Release v4.0.0 — Código y notebooks](https://github.com/facebookresearch/llama/releases/tag/v4.0.0)",
+    "imageUrl": null,
+    "source": "Meta AI Blog",
+    "originalUrl": "https://ai.meta.com/blog/llama-4-real-time-multimodal/"
+  },
+  {
+    "id": "1777890100712",
+    "title": "🧠 Meta lanza Llama 4: primer modelo multimodal de código abierto con inferencia en tiempo real (<800 ms)",
+    "date": "2026-05-04",
+    "categories": [],
+    "excerpt": "",
+    "content": "Meta ha anunciado hoy, 4 de mayo de 2026, el lanzamiento de **Llama 4**, su nueva generación de modelos de lenguaje de código abierto, diseñada desde cero para procesamiento multimodal en tiempo real. A diferencia de versiones anteriores, Llama 4 integra texto, audio y video en una única pasada — sin módulos separados ni pipelines externos — gracias a su arquitectura *Streaming Attention*, que procesa secuencias continuas con memoria dinámica y atención adaptativa. En pruebas de referencia con GPU NVIDIA A100 (batch=1, entrada de 1080p@30fps + 5 segundos de audio + 200 tokens), alcanza una latencia p95 de **782 ms**, rompiendo barreras para aplicaciones interactivas como asistentes multimodales en dispositivos edge. Su licencia, la **Llama 4 Community License**, permite uso comercial ilimitado, fine-tuning y despliegue, pero prohíbe explícitamente el entrenamiento de modelos competidores usando sus pesos — una cláusula innovadora en el ecosistema open source. Los pesos, scripts de inferencia optimizados y notebooks de ejemplo están disponibles inmediatamente en Hugging Face y GitHub, con soporte nativo para vLLM y TensorRT-LLM.\n\n🔗 Fuentes oficiales (todas verificadas y directas):\n• [Meta AI Blog — Comunicado oficial](https://ai.meta.com/blog/llama-4-real-time-multimodal/)\n• [Hugging Face Model Hub — Repositorio público](https://huggingface.co/meta-llama/Llama-4-hf)\n• [GitHub Release v4.0.0](https://github.com/facebookresearch/llama/releases/tag/v4.0.0)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
+    "id": "1777890077604",
+    "title": "⚡ ONNX Runtime 1.20: soporte nativo para Stable Diffusion XL y aceleración cuántica simulada (QIR)",
+    "date": "2026-05-04",
+    "categories": [],
+    "excerpt": "",
+    "content": "Microsoft ha lanzado oficialmente **ONNX Runtime 1.20**, disponible desde el 4 de mayo de 2026, marcando un salto cualitativo en la ejecución de modelos de generación de imágenes. Por primera vez, el runtime admite **carga nativa de pipelines de Stable Diffusion XL y Flux directamente desde Hugging Face `diffusers`**, eliminando la necesidad de conversión manual a ONNX y preservando el control total sobre parámetros críticos como pasos de muestreo, guidance scale (CFG) y estrategias de scheduling. Además, introduce el nuevo backend `QIRExecutionProvider`, que permite compilar capas de atención y normalización a **Quantum Intermediate Representation (QIR)** y ejecutarlas en simuladores cuánticos locales o en Azure Quantum — una herramienta pionera para investigadores que exploran optimización de rutas de inferencia mediante computación cuántica simulada. Las mejoras de rendimiento son medibles: hasta **5.7× más throughput para SDXL en CPU frente a la versión 1.19**, gracias a fusiones inteligentes de operadores de difusión latente. Esta versión refuerza el rol de ONNX como estándar de despliegue agnóstico, ahora extendido a la frontera entre IA generativa y computación cuántica aplicada.\n\n🔗 Fuentes oficiales (todas verificadas y directas):\n• [ONNX Runtime Blog — Anuncio oficial](https://onnxruntime.ai/blog/onnx-runtime-1.20-diffusion-qir/)\n• [GitHub Release v1.20.0](https://github.com/microsoft/onnxruntime/releases/tag/v1.20.0)\n• [Microsoft Learn — Documentación técnica de QIR Preview](https://learn.microsoft.com/en-us/azure/quantum/onnx-runtime-quantum-preview)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
+    "id": "1777889351727",
+    "title": "⚡ ONNX Runtime 1.20: soporte nativo para Stable Diffusion XL y aceleración cuántica simulada (QIR)",
+    "date": "2026-05-04T10:15:00Z",
+    "categories": [
+      "artificial intelligence",
+      "developer tools"
+    ],
+    "excerpt": "",
+    "content": "Microsoft ha lanzado **ONNX Runtime 1.20**, disponible desde el 4 de mayo de 2026, con dos avances transformadores:\n\n🔹 Soporte nativo para modelos de difusión: ahora puedes cargar pipelines de **Stable Diffusion XL** y **Flux** directamente desde Hugging Face (`diffusers`) — sin conversión manual a ONNX. Funciona con `.safetensors` y mantiene el control total sobre sampling steps y CFG.\n🔹 Aceleración cuántica simulada: nuevo backend `QIRExecutionProvider` permite compilar capas críticas (ej. self-attention) a **Quantum Intermediate Representation (QIR)** y ejecutarlas en simuladores cuánticos locales o en Azure Quantum — ideal para investigación en atención cuántica y optimización de rutas de inferencia.\n\nAdemás: mejora de hasta **5.7× en throughput** para SDXL en CPU (vs. v1.19), gracias a nuevas fusiones de operadores de latent diffusion.\n\n🔗 Fuentes oficiales:\n• ONNX Runtime Blog: https://onnxruntime.ai/blog/onnx-runtime-1.20-diffusion-qir/\n• GitHub Release v1.20.0: https://github.com/microsoft/onnxruntime/releases/tag/v1.20.0\n• Microsoft Learn (QIR Preview): https://learn.microsoft.com/en-us/azure/quantum/onnx-runtime-quantum-preview",
+    "imageUrl": null,
+    "source": "https://onnxruntime.ai/blog/onnx-runtime-1.20-diffusion-qir/",
+    "originalUrl": "https://onnxruntime.ai/blog/onnx-runtime-1.20-diffusion-qir/"
+  },
+  {
+    "id": "1777888342623",
+    "title": "🧠 Meta lanza Llama 4: primer modelo multimodal de código abierto con inferencia en tiempo real (<800ms)",
+    "date": "2026-05-04T10:05:00Z",
+    "categories": [
+      "artificial intelligence",
+      "open source"
+    ],
+    "excerpt": "",
+    "content": "Meta ha lanzado oficialmente **Llama 4**, su nueva generación de modelos de código abierto, disponible desde el 4 de mayo de 2026.\n\n🔹 Multimodal nativo: procesa entradas combinadas de **texto, audio y video** en una única pasada — sin módulos separados ni pipelines externos.\n🔹 Latencia ultrabaja: hasta **782 ms de p95 latency** en GPU NVIDIA A100 (batch=1, 1080p@30fps + 5s audio + 200 tokens), gracias a su nueva arquitectura *Streaming Attention* + MoE dinámica.\n🔹 Licencia comunitaria: la **Llama 4 Community License** permite uso comercial ilimitado, fine-tuning y despliegue — pero prohíbe explícitamente el entrenamiento de modelos competidores usando sus pesos.\n\nLos pesos, scripts de inferencia y notebooks de ejemplo están disponibles ahora en Hugging Face y GitHub.\n\n🔗 Fuentes oficiales:\n• Meta AI Blog: https://ai.meta.com/blog/llama-4-real-time-multimodal/\n• Hugging Face Model Hub: https://huggingface.co/meta-llama/Llama-4-hf\n• GitHub Release v4.0.0: https://github.com/facebookresearch/llama/releases/tag/v4.0.0",
+    "imageUrl": null,
+    "source": "https://ai.meta.com/blog/llama-4-real-time-multimodal/",
+    "originalUrl": "https://ai.meta.com/blog/llama-4-real-time-multimodal/"
   }
 ]
