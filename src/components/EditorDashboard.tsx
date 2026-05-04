@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Lock, ExternalLink } from 'lucide-react';
+import { GITHUB_POSTS_EDIT_URL } from '../config';
 import type { Post } from '../types/Post';
 
 interface EditorDashboardProps {
@@ -105,7 +106,7 @@ export default function EditorDashboard({ posts }: EditorDashboardProps) {
                   </td>
                   <td className="p-4 text-right">
                     <a
-                      href={`https://github.com/tu-usuario/urano-ai-news-template/edit/main/public/data/posts.json`}
+                      href={GITHUB_POSTS_EDIT_URL}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center px-3 py-1.5 text-sm font-medium text-primary bg-primary/10 rounded-lg hover:bg-primary/20 transition-colors"
