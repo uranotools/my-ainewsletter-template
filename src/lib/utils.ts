@@ -47,11 +47,36 @@ export function sortPosts(posts: Post[], sortBy: 'date' | 'score' = 'date', orde
   return [...posts].sort((a, b) => {
     let comparison = 0;
     if (sortBy === 'date') {
-      comparison = new Date(a.date).getTime() - new Date(b.date).getTime();
+      const timeA = new Date(a.date).getTime();
+      const timeB = new Date(b.date).getTime();
+      comparison = timeA - timeB;
+      
+      // Tie-breaker: use ID if dates are equal (assuming ID is a timestamp)
+      if (comparison === 0) {
+        const idA = parseInt(a.id) || 0;
+        const idB = parseInt(b.id) || 0;
+        comparison = idA - idB;
+      }
     } else if (sortBy === 'score') {
       comparison = a.score - b.score;
     }
     return order === 'desc' ? -comparison : comparison;
+  });
+}
+
+export function formatPostDate(post: Post): string {
+  // Use ID as timestamp if valid, as it's more precise than the 'date' field
+  const idTimestamp = parseInt(post.id);
+  const date = (!isNaN(idTimestamp) && idTimestamp > 1000000000000) 
+    ? new Date(idTimestamp) 
+    : new Date(post.date);
+
+  return date.toLocaleDateString('es-ES', { 
+    day: 'numeric', 
+    month: 'long', 
+    year: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit'
   });
 }
 

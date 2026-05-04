@@ -1,6 +1,6 @@
 import React from 'react';
 import { Calendar, Zap, ExternalLink } from 'lucide-react';
-import { cn } from '../lib/utils';
+import { cn, formatPostDate } from '../lib/utils';
 import type { Post } from '../types/Post';
 
 interface PostCardProps {
@@ -55,7 +55,7 @@ export default function PostCard({ post, className, onClick }: PostCardProps) {
         <div className="flex items-center justify-between text-xs text-foreground/50 mt-auto pt-4 border-t border-border">
           <div className="flex items-center">
             <Calendar className="w-3.5 h-3.5 mr-1.5" />
-            {new Date(post.date).toLocaleDateString('es-ES', { month: 'short', day: 'numeric', year: 'numeric' })}
+            {formatPostDate(post)}
           </div>
           {post.source && (
             <div className="flex items-center font-medium hover:text-foreground transition-colors">

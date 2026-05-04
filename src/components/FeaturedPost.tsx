@@ -1,5 +1,6 @@
 import React from 'react';
 import { Calendar, Zap, ArrowRight } from 'lucide-react';
+import { formatPostDate } from '../lib/utils';
 import type { Post } from '../types/Post';
 
 interface FeaturedPostProps {
@@ -51,7 +52,7 @@ export default function FeaturedPost({ post, onClick }: FeaturedPostProps) {
           <div className="flex items-center justify-between">
             <div className="flex items-center text-sm font-medium text-foreground/60">
               <Calendar className="w-4 h-4 mr-2" />
-              {new Date(post.date).toLocaleDateString('es-ES', { month: 'long', day: 'numeric', year: 'numeric' })}
+              {formatPostDate(post)}
             </div>
             
             <button className="flex items-center text-foreground font-semibold group-hover:translate-x-2 transition-transform">

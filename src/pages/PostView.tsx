@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Calendar, Zap, ExternalLink } from 'lucide-react';
 import { MarkdownRenderer } from '../lib/markdown';
+import { formatPostDate } from '../lib/utils';
 import { POSTS_JSON_URL } from '../config';
 import type { Post } from '../types/Post';
 
@@ -80,7 +81,7 @@ export default function PostView() {
           <div className="flex items-center">
             <Calendar className="w-4 h-4 mr-2 text-primary" />
             <span className="font-medium">
-              {new Date(post.date).toLocaleDateString('es-ES', { month: 'long', day: 'numeric', year: 'numeric' })}
+              {formatPostDate(post)}
             </span>
           </div>
           <div className="flex items-center text-amber-500 font-bold bg-amber-500/10 px-3 py-1 rounded-full border border-amber-500/20">
