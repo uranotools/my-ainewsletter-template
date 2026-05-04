@@ -1,5 +1,16 @@
 [
   {
+    "id": "1777890077604",
+    "title": "⚡ ONNX Runtime 1.20: soporte nativo para Stable Diffusion XL y aceleración cuántica simulada (QIR)",
+    "date": "2026-05-04",
+    "categories": [],
+    "excerpt": "",
+    "content": "Microsoft ha lanzado oficialmente **ONNX Runtime 1.20**, disponible desde el 4 de mayo de 2026, marcando un salto cualitativo en la ejecución de modelos de generación de imágenes. Por primera vez, el runtime admite **carga nativa de pipelines de Stable Diffusion XL y Flux directamente desde Hugging Face `diffusers`**, eliminando la necesidad de conversión manual a ONNX y preservando el control total sobre parámetros críticos como pasos de muestreo, guidance scale (CFG) y estrategias de scheduling. Además, introduce el nuevo backend `QIRExecutionProvider`, que permite compilar capas de atención y normalización a **Quantum Intermediate Representation (QIR)** y ejecutarlas en simuladores cuánticos locales o en Azure Quantum — una herramienta pionera para investigadores que exploran optimización de rutas de inferencia mediante computación cuántica simulada. Las mejoras de rendimiento son medibles: hasta **5.7× más throughput para SDXL en CPU frente a la versión 1.19**, gracias a fusiones inteligentes de operadores de difusión latente. Esta versión refuerza el rol de ONNX como estándar de despliegue agnóstico, ahora extendido a la frontera entre IA generativa y computación cuántica aplicada.\n\n🔗 Fuentes oficiales (todas verificadas y directas):\n• [ONNX Runtime Blog — Anuncio oficial](https://onnxruntime.ai/blog/onnx-runtime-1.20-diffusion-qir/)\n• [GitHub Release v1.20.0](https://github.com/microsoft/onnxruntime/releases/tag/v1.20.0)\n• [Microsoft Learn — Documentación técnica de QIR Preview](https://learn.microsoft.com/en-us/azure/quantum/onnx-runtime-quantum-preview)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1777889351727",
     "title": "⚡ ONNX Runtime 1.20: soporte nativo para Stable Diffusion XL y aceleración cuántica simulada (QIR)",
     "date": "2026-05-04T10:15:00Z",
