@@ -1,0 +1,15 @@
+---
+rule:
+  type: always
+  description: "Reglas de desarrollo React + Tailwind"
+---
+
+**Reglas específicas de este template:**
+
+- Usa componentes funcionales con TypeScript.
+- Prefiere shadcn/ui style (cards limpias, botones, etc.) aunque no uses la librería.
+- Usa `useMemo` para todos los filtros (fechas, categorías, búsqueda).
+- El filtrado por rango de fechas y categorías debe ser muy eficiente.
+- Modo Editor se activa con `?role=editor` y un PIN simple.
+- Nunca modifiques la lógica de publicación (eso pertenece al MCP Plugin).
+- Mantén el código limpio, con buenos comentarios y fácil de personalizar.

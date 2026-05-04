@@ -1,0 +1,14 @@
+---
+rule:
+  type: always
+  description: "Reglas específicas del News Template"
+---
+
+**Cuando trabajes en este template:**
+
+- Página principal (`Home.tsx`): Featured post + grid de posts.
+- Archivo `lib/utils.ts`: Todas las funciones de filtrado (byDateRange, byCategory, searchPosts, etc.).
+- Modo Editor: Lista completa + enlaces directos "Editar en GitHub".
+- Soporta categorías, score, imágenes, excerpt y contenido Markdown.
+- El `posts.json` puede crecer a miles de posts sin problema (filtrado en frontend).
+- Al hacer cambios en diseño, mantén compatibilidad con el formato de posts del plugin.

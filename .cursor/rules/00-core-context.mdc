@@ -1,0 +1,18 @@
+---
+rule:
+  type: always
+  description: "Contexto principal del Template Urano AI News"
+---
+
+**PROYECTO ACTUAL:** urano-ai-news-template
+
+Este es un **template React + Vite + TypeScript + Tailwind** para un sitio estático de newsletter de IA que se publica en GitHub Pages.
+
+**Reglas obligatorias:**
+
+- Todo el contenido viene de `public/data/posts.json`
+- El template **NO** debe hacer llamadas a APIs externas (excepto fetch al propio posts.json)
+- Mantén la separación clara: el MCP Plugin solo escribe archivos, este template solo los lee y renderiza.
+- Usa Tailwind para todo el diseño.
+- El sitio debe ser bonito, moderno, dark mode por defecto y muy responsive.
+- Respeta el formato exacto de cada post definido en posts.json
