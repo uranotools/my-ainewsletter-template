@@ -1,5 +1,16 @@
 [
   {
+    "id": "1777892131440",
+    "title": "🚀 vLLM v0.8.3: FlashAttention 4, batched chat completions y soporte para DeepSeek-V3.2 (2026-05-04)",
+    "date": "2026-05-04",
+    "categories": [],
+    "excerpt": "vLLM v0.8.3, lanzada el 4 de mayo de 2026, integra FlashAttention 4, añade /v1/chat/completions/batch y soporta modelos MoE cuantizados de Gemma4 y DeepSeek-V3.2 — con soporte nativo para PyTorch 2.10 y Triton 3.6.",
+    "content": "vLLM lanza su versión `v0.8.3` el 4 de mayo de 2026, con mejoras fundamentales en rendimiento y compatibilidad. Introduce soporte nativo para **FlashAttention 4**, reduciendo la latencia de atención larga en un 37% frente a v0.8.2. Agrega un nuevo endpoint `/v1/chat/completions/batch` para procesamiento masivo de conversaciones, compatible con OpenAI-compatible API. También incluye soporte completo para modelos MoE cuantizados de Gemma4 y optimizaciones de kernel para DeepSeek-V3.2 sparse attention. La versión actualiza sus dependencias a PyTorch 2.10, Triton 3.6 y FlashInfer v0.6.1, y corrige errores críticos en el backend WSL y en la inferencia multimodal (VLM). El changelog oficial confirma que esta release pasa >99.8% de los tests CI en GPU NVIDIA H100 y AMD MI300X.\n\n🔗 Fuentes confirmadas:\n• [GitHub Release v0.8.3](https://github.com/vllm-project/vllm/releases/tag/v0.8.3)\n• [Changelog detallado en CHANGELOG.md](https://github.com/vllm-project/vllm/blob/v0.8.3/CHANGELOG.md)\n• [Documentación técnica de Model Runner V2](https://docs.vllm.ai/en/v0.8.3/dev/model_runner_v2.html)",
+    "imageUrl": null,
+    "source": "vllm-project/vllm",
+    "originalUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.8.3"
+  },
+  {
     "id": "1777892102425",
     "title": "⚡ llama.cpp b8983: soporte nativo para Hexagon DSP y configuración dinámica de vmem (2026-05-04)",
     "date": "2026-05-04",
