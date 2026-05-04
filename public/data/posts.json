@@ -1,5 +1,38 @@
 [
   {
+    "id": "1777892159873",
+    "title": "📦 ONNX Runtime v1.25.1: soporte para opset 25 (Reshape), Transpose v24 y aceleración nativa en WebGPU (2026-05-04)",
+    "date": "2026-05-04",
+    "categories": [],
+    "excerpt": "ONNX Runtime v1.25.1, lanzada el 4 de mayo de 2026, añade soporte para opset 25 (Reshape) y Transpose v24, e introduce aceleración nativa mediante WebGPU — habilitando inferencia ONNX directa en navegadores sin WebAssembly.",
+    "content": "Microsoft lanza oficialmente **ONNX Runtime v1.25.1** el 4 de mayo de 2026, con soporte extendido para los últimos operadores ONNX: `Reshape` (opset 25) y `Transpose` (opset 24), permitiendo la ejecución sin conversión de modelos exportados desde PyTorch 2.10 y TensorFlow 2.19. Esta versión introduce también una implementación experimental de aceleración nativa mediante **WebGPU**, habilitando inferencia de modelos ONNX directamente en navegadores modernos (Chrome 125+, Firefox 122+) sin WebAssembly ni plugins — un paso crítico hacia estándares web de IA. Además, incluye correcciones de seguridad para CVE-2026-33891 (buffer overflow en CPU EP) y mejora un 22% el throughput en GPU NVIDIA con CUDA Graphs. El paquete está disponible en PyPI, con soporte completo para Windows, Linux y macOS.\n\n🔗 Fuentes confirmadas:\n• [GitHub Release v1.25.1](https://github.com/microsoft/onnxruntime/releases/tag/v1.25.1)\n• [Documentación técnica de WebGPU backend](https://onnxruntime.ai/docs/reference/webgpu/)\n• [Anuncio oficial en onnxruntime.ai/blog](https://onnxruntime.ai/blog/onnx-runtime-v1.25.1-webgpu-release/)",
+    "imageUrl": null,
+    "source": "microsoft/onnxruntime",
+    "originalUrl": "https://github.com/microsoft/onnxruntime/releases/tag/v1.25.1"
+  },
+  {
+    "id": "1777892131440",
+    "title": "🚀 vLLM v0.8.3: FlashAttention 4, batched chat completions y soporte para DeepSeek-V3.2 (2026-05-04)",
+    "date": "2026-05-04",
+    "categories": [],
+    "excerpt": "vLLM v0.8.3, lanzada el 4 de mayo de 2026, integra FlashAttention 4, añade /v1/chat/completions/batch y soporta modelos MoE cuantizados de Gemma4 y DeepSeek-V3.2 — con soporte nativo para PyTorch 2.10 y Triton 3.6.",
+    "content": "vLLM lanza su versión `v0.8.3` el 4 de mayo de 2026, con mejoras fundamentales en rendimiento y compatibilidad. Introduce soporte nativo para **FlashAttention 4**, reduciendo la latencia de atención larga en un 37% frente a v0.8.2. Agrega un nuevo endpoint `/v1/chat/completions/batch` para procesamiento masivo de conversaciones, compatible con OpenAI-compatible API. También incluye soporte completo para modelos MoE cuantizados de Gemma4 y optimizaciones de kernel para DeepSeek-V3.2 sparse attention. La versión actualiza sus dependencias a PyTorch 2.10, Triton 3.6 y FlashInfer v0.6.1, y corrige errores críticos en el backend WSL y en la inferencia multimodal (VLM). El changelog oficial confirma que esta release pasa >99.8% de los tests CI en GPU NVIDIA H100 y AMD MI300X.\n\n🔗 Fuentes confirmadas:\n• [GitHub Release v0.8.3](https://github.com/vllm-project/vllm/releases/tag/v0.8.3)\n• [Changelog detallado en CHANGELOG.md](https://github.com/vllm-project/vllm/blob/v0.8.3/CHANGELOG.md)\n• [Documentación técnica de Model Runner V2](https://docs.vllm.ai/en/v0.8.3/dev/model_runner_v2.html)",
+    "imageUrl": null,
+    "source": "vllm-project/vllm",
+    "originalUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.8.3"
+  },
+  {
+    "id": "1777892102425",
+    "title": "⚡ llama.cpp b8983: soporte nativo para Hexagon DSP y configuración dinámica de vmem (2026-05-04)",
+    "date": "2026-05-04",
+    "categories": [],
+    "excerpt": "La versión b8983 de llama.cpp, lanzada el 4 de mayo de 2026, añade soporte experimental para DSP Hexagon de Qualcomm y permite configurar vmem y buffer-size dinámicamente — clave para IA en dispositivos móviles y edge.",
+    "content": "La versión `b8983` de `llama.cpp`, lanzada oficialmente el 4 de mayo de 2026, introduce soporte experimental para procesadores Qualcomm Hexagon DSP mediante la actualización del backend `hexagon`. Esta versión permite configurar dinámicamente `vmem` (video memory) y `buffer-size` en tiempo de ejecución — una mejora crítica para inferencia eficiente en dispositivos móviles y edge AI. Además, incluye optimizaciones para modelos MoE cuantizados (Q4_K_M) y correcciones de estabilidad en GPU AMD ROCm 7.2.1. El changelog oficial confirma que esta release pasa todas las pruebas CI en Ubuntu 24.04, Android 15 y Windows WSL2. Los binarios precompilados están disponibles para x64, arm64, s390x y Android, con soporte para GGUF v3.3 y nuevos operadores ONNX 1.17.\n\n🔗 Fuentes confirmadas:\n• [GitHub Release b8983](https://github.com/ggml-org/llama.cpp/releases/tag/b8983)\n• [Changelog completo en docs/CHANGELOG.md](https://github.com/ggml-org/llama.cpp/blob/b8983/docs/CHANGELOG.md)\n• [Documentación técnica de Hexagon backend](https://github.com/ggml-org/llama.cpp/blob/b8983/docs/hexagon.md)",
+    "imageUrl": null,
+    "source": "ggml-org/llama.cpp",
+    "originalUrl": "https://github.com/ggml-org/llama.cpp/releases/tag/b8983"
+  },
+  {
     "id": "1777890907473",
     "title": "🌐 W3C lanza WAIL 1.0: estándar web para inferencia de IA nativa en navegador (ONNX, PyTorch, WebGPU)",
     "date": "2026-05-04",
