@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Calendar, Zap, ExternalLink } from 'lucide-react';
 import { MarkdownRenderer } from '../lib/markdown';
+import { POSTS_JSON_URL } from '../config';
 import type { Post } from '../types/Post';
 
 export default function PostView() {
@@ -14,7 +15,7 @@ export default function PostView() {
     // En una app real esto sería fetch(`/api/posts/${id}`) o buscar en un estado global
     // Aquí cargaremos el JSON completo y buscaremos el post
     setLoading(true);
-    fetch('/data/posts.json')
+    fetch(POSTS_JSON_URL)
       .then(res => {
         if (!res.ok) throw new Error('Error de red');
         return res.json();

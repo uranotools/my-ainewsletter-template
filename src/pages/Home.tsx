@@ -5,6 +5,7 @@ import PostList from '../components/PostList';
 import Filters from '../components/Filters';
 import EditorDashboard from '../components/EditorDashboard';
 import { filterPosts, sortPosts, getAllCategories } from '../lib/utils';
+import { POSTS_JSON_URL } from '../config';
 import type { Post } from '../types/Post';
 
 export default function Home() {
@@ -21,7 +22,7 @@ export default function Home() {
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
 
   useEffect(() => {
-    fetch('/data/posts.json')
+    fetch(POSTS_JSON_URL)
       .then((res) => {
         if (!res.ok) throw new Error('Error al cargar posts');
         return res.json();
