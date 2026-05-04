@@ -11,17 +11,46 @@ export default function EditorDashboard({ posts }: EditorDashboardProps) {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [pin, setPin] = useState('');
   const [error, setError] = useState('');
+  const [targetHash, setTargetHash] = useState<string | null>(null);
 
   useEffect(() => {
+    // Check if previously authenticated
     const saved = localStorage.getItem('editor_auth');
     if (saved === 'true') {
       setIsAuthenticated(true);
     }
+
+    // Load the encrypted pin hash from config.json
+    fetch('./config.json')
+      .then(res => res.json())
+      .then(data => {
+        if (data.hashedPin) {
+          setTargetHash(data.hashedPin);
+        }
+      })
+      .catch(err => console.error("Error loading config.json", err));
   }, []);
 
-  const handleLogin = (e: React.FormEvent) => {
+  // Helper to hash string using Web Crypto API
+  const hashString = async (message: string) => {
+    const encoder = new TextEncoder();
+    const data = encoder.encode(message);
+    const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+    const hashArray = Array.from(new Uint8Array(hashBuffer));
+    return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+  };
+
+  const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (pin === '1234') {
+    
+    if (!targetHash) {
+      setError('Configuración de seguridad no cargada.');
+      return;
+    }
+
+    const inputHash = await hashString(pin);
+
+    if (inputHash === targetHash) {
       setIsAuthenticated(true);
       localStorage.setItem('editor_auth', 'true');
       setError('');
