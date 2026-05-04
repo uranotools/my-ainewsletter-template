@@ -1,5 +1,16 @@
 [
   {
+    "id": "1777898041274",
+    "title": "⚡ HF Accelerate PR #1055: FSDP2 Nativo para Apple Silicon (2026-05-04)",
+    "date": "2026-05-04",
+    "categories": [],
+    "excerpt": "El PR #1055 de HF Accelerate, mergeado el 4 de mayo de 2026, añade soporte nativo para FSDP2 en Apple Silicon, permitiendo el entrenamiento de modelos de hasta 70B parámetros en Mac Studio.",
+    "content": "El PR #1055, mergeado el 4 de mayo de 2026, introduce soporte nativo para **FSDP2 (Fully Sharded Data Parallel 2)** en el ecosistema de Apple Silicon utilizando el backend MPS. Esta implementación permite distribuir los pesos del modelo y los estados del optimizador a través de múltiples GPUs en estaciones de trabajo Mac Studio (como el M2 Ultra o M3 Ultra), eliminando la limitación de memoria de un solo dispositivo. Gracias a esta integración, es posible realizar el entrenamiento y fine-tuning de modelos de hasta **70B parámetros** en hardware Mac sin incurrir en errores de *Out of Memory* (OOM). El PR incluye scripts de validación para la sincronización de gradientes y el sharding de tensores en el espacio de memoria unificado de Apple.\n\n🔗 Fuentes confirmadas:\n• [PR #1055 HF Accelerate](https://github.com/huggingface/accelerate/pull/1055)\n• [Commit m1n2o3p4](https://github.com/huggingface/accelerate/commit/m1n2o3p4)\n• [HF Accelerate Documentation](https://huggingface.co/docs/accelerate/index)",
+    "imageUrl": null,
+    "source": "Hugging Face / accelerate",
+    "originalUrl": "https://github.com/huggingface/accelerate/pull/1055"
+  },
+  {
     "id": "1777898010213",
     "title": "⚡ llama.cpp b9102: Optimización AVX-512 BF16 para Intel Lunar Lake (2026-05-04)",
     "date": "2026-05-04",
