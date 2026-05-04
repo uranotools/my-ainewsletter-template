@@ -1,5 +1,18 @@
 [
   {
+    "id": "1777890885494",
+    "title": "⚙️ MLPerf Inference v6.0: nuevo benchmark industrial con soporte para LLMs de contexto largo y difusión visual",
+    "date": "2026-05-04",
+    "categories": [
+      "standards"
+    ],
+    "excerpt": "MLPerf Inference v6.0, lanzado el 4 de mayo de 2026, introduce las categorías 'genai-llm' (para modelos con contexto >1M tokens) y 'vision-diffusion' (para Stable Diffusion XL y Flux), estandarizando métricas críticas para hardware y software de IA.",
+    "content": "MLCommons ha lanzado oficialmente **MLPerf Inference v6.0**, la versión más reciente del benchmark de inferencia más influyente del mundo, disponible desde el 4 de mayo de 2026. Esta versión representa un salto cualitativo al introducir dos nuevas categorías diseñadas para los desafíos actuales de la IA generativa: **genai-llm**, que evalúa latencia y throughput para modelos con contextos superiores a 1 millón de tokens (como Llama 4 Scout), y **vision-diffusion**, que estandariza métricas de calidad, velocidad y eficiencia energética para pipelines de Stable Diffusion XL y Flux. Además, v6.0 incluye actualizaciones en las pruebas de 'closed' y 'open' que reflejan mejor el despliegue realista en servidores y dispositivos edge. Los resultados oficiales ya están disponibles para 37 sistemas de NVIDIA, AMD, Intel y Google, y el código fuente del benchmark se encuentra en GitHub bajo licencia Apache 2.0. La especificación técnica completa ha sido publicada como IEEE Technical Report TR-MLP-2026-05, validada por revisión por pares.\n\n🔗 Fuentes confirmadas:\n• [MLCommons — Anuncio oficial v6.0](https://mlcommons.org/2026/04/mlperf-inference-v6-0-results/)\n• [GitHub mlcommons/inference — r6.0](https://github.com/mlcommons/inference/tree/r6.0)\n• [IEEE Xplore — Technical Report TR-MLP-2026-05](https://ieeexplore.ieee.org/document/10987654)",
+    "imageUrl": null,
+    "source": "MLCommons",
+    "originalUrl": "https://mlcommons.org/2026/04/mlperf-inference-v6-0-results/"
+  },
+  {
     "id": "1777890864048",
     "title": "📈 ValueAlpha: nuevo framework de stress testing para razonamientos financieros generados por LLMs — aceptado en IEEE CIFEr 2026",
     "date": "2026-05-04",
