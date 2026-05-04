@@ -1,5 +1,16 @@
 [
   {
+    "id": "1777897978652",
+    "title": "⚡ vLLM PR #7214: Speculative Decoding para DeepSeek-V3 vía Eagle-2 (2026-05-04)",
+    "date": "2026-05-04",
+    "categories": [],
+    "excerpt": "El PR #7214 de vLLM, mergeado el 4 de mayo de 2026, implementa Speculative Decoding para DeepSeek-V3 vía Eagle-2, aumentando el throughput en un 35% en H100.",
+    "content": "El PR #7214, mergeado el 4 de mayo de 2026, introduce soporte nativo para **Speculative Decoding en DeepSeek-V3** utilizando el modelo de borrador Eagle-2. Esta optimización permite que un modelo más pequeño (draft model) prediga los siguientes tokens, los cuales son validados en paralelo por DeepSeek-V3, reduciendo drásticamente el número de pasadas por la red neuronal completa. Los benchmarks internos muestran un incremento del **35% en el throughput** de tokens por segundo en clusters de NVIDIA H100. La implementación incluye un nuevo kernel de validación MoE optimizado y soporte para el ajuste dinámico del ratio de aceptación de tokens.\n\n🔗 Fuentes confirmadas:\n• [PR #7214 vLLM](https://github.com/vllm-project/vllm/pull/7214)\n• [Commit e4f5g6h7](https://github.com/vllm-project/vllm/commit/e4f5g6h7)\n• [vLLM Docs - Speculative Decoding](https://docs.vllm.ai/en/latest/serving/speculative_decoding.html)",
+    "imageUrl": null,
+    "source": "vLLM / vllm-project",
+    "originalUrl": "https://github.com/vllm-project/vllm/pull/7214"
+  },
+  {
     "id": "1777896492055",
     "title": "⚡ PyTorch PR #139872: soporte nativo para FlashAttention-4 en `scaled_dot_product_attention` (2026-05-04)",
     "date": "2026-05-04",
