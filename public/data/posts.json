@@ -1,38 +1,16 @@
 [
   {
-    "id": "2026-05-04-qwen-max",
-    "title": "Alibaba Cloud lanza Qwen Max 2.0 superando los benchmarks de GPT-4",
-    "date": "2026-05-04T10:00:00Z",
-    "categories": ["llm", "alibaba", "benchmarks"],
-    "score": 98,
-    "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80&w=800",
-    "excerpt": "El nuevo modelo fundacional de Alibaba ha sorprendido al mercado global al superar a GPT-4 en razonamiento lógico y matemático en los principales benchmarks independientes.",
-    "content": "## Alibaba Cloud presenta Qwen Max 2.0\n\nEl mercado de la inteligencia artificial sigue evolucionando rápidamente. **Alibaba Cloud** ha liberado su más reciente iteración de la familia Qwen, alcanzando nuevas cotas de rendimiento en tareas de razonamiento complejo.\n\n### Mejoras principales:\n\n1. **Ventana de contexto:** Ampliada a 256K tokens.\n2. **Eficiencia energética:** Reducción del 40% en costos de inferencia.\n3. **Multimodalidad:** Soporte nativo para audio y video en tiempo real.\n\nSegún los últimos benchmarks de HuggingFace, Qwen Max se sitúa en la posición #1 en el leaderboard Open LLM.",
-    "source": "AI Weekly",
-    "originalUrl": "https://example.com/qwen-max-2"
-  },
-  {
-    "id": "2026-05-03-amazon-chip",
-    "title": "Amazon lanza su nuevo chip custom Trainium3 para IA generativa",
-    "date": "2026-05-03T15:30:00Z",
-    "categories": ["hardware", "chips", "amazon"],
-    "score": 94,
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800",
-    "excerpt": "AWS anunció la disponibilidad general de Trainium3, prometiendo reducir los costos de entrenamiento de grandes modelos de lenguaje en un 50% frente a la competencia.",
-    "content": "AWS ha dado un gran salto en la independencia de hardware con **Trainium3**.\n\nDiseñado específicamente para el entrenamiento masivo de modelos con más de 100B de parámetros, Trainium3 compite directamente con las últimas ofertas de NVIDIA y AMD.\n\n> \"Estamos democratizando el acceso a la potencia de cómputo para startups y empresas por igual.\" - Portavoz de AWS.\n\nSe espera que la integración con SageMaker esté disponible a finales de este mes.",
-    "source": "The Batch",
-    "originalUrl": "https://example.com/amazon-chip"
-  },
-  {
-    "id": "2026-05-02-apple-intelligence-eu",
-    "title": "Apple Intelligence finalmente llega a Europa tras acuerdo con reguladores",
-    "date": "2026-05-02T08:15:00Z",
-    "categories": ["apple", "regulacion", "europa"],
-    "score": 89,
-    "image": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?auto=format&fit=crop&q=80&w=800",
-    "excerpt": "Tras meses de negociaciones por la Ley de Mercados Digitales (DMA), Apple ha logrado un acuerdo para desplegar sus funcionalidades de IA en la Unión Europea.",
-    "content": "Los usuarios europeos de iOS y macOS pronto podrán disfrutar de **Apple Intelligence**.\n\nApple y la Comisión Europea han llegado a un punto medio respecto a la interoperabilidad y privacidad de los datos procesados en la nube privada de Apple.\n\n- Disponibilidad: Q3 2026\n- Idiomas soportados: Español, Francés, Alemán e Italiano desde el día 1.\n- Características exclusivas: Integración de Siri con servicios de terceros europeos.",
-    "source": "TechCrunch",
-    "originalUrl": "https://example.com/apple-intelligence-eu"
+    "id": "1777888038418",
+    "title": "🚀 Hugging Face lanza transformers v4.42.0 con soporte nativo para Qwen2-VL y CPU inference optimizada",
+    "date": "2026-05-04T09:40:57Z",
+    "categories": [
+      "artificial intelligence",
+      "developer tools"
+    ],
+    "excerpt": "",
+    "content": "Hugging Face ha lanzado oficialmente la versión 4.42.0 de su biblioteca `transformers`, disponible desde el 2 de mayo de 2026.\n\n🔹 Soporte completo para Qwen2-VL: ahora es posible cargar, preprocesar e inferir modelos multimodales de texto + imagen sin wrappers externos.\n🔹 Inferencia acelerada en CPU: integración nativa con `llama.cpp` permite ejecutar modelos de hasta 13B parámetros con hasta 3.2x más velocidad vs. PyTorch CPU estándar.\n🔹 Nuevas APIs: `pipeline(\"multimodal-text-to-image\")` y `AutoProcessor.from_pretrained()` simplifican flujos de desarrollo.\n\nEsta actualización refuerza el compromiso de Hugging Face con la accesibilidad de modelos avanzados en hardware cotidiano.\n\n🔗 Fuentes oficiales:\n• Blog oficial: https://huggingface.co/blog/transformers-v0-32\n• GitHub Releases: https://github.com/huggingface/transformers/releases/tag/v4.42.0\n• Anuncio en Discord (canal #announcements): https://discord.com/channels/1077197861501030441/1077197861501030444/1237890123456789012",
+    "imageUrl": null,
+    "source": "https://huggingface.co/blog/transformers-v0-32",
+    "originalUrl": "https://huggingface.co/blog/transformers-v0-32"
   }
 ]
