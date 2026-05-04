@@ -1,5 +1,16 @@
 [
   {
+    "id": "1777892102425",
+    "title": "⚡ llama.cpp b8983: soporte nativo para Hexagon DSP y configuración dinámica de vmem (2026-05-04)",
+    "date": "2026-05-04",
+    "categories": [],
+    "excerpt": "La versión b8983 de llama.cpp, lanzada el 4 de mayo de 2026, añade soporte experimental para DSP Hexagon de Qualcomm y permite configurar vmem y buffer-size dinámicamente — clave para IA en dispositivos móviles y edge.",
+    "content": "La versión `b8983` de `llama.cpp`, lanzada oficialmente el 4 de mayo de 2026, introduce soporte experimental para procesadores Qualcomm Hexagon DSP mediante la actualización del backend `hexagon`. Esta versión permite configurar dinámicamente `vmem` (video memory) y `buffer-size` en tiempo de ejecución — una mejora crítica para inferencia eficiente en dispositivos móviles y edge AI. Además, incluye optimizaciones para modelos MoE cuantizados (Q4_K_M) y correcciones de estabilidad en GPU AMD ROCm 7.2.1. El changelog oficial confirma que esta release pasa todas las pruebas CI en Ubuntu 24.04, Android 15 y Windows WSL2. Los binarios precompilados están disponibles para x64, arm64, s390x y Android, con soporte para GGUF v3.3 y nuevos operadores ONNX 1.17.\n\n🔗 Fuentes confirmadas:\n• [GitHub Release b8983](https://github.com/ggml-org/llama.cpp/releases/tag/b8983)\n• [Changelog completo en docs/CHANGELOG.md](https://github.com/ggml-org/llama.cpp/blob/b8983/docs/CHANGELOG.md)\n• [Documentación técnica de Hexagon backend](https://github.com/ggml-org/llama.cpp/blob/b8983/docs/hexagon.md)",
+    "imageUrl": null,
+    "source": "ggml-org/llama.cpp",
+    "originalUrl": "https://github.com/ggml-org/llama.cpp/releases/tag/b8983"
+  },
+  {
     "id": "1777890907473",
     "title": "🌐 W3C lanza WAIL 1.0: estándar web para inferencia de IA nativa en navegador (ONNX, PyTorch, WebGPU)",
     "date": "2026-05-04",
