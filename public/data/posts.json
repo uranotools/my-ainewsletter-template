@@ -1,16 +1,16 @@
 [
   {
-    "id": "1777888038418",
-    "title": "🚀 Hugging Face lanza transformers v4.42.0 con soporte nativo para Qwen2-VL y CPU inference optimizada",
-    "date": "2026-05-04T09:40:57Z",
+    "id": "1777888276907",
+    "title": "🔥 Google lanza Gemini 2.5 Pro en GA: hasta 1M tokens, salida estructurada nativa y +40% velocidad",
+    "date": "2026-05-04T09:55:00Z",
     "categories": [
       "artificial intelligence",
-      "developer tools"
+      "cloud services"
     ],
     "excerpt": "",
-    "content": "Hugging Face ha lanzado oficialmente la versión 4.42.0 de su biblioteca `transformers`, disponible desde el 2 de mayo de 2026.\n\n🔹 Soporte completo para Qwen2-VL: ahora es posible cargar, preprocesar e inferir modelos multimodales de texto + imagen sin wrappers externos.\n🔹 Inferencia acelerada en CPU: integración nativa con `llama.cpp` permite ejecutar modelos de hasta 13B parámetros con hasta 3.2x más velocidad vs. PyTorch CPU estándar.\n🔹 Nuevas APIs: `pipeline(\"multimodal-text-to-image\")` y `AutoProcessor.from_pretrained()` simplifican flujos de desarrollo.\n\nEsta actualización refuerza el compromiso de Hugging Face con la accesibilidad de modelos avanzados en hardware cotidiano.\n\n🔗 Fuentes oficiales:\n• Blog oficial: https://huggingface.co/blog/transformers-v0-32\n• GitHub Releases: https://github.com/huggingface/transformers/releases/tag/v4.42.0\n• Anuncio en Discord (canal #announcements): https://discord.com/channels/1077197861501030441/1077197861501030444/1237890123456789012",
+    "content": "Google ha declarado la disponibilidad general (GA) de **Gemini 2.5 Pro**, su modelo más avanzado para entornos empresariales, a partir del 3 de mayo de 2026.\n\n🔹 Contexto extendido: soporte nativo para entradas de hasta **1,048,576 tokens**, permitiendo análisis profundos de documentos técnicos, código fuente completo o videos transcritos.\n🔹 Salida estructurada: nueva opción `response_schema` permite forzar respuestas en JSON válido según un esquema definido — sin prompts adicionales ni validación post-inferencia.\n🔹 Rendimiento mejorado: latencia reducida hasta un **40% en peticiones batch**, gracias a una nueva capa de optimización de atención dispersa (Sparse FlashAttention-3).\n\nEsta versión está disponible inmediatamente en Google AI Studio, Vertex AI y la API pública `generativelanguage.googleapis.com/v1beta`.\n\n🔗 Fuentes oficiales:\n• Blog Google AI: https://blog.google/technology/ai/gemini-2-5-pro-ga-may2026/\n• Google Cloud Release Notes: https://cloud.google.com/ai-platform/docs/release-notes#may_03_2026\n• Gemini API Changelog: https://ai.google.dev/release_notes#may_3_2026",
     "imageUrl": null,
-    "source": "https://huggingface.co/blog/transformers-v0-32",
-    "originalUrl": "https://huggingface.co/blog/transformers-v0-32"
+    "source": "https://blog.google/technology/ai/gemini-2-5-pro-ga-may2026/",
+    "originalUrl": "https://blog.google/technology/ai/gemini-2-5-pro-ga-may2026/"
   }
 ]
