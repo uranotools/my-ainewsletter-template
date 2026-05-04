@@ -20,7 +20,7 @@ export default function PostCard({ post, className, onClick }: PostCardProps) {
     >
       <div className="aspect-video w-full overflow-hidden bg-muted">
         <img 
-          src={post.image} 
+          src={post.image || post.imageUrl || 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800'} 
           alt={post.title} 
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
           onError={(e) => {

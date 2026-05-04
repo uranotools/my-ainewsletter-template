@@ -16,7 +16,7 @@ export default function FeaturedPost({ post, onClick }: FeaturedPostProps) {
       <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent z-10" />
       
       <img 
-        src={post.image} 
+        src={post.image || post.imageUrl || 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1600'} 
         alt={post.title} 
         className="w-full h-[500px] md:h-[600px] object-cover transition-transform duration-700 group-hover:scale-105"
         onError={(e) => {

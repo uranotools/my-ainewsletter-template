@@ -57,11 +57,30 @@ Al subir cambios a la rama `main`, la GitHub Action automáticamente compilará 
 - **Colores y Tipografía:** Modifica los valores CSS variables en `src/index.css`.
 - **Base de Vite:** Si tu repositorio no se despliega en la raíz de tu dominio (ej. `tu-usuario.github.io/tu-repo/`), el archivo `vite.config.ts` usa `base: './'` de forma predeterminada, lo que funciona bien para rutas relativas usando `HashRouter`.
 
-## Editor Mode
+## Editor Mode & Seguridad
 
-Para acceder al modo editor, simplemente navega a:
-`http://localhost:5173/?role=editor` (o tu URL en producción).
-Ingresa el PIN (1234) y podrás ver una tabla de todos los posts para un acceso rápido.
+El template incluye un modo de administración protegido para visualizar rápidamente los artículos y acceder a los enlaces de edición en GitHub.
+
+### Configuración del PIN de Acceso
+
+Por seguridad, el PIN no se guarda en texto plano. Se genera un hash SHA-256 durante el proceso de build.
+
+1. **Definir el PIN**: Crea o edita el archivo `.env` en la raíz del proyecto:
+   ```env
+   VITE_EDITOR_PIN=tu_pin_secreto
+   ```
+2. **Generar el Hash**: Ejecuta el script de cifrado (esto ocurre automáticamente al correr `npm run dev` o `npm run build`):
+   ```bash
+   node scripts/generate-pin.js
+   ```
+   Este comando creará un archivo `public/config.json` con el hash resultante. **No borres este archivo**, ya que es necesario para la validación en producción.
+
+### Acceso al Dashboard
+
+Para acceder al modo editor, navega a la URL con el parámetro `role`:
+`https://tu-sitio.com/?role=editor`
+
+Ingresa el PIN que definiste en tu archivo `.env` para desbloquear las funciones de administración.
 
 ## Despliegue en GitHub Pages
 

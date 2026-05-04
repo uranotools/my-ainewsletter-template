@@ -4,7 +4,8 @@ export interface Post {
   date: string; // YYYY-MM-DD
   categories: string[];
   score: number;
-  image: string;
+  image?: string;
+  imageUrl?: string;
   excerpt: string;
   content: string; // Markdown content
   source?: string;
