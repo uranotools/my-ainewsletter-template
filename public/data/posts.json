@@ -1,5 +1,18 @@
 [
   {
+    "id": "1777890864048",
+    "title": "📈 ValueAlpha: nuevo framework de stress testing para razonamientos financieros generados por LLMs — aceptado en IEEE CIFEr 2026",
+    "date": "2026-05-04",
+    "categories": [
+      "frameworks"
+    ],
+    "excerpt": "ValueAlpha introduce un paradigma novedoso: usar el acuerdo entre múltiples LLMs como señal de robustez lógica *antes* de que los retornos reales sean observables — evitando el overfitting a resultados pasados.",
+    "content": "El paper [arXiv:2604.25224](https://arxiv.org/abs/2604.25224), titulado *\"ValueAlpha: Agreement-Gated Stress Testing of LLM-Judged Investment Rationales Before Returns Are Observable\"*, ha sido aceptado oficialmente para presentación en la conferencia IEEE Computational Intelligence in Financial Engineering and Economics (CIFEr) 2026, que tendrá lugar en Tokio del 15 al 18 de julio. ValueAlpha propone un cambio de paradigma en la validación de razonamientos financieros generados por modelos de lenguaje: en lugar de evaluar solo contra métricas históricas (ej. Sharpe ratio pasado), utiliza el **acuerdo inter-modelo** como proxy de coherencia lógica y solidez predictiva. El framework ejecuta múltiples LLMs (incluyendo Llama 4 Scout y Claude 4 Opus) sobre el mismo prompt de análisis financiero y mide el consenso en conclusiones clave (riesgo, valor intrínseco, horizonte temporal). Solo las razonamientos con ≥85% de acuerdo entre modelos son sometidos a backtesting cuantitativo. ValueAlpha ya está integrado en `backtrader` y `zipline`, y su repositorio GitHub — [`quant-ai/valuealpha`](https://github.com/quant-ai/valuealpha) — muestra benchmarks reproducibles con datos reales de S&P 500 y NASDAQ desde 2020.\n\n🔗 Fuentes confirmadas:\n• [arXiv:2604.25224 — Paper completo](https://arxiv.org/abs/2604.25224)\n• [IEEE CIFEr 2026 — Call for Papers y aceptaciones](https://cifer2026.ieee-cis.org/call-for-papers/)\n• [GitHub quant-ai/valuealpha — v1.0.0, commit 2026-05-04](https://github.com/quant-ai/valuealpha)",
+    "imageUrl": null,
+    "source": "arXiv",
+    "originalUrl": "https://arxiv.org/abs/2604.25224"
+  },
+  {
     "id": "1777892159873",
     "title": "📦 ONNX Runtime v1.25.1: soporte para opset 25 (Reshape), Transpose v24 y aceleración nativa en WebGPU (2026-05-04)",
     "date": "2026-05-04",
@@ -57,19 +70,6 @@
     "imageUrl": null,
     "source": "MLCommons",
     "originalUrl": "https://mlcommons.org/2026/04/mlperf-inference-v6-0-results/"
-  },
-  {
-    "id": "1777890864048",
-    "title": "📈 ValueAlpha: nuevo framework de stress testing para razonamientos financieros generados por LLMs — aceptado en IEEE CIFEr 2026",
-    "date": "2026-05-04",
-    "categories": [
-      "frameworks"
-    ],
-    "excerpt": "ValueAlpha introduce un paradigma novedoso: usar el acuerdo entre múltiples LLMs como señal de robustez lógica *antes* de que los retornos reales sean observables — evitando el overfitting a resultados pasados.",
-    "content": "El paper [arXiv:2604.25224](https://arxiv.org/abs/2604.25224), titulado *\"ValueAlpha: Agreement-Gated Stress Testing of LLM-Judged Investment Rationales Before Returns Are Observable\"*, ha sido aceptado oficialmente para presentación en la conferencia IEEE Computational Intelligence in Financial Engineering and Economics (CIFEr) 2026, que tendrá lugar en Tokio del 15 al 18 de julio. ValueAlpha propone un cambio de paradigma en la validación de razonamientos financieros generados por modelos de lenguaje: en lugar de evaluar solo contra métricas históricas (ej. Sharpe ratio pasado), utiliza el **acuerdo inter-modelo** como proxy de coherencia lógica y solidez predictiva. El framework ejecuta múltiples LLMs (incluyendo Llama 4 Scout y Claude 4 Opus) sobre el mismo prompt de análisis financiero y mide el consenso en conclusiones clave (riesgo, valor intrínseco, horizonte temporal). Solo las razonamientos con ≥85% de acuerdo entre modelos son sometidos a backtesting cuantitativo. ValueAlpha ya está integrado en `backtrader` y `zipline`, y su repositorio GitHub — [`quant-ai/valuealpha`](https://github.com/quant-ai/valuealpha) — muestra benchmarks reproducibles con datos reales de S&P 500 y NASDAQ desde 2020.\n\n🔗 Fuentes confirmadas:\n• [arXiv:2604.25224 — Paper completo](https://arxiv.org/abs/2604.25224)\n• [IEEE CIFEr 2026 — Call for Papers y aceptaciones](https://cifer2026.ieee-cis.org/call-for-papers/)\n• [GitHub quant-ai/valuealpha — v1.0.0, commit 2026-05-04](https://github.com/quant-ai/valuealpha)",
-    "imageUrl": null,
-    "source": "arXiv",
-    "originalUrl": "https://arxiv.org/abs/2604.25224"
   },
   {
     "id": "1777890840648",
