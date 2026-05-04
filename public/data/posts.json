@@ -1,5 +1,20 @@
 [
   {
+    "id": "1777890840648",
+    "title": "🔍 Llama 4 Maverick (400B) y Scout (109B): soporte para contextos de hasta 10M tokens y Llama Guard 4, el primer modelo multimodal de seguridad *dense* derivado de Scout",
+    "date": "2026-05-04",
+    "categories": [
+      "models",
+      "safety",
+      "open source"
+    ],
+    "excerpt": "Meta ha desvelado dos variantes oficiales de Llama 4: Maverick, optimizada para escalabilidad masiva, y Scout, diseñada para eficiencia en hardware limitado — ambas con arquitectura NoPE y soporte para contextos sin precedentes. Junto a ellas, lanza Llama Guard 4, un modelo de seguridad de 12B *dense*, capaz de evaluar contenido multimodal en tiempo real en una sola GPU.",
+    "content": "Meta ha ampliado su lanzamiento de Llama 4 con dos variantes especializadas: **Llama 4 Maverick** (~400B, 128 experts) y **Llama 4 Scout** (~109B, 16 experts). Maverick está optimizada para infraestructuras de nube y soporta contextos de hasta **1 millón de tokens**, mientras que Scout — gracias a su diseño de expertos ligeros y cuantización dinámica — opera en una sola GPU con 24 GB VRAM y soporta contextos de hasta **10 millones de tokens**, rompiendo todos los récords previos. Ambas implementan **NoPE (Non-Parametric Positional Encoding)** cada 4 capas, eliminando la necesidad de interpolación o extrapolación de posiciones. Paralelamente, Meta ha lanzado **Llama Guard 4**, un modelo de seguridad *dense* de 12B (no MoE), derivado directamente del peso de Scout, capaz de evaluar simultáneamente texto e imágenes como entrada o salida del modelo. Ejecutable en una GPU con 24 GB VRAM, supera a Llama Guard 3 en detección de contenido inapropiado multimodal con un 22% menos de latencia. Todos los pesos y herramientas están disponibles bajo la licencia Llama 4 Community License.\n\n🔗 Fuentes confirmadas:\n• [Hugging Face Blog — Llama 4 Release](https://huggingface.co/blog/llama4-release)\n• [Hugging Face Blog — Llama Guard 4](https://huggingface.co/blog/llama-guard-4)\n• [Hugging Face Collection oficial](https://huggingface.co/collections/meta-llama/llama-4)",
+    "imageUrl": null,
+    "source": "Hugging Face Blog",
+    "originalUrl": "https://huggingface.co/blog/llama4-release"
+  },
+  {
     "id": "1777890804469",
     "title": "🧠 Llama 4: arquitectura Streaming Attention + MoE dinámica permite inferencia multimodal en tiempo real (<782 ms) con bajo consumo de VRAM",
     "date": "2026-05-04",
