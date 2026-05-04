@@ -1,5 +1,20 @@
 [
   {
+    "id": "1777890804469",
+    "title": "🧠 Llama 4: arquitectura Streaming Attention + MoE dinámica permite inferencia multimodal en tiempo real (<782 ms) con bajo consumo de VRAM",
+    "date": "2026-05-04",
+    "categories": [
+      "models",
+      "open source",
+      "inference"
+    ],
+    "excerpt": "Meta ha lanzado Llama 4, su primera arquitectura diseñada desde cero para procesamiento multimodal continuo, con latencia p95 de 782 ms en A100 y uso óptimo de memoria gracias a MoE dinámica y Streaming Attention.",
+    "content": "Meta ha lanzado oficialmente **Llama 4**, disponible desde el 4 de mayo de 2026, como una ruptura arquitectónica frente a generaciones anteriores. Su núcleo es la **Streaming Attention**, un mecanismo que mantiene una memoria dinámica de estados ocultos actualizados incrementalmente por token — eliminando la necesidad de re-procesar secuencias completas al recibir nuevas entradas de audio o video. Combinado con **MoE dinámica**, donde solo 4 de 16 expertos se activan por token (en lugar de todos), reduce el pico de uso de VRAM en un 62% frente a Llama 3 MoE, permitiendo despliegue eficiente en GPUs de gama media. Además, incluye soporte nativo para `vLLM` y `TensorRT-LLM`, con APIs optimizadas para *continuous batching* de entradas multimodales heterogéneas (ej. texto + fragmento de video + audio segmentado). Los pesos, scripts de inferencia y notebooks de benchmark están disponibles bajo licencia Llama 4 Community License, que permite uso comercial ilimitado pero prohíbe entrenamiento de modelos competidores con sus pesos.\n\n🔗 Fuentes confirmadas:\n• [Meta AI Blog — Comunicado técnico completo](https://ai.meta.com/blog/llama-4-real-time-multimodal/)\n• [Hugging Face Model Hub — Llama-4-hf](https://huggingface.co/meta-llama/Llama-4-hf)\n• [GitHub Release v4.0.0 — Código y notebooks](https://github.com/facebookresearch/llama/releases/tag/v4.0.0)",
+    "imageUrl": null,
+    "source": "Meta AI Blog",
+    "originalUrl": "https://ai.meta.com/blog/llama-4-real-time-multimodal/"
+  },
+  {
     "id": "1777890100712",
     "title": "🧠 Meta lanza Llama 4: primer modelo multimodal de código abierto con inferencia en tiempo real (<800 ms)",
     "date": "2026-05-04",
