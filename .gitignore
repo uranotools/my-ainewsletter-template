@@ -1,3 +1,9 @@
 .trash
 node_modules
 .vscode
+dist/
+dist-ssr/
+*.local
+.env
+.DS_Store
+package-lock.json
