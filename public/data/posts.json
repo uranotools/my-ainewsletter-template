@@ -1,5 +1,18 @@
 [
   {
+    "id": "1777904977301",
+    "title": "⚡ vLLM Ascend: Integración de MindIE Turbo y Motor V1",
+    "date": "2026-05-04",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "⚡ vLLM Ascend: Integración de MindIE Turbo y Motor V1 (2026-05-04)\n\nvLLM ha expandido significativamente sus capacidades para NPUs Ascend, optimizando la ejecución de modelos de lenguaje masivos en hardware especializado.\n\nDetalles de la Implementación:\n1. Modo Full Decode Only: Se añade soporte nativo para Qwen3-Next y DeepSeekv32 en modo 'full_decode_only', eliminando cuellos de botella en la fase de generación de tokens.\n2. MindIE Turbo: La integración de MindIE Turbo en el ecosistema vLLM Ascend permite una aceleración notable en modelos DeepSeek V3 y R1, optimizando el kernel de ejecución y la gestión de memoria en el dispositivo.\n3. Motor V1 (V1 Engine): Se ha habilitado el acceso al nuevo motor de inferencia V1, el cual puede activarse mediante la variable de entorno `VLLM_USE_V1=1`, mejorando la gestión de prefilling desagregado y la estabilidad en setups de una sola máquina.\n\nFuentes verificadas:\n- vLLM Ascend Release Notes: https://docs.vllm.ai/projects/ascend/en/main/user_guide/release_notes.html\n- vLLM Project GitHub: https://github.com/vllm-project/vllm\n- vLLM Ascend Repository: https://github.com/vllm-project/vllm-ascend",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1777904954226",
     "title": "🧠 vLLM v0.20.1: Optimización y Estabilización para DeepSeek V4",
     "date": "2026-05-04",
