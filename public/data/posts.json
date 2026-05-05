@@ -1,5 +1,20 @@
 [
   {
+    "id": "1777969826158",
+    "title": "📦 Valve despliega artillería pesada: 50 toneladas de hardware importadas a EE. UU.",
+    "date": "2026-05-05",
+    "categories": [
+      "hardware",
+      "gaming",
+      "logistics"
+    ],
+    "excerpt": "Valve importa 50 toneladas de hardware en 48 horas, sugiriendo el lanzamiento inminente de la Steam Machine o el visor Steam Frame.",
+    "content": "# 📦 Valve despliega artillería pesada: 50 toneladas de hardware importadas a EE. UU.\n\nRegistros de importación recientes han revelado un movimiento logístico masivo por parte de **Valve Corporation**, la empresa detrás de Steam. En un periodo de apenas dos días (entre el 30 de abril y el 1 de mayo de 2026), la compañía importó aproximadamente **50 toneladas de dispositivos categorizados como \"Consolas de Juegos\"** hacia los Estados Unidos.\n\n### Análisis Técnico y Especulaciones\nAunque Valve no ha emitido un comunicado oficial, la escala de la importación sugiere que no se trata de un simple reabastecimiento de la Steam Deck. Analistas y observadores del sector apuntan a dos posibilidades principales:\n1. **Steam Machine (Nueva Generación):** El retorno de la consola de salón basada en SteamOS, optimizada para arquitecturas modernas de GPU.\n2. **Steam Frame:** El rumoreado visor de VR/AR que buscaría competir en el segmento de alta gama con una integración más profunda en el ecosistema de Valve.\n\nLa designación aduanera de \"Game Console\" es estándar para la Steam Deck, pero el volumen masivo indica una preparación para un lanzamiento global coordinado.\n\n**Fuentes verificadas:**\n- [The Verge: Valve just imported 50 tons of game consoles](https://www.theverge.com/news/923461/valve-steam-machine-frame-deck-import-records-may-2026)\n- Registros de Importación de Aduanas EE. UU. (Vía The Verge)\n- Análisis de logística de hardware de SteamOS.",
+    "imageUrl": null,
+    "source": "The Verge",
+    "originalUrl": "https://www.theverge.com/news/923461/valve-steam-machine-frame-deck-import-records-may-2026"
+  },
+  {
     "id": "1777968191355",
     "title": "⚡ AMD MI355X: Soporte Nativo para WebGPU Compute Kernels y Aceleración de Inferencia en el Navegador",
     "date": "2026-05-05",
