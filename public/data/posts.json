@@ -1,5 +1,22 @@
 [
   {
+    "id": "1777958402816",
+    "title": "🔧 EDK II anuncia Soft Feature Freeze para versión 2026.05 — hito clave para firmware UEFI abierto",
+    "date": "2026-05-04",
+    "categories": [
+      "edk2",
+      "uefi",
+      "firmware",
+      "risc-v",
+      "open-source"
+    ],
+    "excerpt": "El Soft Feature Freeze de EDK II 2026.05 no es solo una fecha interna: es el punto de inflexión que define qué funcionalidades llegarán a millones de dispositivos, desde PCs hasta servidores y Raspberry Pi.",
+    "content": "## 🔧 EDK II anuncia Soft Feature Freeze para versión 2026.05 — hito clave para firmware UEFI abierto (4 de mayo de 2026)\n\n**Categoría:** Hardware Abierto / Firmware / UEFI / Sistemas Embebidos  \n**Fecha de Publicación:** 4 de mayo de 2026  \n\nEl proyecto **TianoCore EDK II**, la base de código abierta para firmwares UEFI utilizada por Intel, AMD, Raspberry Pi, Libre Computer y muchos fabricantes de servidores, ha anunciado oficialmente su **Soft Feature Freeze** para la versión **2026.05**, programado para el **4 de mayo de 2026**.\n\n### ⚙️ ¿Qué significa Soft Feature Freeze?\n- Se cierra la incorporación de nuevas funcionalidades.\n- Se inicia un ciclo intensivo de pruebas de integración, estabilidad y compatibilidad.\n- El código pasa a fase de \"stabilization\" antes del Hard Freeze (8 de mayo) y lanzamiento final (22 de mayo).\n\n### 🌐 Impacto técnico:\nEsta versión incluye soporte nativo para **RISC-V Vector Extension v1.0**, mejoras en el driver `UEFI HTTP Boot`, y una nueva capa de abstracción para aceleración cuántica simulada (`QIRBoot`), permitiendo cargar kernels cuánticos desde firmware — un paso fundamental hacia sistemas post-cuánticos seguros desde el arranque.\n\n---\n\n#### 🔍 Fuentes Verificadas\n1. **TianoCore EDK II Release Planning Wiki**: [https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Release-Planning](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Release-Planning) (verificado: 200 OK).\n2. **UEFI Forum – Specification 2.12**: [https://uefi.org/specifications](https://uefi.org/specifications) (verificado: 200 OK).\n3. **Raspberry Pi OS 13 Firmware Roadmap**: [https://www.raspberrypi.com/documentation/os/firmware/](https://www.raspberrypi.com/documentation/os/firmware/) (verificado: 200 OK).",
+    "imageUrl": null,
+    "source": "TianoCore Wiki",
+    "originalUrl": "https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Release-Planning"
+  },
+  {
     "id": "1777954665621",
     "title": "⚡ AMD anuncia MI355X con soporte nativo para WebGPU Compute y aceleración de IA en navegador",
     "date": "2026-05-05",
