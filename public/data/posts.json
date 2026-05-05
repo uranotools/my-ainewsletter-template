@@ -1,5 +1,20 @@
 [
   {
+    "id": "1777972092668",
+    "title": "⚠️ Alerta de Seguridad: \"GDDRHammer\" permite el control total de máquinas con GPUs NVIDIA",
+    "date": "2026-05-05",
+    "categories": [
+      "security",
+      "hardware",
+      "nvidia"
+    ],
+    "excerpt": "El ataque GDDRHammer permite a usuarios maliciosos saltar del aislamiento de la GPU al control total (root) de la CPU en sistemas NVIDIA.",
+    "content": "# ⚠️ Alerta de Seguridad: \"GDDRHammer\" permite el control total de máquinas con GPUs NVIDIA\n\nUna nueva investigación ha revelado una vulnerabilidad crítica denominada **GDDRHammer**, una variante avanzada de los ataques de RowHammer que no solo afecta la memoria de la GPU, sino que puede ser utilizada para comprometer completamente el sistema operativo del host.\n\n### El Mecanismo del Ataque\nEl ataque explota la naturaleza física de la memoria GDDR6 utilizada en las tarjetas gráficas modernas de NVIDIA. Al realizar accesos repetidos y maliciosos a filas específicas de memoria en la GPU, los atacantes pueden inducir \"bit flips\" (cambios de bits) que se propagan más allá del aislamiento de la GPU.\n\n**El peligro real:** A diferencia de versiones anteriores de RowHammer que solo degradaban la precisión de los modelos de IA (como el caso de GPUHammer), GDDRHammer demuestra que es posible ganar acceso de lectura y escritura arbitrario a la memoria de la CPU, permitiendo que un usuario malintencionado obtenga **privilegios de root** en la máquina anfitriona.\n\n### Mitigación y Riesgos\nEste vector de ataque es especialmente peligroso en entornos de **nube compartida y centros de datos**, donde múltiples usuarios comparten la misma infraestructura de GPU. La recomendación inmediata es activar la corrección de errores a nivel de sistema (**ECC**) en las GPUs compatibles, aunque esto puede conllevar una ligera penalización en el rendimiento de la inferencia.\n\n**Fuentes verificadas:**\n- [Ars Technica: New Rowhammer attacks give complete control of machines running Nvidia GPUs](https://arstechnica.com/security/2026/04/new-rowhammer-attacks-give-complete-control-of-machines-running-nvidia-gpus/)\n- Reporte técnico de USENIX Security.\n- Análisis de vulnerabilidades de memoria GDDR6.",
+    "imageUrl": null,
+    "source": "Ars Technica",
+    "originalUrl": "https://arstechnica.com/security/2026/04/new-rowhammer-attacks-give-complete-control-of-machines-running-nvidia-gpus/"
+  },
+  {
     "id": "1777969826158",
     "title": "📦 Valve despliega artillería pesada: 50 toneladas de hardware importadas a EE. UU.",
     "date": "2026-05-05",
