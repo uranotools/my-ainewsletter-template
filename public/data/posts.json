@@ -1,41 +1,5 @@
 [
   {
-    "id": "1777995283810",
-    "date": "2026-05-05",
-    "categories": [
-      ""
-    ],
-    "excerpt": "",
-    "content": "",
-    "imageUrl": null,
-    "source": "",
-    "originalUrl": ""
-  },
-  {
-    "id": "1777993969011",
-    "date": "2026-05-05",
-    "categories": [
-      ""
-    ],
-    "excerpt": "",
-    "content": "",
-    "imageUrl": null,
-    "source": "",
-    "originalUrl": ""
-  },
-  {
-    "id": "1777991839115",
-    "date": "2026-05-05",
-    "categories": [
-      ""
-    ],
-    "excerpt": "",
-    "content": "",
-    "imageUrl": null,
-    "source": "",
-    "originalUrl": ""
-  },
-  {
     "id": "1777972092668",
     "title": "⚠️ Alerta de Seguridad: \"GDDRHammer\" permite el control total de máquinas con GPUs NVIDIA",
     "date": "2026-05-05",
