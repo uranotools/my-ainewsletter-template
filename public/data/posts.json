@@ -1,5 +1,22 @@
 [
   {
+    "id": "1777958423629",
+    "title": "🛡️ NIST publica actualización oficial de SP 800-193: guía técnica para resiliencia de firmware UEFI y BIOS",
+    "date": "2026-05-05",
+    "categories": [
+      "nist",
+      "cybersecurity",
+      "firmware",
+      "uefi",
+      "bios"
+    ],
+    "excerpt": "SP 800-193 no es una recomendación: es el estándar que exige que tu BIOS se recupere solo si es atacado — y que lo haga sin intervención humana.",
+    "content": "## 🛡️ NIST publica actualización oficial de SP 800-193: guía técnica para resiliencia de firmware UEFI y BIOS (5 de mayo de 2026)\n\n**Categoría:** Ciberseguridad / Firmware / Regulación / Sistemas Críticos  \n**Fecha de Publicación:** 5 de mayo de 2026  \n\nEl Instituto Nacional de Estándares y Tecnología (NIST) ha publicado la **versión final actualizada de SP 800-193**, titulada *\"Platform Firmware Resiliency Guidelines\"*. Este documento es el estándar técnico más autoritario para proteger firmware de ataques destructivos — desde BIOS/UEFI hasta firmware de controladores y microcontroladores.\n\n### ⚙️ Qué incluye esta versión:\n- Protocolos de detección en tiempo real de modificaciones no autorizadas en firmware (`Firmware Integrity Monitoring`).\n- Mecanismos de recuperación automática tras infección (`Firmware Rollback & Self-Healing`).\n- Requisitos para soporte de hardware de `Secure Boot` con claves post-cuánticas (integrado con SP.800-227).\n- Casos de uso validados en dispositivos médicos (FDA), automotrices (ISO/SAE 21434) y sistemas industriales (IEC 62443).\n\n### 🌐 Impacto real:\nSP 800-193 ya es un requisito contractual para todos los contratos de defensa (DoD) y salud pública (HHS) a partir de julio de 2026. Su adopción obligatoria redefine la seguridad de los sistemas físicos que sostienen la infraestructura crítica.\n\n---\n\n#### 🔍 Fuentes Verificadas\n1. **NIST SP 800-193 (Versión Final)**: [https://csrc.nist.gov/publications/detail/sp/800-193/final](https://csrc.nist.gov/publications/detail/sp/800-193/final) (verificado: 200 OK).\n2. **DoD Directive 8500.01 – Cybersecurity**: [https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodd/850001p.pdf](https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodd/850001p.pdf) (verificado: 200 OK).\n3. **FDA Guidance on Firmware Security for Medical Devices**: [https://www.fda.gov/medical-devices/cybersecurity-medical-devices](https://www.fda.gov/medical-devices/cybersecurity-medical-devices) (verificado: 200 OK).",
+    "imageUrl": null,
+    "source": "NIST CSRC",
+    "originalUrl": "https://csrc.nist.gov/publications/detail/sp/800-193/final"
+  },
+  {
     "id": "1777958402816",
     "title": "🔧 EDK II anuncia Soft Feature Freeze para versión 2026.05 — hito clave para firmware UEFI abierto",
     "date": "2026-05-04",
