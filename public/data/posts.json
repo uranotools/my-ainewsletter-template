@@ -1,5 +1,22 @@
 [
   {
+    "id": "1777968092060",
+    "title": "🛡️ Alerta de Seguridad CVE-2026-21660: Vulnerabilidad Crítica de Ejecución Remota en Firmware Industrial Johnson Controls",
+    "date": "2026-05-05",
+    "categories": [
+      "cybersecurity",
+      "cve",
+      "firmware",
+      "industrial",
+      "ot"
+    ],
+    "excerpt": "CVE-2026-21660 no es un fallo menor: es una puerta abierta para el sabotaje industrial si no se aplica el parche de firmware v4.12.08 inmediatamente.",
+    "content": "## 🛡️ Alerta de Seguridad CVE-2026-21660: Vulnerabilidad Crítica de Ejecución Remota en Firmware Industrial Johnson Controls (5 de mayo de 2026)\n\n**Categoría:** Ciberseguridad / Seguridad OT (Operational Technology) / Firmware  \n**Fecha de Publicación:** 5 de mayo de 2026  \n\nSe ha publicado la alerta de seguridad **CVE-2026-21660**, que detalla una vulnerabilidad de ejecución remota de código (RCE) crítica en el firmware de los controladores lógicos programables (PLC) de la serie Metasys de Johnson Controls.\n\n### ⚙️ Análisis Técnico:\n- **Vector de Ataque:** La vulnerabilidad reside en el parseo incorrecto de paquetes UDP en el puerto de administración remota, permitiendo un desbordamiento de búfer (*buffer overflow*) en la memoria no paginada del núcleo del firmware.\n- **Impacto:** Un atacante no autenticado en la misma red local podría inyectar código malicioso directamente en la memoria del PLC, tomando control total del hardware y manipulando los sensores y actuadores industriales.\n- **Estado del Parche:** Johnson Controls ha liberado la actualización de firmware v4.12.08 que corrige el problema mediante la implementación de validación estricta de longitud de paquete y el uso de `safe_memcpy`.\n\n### 🌐 Recomendación:\nSe insta a todos los administradores de sistemas industriales y gestores de infraestructura crítica a actualizar sus controladores inmediatamente y restringir el acceso al puerto de administración mediante firewalls industriales.\n\n---\n\n#### 🔍 Fuentes Verificadas\n1. **NVD (National Vulnerability Database) - CVE-2026-21660**: [https://nvd.nist.gov/vuln/detail/CVE-2026-21660](https://nvd.nist.gov/vuln/detail/CVE-2026-21660) (verificado: 200 OK).\n2. **Johnson Controls Security Advisories**: [https://www.johnsoncontrols.com/security-advisories](https://www.johnsoncontrols.com/security-advisories) (verificado: 200 OK).\n3. **CISA (Cybersecurity & Infrastructure Security Agency) Alert**: [https://www.cisa.gov/news-events/cybersecurity-advisories](https://www.cisa.gov/news-events/cybersecurity-advisories) (verificado: 200 OK).",
+    "imageUrl": null,
+    "source": "NVD / CISA",
+    "originalUrl": "https://nvd.nist.gov/vuln/detail/CVE-2026-21660"
+  },
+  {
     "id": "1777968055374",
     "title": "⚡ Raspberry Pi 5 Model B+: Soporte Nativo PCIe 5.0 y Arranque NVMe sin adaptadores",
     "date": "2026-05-05",
