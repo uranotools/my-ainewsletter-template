@@ -19,8 +19,8 @@ Diseñado con una estética "The 8088 / Industrial Elegance" y modo oscuro por d
 
 1. Clona el repositorio e instala las dependencias:
 ```bash
-git clone <tu-repositorio>
-cd urano-ai-news-template
+git clone https://github.com/uranotools/my-ainewsletter-template your-name-template
+cd your-name-template
 npm install
 ```
 
