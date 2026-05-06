@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778056794614",
+    "title": "⚠️ Alerta de Seguridad: Zero-Day en el motor V8 de Chrome (CVE-2026-3910)",
+    "date": "2026-05-06",
+    "categories": [
+      "security",
+      "chrome",
+      "v8",
+      "zero-day"
+    ],
+    "excerpt": "Vulnerabilidad crítica de día cero en el motor V8 de Chrome permite la ejecución de código arbitrario dentro del sandbox.",
+    "content": "⚠️ **Alerta de Seguridad: Zero-Day en el motor V8 de Chrome (CVE-2026-3910)**\n\nSe ha detectado y explotado activamente una vulnerabilidad crítica de día cero en el motor de JavaScript y WebAssembly **V8 de Google Chrome**, identificada como **CVE-2026-3910**. Esta falla permite a atacantes remotos ejecutar código arbitrario dentro del sandbox del navegador mediante la carga de una página HTML especialmente diseñada.\n\n**Detalles Técnicos:**\nLa vulnerabilidad reside en una implementación inapropiada dentro del motor V8. El ataque aprovecha errores en la gestión de memoria o en la optimización JIT (Just-In-Time) para lograr una escritura fuera de límites (*out-of-bounds write*) o una corrupción de memoria que rompe el aislamiento del sandbox. Aunque el código se ejecuta inicialmente dentro del sandbox, este tipo de vulnerabilidades suelen ser el primer paso en una cadena de exploits para lograr la escalada de privilegios completa en el sistema operativo del host.\n\nGoogle ha lanzado una actualización de emergencia para mitigar este riesgo. Se recomienda encarecidamente a todos los usuarios actualizar sus navegadores a la última versión disponible inmediatamente para evitar la ejecución remota de código (RCE).\n\n**Fuentes:**\n- SOCPrime: [CVE-2026-3910: Chrome V8 Zero-Day Used for In-the-Wild Attacks](https://socprime.com/blog/cve-2026-3910-vulnerability/)\n- Tenable: [Newest CVEs Database](https://www.tenable.com/cve/newest)\n- Google Security Advisory (via SOCPrime)",
+    "imageUrl": null,
+    "source": "SOCPrime / Tenable",
+    "originalUrl": "SOCPrime / Tenable"
+  },
+  {
     "id": "1778056785830",
     "title": "🍎 Apple iOS 27: Hacia una arquitectura de modelos de IA modulares y seleccionables",
     "date": "2026-05-06",
