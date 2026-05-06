@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778052789567",
+    "title": "⚛️ Qunnect y Cisco logran el \"Entanglement Swapping\" a escala metropolitana sobre fibra comercial",
+    "date": "2026-05-06",
+    "categories": [],
+    "excerpt": "",
+    "content": "⚛️ **Qunnect y Cisco logran el \"Entanglement Swapping\" a escala metropolitana sobre fibra comercial**\n\nEn un avance crítico para la creación de la futura Internet Cuántica, **Qunnect y Cisco** han demostrado con éxito la técnica de *entanglement swapping* (intercambio de entrelazamiento) a través de 17.6 km de fibra óptica comercial desplegada en la ciudad de Nueva York.\n\n**Detalles Técnicos:**\nEl *entanglement swapping* es el proceso que permite entrelazar dos partículas que nunca han estado en contacto físico, utilizando una tercera partícula como intermediaria. Este mecanismo es la base de los **repetidores cuánticos**, los cuales son esenciales para superar la pérdida de señal en la fibra óptica sin destruir el estado cuántico (algo que los repetidores clásicos hacen al amplificar la señal).\n\nLa validación de esta tecnología sobre infraestructura de fibra estándar (no especializada) demuestra que la escalabilidad de las redes cuánticas metropolitanas es viable sin requerir la sustitución total del cableado existente. Este hito acerca la posibilidad de distribuir claves cuánticas (QKD) y conectar computadoras cuánticas distribuidas para computación paralela a escala global.\n\n**Fuentes:**\n- The Quantum Insider: https://thequantuminsider.com/2026/02/18/qunnect-cisco-metro-scale-quantum-entanglement-swapping-commercial-fiber/\n- PostQuantum: https://postquantum.com/quantum-networks/entanglement-distribution/\n- Stanford University (Quantum Tech): https://setr.stanford.edu/technology/quantum-technologies/2026",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778052780144",
     "title": "🤖 El auge de los modelos VLA: OpenVLA supera a los gigantes cerrados en robótica física",
     "date": "2026-05-06",
