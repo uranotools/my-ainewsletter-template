@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778052798060",
+    "title": "🏠 Google Home evoluciona a Gemini 3.1: Razonamiento avanzado para el hogar inteligente",
+    "date": "2026-05-06",
+    "categories": [],
+    "excerpt": "",
+    "content": "🏠 **Google Home evoluciona a Gemini 3.1: Razonamiento avanzado para el hogar inteligente**\n\nGoogle ha desplegado la actualización **Gemini 3.1** para su ecosistema de hogar inteligente, marcando un salto significativo en la capacidad de interacción entre el usuario y sus dispositivos. A diferencia de las versiones anteriores, Gemini 3.1 introduce capacidades de **razonamiento avanzado** que permiten al asistente interpretar y ejecutar comandos de voz complejos y multietapa en una sola instrucción.\n\n**Hitos técnicos de la actualización:**\n1. **Orquestación de Tareas:** El modelo ahora puede combinar múltiples solicitudes (ej. \"apaga las luces, pon el aire acondicionado a 22 grados y recuerda que mañana tengo cita médica\") sin necesidad de comandos separados.\n2. **Interpretación Contextual:** Mejora la fiabilidad en la identificación de dispositivos y la comprensión del lenguaje natural, reduciendo las alucinaciones operativas reportadas en versiones previas.\n3. **Ask Home on Web:** Se ha presentado una vista previa que permite gestionar el hogar desde el navegador, incluyendo la búsqueda de historial de cámaras mediante lenguaje natural.\n\nEste movimiento posiciona a Google Home no solo como un centro de control, sino como un agente autónomo capaz de planificar acciones dentro del entorno físico del hogar.\n\n**Fuentes:**\n- The Verge: https://www.theverge.com/tech/924755/google-home-gemini-3-1-upgrade\n- 9to5Google: https://9to5google.com/2026/05/05/gemini-3-1-home/\n- Ars Technica: https://arstechnica.com/gadgets/2026/05/google-home-gets-upgraded-gemini-voice-assistant-and-new-camera-controls/",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778052789567",
     "title": "⚛️ Qunnect y Cisco logran el \"Entanglement Swapping\" a escala metropolitana sobre fibra comercial",
     "date": "2026-05-06",
