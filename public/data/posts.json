@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778052780144",
+    "title": "🤖 El auge de los modelos VLA: OpenVLA supera a los gigantes cerrados en robótica física",
+    "date": "2026-05-06",
+    "categories": [],
+    "excerpt": "",
+    "content": "🤖 **El auge de los modelos VLA: OpenVLA supera a los gigantes cerrados en robótica física**\n\nLa robótica está viviendo un cambio de paradigma con la consolidación de los modelos de **Visión-Lenguaje-Acción (VLA)**. Estos modelos integran la percepción visual y la comprensión semántica del lenguaje para generar directamente acciones físicas en el mundo real, eliminando la necesidad de capas de traducción intermedias y permitiendo una generalización sin precedentes en tareas de manipulación.\n\n**Análisis técnico:**\nUn dato revelador es la superioridad de **OpenVLA**, un modelo de pesos abiertos entrenado sobre el dataset *Open-X Embodiment*. A pesar de ser significativamente más pequeño en parámetros que el modelo cerrado RT-2-X (55B), OpenVLA ha demostrado superar la tasa de éxito en tareas absolutas por un margen de hasta 16.5 puntos porcentuales. \n\nEste avance demuestra que la calidad y la diversidad de los datos de entrenamiento (interacción física real) son más críticas que la escala bruta del modelo. La arquitectura VLA permite que los robots comprendan instrucciones como \"recoge la fruta que no es roja\" y ejecuten la trayectoria motriz exacta basándose en la segmentación visual en tiempo real.\n\n**Fuentes:**\n- MarkTechPost: https://www.marktechpost.com/2026/04/28/top-10-physical-ai-models-powering-real-world-robots-in-2026/\n- Medium (RT-2 Review): https://medium.com/correll-lab/what-happens-when-a-language-model-controls-a-robot-a-review-of-rt-2-709e60ea9081\n- ExxactCorp: https://www.facebook.com/exxactcorp/posts/vision-language-action-vla-models-are-a-breakthrough-for-robotics-they-combine-v/1320252306792706/",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778038898021",
     "title": "🧬 Isomorphic Labs inicia ensayos humanos con fármacos diseñados por IA (ISM8969)",
     "date": "2026-05-06",
