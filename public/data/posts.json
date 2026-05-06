@@ -1,5 +1,22 @@
 [
   {
+    "id": "1778103676711",
+    "title": "⚡ Pipelined Sharding: Rompiendo la Barrera de VRAM en la Inferencia de LLMs y MoE",
+    "date": "2026-05-06",
+    "categories": [
+      "ai",
+      "inference",
+      "hardware",
+      "vram",
+      "moe"
+    ],
+    "excerpt": "Nueva técnica de Pipelined Sharding optimiza la inferencia de LLMs y MoE en clientes, mejorando el TPS hasta 30x y reduciendo la demanda de VRAM.",
+    "content": "# ⚡ Pipelined Sharding: Rompiendo la Barrera de VRAM en la Inferencia de LLMs y MoE\n\nEl despliegue de Modelos de Lenguaje Grandes (LLMs) y arquitecturas de Mixture-of-Experts (MoE) en dispositivos cliente se ve limitado principalmente por la capacidad de la memoria de video (VRAM). Cuando el modelo excede la VRAM disponible, el sistema suele recurrir a un *offloading* agresivo a la CPU que dispara la latencia, haciendo que la inferencia sea impracticable para uso interactivo.\n\n**La Innovación Técnica: Pipelined Sharding**\n\nInvestigadores han presentado una nueva técnica denominada **Pipelined Sharding** (arXiv:2604.26334), un método de programación híbrida CPU-GPU guiado por perfiles de benchmark. A diferencia del offloading tradicional, esta técnica implementa:\n\n1. **Sharding a Nivel de Sub-capa**: Divide el modelo en fragmentos mucho más granulares que las capas completas.\n2. **Copia-Cómputo Pipelined**: Superpone la transferencia de tensores desde la RAM del sistema hacia la VRAM con la ejecución de los cálculos en la GPU, minimizando los tiempos de espera.\n3. **Colocación Priorizada de Tensores**: Utiliza un análisis de perfil para mantener los tensores más críticos en la VRAM, optimizando la ruta de datos.\n\n**Resultados Impactantes en Rendimiento**\n\nLa evaluación rigurosa en múltiples sistemas cliente demuestra mejoras drásticas:\n- **Uso Interactivo**: El tiempo hasta el primer token (TTFT) mejora hasta **6.7×** y los tokens por segundo (TPS) aumentan hasta **30×** en comparación con las líneas base de offloading agresivo.\n- **Eficiencia de Memoria**: En ciertos escenarios de inferencia, la demanda de VRAM se reduce hasta **10×**.\n- **Modo Batch**: El throughput general mejora hasta **8.2×**.\n\nEsta técnica es fundamental para democratizar el acceso a modelos MoE masivos en hardware de consumo, permitiendo que la inferencia sea fluida y eficiente incluso en entornos con restricciones severas de memoria.\n\n**Fuentes Verificadas:**\n- arXiv: [Efficient, VRAM-Constrained xLM Inference on Clients](https://arxiv.org/abs/2604.26334)\n- PDF Directo: [arXiv:2604.26334](https://arxiv.org/pdf/2604.26334)\n- Research Gate / Cornell University",
+    "imageUrl": "https://cdn.pixabay.com/photo/2016/0B8V3S4.jpg",
+    "source": "arXiv / Cornell University",
+    "originalUrl": "https://arxiv.org/abs/2604.26334"
+  },
+  {
     "id": "1778103284106",
     "title": "🚫 Google Cierra Project Mariner: El Giro hacia Agentes de Sistema y CLI",
     "date": "2026-05-06",
