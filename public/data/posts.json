@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778061036328",
+    "title": "⚡ VitaLLM: Acelerador Ternario Ultra-Compacto para LLMs en el Edge",
+    "date": "2026-05-06",
+    "categories": [
+      "hardware",
+      "ai-chips",
+      "ternary-quantization",
+      "edge-ai"
+    ],
+    "excerpt": "Nuevo diseño de hardware basado en BitNet b1.58 que logra 72.46 tokens/s en un área de solo 0.223 mm².",
+    "content": "⚡ **VitaLLM: Acelerador Ternario Ultra-Compacto para LLMs en el Edge**\n\nUn nuevo avance en la co-diseño de hardware y software presenta a **VitaLLM**, un acelerador diseñado específicamente para la inferencia eficiente de modelos de lenguaje ternarios (como BitNet b1.58) en dispositivos con recursos extremadamente limitados.\n\n**Innovaciones Arquitectónicas:**\nVitaLLM soluciona el desequilibrio de carga y los cuellos de botella de ancho de banda mediante una **Estrategia de Cómputo de Núcleo Dual Heterogéneo**:\n1. **TINT-Cores**: Núcleos especializados sin multiplicadores para proyecciones ternarias masivas.\n2. **BoothFlex-Core**: Un núcleo unificado que reutiliza un datapath Booth de radix-4 para atención de precisión mixta (INT8 x INT8 y ternario-INT).\n\nAdemás, introduce un mecanismo de **Predicción de Uno Líder (LOP)** que poda las búsquedas redundantes en el caché KV, reduciendo drásticamente el tráfico de memoria.\n\n**Resultados Técnicos:**\nImplementado en tecnología TSMC de 16nm, el prototipo de silicio logra:\n- **Throughput de decodificación**: 70.70 tokens/s.\n- **Área**: 0.223 mm².\n- **Consumo energético**: 65.97 mW.\n- **Figura de Mérito (FOM)**: 17.4 TOPS/mm²/W, superando significativamente a los aceleradores actuales.\n\n**Fuentes:**\n- arXiv: [VitaLLM: A Versatile, Ultra-Compact Ternary LLM Accelerator (2604.27396v1)](https://arxiv.org/html/2604.27396v1)\n- IEEE Transactions on Circuits and Systems for AI\n- National Science and Technology Council, Taiwan",
+    "imageUrl": "https://arxiv.org/html/2604.27396v1/image-placeholder.jpg",
+    "source": "arXiv / IEEE",
+    "originalUrl": "https://arxiv.org/html/2604.27396v1"
+  },
+  {
     "id": "1778056803046",
     "title": "⚙️ Polheepo: El chip RISC-V que integra IA y Criptografía Post-Cuántica nativa",
     "date": "2026-05-06",
