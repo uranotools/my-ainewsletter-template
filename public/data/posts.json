@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778061049567",
+    "title": "⚠️ CISA ordena parcheo urgente de Zero-Day en Windows (CVE-2026-32202)",
+    "date": "2026-05-06",
+    "categories": [
+      "security",
+      "windows",
+      "zero-day",
+      "cisa"
+    ],
+    "excerpt": "CISA ordena a las agencias federales asegurar sus sistemas contra una vulnerabilidad de fuga de hash NTLM explotada activamente.",
+    "content": "⚠️ **CISA ordena parcheo urgente de Zero-Day en Windows (CVE-2026-32202)**\n\nLa Agencia de Seguridad de Infraestructura y Ciberseguridad (CISA) de EE. UU. ha emitido una orden mandatoria para que todas las agencias federales aseguren sus sistemas Windows contra una vulnerabilidad crítica identificada como **CVE-2026-32202**. \n\n**Análisis Técnico:**\nLa falla es descrita como una vulnerabilidad de **fuga de hashes NTLM de \"cero clics\" (zero-click)**. Este problema surgió tras un parche incompleto realizado por Microsoft en febrero para mitigar una falla de ejecución remota de código (CVE-2026-21510). Los atacantes pueden aprovechar este residuo técnico para extraer credenciales sensibles sin interacción del usuario, facilitando movimientos laterales dentro de redes corporativas.\n\n**Impacto y Mitigación:**\nCISA ha confirmado que la vulnerabilidad está siendo explotada activamente en el mundo real. La recomendación inmediata es la aplicación de los últimos parches de seguridad de Microsoft y la auditoría de los registros de autenticación NTLM para detectar patrones anómalos.\n\n**Fuentes:**\n- BleepingComputer: [CISA orders feds to patch Windows flaw exploited as zero-day](https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/)\n- Akamai Security Research (via BleepingComputer)\n- CISA Known Exploited Vulnerabilities (KEV) Catalog",
+    "imageUrl": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/image-placeholder.jpg",
+    "source": "BleepingComputer / CISA",
+    "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/"
+  },
+  {
     "id": "1778061042655",
     "title": "🚀 Radar de Tendencias IA Mayo 2026: GPT-5.5 y la Era de los Agentes Operacionales",
     "date": "2026-05-06",
