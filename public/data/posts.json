@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778063879176",
+    "title": "⚡ vLLM v0.20.1: Estabilización Crítica para DeepSeek V4 y Optimización de Inferencia",
+    "date": "2026-05-06",
+    "categories": [
+      "software",
+      "vllm",
+      "deepseek",
+      "inference"
+    ],
+    "excerpt": "vLLM lanza el parche v0.20.1 centrado en la estabilidad de DeepSeek V4 y mejoras de rendimiento.",
+    "content": "⚡ **vLLM v0.20.1: Estabilización Crítica para DeepSeek V4 y Optimización de Inferencia**\n\nvLLM ha publicado la versión **v0.20.1**, un release de parche crítico diseñado principalmente para la estabilización de **DeepSeek V4**. Esta actualización es fundamental para los despliegues de producción que utilizan la arquitectura MoE de DeepSeek, resolviendo problemas de estabilidad en la gestión de memoria y optimizando el throughput de inferencia.\n\n**Hitos técnicos de v0.20.1:**\n1. **DeepSeek V4 Stabilization**: Correcciones en la gestión de pesos y optimización de los kernels de atención específicos para V4.\n2. **Performance Improvements**: Mejoras en el tiempo de primer token (TTFT) y optimización de la concurrencia en entornos multi-GPU.\n3. **Bug Fixes**: Resolución de regresiones detectadas en la versión v0.20.0 relacionadas con el manejo de contextos largos.\n\nEste release reafirma la posición de vLLM como el motor de inferencia líder para modelos de pesos abiertos a gran escala.\n\n**Fuentes:**\n- vLLM GitHub Releases: [v0.20.1 Tag](https://github.com/vllm-project/vllm/releases/tag/v0.20.1)\n- vLLM Project Documentation\n- GitHub Community Discussions",
+    "imageUrl": "https://github.com/vllm-project/vllm/raw/main/assets/logo.png",
+    "source": "vLLM Project / GitHub",
+    "originalUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.20.1"
+  },
+  {
     "id": "1778061049567",
     "title": "⚠️ CISA ordena parcheo urgente de Zero-Day en Windows (CVE-2026-32202)",
     "date": "2026-05-06",
