@@ -9,6 +9,7 @@ import type { Post } from '../types/Post';
 export default function PostView() {
   const { id } = useParams<{ id: string }>();
   const [post, setPost] = useState<Post | null>(null);
+  const [relatedPosts, setRelatedPosts] = useState<Post[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
 
@@ -25,6 +26,12 @@ export default function PostView() {
         const found = data.find(p => p.id === id);
         if (found) {
           setPost(found);
+          const related = data
+            .filter(p => p.title && p.title.trim() !== '' && p.content && p.content.trim() !== '') // also filter empty ones
+            .filter(p => p.id !== id && p.categories.some(c => found.categories.includes(c)))
+            .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+            .slice(0, 3);
+          setRelatedPosts(related);
         } else {
           setError('Artículo no encontrado');
         }
@@ -120,9 +127,43 @@ export default function PostView() {
         <div className="absolute inset-0 ring-1 ring-inset ring-white/10" />
       </div>
       
-      <div className="bg-card border border-border rounded-2xl p-6 md:p-10 shadow-sm">
+      <div className="bg-card border-4 border-foreground brutalist-shadow p-6 md:p-10">
         <MarkdownRenderer content={post.content} />
       </div>
+
+      {relatedPosts.length > 0 && (
+        <div className="mt-16 border-t-4 border-foreground pt-12">
+          <h2 className="font-display font-black text-4xl uppercase tracking-tighter text-foreground mb-8">
+            POSTS RELACIONADOS
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {relatedPosts.map(related => (
+              <Link 
+                key={related.id} 
+                to={`/post/${related.id}`}
+                className="group flex flex-col bg-card brutalist-border brutalist-shadow-hover transition-all duration-300"
+              >
+                <div className="aspect-video w-full border-b-4 border-foreground bg-muted overflow-hidden">
+                  <img 
+                    src={related.image || related.imageUrl || 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800'} 
+                    alt={related.title} 
+                    className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-500"
+                  />
+                </div>
+                <div className="p-4 bg-background flex flex-col flex-grow border-t-0">
+                  <h3 className="font-display font-black text-xl leading-tight mb-2 group-hover:text-primary transition-colors line-clamp-3">
+                    {related.title}
+                  </h3>
+                  <div className="mt-auto pt-4 flex items-center text-xs font-bold text-foreground/80 border-t-2 border-foreground mt-4 pt-3">
+                    <Calendar className="w-4 h-4 mr-1" />
+                    {formatPostDate(related)}
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
     </article>
   );
 }

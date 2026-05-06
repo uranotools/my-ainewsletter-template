@@ -5,27 +5,67 @@
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 0 0% 5%;
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-    --border: 214.3 31.8% 91.4%;
+    --card-foreground: 0 0% 5%;
+    --primary: 84 100% 50%; /* Electric Lime #ccff00 */
+    --primary-foreground: 0 0% 0%;
+    --border: 0 0% 0%;
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-    --border: 217.2 32.6% 17.5%;
+    --background: 0 0% 2%; /* #050505 */
+    --foreground: 0 0% 98%;
+    --card: 0 0% 5%;
+    --card-foreground: 0 0% 98%;
+    --primary: 84 100% 50%; /* Electric Lime #ccff00 */
+    --primary-foreground: 0 0% 0%;
+    --border: 0 0% 20%;
   }
 }
 
 @layer base {
   body {
     @apply bg-background text-foreground antialiased selection:bg-primary selection:text-primary-foreground;
+    font-family: 'Space Mono', monospace;
+  }
+  
+  h1, h2, h3, h4, h5, h6, .font-display {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-variation-settings: "wdth" 100, "wght" 800;
+    text-transform: uppercase;
+  }
+}
+
+@layer utilities {
+  .brutalist-border {
+    @apply border-2 border-border;
+  }
+  .brutalist-shadow {
+    box-shadow: 4px 4px 0px 0px hsl(var(--primary));
+  }
+  .brutalist-shadow-hover:hover {
+    box-shadow: 6px 6px 0px 0px hsl(var(--primary));
+    transform: translate(-2px, -2px);
+  }
+  .brutalist-shadow-white {
+    box-shadow: 4px 4px 0px 0px hsl(var(--foreground));
+  }
+  
+  .marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    width: 100%;
+  }
+
+  .marquee-content {
+    display: flex;
+    animation: marquee 20s linear infinite;
+  }
+
+  @keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
   }
 }
