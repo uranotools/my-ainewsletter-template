@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778063885684",
+    "title": "🌐 W3C impulsa la IA nativa en el navegador con la actualización de WebNN API",
+    "date": "2026-05-06",
+    "categories": [
+      "web",
+      "w3c",
+      "ai",
+      "hardware-acceleration"
+    ],
+    "excerpt": "El W3C actualiza la Recomendación Candidata de la API Web Neural Network para acelerar la inferencia de IA en el cliente.",
+    "content": "🌐 **W3C impulsa la IA nativa en el navegador con la actualización de WebNN API**\n\nEl **World Wide Web Consortium (W3C)** ha publicado una actualización de la **Recomendación Candidata de la API Web Neural Network (WebNN)**. Esta API es la pieza faltante para que la IA se ejecute de forma masiva y eficiente directamente en el navegador, sin depender de servidores externos.\n\n**¿Qué aporta técnicamente WebNN?**\nA diferencia de WebGPU, que es una API de computación general, WebNN proporciona una capa de abstracción de bajo nivel diseñada específicamente para la inferencia de redes neuronales. Permite que el navegador se comunique directamente con el hardware especializado del dispositivo (NPU, GPU o TPU) utilizando los drivers nativos del sistema operativo.\n\n**Novedades de la actualización:**\n- **Soporte expandidode operadores**: Inclusión de nuevos operadores esenciales para arquitecturas de Transformers.\n- **MLTensor Buffer-Sharing**: Una nueva API para compartir buffers de memoria, reduciendo la latencia de transferencia de datos.\n- **Modelo de selección de dispositivo**: Un sistema abstracto para elegir el mejor acelerador disponible según la carga de trabajo.\n\nCon WebNN, aplicaciones de visión computacional y LLMs locales podrán operar con latencias mínimas y privacidad total, ya que los datos nunca abandonan el dispositivo del usuario.\n\n**Fuentes:**\n- W3C News: [Updated Candidate Recommendation: Web Neural Network (WebNN) API](https://www.w3.org/news/2026/updated-candidate-recommendation-web-neural-network-webnn-api/)\n- W3C Standards History\n- Web Machine Learning Working Group",
+    "imageUrl": "https://www.w3.org/images/logo.png",
+    "source": "W3C / World Wide Web Consortium",
+    "originalUrl": "https://www.w3.org/news/2026/updated-candidate-recommendation-web-neural-network-webnn-api/"
+  },
+  {
     "id": "1778063882405",
     "title": "🤖 Hamiltonian World Models: El camino hacia la fiabilidad física en Robótica",
     "date": "2026-05-06",
