@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778157110382",
+    "title": "🌐 W3C eleva la API Web Neural Network (WebNN) a Recomendación Candidata",
+    "date": "2026-05-07",
+    "categories": [
+      "web-standards",
+      "w3c",
+      "ai-inference",
+      "hardware-acceleration"
+    ],
+    "excerpt": "La API WebNN del W3C alcanza el estado de Recomendación Candidata, habilitando la aceleración de hardware nativa para IA en el navegador.",
+    "content": "# 🌐 W3C eleva la API Web Neural Network (WebNN) a Recomendación Candidata\n\nEl Consorcio World Wide Web (W3C) ha actualizado el estado de la **API Web Neural Network (WebNN)** a *Candidate Recommendation*. Este paso es fundamental para el futuro de la IA en el navegador, ya que define un estándar de bajo nivel para que las aplicaciones web accedan directamente a la aceleración de hardware (GPU, NPU y TPU).\n\n### Impacto Técnico y Funcionalidad:\n- **Aceleración Nativa**: A diferencia de las implementaciones basadas en JavaScript o WebAssembly, WebNN permite que el navegador hable directamente con los drivers de hardware, reduciendo drásticamente la latencia de inferencia y el consumo de energía.\n- **Soporte de Operadores Extendido**: La nueva recomendación incluye soporte para una gama más amplia de operadores, optimizando la ejecución de arquitecturas de **Transformadores** directamente en el cliente.\n- **Gestión Eficiente de Memoria**: Se introduce una API de compartición de búferes (`MLTensor`) que optimiza el flujo de datos entre la CPU y el acelerador de IA, evitando copias innecesarias de memoria.\n- **Modelo de Selección de Dispositivo**: Permite que la aplicación elija el mejor hardware disponible en el sistema (por ejemplo, priorizando una NPU sobre una GPU) para maximizar la eficiencia.\n\nCon WebNN, la industria se mueve hacia una \"IA Local por Defecto\" en la web, permitiendo ejecutar modelos complejos sin depender de servidores costosos y garantizando una mayor privacidad de los datos del usuario.\n\n**Fuentes Verificadas:**\n- W3C Official News: [Updated Candidate Recommendation Web Neural Network (WebNN) API](https://www.w3.org/news/2026/updated-candidate-recommendation-web-neural-network-webnn-api/)\n- Khronos Group: [WebGL & WebGPU Working Group Updates 2026](https://www.khronos.org/developers/linkto/webgl-and-webgpu-working-group-updates)\n- WebGPU Guide 2026: [Modern Graphics and Compute on the Web](https://explainx.ai/blog/webgpu-complete-guide-2026)",
+    "imageUrl": null,
+    "source": "W3C",
+    "originalUrl": "https://www.w3.org/news/2026/updated-candidate-recommendation-web-neural-network-webnn-api/"
+  },
+  {
     "id": "1778155388038",
     "title": "📉 Google cierra Project Mariner: El fin de un experimento en Agentes Web",
     "date": "2026-05-07",
