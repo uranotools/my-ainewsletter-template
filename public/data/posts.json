@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778157119653",
+    "title": "🛡️ EE.UU. Implementa Pruebas de Seguridad Obligatorias para Modelos de IA \"Frontier\"",
+    "date": "2026-05-07",
+    "categories": [
+      "national-security",
+      "ai-regulation",
+      "nist",
+      "frontier-ai"
+    ],
+    "excerpt": "El NIST y CAISI establecen acuerdos con Google, Microsoft y xAI para evaluar la seguridad de los modelos de IA Frontier antes de su lanzamiento.",
+    "content": "# 🛡️ EE.UU. Implementa Pruebas de Seguridad Obligatorias para Modelos de IA \"Frontier\"\n\nEl Departamento de Comercio de EE. UU., a través del Centro para Estándares e Innovación de IA (**CAISI**) del NIST, ha firmado acuerdos históricos con **Google DeepMind, Microsoft y xAI**. Estos acuerdos establecen un marco de revisión y pruebas de seguridad obligatorias antes del lanzamiento público de los modelos de IA más avanzados (*Frontier Models*).\n\n### Puntos Clave del Acuerdo de Seguridad:\n- **Evaluación Pre-Despliegue**: CAISI tendrá acceso temprano a los modelos para evaluar riesgos críticos relacionados con la seguridad nacional, incluyendo capacidades de ciberataque, diseño de armas biológicas o desinformación a escala masiva.\n- **Investigación Dirigida**: El NIST realizará investigaciones independientes sobre el comportamiento de los modelos, utilizando benchmarks estandarizados para medir la \"alineación\" y la robustez del sistema.\n- **Colaboración Público-Privada**: El acuerdo busca equilibrar la innovación acelerada con la gestión de riesgos existenciales, creando un precedente donde la transparencia técnica es una condición para el despliegue de modelos de escala masiva.\n- **Enfoque en Seguridad Nacional**: El marco se alinea con el \"AI Action Plan\" de la Casa Blanca, priorizando la protección de infraestructuras críticas y la integridad de los procesos democráticos.\n\nEsta medida representa un cambio de paradigma: de la autorregulación de las empresas tecnológicas a una supervisión técnica gubernamental basada en evidencia y pruebas empíricas.\n\n**Fuentes Verificadas:**\n- NIST News: [CAISI Signs Agreements Regarding Frontier AI National Security Testing](https://www.nist.gov/news-events/news/2026/05/caisi-signs-agreements-regarding-frontier-ai-national-security-testing)\n- TechXplore: [US to assess new AI models before their release](https://techxplore.com/news/2026-05-ai-2.html)\n- White House: [America's AI Action Plan PDF](https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf)",
+    "imageUrl": null,
+    "source": "NIST",
+    "originalUrl": "https://www.nist.gov/news-events/news/2026/05/caisi-signs-agreements-regarding-frontier-ai-national-security-testing"
+  },
+  {
     "id": "1778157110382",
     "title": "🌐 W3C eleva la API Web Neural Network (WebNN) a Recomendación Candidata",
     "date": "2026-05-07",
