@@ -57,7 +57,7 @@ export default function PostView() {
         ogTitle.setAttribute('property', 'og:title');
         document.head.appendChild(ogTitle);
       }
-      ogTitle.setAttribute('content', post.title);
+      ogTitle.setAttribute('content', post.title + ' | Urano AI News');
 
       // Limpieza al desmontar
       return () => {
