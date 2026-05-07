@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778197400327",
+    "title": "🤖 Tesla Optimus Gen 3: El inicio de la producción masiva de humanoides",
+    "date": "2026-05-07",
+    "categories": [
+      "robotics",
+      "tesla",
+      "humanoid",
+      "hardware"
+    ],
+    "excerpt": "Tesla presenta la Gen 3 de Optimus en la AWE 2026 de Shanghai, marcando la transición hacia la producción en masa de robots humanoides.",
+    "content": "# 🤖 Tesla Optimus Gen 3: El inicio de la producción masiva de humanoides\n\nTesla ha marcado un hito en la robótica física con el debut del **Optimus Gen 3** en la AWE 2026 celebrada en Shanghai. Esta nueva generación representa la transición crítica de un prototipo de laboratorio a una versión diseñada para la producción en masa.\n\n### 🛠️ Análisis Técnico de la Gen 3\nAunque el chasis mantiene las dimensiones generales de la Gen 2 (aproximadamente 168 cm de altura y 57 kg de peso), la arquitectura interna ha sido optimizada para la fiabilidad industrial y la escalabilidad.\n\n**Hitos Clave:**\n- **Producción Masiva**: Por primera vez, Tesla presenta una versión optimizada para la fabricación a gran escala, reduciendo la complejidad de ensamblaje sin comprometer la capacidad de carga (20 kg).\n- **Integración de IA Física**: El Optimus Gen 3 se beneficia de los avances en modelos VLA (*Vision-Language-Action*), permitiéndole ejecutar tareas complejas de manipulación basándose en instrucciones semánticas y retroalimentación visual en tiempo real.\n- **Estrategia de Despliegue**: Tesla planea integrar estos robots inicialmente en sus propias gigafábricas para automatizar tareas repetitivas, antes de expandir su disponibilidad al mercado externo.\n\n### 📈 Perspectiva de Mercado\nCon una inversión estimada de $25 billones en robótica humanoide, Tesla busca posicionar al Optimus como una herramienta de productividad general. La Gen 3 es la respuesta técnica a la competencia creciente de Figure y Boston Dynamics, enfocándose en la viabilidad económica y el despliegue real en entornos fabriles.\n\n**Fuentes Técnicas Verificadas:**\n- Neware Technology: [Tesla Optimus Gen 3: The New Era of Humanoid Robots](https://www.neware.net/news/tesla-optimus-gen-3-the-new-era-of-humanoid-robots/230/191.html)\n- Robozaps Blog: [Tesla Optimus Gen 3: News & Specs](https://blog.robozaps.com/b/tesla-optimus-gen-3)",
+    "imageUrl": null,
+    "source": "Neware",
+    "originalUrl": "https://www.neware.net/news/tesla-optimus-gen-3-the-new-era-of-humanoid-robots/230/191.html"
+  },
+  {
     "id": "1778197392232",
     "title": "🚨 Alerta de Seguridad: CVE-2026-0300 en PAN-OS y la vulnerabilidad \\\"Copy Fail\\\" del Kernel de Linux",
     "date": "2026-05-07",
