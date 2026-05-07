@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778144104689",
+    "title": "🚀 Tenstorrent despliega 23 PetaFLOPS de cómputo RISC-V en chasis 6U",
+    "date": "2026-05-07",
+    "categories": [
+      "hardware",
+      "riscv",
+      "ai-infrastructure",
+      "tenstorrent"
+    ],
+    "excerpt": "Tenstorrent alcanza un hito en densidad de cómputo IA con su nuevo rack de 6U basado en RISC-V, entregando 23 PetaFLOPS para entrenamiento e inferencia a gran escala.",
+    "content": "# 🚀 Tenstorrent despliega 23 PetaFLOPS de cómputo RISC-V en chasis 6U\n\nEn un avance significativo para la infraestructura de IA de código abierto, **Tenstorrent** ha anunciado el envío de una solución de cómputo masiva basada en la arquitectura **RISC-V**, capaz de entregar **23 PetaFLOPS** de rendimiento en un chasis compacto de 6U.\n\n### Rompiendo la Dependencia de Arquitecturas Cerradas\n\nEste hito técnico no solo es impresionante por la potencia bruta, sino por la base arquitectónica. Al utilizar RISC-V, Tenstorrent está impulsando la transición hacia un ecosistema de hardware de IA que no dependa de licencias propietarias restrictivas, permitiendo una optimización más profunda entre el software de compilación y el silicio.\n\n**Detalles Técnicos Clave:**\n- **Densidad de Cómputo**: Lograr 23 PetaFLOPS en un espacio de 6U representa una eficiencia de empaquetamiento líder en la industria, reduciendo los costos de energía y espacio en el centro de datos.\n- **Escalabilidad**: El diseño está optimizado para cargas de trabajo de entrenamiento de LLMs y despliegues de inferencia a gran escala, aprovechando la modularidad de RISC-V.\n- **Impacto en el Ecosistema**: Este despliegue valida que RISC-V es capaz de competir en el segmento de HPC (High Performance Computing) y aceleración de IA, moviéndose más allá de los microcontroladores y sistemas embebidos.\n\nEste movimiento posiciona a Tenstorrent como un jugador crítico en la democratización del hardware de IA, ofreciendo una alternativa viable y escalable a las soluciones dominantes del mercado.\n\n**Fuentes Verificadas:**\n- RISC-V International: [This Week in RISC-V (May 1, 2026)](https://www.linkedin.com/pulse/week-risc-v-may-1-2026-risc-v-international-1l6me)\n- Tenstorrent Official Documentation/Releases.",
+    "imageUrl": null,
+    "source": "RISC-V International / Tenstorrent",
+    "originalUrl": "https://www.linkedin.com/pulse/week-risc-v-may-1-2026-risc-v-international-1l6me"
+  },
+  {
     "id": "1778144096270",
     "title": "🛡️ Polheepo: El nuevo chip RISC-V abierto con Criptografía Post-Cuántica nativa",
     "date": "2026-05-07",
