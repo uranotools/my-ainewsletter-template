@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778140554979",
+    "title": "🚀 DeepSeek V4: El nuevo gigante MoE de 1.6T parámetros llega a Hugging Face",
+    "date": "2026-05-07",
+    "categories": [
+      "models",
+      "open-source",
+      "deepseek",
+      "moe"
+    ],
+    "excerpt": "DeepSeek lanza V4-Pro y V4-Flash, introduciendo una arquitectura de atención híbrida (CSA+HCA) que reduce el KV cache al 10% y soporta contextos de 1M de tokens.",
+    "content": "# 🚀 DeepSeek V4: El nuevo gigante MoE de 1.6T parámetros llega a Hugging Face\n\nEl panorama de los modelos de pesos abiertos ha recibido un impacto masivo con el lanzamiento de **DeepSeek V4**, una familia de modelos Mixture-of-Experts (MoE) que redefine la eficiencia en el manejo de contextos masivos y el costo de inferencia. \n\n**Arquitectura de Dos Niveles: Pro y Flash**\n\nDeepSeek ha optado por una estrategia de despliegue dual para cubrir tanto la frontera del rendimiento como la viabilidad local:\n\n1. **DeepSeek V4-Pro**: El buque insignia. Cuenta con un total de **1.6 billones de parámetros**, de los cuales aproximadamente **49B son activos por token**. Está diseñado para tareas de razonamiento complejo y codificación, alcanzando paridad con modelos cerrados como Claude Opus 4.6 en benchmarks de ingeniería de software (SWE-bench).\n2. **DeepSeek V4-Flash**: El hermano práctico. Con **284B de parámetros totales y 13B activos**, este modelo permite que la calidad de un modelo de frontera sea accesible en hardware mucho más modesto (como una sola GPU H100 o configuraciones multi-4090), manteniendo la misma arquitectura que la versión Pro.\n\n**Innovación Técnica: Atención Híbrida (CSA + HCA)**\n\nEl avance más significativo de V4 es su mecanismo de atención híbrido, que combina **Compressed Sparse Attention (CSA)** con **Heavily Compressed Attention (HCA)**. Esta innovación resuelve el cuello de botella del KV Cache en contextos largos:\n- **Reducción de Recursos**: El uso de CSA+HCA permite que el modelo maneje un contexto de **1 millón de tokens** utilizando solo el **10% del KV cache** que requeriría la arquitectura de la versión V3.2.\n- **Eficiencia Computacional**: Se ha logrado reducir los FLOPs necesarios para el prefill del contexto a un **27%** respecto a versiones anteriores, acelerando drásticamente la respuesta inicial en documentos extensos.\n\n**Impacto en el Ecosistema**\n\nLanzado bajo una licencia **MIT**, DeepSeek V4 elimina las barreras de uso comercial y modificación, posicionándose como la alternativa open-source más potente para despliegues empresariales que requieran ventanas de contexto masivas sin el costo prohibitivo de las APIs propietarias.\n\n**Fuentes Verificadas:**\n- Hugging Face: [deepseek-ai/DeepSeek-V4-Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro)\n- DeepSeek News: [DeepSeek V4 Preview Release](https://api-docs.deepseek.com/news/news260424)\n- MorphLLM: [DeepSeek V4 Architecture and API Guide](https://www.morphllm.com/deepseek-v4)",
+    "imageUrl": null,
+    "source": "Hugging Face / DeepSeek AI",
+    "originalUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+  },
+  {
     "id": "1778134728358",
     "title": "⚠️ El \"Efecto Amplificador\" de la IA: CVE-2026-26144 y el Secuestro de Copilot",
     "date": "2026-05-07",
