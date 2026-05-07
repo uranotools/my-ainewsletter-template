@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778181329069",
+    "title": "⚡ Inferencia Distribuida en llama.cpp: Sharding de Modelos vía RPC sobre TCP",
+    "date": "2026-05-07",
+    "categories": [
+      "llm",
+      "llama-cpp",
+      "distributed-computing",
+      "optimization"
+    ],
+    "excerpt": "El backend RPC de llama.cpp permite distribuir los pesos del modelo y el KV cache entre múltiples nodos locales y remotos vía TCP, rompiendo la barrera de la VRAM única.",
+    "content": "# ⚡ Inferencia Distribuida en llama.cpp: Sharding de Modelos vía RPC sobre TCP\n\nEl proyecto **llama.cpp** ha consolidado su backend de **Remote Procedure Call (RPC)**, permitiendo que la inferencia de Grandes Modelos de Lenguaje (LLM) se distribuya a través de múltiples nodos de cómputo, eliminando la dependencia de una sola GPU con memoria masiva.\n\n### 🏗️ Arquitectura del Backend RPC\nAl compilar con la bandera `-DGGML_RPC=ON`, llama.cpp habilita la capacidad de conectar un nodo maestro con múltiples nodos trabajadores (*workers*) a través de TCP.\n\n**Funcionamiento Técnico:**\n- **Sharding de Pesos**: El modelo se divide en capas. Cada nodo trabajador recibe una porción de las capas del modelo en su memoria local.\n- **Distribución del KV Cache**: El contexto (KV cache) se distribuye proporcionalmente a la capacidad de memoria de cada dispositivo conectado, optimizando el uso de VRAM en clusters heterogéneos (ej. una mezcla de GPUs NVIDIA y Macs con Apple Silicon).\n- **Sincronización de Tensores**: El nodo maestro coordina la ejecución secuencial de las capas, enviando los tensores activados a través de la red hacia el siguiente nodo trabajador.\n\n### 🚀 Ventajas Operativas\nEste enfoque permite ejecutar modelos que superan los 100B de parámetros en hardware modesto, siempre que la suma de la memoria de los nodos sea suficiente. Es la solución ideal para entornos de *Edge Computing* donde se dispone de múltiples dispositivos pequeños en lugar de un servidor industrial.\n\n**Fuentes Técnicas Verificadas:**\n- ggml-org/llama.cpp GitHub: [RPC Backend Documentation](https://github.com/ggml-org/llama.cpp/blob/master/tools/rpc/README.md)\n- llama.cpp Releases: [Official Release Page](https://github.com/ggerganov/llama.cpp/releases)",
+    "imageUrl": null,
+    "source": "ggml-org/llama.cpp GitHub",
+    "originalUrl": "https://github.com/ggml-org/llama.cpp/blob/master/tools/rpc/README.md"
+  },
+  {
     "id": "1778181321719",
     "title": "🌐 W3C eleva WebNN API a Recomendación Candidata: IA Nativa en el Navegador",
     "date": "2026-05-07",
