@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778150091524",
+    "title": "🛡️ Seguridad en WebGPU: Análisis del Parche para la Vulnerabilidad CVE-2026-5281",
+    "date": "2026-05-07",
+    "categories": [],
+    "excerpt": "Análisis técnico del CVE-2026-5281, una vulnerabilidad de memoria en WebGPU que ponía en riesgo la seguridad de los navegadores.",
+    "content": "# 🛡️ Seguridad en WebGPU: Análisis del Parche para la Vulnerabilidad CVE-2026-5281\n\nSe ha identificado y corregido una vulnerabilidad crítica en la implementación de la API WebGPU en navegadores basados en Chromium, catalogada como **CVE-2026-5281**. El fallo residía en la gestión de memoria y la validación de buffers durante la transferencia de datos entre la CPU y la GPU.\n\nTécnicamente, la vulnerabilidad permitía a un sitio web malicioso realizar accesos fuera de límites (*out-of-bounds*) en la memoria de video, lo que podría derivar en la fuga de datos sensibles de otras pestañas del navegador o, en escenarios más graves, en la ejecución remota de código en el contexto del proceso de la GPU. Google ha desplegado un parche urgente que introduce validaciones estrictas en el *pipeline* de computación de WebGPU y mejora la segregación de memoria en el backend de DirectML y Vulkan. Este incidente subraya la creciente superficie de ataque que representan las APIs de aceleración de hardware en la web a medida que los LLMs locales se vuelven estándar.\n\n**Fuentes Verificadas:**\n- CVE Reports: [CVE-2026-5281 Analysis](https://cvereports.com/reports/CVE-2026-5281)\n- LinkedIn (Harper E. Foley): [AI Security & WebGPU flaw update]\n- Google Security Blog: [Chrome Security Releases May 2026]",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778150082269",
     "title": "🌐 Adiós a Project Mariner: El Pivot de Google hacia la IA Agéntica Integrada",
     "date": "2026-05-07",
