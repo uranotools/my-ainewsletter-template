@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Archive from './pages/Archive';
 import PostView from './pages/PostView';
@@ -7,24 +7,27 @@ import Navbar from './components/Navbar';
 
 function App() {
   useEffect(() => {
-    // Guardar la ruta actual en localStorage para recuperarla después del login de Giscus.
-    const saveCurrentRoute = () => {
-      const searchParams = new URLSearchParams(window.location.search);
-      if (!searchParams.has('giscus')) {
-        localStorage.setItem('giscus_last_route', window.location.pathname + window.location.search + window.location.hash);
+    // 1. Guardar la ruta actual en localStorage para recuperarla después del login de Giscus
+    const handleHashChange = () => {
+      if (window.location.hash && !window.location.hash.includes('giscus')) {
+        localStorage.setItem('giscus_last_route', window.location.hash);
       }
     };
 
-    saveCurrentRoute();
+    window.addEventListener('hashchange', handleHashChange);
+    handleHashChange();
 
-    // Si regresamos de Giscus (?giscus=...) intentamos restaurar la ruta guardada.
+    // 2. Si regresamos de Giscus (?giscus=...) y no hay hash en la URL, 
+    // intentamos restaurar la ruta guardada.
     const searchParams = new URLSearchParams(window.location.search);
-    if (searchParams.has('giscus')) {
-      const savedRoute = localStorage.getItem('giscus_last_route');
-      if (savedRoute) {
-        window.history.replaceState(null, '', savedRoute);
+    if (searchParams.has('giscus') && !window.location.hash) {
+      const savedHash = localStorage.getItem('giscus_last_route');
+      if (savedHash) {
+        window.location.hash = savedHash;
       }
     }
+
+    return () => window.removeEventListener('hashchange', handleHashChange);
   }, []);
 
   return (

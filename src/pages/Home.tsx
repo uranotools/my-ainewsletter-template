@@ -156,17 +156,6 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mb-8">
-          <div className="flex flex-wrap gap-3 items-center bg-card border border-border rounded-3xl p-4 shadow-sm">
-            <span className="text-[11px] uppercase tracking-[0.3em] text-foreground/50">Índice</span>
-            <a href="#featured" className="rounded-full border border-border bg-background px-4 py-2 text-xs font-bold uppercase tracking-[0.25em] text-foreground transition-colors hover:border-foreground/70 hover:text-foreground/90">Destacado</a>
-            <a href="#top-stories" className="rounded-full border border-border bg-background px-4 py-2 text-xs font-bold uppercase tracking-[0.25em] text-foreground transition-colors hover:border-foreground/70 hover:text-foreground/90">Titulares</a>
-            <a href="#sections" className="rounded-full border border-border bg-background px-4 py-2 text-xs font-bold uppercase tracking-[0.25em] text-foreground transition-colors hover:border-foreground/70 hover:text-foreground/90">Secciones</a>
-            <a href="#filters" className="rounded-full border border-border bg-background px-4 py-2 text-xs font-bold uppercase tracking-[0.25em] text-foreground transition-colors hover:border-foreground/70 hover:text-foreground/90">Filtrar</a>
-            <a href="#latest" className="rounded-full border border-border bg-background px-4 py-2 text-xs font-bold uppercase tracking-[0.25em] text-foreground transition-colors hover:border-foreground/70 hover:text-foreground/90">Últimas</a>
-          </div>
-        </div>
-
         <div className="grid gap-6 lg:grid-cols-[1.2fr,0.8fr] mb-12">
           <div className="bg-card border border-border rounded-3xl p-6 shadow-sm">
             <div className="flex items-center justify-between gap-4 mb-6">

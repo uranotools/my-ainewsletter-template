@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { Settings, Moon, Sun, Search } from 'lucide-react';
+import { Link, useLocation } from 'react-router-dom';
+import { Settings, Moon, Sun } from 'lucide-react';
 
 export default function Navbar() {
   const [isDark, setIsDark] = React.useState(() => {
@@ -8,8 +8,9 @@ export default function Navbar() {
     if (saved !== null) {
       return saved === 'dark';
     }
-    return true; // Default dark
+    return true;
   });
+  const location = useLocation();
 
   React.useEffect(() => {
     if (isDark) {
@@ -20,6 +21,19 @@ export default function Navbar() {
       localStorage.setItem('theme', 'light');
     }
   }, [isDark]);
+
+  const scrollToSection = (sectionId: string) => {
+    if (location.pathname !== '/') {
+      window.location.href = '/#/';
+      setTimeout(() => {
+        const element = document.getElementById(sectionId);
+        element?.scrollIntoView({ behavior: 'smooth' });
+      }, 100);
+    } else {
+      const element = document.getElementById(sectionId);
+      element?.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <nav className="border-b-4 border-foreground bg-background sticky top-0 z-50">
@@ -33,18 +47,18 @@ export default function Navbar() {
           </Link>
 
           <div className="hidden md:flex items-center space-x-2 ml-8">
-            <a href="/#featured" className="px-3 py-2 text-sm font-semibold uppercase tracking-[0.2em] text-foreground/80 border border-border rounded-full bg-background transition-colors hover:bg-foreground hover:text-background">
+            <button onClick={() => scrollToSection('featured')} className="px-3 py-2 text-sm font-semibold uppercase tracking-[0.2em] text-foreground/80 border border-border rounded-full bg-background transition-colors hover:bg-foreground hover:text-background cursor-pointer">
               Destacado
-            </a>
-            <a href="/#top-stories" className="px-3 py-2 text-sm font-semibold uppercase tracking-[0.2em] text-foreground/80 border border-border rounded-full bg-background transition-colors hover:bg-foreground hover:text-background">
+            </button>
+            <button onClick={() => scrollToSection('top-stories')} className="px-3 py-2 text-sm font-semibold uppercase tracking-[0.2em] text-foreground/80 border border-border rounded-full bg-background transition-colors hover:bg-foreground hover:text-background cursor-pointer">
               Top stories
-            </a>
-            <a href="/#sections" className="px-3 py-2 text-sm font-semibold uppercase tracking-[0.2em] text-foreground/80 border border-border rounded-full bg-background transition-colors hover:bg-foreground hover:text-background">
+            </button>
+            <button onClick={() => scrollToSection('sections')} className="px-3 py-2 text-sm font-semibold uppercase tracking-[0.2em] text-foreground/80 border border-border rounded-full bg-background transition-colors hover:bg-foreground hover:text-background cursor-pointer">
               Secciones
-            </a>
-            <a href="/#filters" className="px-3 py-2 text-sm font-semibold uppercase tracking-[0.2em] text-foreground/80 border border-border rounded-full bg-background transition-colors hover:bg-foreground hover:text-background">
+            </button>
+            <button onClick={() => scrollToSection('filters')} className="px-3 py-2 text-sm font-semibold uppercase tracking-[0.2em] text-foreground/80 border border-border rounded-full bg-background transition-colors hover:bg-foreground hover:text-background cursor-pointer">
               Filtrar
-            </a>
+            </button>
           </div>
 
           <div className="flex items-center space-x-4">
