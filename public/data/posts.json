@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778131136096",
+    "title": "🤖 Being-H0.7: Razonamiento del Futuro sin Generación de Imágenes en Robótica",
+    "date": "2026-05-07",
+    "categories": [
+      "robotics",
+      "ai",
+      "vla",
+      "world-models"
+    ],
+    "excerpt": "Being-H0.7 introduce un modelo de acción-mundo latente que permite razonar sobre el futuro en robótica sin la necesidad costosa de generar frames de video durante la inferencia.",
+    "content": "# 🤖 Being-H0.7: Razonamiento del Futuro sin Generación de Imágenes en Robótica\n\nUno de los mayores desafíos en la robótica generalista es la capacidad de un agente para razonar sobre el futuro antes de actuar. Los modelos de mundo actuales suelen intentar predecir el futuro generando frames de video (*visual rollout*), un proceso extremadamente costoso computacionalmente y a menudo irrelevante para la acción final.\n\n**El avance técnico: Being-H0.7**\n\nUn nuevo paper publicado en **arXiv (2605.00078)** introduce **Being-H0.7**, un modelo de acción-mundo latente (*Latent World-Action Model*) que permite el razonamiento consciente del futuro sin necesidad de generar imágenes durante la inferencia.\n\n**Arquitectura de Rama Dual (Dual-Branch Design)**\n\nLa innovación reside en cómo el modelo aprende a \"imaginar\" el futuro en un espacio comprimido:\n1. **Rama Posterior (Solo Entrenamiento)**: Durante el entrenamiento, el modelo tiene acceso a las observaciones futuras reales. Esta rama alinea los estados latentes con lo que realmente sucedió.\n2. **Rama Prior (Entrenamiento e Inferencia)**: Esta rama infiere los estados latentes basándose únicamente en el contexto actual.\n\nAl final del entrenamiento, la rama posterior se descarta. El modelo resultante es capaz de realizar un razonamiento en un espacio latente que ya ha sido \"moldeado\" por la información del futuro, permitiendo que el robot actúe con una guía predictiva sin el costo de generar un solo píxel.\n\n**Impacto en el Mundo Real**\nEntrenado con un dataset masivo de videos egocéntricos humanos (200,000 horas) y demostraciones robóticas, Being-H0.7 demuestra una superioridad notable en:\n- **Entornos Dinámicos**: Mayor capacidad de adaptación a cambios rápidos en la escena.\n- **Manipulación de Líquidos y Objetos Deformables**: Tareas donde la predicción del estado futuro es crítica para el éxito.\n- **Eficiencia de Despliegue**: Al eliminar el *visual rollout*, el bucle de inferencia es lo suficientemente ligero para ejecutarse en tiempo real en plataformas robóticas reales.\n\nEste enfoque marca un paso adelante en la escala de la inteligencia encarnada, moviendo el razonamiento del mundo desde la generación visual costosa hacia la computación latente eficiente.\n\n**Fuentes Verificadas:**\n- arXiv: [Being-H0.7: A Latent World-Action Model from Egocentric Videos](https://arxiv.org/abs/2605.00078)\n- BeingBeyond Research: [Being-H0.7 Project Page](https://research.beingbeyond.com/being-h07)\n- Cornell University Library",
+    "imageUrl": "https://cdn.pixabay.com/photo/2016/11/18/155521_1280.jpg",
+    "source": "arXiv / BeingBeyond",
+    "originalUrl": "https://arxiv.org/abs/2605.00078"
+  },
+  {
     "id": "1778131129076",
     "title": "🤖 Being-H0.7: Razonamiento de Mundo Latente para Robótica de Nueva Generación",
     "date": "2026-05-06",
