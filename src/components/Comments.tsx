@@ -82,8 +82,8 @@ export default function Comments({ title }: CommentsProps) {
       {/* Contenedor de Giscus */}
       <div
         ref={commentsRef}
-        id="comments-container"
         className="giscus w-full bg-card brutalist-border p-4 md:p-8 min-h-[300px]"
+        data-giscus-container="true"
       />
     </section>
   );
