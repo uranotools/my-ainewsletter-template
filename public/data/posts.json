@@ -1,5 +1,20 @@
 [
   {
+    "id": "1778197392232",
+    "title": "🚨 Alerta de Seguridad: CVE-2026-0300 en PAN-OS y la vulnerabilidad \\\"Copy Fail\\\" del Kernel de Linux",
+    "date": "2026-05-07",
+    "categories": [
+      "security",
+      "networking",
+      "vulnerabilities"
+    ],
+    "excerpt": "Se reportan vulnerabilidades críticas bajo explotación activa, incluyendo un buffer overflow en PAN-OS (CVSS 9.3) y la falla \\\"Copy Fail\\\" en el kernel de Linux.",
+    "content": "# 🚨 Alerta de Seguridad: CVE-2026-0300 en PAN-OS y la vulnerabilidad \\\"Copy Fail\\\" del Kernel de Linux\n\nSe han identificado vulnerabilidades críticas que afectan la infraestructura de red empresarial y la base misma de los sistemas operativos Linux, algunas de las cuales se encuentran bajo **explotación activa**.\n\n### 🛡️ Palo Alto Networks: CVE-2026-0300\nSe ha emitido una alerta sobre una vulnerabilidad de desbordamiento de búfer (*buffer overflow*) crítica en el software **PAN-OS**. \n- **Severidad**: CVSS 9.3.\n- **Vector de Ataque**: Afecta específicamente a las instancias donde el Portal de Autenticación de User-ID es accesible desde internet o redes no confiables.\n- **Impacto**: Permite a atacantes remotos ejecutar código arbitrario, comprometiendo el firewall perimetral de la organización. Palo Alto ha confirmado una \\\"explotación limitada\\\" de este fallo.\n\n### 🐧 Linux Kernel: CVE-2026-31431 (\\\"Copy Fail\\\")\nUna falla crítica denominada **\\\"Copy Fail\\\"** ha sido detectada en el kernel de Linux. Lo más alarmante es que este defecto ha estado presente desde 2017, permaneciendo oculto hasta su reciente detección y explotación.\n- **Naturaleza**: Error de gestión de memoria en el núcleo del sistema.\n- **Riesgo**: Al ser una vulnerabilidad a nivel de kernel, permite la escalada de privilegios y la ejecución de código con los permisos más altos del sistema, afectando a prácticamente cualquier servidor o dispositivo que corra Linux sin los parches actualizados.\n\n### ⚠️ Recomendaciones de Mitigación\n1. **Actualización Inmediata**: Aplicar los parches de seguridad de PAN-OS y actualizar la versión del kernel de Linux a la rama estable más reciente.\n2. **Restricción de Acceso**: Deshabilitar o restringir mediante ACLs el acceso público a los portales de autenticación de User-ID en equipos Palo Alto.\n3. **Monitoreo de Anomalías**: Revisar logs de acceso inusuales en el plano de control de la red.\n\n**Fuentes Técnicas Verificadas:**\n- PurpleOps Threat Intelligence: [Critical Cybersecurity Vulnerabilities, Supply Chain & AI Exploits](https://purple-ops.io/blog/cybersecurity-vulnerability-exploits-may-06)",
+    "imageUrl": null,
+    "source": "PurpleOps",
+    "originalUrl": "https://purple-ops.io/blog/cybersecurity-vulnerability-exploits-may-06"
+  },
+  {
     "id": "1778197385431",
     "title": "🌐 W3C impulsa la IA en el Navegador: Nueva Recomendación de la API WebNN",
     "date": "2026-05-07",
