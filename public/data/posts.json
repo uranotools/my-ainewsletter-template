@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778160711822",
+    "title": "⚡ NVIDIA Nemotron-3 Nano Omni: El Futuro de los Agentes Multimodales en el Edge",
+    "date": "2026-05-07",
+    "categories": [
+      "hardware",
+      "nvidia",
+      "multimodal",
+      "ai-agents"
+    ],
+    "excerpt": "NVIDIA lanza Nemotron-3 Nano Omni, un modelo multimodal ultra-eficiente diseñado para agentes de IA autónomos en hardware local.",
+    "content": "# ⚡ NVIDIA Nemotron-3 Nano Omni: El Futuro de los Agentes Multimodales en el Edge\n\nNVIDIA ha anunciado el lanzamiento de **Nemotron-3 Nano Omni**, un modelo multimodal diseñado específicamente para potenciar agentes de IA autónomos en dispositivos de borde (*Edge Computing*). Este lanzamiento marca un salto significativo hacia la capacidad de los dispositivos locales para procesar visión, audio y texto en tiempo real sin depender de la nube.\n\n### Especificaciones Técnicas y Capacidades:\n- **Arquitectura Omni-Modal**: A diferencia de los modelos que utilizan codificadores separados para cada modalidad, Nemotron-3 Nano Omni utiliza una arquitectura unificada que permite una comprensión más fluida y contextual de la interacción entre imágenes, sonidos y lenguaje.\n- **Optimización para Hardware NVIDIA**: El modelo está optimizado para ejecutarse en GPUs de arquitectura Blackwell y Rubin, maximizando el throughput de tokens por segundo mediante el uso de cuantización avanzada y kernels de atención optimizados.\n- **Agentes Autónomos**: Está diseñado para servir como el \"cerebro\" de agentes que pueden interactuar con el mundo físico, procesando entradas sensoriales complejas y generando respuestas precisas con latencia ultra baja.\n- **Eficiencia Energética**: Gracias a su tamaño \"Nano\", el modelo reduce drásticamente el consumo de energía, permitiendo su despliegue en estaciones de trabajo compactas y sistemas embebidos industriales.\n\nEste lanzamiento posiciona a NVIDIA no solo como un proveedor de hardware, sino como el arquitecto del software necesario para que la IA multimodal sea omnipresente y eficiente en el hardware local.\n\n**Fuentes Verificadas:**\n- NVIDIA Blog: [Nemotron-3 Nano Omni Multimodal AI Agents](https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/)\n- NVIDIA Developer Portal: [Blackwell & Rubin Software Stack 2026](https://developer.nvidia.com/)\n- AI Business: [Nvidia releases Rubin platform and open models](https://aibusiness.com/generative-ai/nvidia-intros-new-ai-chips-and-open-models)",
+    "imageUrl": null,
+    "source": "NVIDIA",
+    "originalUrl": "https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/"
+  },
+  {
     "id": "1778157127695",
     "title": "🚀 Transformers v5: La Nueva Era de Definiciones de Modelos Simplificadas",
     "date": "2026-05-07",
