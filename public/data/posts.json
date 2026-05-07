@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778157127695",
+    "title": "🚀 Transformers v5: La Nueva Era de Definiciones de Modelos Simplificadas",
+    "date": "2026-05-07",
+    "categories": [
+      "software",
+      "machine-learning",
+      "open-source",
+      "huggingface"
+    ],
+    "excerpt": "Hugging Face lanza Transformers v5, rediseñando la definición de modelos para lograr mayor simplicidad, menor código y optimización en inferencia.",
+    "content": "# 🚀 Transformers v5: La Nueva Era de Definiciones de Modelos Simplificadas\n\nHugging Face ha lanzado la versión **Transformers v5**, marcando un hito estructural en la forma en que se definen y despliegan los modelos de IA en el ecosistema abierto. Esta actualización no es solo una mejora incremental, sino una reingeniería enfocada en la **simplicidad, la reducción de código y la estandarización**.\n\n### Innovaciones Técnicas Clave:\n- **Reducción Masiva de Código**: v5 introduce una arquitectura de definiciones de modelos mucho más compacta, eliminando redundancias históricas en la implementación de capas y facilitando la adición de nuevas arquitecturas sin necesidad de escribir cientos de líneas de código repetitivo.\n- **Estandarización de Definiciones**: Se ha implementado un sistema modular para la definición de modelos, lo que permite una compatibilidad más fluida entre diferentes frameworks de entrenamiento e inferencia.\n- **Optimización de Inferencia y Cuantización**: La nueva versión optimiza la integración con herramientas de cuantización modernas, permitiendo que modelos masivos se ejecuten en hardware más limitado con una degradación mínima del rendimiento.\n- **Tooling de Conversión**: Se han incluido nuevas herramientas para convertir pesos de modelos desde formatos propietarios o experimentales hacia el estándar de Transformers v5 de manera automatizada.\n\nEste lanzamiento consolida a la librería `transformers` como el \"sistema operativo\" de los modelos de lenguaje, reduciendo la fricción entre la investigación académica y el despliegue en producción.\n\n**Fuentes Verificadas:**\n- Hugging Face Blog: [Transformers v5: Simple model definitions powering the AI ecosystem](https://huggingface.co/blog/transformers-v5)\n- GitHub: [huggingface/transformers releases](https://github.com/huggingface/transformers/releases)\n- vLLM Integration Notes: [Compatibility with Transformers v5](https://github.com/vllm-project/vllm/releases)",
+    "imageUrl": null,
+    "source": "Hugging Face",
+    "originalUrl": "https://huggingface.co/blog/transformers-v5"
+  },
+  {
     "id": "1778157119653",
     "title": "🛡️ EE.UU. Implementa Pruebas de Seguridad Obligatorias para Modelos de IA \"Frontier\"",
     "date": "2026-05-07",
