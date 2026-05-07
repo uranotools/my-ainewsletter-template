@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778140561468",
+    "title": "📉 El fin de Project Mariner: Google pivota de la automatización del navegador hacia la integración de flujos",
+    "date": "2026-05-07",
+    "categories": [
+      "agents",
+      "google",
+      "gemini",
+      "browser-automation"
+    ],
+    "excerpt": "Google cierra su experimento de agente de navegación web Project Mariner para absorber su tecnología en Gemini Agent, marcando un cambio estratégico en la arquitectura de agentes.",
+    "content": "# 📉 El fin de Project Mariner: Google pivota de la automatización del navegador hacia la integración de flujos\n\nEn un movimiento que marca un cambio estratégico en la visión de los agentes de IA, Google ha anunciado el cierre oficial de **Project Mariner**, su experimento de agente de navegación web, efectivo desde el 4 de mayo de 2026.\n\n**¿Qué era Project Mariner?**\nLanzado originalmente en diciembre de 2024, Project Mariner era un agente diseñado para \"surfear\" la web en nombre del usuario. Podía navegar por sitios, completar formularios, realizar investigaciones comparativas y ejecutar hasta 10 tareas simultáneamente a través de Chrome. Era la promesa de un \"asistente que hace el trabajo sucio en el navegador\".\n\n**El Giro Estratégico: De la Navegación al Flujo**\nEl cierre de Mariner no significa que la tecnología haya desaparecido, sino que Google ha decidido que la **automatización pura del navegador es demasiado inestable y caótica** para el usuario final. En su lugar, la tecnología de Mariner ha sido absorbida por:\n- **Gemini Agent**: Integrando la capacidad de acción directamente en el asistente, eliminando la fricción de una interfaz de \"navegador autónomo\" separada.\n- **AI Mode**: Un enfoque centrado en flujos de trabajo integrados donde la IA interactúa con la web como una herramienta más, y no como el centro de la experiencia.\n\n**Análisis: El Mercado de Agentes en 2026**\nEste cierre refleja una tendencia general en la industria: el paso de los \"Browser Agents\" (que intentan imitar el comportamiento humano haciendo clics en DOMs inestables) hacia los \"Workflow Agents\" (que utilizan APIs y capas de abstracción más robustas). Google ha comprendido que la fiabilidad de un agente no reside en su capacidad de navegar por el HTML de cualquier web, sino en su capacidad de integrarse en el flujo de trabajo del usuario.\n\n**Fuentes Verificadas:**\n- The Verge: [Google shuts down Project Mariner](https://www.theverge.com/tech/925559/google-project-mariner-shut-down)\n- Startup Fortune: [Google’s Mariner shutdown shows the agent market is pivoting](https://startupfortune.com/googles-mariner-shutdown-shows-the-agent-market-is-pivoting-from-browser-chaos-to-workflow-integration/)\n- Intellectia: [Google terminates Project Mariner](https://intellectia.ai/news/stock/google-shuts-down-project-mariner)",
+    "imageUrl": null,
+    "source": "The Verge / Startup Fortune",
+    "originalUrl": "https://www.theverge.com/tech/925559/google-project-mariner-shut-down"
+  },
+  {
     "id": "1778140554979",
     "title": "🚀 DeepSeek V4: El nuevo gigante MoE de 1.6T parámetros llega a Hugging Face",
     "date": "2026-05-07",
