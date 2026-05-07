@@ -1,5 +1,20 @@
 [
   {
+    "id": "1778131197181",
+    "title": "💡 ROSA: Redes Neuronales Ópticas Eficientes basadas en Microrings",
+    "date": "2026-05-06",
+    "categories": [
+      "hardware",
+      "optical-computing",
+      "ai-accelerators"
+    ],
+    "excerpt": "ROSA implementa redes neuronales ópticas basadas en microrings con un consumo energético 54.7% menor que las arquitecturas convencionales.",
+    "content": "# 💡 ROSA: Redes Neuronales Ópticas Eficientes basadas en Microrings\n\nA medida que la demanda de cómputo para la IA crece, la arquitectura tradicional de Von Neumann y el consumo energético de las GPUs se han vuelto cuellos de botella críticos. La computación fotónica surge como la alternativa más prometedora para ejecutar operaciones matriciales a la velocidad de la luz y con un consumo energético mínimo.\n\n**El avance técnico: ROSA**\n\nInvestigadores han presentado **ROSA**, una arquitectura de redes neuronales ópticas (ONN) basada en microrings (MRR) que soluciona los problemas de robustez y eficiencia energética comunes en la fotónica integrada. \n\n**Tres Pilares de la Arquitectura ROSA:**\n1. **Módulo Optical Shift-and-Add (OSA)**: Reduce la necesidad de costosas conversiones digital-análogo-óptico al realizar la mayor parte de la acumulación directamente en el dominio óptico.\n2. **Modo de Cómputo Digital-Análogo**: Mitiga el cuello de botella del sintonizado térmico lento de los microrings, permitiendo un alto throughput mediante una representación híbrida de pesos.\n3. **Mapeo Híbrido por Capas**: Mejora la robustez frente al ruido térmico, permitiendo una cuantización de bits más alta para los valores de los microrings.\n\n**Impacto en Rendimiento**\nEn pruebas con el dataset CIFAR-10, la estrategia de mapeo híbrido de ROSA mejoró la precisión en un **8.3%** respecto al mapeo estacionario de pesos, mientras que el consumo de energía (EDP) fue un **54.7% menor** que en las arquitecturas DEAP-CNN.\n\nEste desarrollo acerca a la computación óptica a una viabilidad comercial, ofreciendo una ruta hacia aceleradores de IA que no dependen del silicio electrónico tradicional.\n\n**Fuentes Verificadas:**\n- arXiv: [ROSA: Robust and Energy-Efficient Microring-Based Optical Neural Networks via Optical Shift-and-Add and Layer-Wise Hybrid Mapping](https://arxiv.org/abs/2605.00032)\n- PDF Directo: [arXiv:2605.00032](https://arxiv.org/pdf/2605.00032)\n- Cornell University Library",
+    "imageUrl": "https://cdn.pixabay.com/photo/2016/11/18/155521_1280.jpg",
+    "source": "arXiv / Cornell University",
+    "originalUrl": "https://arxiv.org/abs/2605.00032"
+  },
+  {
     "id": "1778131190618",
     "title": "🤖 ScanHD: Optimización de Inspección Robótica mediante Computación Hiperdimensional",
     "date": "2026-05-06",
