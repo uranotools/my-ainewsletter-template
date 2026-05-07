@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Archive from './pages/Archive';
@@ -5,6 +6,30 @@ import PostView from './pages/PostView';
 import Navbar from './components/Navbar';
 
 function App() {
+  useEffect(() => {
+    // 1. Guardar la ruta actual en localStorage para recuperarla después del login de Giscus
+    const handleHashChange = () => {
+      if (window.location.hash && !window.location.hash.includes('giscus')) {
+        localStorage.setItem('giscus_last_route', window.location.hash);
+      }
+    };
+
+    window.addEventListener('hashchange', handleHashChange);
+    handleHashChange();
+
+    // 2. Si regresamos de Giscus (?giscus=...) y no hay hash en la URL, 
+    // intentamos restaurar la ruta guardada.
+    const searchParams = new URLSearchParams(window.location.search);
+    if (searchParams.has('giscus') && !window.location.hash) {
+      const savedHash = localStorage.getItem('giscus_last_route');
+      if (savedHash) {
+        window.location.hash = savedHash;
+      }
+    }
+
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, []);
+
   return (
     <Router>
       <div className="min-h-screen flex flex-col">

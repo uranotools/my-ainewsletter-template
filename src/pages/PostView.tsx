@@ -5,6 +5,7 @@ import { MarkdownRenderer } from '../lib/markdown';
 import { formatPostDate } from '../lib/utils';
 import { POSTS_JSON_URL } from '../config';
 import type { Post } from '../types/Post';
+import Comments from '../components/Comments';
 
 export default function PostView() {
   const { id } = useParams<{ id: string }>();
@@ -43,6 +44,27 @@ export default function PostView() {
         setLoading(false);
       });
   }, [id]);
+
+  useEffect(() => {
+    if (post) {
+      // Actualizar el título de la pestaña
+      document.title = `${post.title} | Urano AI News`;
+      
+      // Actualizar el meta tag og:title (crucial para Giscus mapping="title")
+      let ogTitle = document.querySelector('meta[property="og:title"]');
+      if (!ogTitle) {
+        ogTitle = document.createElement('meta');
+        ogTitle.setAttribute('property', 'og:title');
+        document.head.appendChild(ogTitle);
+      }
+      ogTitle.setAttribute('content', post.title);
+
+      // Limpieza al desmontar
+      return () => {
+        document.title = "Urano AI News";
+      };
+    }
+  }, [post]);
 
   if (loading) {
     return (
@@ -164,6 +186,9 @@ export default function PostView() {
           </div>
         </div>
       )}
+
+      {/* Sección de Comentarios */}
+      <Comments title={post.title} />
     </article>
   );
 }

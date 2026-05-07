@@ -89,3 +89,29 @@ Ingresa el PIN que definiste en tu archivo `.env` para desbloquear las funciones
 3. Asegúrate de que `Source` esté en `Deploy from a branch`.
 4. En **Branch**, selecciona `gh-pages` y guarda.
 5. El sitio estará disponible después de la ejecución exitosa de la Action.
+
+
+## Sistema de comentarios gracias a Giscus
+
+- https://giscus.app/
+- https://github.com/apps/giscus
+- https://docs.giscus.app/deploy/
+
+### Configuración del repositorio para Giscus
+
+1. Ve a tu repositorio en GitHub y busca la pestaña **Settings**.
+2. En el menú lateral, busca **General** -> **Features** y expande **Pages**.
+3. Busca **Comments (Giscus)** y haz clic en **"Install Giscus"**.
+4. Selecciona tu repositorio y confirma la instalación.
+5. Sigue las instrucciones para configurar el repositorio en Giscus.
+6. Una vez instalado, ve a la pestaña **Settings** -> **General** -> **Features** -> **Comments (Giscus)** y haz clic en **"Configure in Settings"**.
+7. Configura las opciones de Giscus según tus preferencias.
+8. Una vez configurado, ve a la pestaña **Settings** -> **Pages** y busca **Comments (Giscus)**. Verás un mensaje de confirmación.
+9. En el archivo `.env` del proyecto, añade las variables de entorno necesarias:
+   ```env
+   VITE_GISCUSS_REPO=tu_usuario/tu_repositorio
+   VITE_GISCUSS_REPO_ID=tu_repo_id
+   VITE_GISCUSS_CATEGORY=tu_categoria
+   VITE_GISCUSS_CATID=tu_categoria_id
+   ```
+   Puedes obtener estos valores en la configuración de Giscus en GitHub.
