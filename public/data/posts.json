@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778167955332",
+    "title": "🏗️ RISC-V y la Era del \"Soberano Silicio\": WebNN y NPUs impulsan la IA en el Edge (2026)",
+    "date": "2026-05-07",
+    "categories": [
+      "hardware",
+      "riscv",
+      "edge-ai",
+      "web-standards"
+    ],
+    "excerpt": "La convergencia de la arquitectura abierta RISC-V, el estándar WebNN y la integración de NPUs personalizadas está permitiendo que la inferencia de LLMs se ejecute nativamente en el navegador y en hardware local especializado.",
+    "content": "# 🏗️ RISC-V y la Era del \"Soberano Silicio\": WebNN y NPUs impulsan la IA en el Edge (2026)\n\nEn 2026, estamos presenciando un cambio fundamental en la arquitectura de hardware para la IA. El concepto de \"Soberano Silicio\" ha dejado de ser una aspiración para convertirse en una realidad técnica, especialmente en la robótica y los sistemas embebidos.\n\n### 🚀 El Ascenso de los Núcleos RISC-V Personalizados\nYa no basta con utilizar CPUs genéricas. Las empresas de robótica y Edge AI están licenciando núcleos **RISC-V** para añadir extensiones vectoriales personalizadas y **NPUs (Neural Processing Units)** integradas. Esta tendencia permite optimizar el throughput de tokens y reducir la latencia en tareas de inferencia local, eliminando la dependencia de nubes externas para el control en tiempo real.\n\n### 🌐 WebNN y la IA en la Web Abierta\nUn hito técnico clave presentado en FOSDEM 2026 es la implementación de **WebNN y WebLLM sobre plataformas RISC-V**. Gracias al soporte de **WebGPU** y la ISA de vectores **RVV 1.0**, ahora es posible ejecutar modelos de lenguaje (LLMs) directamente en el navegador sobre hardware abierto. Esto cierra la brecha de aceleración entre la web y el hardware nativo, permitiendo que aplicaciones web complejas utilicen la potencia de la NPU local sin capas de abstracción costosas.\n\n### 🚗 Hacia la IA Automotriz y Robótica Nativa\nLa madurez de este ecosistema se ha reflejado en eventos como *Embedded World 2026*, donde se han presentado implementaciones de RISC-V de grado automotriz y \"AI-Native\". La capacidad de integrar el control de movimiento y la percepción visual en un solo chip optimizado es el motor que está impulsando la nueva generación de robots autónomos.\n\n**Fuentes Técnicas Verificadas:**\n- RoboCloud Insights: [Edge AI Hardware 2026: The Rise of RISC-V & NPUs](https://robocloud-dashboard.vercel.app/learn/blog/edge-ai-hardware-2026)\n- FOSDEM 2026: [WebNN & WebLLM on RISC-V - Bringing AI to the Open Web](https://www.youtube.com/watch?v=xGhvPsKHmrQ)\n- RISC-V International: [Production-Ready, Automotive-Grade, AI-Native: RISC-V at Embedded World 2026](https://riscv.org/blog/category/news/)",
+    "imageUrl": "/assets/images/1778167948047-268517_Samsung_Galaxy_Book6_Ultra_ADiBenedetto_0001.jpg",
+    "source": "RISC-V International / FOSDEM 2026",
+    "originalUrl": "https://riscv.org/blog/category/news/"
+  },
+  {
     "id": "1778160727773",
     "title": "💎 Google DeepMind lanza la familia de modelos abiertos Gemma 4",
     "date": "2026-05-07",
