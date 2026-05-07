@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778160719951",
+    "title": "🛠️ Anthropic propone \"Agent Skills\" como Estándar Abierto para Interoperabilidad de IA",
+    "date": "2026-05-07",
+    "categories": [
+      "open-standard",
+      "ai-agents",
+      "anthropic",
+      "interoperability"
+    ],
+    "excerpt": "Anthropic lanza \"Agent Skills\", un estándar abierto para que los agentes de IA sean interoperables y compartan habilidades entre diferentes modelos.",
+    "content": "# 🛠️ Anthropic propone \"Agent Skills\" como Estándar Abierto para Interoperabilidad de IA\n\nEn un movimiento estratégico hacia la estandarización, Anthropic ha lanzado la iniciativa **Agent Skills**, un estándar abierto diseñado para definir cómo los agentes de IA deben interactuar con herramientas externas, APIs y otros agentes, independientemente del modelo que los impulse.\n\n### Detalles del Estándar Agent Skills:\n- **Interoperabilidad Universal**: El objetivo es evitar el \"lock-in\" de proveedores. Al definir un esquema estándar de habilidades (*skills*), un agente desarrollado para un modelo específico podría transferir sus capacidades a otro modelo sin necesidad de re-programar todas las integraciones.\n- **Esquema de Definición de Herramientas**: Propone un lenguaje descriptivo común para que el modelo comprenda exactamente qué hace una herramienta, qué parámetros requiere y cómo interpretar la respuesta, reduciendo los errores de ejecución (*tool-use hallucinations*).\n- **Seguridad y Gobernanza**: El estándar incluye capas de validación para asegurar que las acciones ejecutadas por los agentes sean seguras y auditables, estableciendo permisos claros sobre qué \"habilidades\" puede activar un agente en un entorno dado.\n- **Repositorio Abierto**: La especificación ha sido liberada en GitHub, invitando a la comunidad y a otras empresas de IA a contribuir para crear un ecosistema de agentes verdaderamente modular.\n\nEste paso es crucial para la evolución de la IA, moviéndola desde simples chatbots hacia sistemas operativos de agentes que puedan colaborar entre sí y utilizar el mismo conjunto de herramientas globales.\n\n**Fuentes Verificadas:**\n- GitHub Repository: [agentskills/agentskills](https://github.com/agentskills/agentskills)\n- Anthropic News: [Introducing Agent Skills Standard](https://www.anthropic.com/news)\n- AI Business: [Anthropic releases Agent Skills as an open standard](https://aibusiness.com/foundation-models/anthropic-agent-skills-standard)",
+    "imageUrl": null,
+    "source": "Anthropic",
+    "originalUrl": "https://github.com/agentskills/agentskills"
+  },
+  {
     "id": "1778160711822",
     "title": "⚡ NVIDIA Nemotron-3 Nano Omni: El Futuro de los Agentes Multimodales en el Edge",
     "date": "2026-05-07",
