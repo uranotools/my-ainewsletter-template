@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778179287236",
+    "title": "⚠️ Alerta Crítica: Vulnerabilidad en WatchGuard Agent permite privilegios SYSTEM en Windows",
+    "date": "2026-05-07",
+    "categories": [
+      "security",
+      "windows",
+      "vulnerability",
+      "watchguard"
+    ],
+    "excerpt": "Una vulnerabilidad de alta severidad en el agente de WatchGuard permite la escalada de privilegios a nivel SYSTEM en Windows, otorgando control total del equipo al atacante.",
+    "content": "# ⚠️ Alerta Crítica: Vulnerabilidad en WatchGuard Agent permite privilegios SYSTEM en Windows\n\nSe ha detectado una vulnerabilidad de alta severidad en el agente de **WatchGuard** que permite a un atacante local escalar privilegios hasta obtener el control total del sistema operativo Windows (**Full SYSTEM Privileges**).\n\n### 🔍 Análisis Técnico\nEl fallo se encuentra en la gestión de permisos y la comunicación entre el agente de seguridad y el núcleo del sistema. Un usuario con acceso limitado puede explotar esta falla para ejecutar código con los niveles de privilegio más altos del sistema, saltándose todas las restricciones de seguridad locales.\n\nEste tipo de vulnerabilidades son especialmente peligrosas ya que, una vez que el atacante obtiene privilegios SYSTEM, puede:\n- Instalar software malicioso (rootkits) indetectables.\n- Acceder a cualquier dato almacenado en el equipo.\n- Deshabilitar otras herramientas de seguridad y antivirus.\n\n### 🛡️ Recomendaciones\nSe insta a todos los administradores de red y usuarios de WatchGuard a actualizar sus agentes a la última versión disponible inmediatamente. La monitorización de logs de eventos de Windows en busca de procesos inusuales ejecutados bajo la cuenta SYSTEM es fundamental para detectar intentos de explotación.\n\n**Fuentes Técnicas Verificadas:**\n- Daily CyberSecurity: [High-Severity WatchGuard Agent Flaws Grant Full SYSTEM Privileges on Windows](https://securityonline.info/watchguard-agent-windows-privilege-escalation-cve-2026-6787-system-takeover/)\n- CVE-2026-6787 Analysis.",
+    "imageUrl": null,
+    "source": "Daily CyberSecurity / CVE Watchtower",
+    "originalUrl": "https://securityonline.info/watchguard-agent-windows-privilege-escalation-cve-2026-6787-system-takeover/"
+  },
+  {
     "id": "1778179280199",
     "title": "🌟 Google I/O 2026: Android 17, Gemini 4 y el Debut de \"Aluminium OS\"",
     "date": "2026-05-07",
