@@ -105,7 +105,7 @@ Ingresa el PIN que definiste en tu archivo `.env` para desbloquear las funciones
 4. Selecciona tu repositorio y confirma la instalación.
 5. Sigue las instrucciones para configurar el repositorio en Giscus.
 6. Una vez instalado, ve a la pestaña **Settings** -> **General** -> **Features** -> **Comments (Giscus)** y haz clic en **"Configure in Settings"**.
-7. Configura las opciones de Giscus según tus preferencias.
+7. Configura las opciones de Giscus según tus preferencias. 
 8. Una vez configurado, ve a la pestaña **Settings** -> **Pages** y busca **Comments (Giscus)**. Verás un mensaje de confirmación.
 9. En el archivo `.env` del proyecto, añade las variables de entorno necesarias:
    ```env
