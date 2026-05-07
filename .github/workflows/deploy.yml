@@ -26,6 +26,12 @@ jobs:
 
       - name: Build project
         run: npm run build
+        env:
+          VITE_GISCUSS_REPO: ${{ secrets.VITE_GISCUSS_REPO }}
+          VITE_GISCUSS_REPO_ID: ${{ secrets.VITE_GISCUSS_REPO_ID }}
+          VITE_GISCUSS_CATEGORY: ${{ secrets.VITE_GISCUSS_CATEGORY }}
+          VITE_GISCUSS_CATID: ${{ secrets.VITE_GISCUSS_CATID }}
+          VITE_EDITOR_PIN: ${{ secrets.VITE_EDITOR_PIN }}
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
