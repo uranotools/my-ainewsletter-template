@@ -10,18 +10,32 @@ export default function Comments({ title }: CommentsProps) {
   useEffect(() => {
     if (!title) return;
 
-    // 1. Limpiar el contenedor antes de inyectar (importante en React/Vite HMR)
+    const repo = import.meta.env.VITE_GISCUSS_REPO || '';
+    const repoId = import.meta.env.VITE_GISCUSS_REPO_ID || '';
+    const category = import.meta.env.VITE_GISCUSS_CATEGORY || '';
+    const categoryId = import.meta.env.VITE_GISCUSS_CATID || '';
+
+    // Validar que tenemos los datos mínimos requeridos
+    if (!repo || !repoId || !category || !categoryId) {
+      console.warn('Giscus: Faltan variables de entorno. Comentarios deshabilitados.');
+      if (commentsRef.current) {
+        commentsRef.current.innerHTML = '<p class="text-foreground/60 text-sm">Los comentarios no están disponibles en este momento.</p>';
+      }
+      return;
+    }
+
+    // Limpiar el contenedor antes de inyectar
     if (commentsRef.current) {
       commentsRef.current.innerHTML = '';
     }
 
-    // 3. Crear e inyectar el script de Giscus
+    // Crear e inyectar el script de Giscus
     const script = document.createElement('script');
     script.src = "https://giscus.app/client.js";
-    script.setAttribute('data-repo', import.meta.env.VITE_GISCUSS_REPO || '');
-    script.setAttribute('data-repo-id', import.meta.env.VITE_GISCUSS_REPO_ID || '');
-    script.setAttribute('data-category', import.meta.env.VITE_GISCUSS_CATEGORY || '');
-    script.setAttribute('data-category-id', import.meta.env.VITE_GISCUSS_CATID || '');
+    script.setAttribute('data-repo', repo);
+    script.setAttribute('data-repo-id', repoId);
+    script.setAttribute('data-category', category);
+    script.setAttribute('data-category-id', categoryId);
     script.setAttribute('data-mapping', 'title');
     script.setAttribute('data-strict', '0');
     script.setAttribute('data-reactions-enabled', '1');
@@ -30,8 +44,17 @@ export default function Comments({ title }: CommentsProps) {
     script.setAttribute('data-theme', 'dark');
     script.setAttribute('data-lang', 'es');
     script.setAttribute('data-loading', 'lazy');
+    script.setAttribute('data-allow-guest', '1');
     script.crossOrigin = "anonymous";
     script.async = true;
+
+    // Mejor manejo de errores
+    script.onerror = () => {
+      console.error('Giscus: Error al cargar el script');
+      if (commentsRef.current) {
+        commentsRef.current.innerHTML = '<p class="text-foreground/60 text-sm">Error al cargar los comentarios. Intenta recargar la página.</p>';
+      }
+    };
 
     if (commentsRef.current) {
       commentsRef.current.appendChild(script);

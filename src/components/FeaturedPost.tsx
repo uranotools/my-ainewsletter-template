@@ -11,24 +11,24 @@ interface FeaturedPostProps {
 export default function FeaturedPost({ post, onClick }: FeaturedPostProps) {
   return (
     <div 
-      className="relative flex flex-col md:flex-row brutalist-border brutalist-shadow-hover bg-card cursor-pointer group mb-12 transition-all"
+      className="relative flex flex-col xl:flex-row brutalist-border brutalist-shadow-hover bg-card cursor-pointer group mb-12 transition-all"
       onClick={onClick}
     >
-      <div className="w-full md:w-1/2 border-b-4 md:border-b-0 md:border-r-4 border-foreground overflow-hidden relative">
+      <div className="w-full xl:w-[45%] border-b-4 xl:border-b-0 xl:border-r-4 border-foreground overflow-hidden relative">
         <div className="absolute top-4 left-4 z-20 bg-primary text-primary-foreground font-bold px-3 py-1 border-2 border-foreground uppercase tracking-widest text-sm transform -rotate-2">
           Destacado
         </div>
         <img 
           src={post.image || post.imageUrl || 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1600'} 
           alt={post.title} 
-          className="w-full h-[400px] md:h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-500"
+          className="w-full h-[400px] xl:h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-500"
           onError={(e) => {
             (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1600';
           }}
         />
       </div>
       
-      <div className="w-full md:w-1/2 p-8 md:p-12 flex flex-col justify-between bg-background">
+      <div className="w-full xl:w-[55%] p-8 md:p-12 flex flex-col justify-between bg-background">
         <div>
           <div className="flex flex-wrap items-center gap-4 mb-6">
             <div className="flex flex-wrap gap-2">
@@ -44,7 +44,7 @@ export default function FeaturedPost({ post, onClick }: FeaturedPostProps) {
             </div>
           </div>
           
-          <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-foreground mb-6 leading-[0.9] group-hover:text-primary transition-colors">
+          <h2 className="font-display text-4xl md:text-5xl lg:text-6xl xl:text-6xl 2xl:text-7xl text-foreground mb-6 leading-[0.95] tracking-tight break-words max-w-full group-hover:text-primary transition-colors">
             {post.title}
           </h2>
           

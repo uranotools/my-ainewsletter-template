@@ -2,10 +2,15 @@ import React from 'react';
 import { Search, Calendar as CalendarIcon, X } from 'lucide-react';
 import { cn } from '../lib/utils';
 
+interface CategoryCount {
+  category: string;
+  count: number;
+}
+
 interface FiltersProps {
   searchQuery: string;
   setSearchQuery: (q: string) => void;
-  categories: string[];
+  categoryCounts: CategoryCount[];
   selectedCategories: string[];
   toggleCategory: (c: string) => void;
 }
@@ -13,7 +18,7 @@ interface FiltersProps {
 export default function Filters({
   searchQuery,
   setSearchQuery,
-  categories,
+  categoryCounts,
   selectedCategories,
   toggleCategory
 }: FiltersProps) {
@@ -42,24 +47,44 @@ export default function Filters({
         </div>
       </div>
       
-      {categories.length > 0 && (
+      {categoryCounts.length > 0 && (
         <div className="mt-6 pt-6 border-t border-border">
-          <h4 className="text-xs font-semibold uppercase tracking-wider text-foreground/50 mb-3">Categorías</h4>
+          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-3 mb-3">
+            <div>
+              <h4 className="text-xs font-semibold uppercase tracking-wider text-foreground/50">Categorías / Tags</h4>
+              <p className="text-[11px] text-foreground/50 mt-1">El relleno indica qué tan presente está cada tema en tus noticias.</p>
+            </div>
+            <span className="text-[11px] uppercase tracking-[0.25em] text-foreground/50">{categoryCounts.length} temas activos</span>
+          </div>
           <div className="flex flex-wrap gap-2">
-            {categories.map((cat) => {
-              const isSelected = selectedCategories.includes(cat);
+            {categoryCounts.map(({ category, count }) => {
+              const isSelected = selectedCategories.includes(category);
+              const maxCount = Math.max(...categoryCounts.map((item) => item.count), 1);
+              const progress = Math.round((count / maxCount) * 100);
               return (
                 <button
-                  key={cat}
-                  onClick={() => toggleCategory(cat)}
+                  key={category}
+                  onClick={() => toggleCategory(category)}
                   className={cn(
-                    "px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-200 border",
-                    isSelected 
-                      ? "bg-primary text-primary-foreground border-primary" 
-                      : "bg-background text-foreground/70 border-border hover:border-foreground/30 hover:text-foreground"
+                    "relative overflow-hidden rounded-full border px-3 py-1.5 text-xs font-medium transition-all duration-200 min-w-max",
+                    isSelected
+                      ? "border-primary bg-primary text-primary-foreground"
+                      : "border-border bg-background text-foreground/80 hover:border-foreground/40 hover:text-foreground"
                   )}
                 >
-                  {cat}
+                  <span
+                    className={cn(
+                      "absolute inset-y-0 left-0 rounded-full bg-primary/20",
+                      isSelected ? 'bg-primary/30' : 'bg-primary/10'
+                    )}
+                    style={{ width: `${progress}%` }}
+                  />
+                  <span className="relative z-10 flex items-center gap-2">
+                    <span>{category}</span>
+                    <span className="rounded-full bg-foreground/10 px-2 py-0.5 text-[10px] font-semibold text-foreground/90">
+                      {count}
+                    </span>
+                  </span>
                 </button>
               );
             })}

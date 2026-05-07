@@ -31,7 +31,22 @@ export default function Navbar() {
             </div>
             <span className="font-display font-black text-2xl tracking-tighter uppercase">Urano AI News</span>
           </Link>
-          
+
+          <div className="hidden md:flex items-center space-x-2 ml-8">
+            <a href="/#featured" className="px-3 py-2 text-sm font-semibold uppercase tracking-[0.2em] text-foreground/80 border border-border rounded-full bg-background transition-colors hover:bg-foreground hover:text-background">
+              Destacado
+            </a>
+            <a href="/#top-stories" className="px-3 py-2 text-sm font-semibold uppercase tracking-[0.2em] text-foreground/80 border border-border rounded-full bg-background transition-colors hover:bg-foreground hover:text-background">
+              Top stories
+            </a>
+            <a href="/#sections" className="px-3 py-2 text-sm font-semibold uppercase tracking-[0.2em] text-foreground/80 border border-border rounded-full bg-background transition-colors hover:bg-foreground hover:text-background">
+              Secciones
+            </a>
+            <a href="/#filters" className="px-3 py-2 text-sm font-semibold uppercase tracking-[0.2em] text-foreground/80 border border-border rounded-full bg-background transition-colors hover:bg-foreground hover:text-background">
+              Filtrar
+            </a>
+          </div>
+
           <div className="flex items-center space-x-4">
             <button 
               onClick={() => setIsDark(!isDark)}

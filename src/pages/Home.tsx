@@ -4,7 +4,7 @@ import FeaturedPost from '../components/FeaturedPost';
 import PostList from '../components/PostList';
 import Filters from '../components/Filters';
 import EditorDashboard from '../components/EditorDashboard';
-import { filterPosts, sortPosts, getAllCategories } from '../lib/utils';
+import { filterPosts, sortPosts, getCategoryCounts } from '../lib/utils';
 import { POSTS_JSON_URL } from '../config';
 import type { Post } from '../types/Post';
 
@@ -42,7 +42,10 @@ export default function Home() {
       });
   }, []);
 
-  const categories = useMemo(() => getAllCategories(posts), [posts]);
+  const categoryCounts = useMemo(() => getCategoryCounts(posts), [posts]);
+  const totalCategories = categoryCounts.length;
+  const topCategory = categoryCounts[0]?.category ?? 'Sin tema';
+  const topCategoryCount = categoryCounts[0]?.count ?? 0;
 
   const toggleCategory = (cat: string) => {
     setSelectedCategories(prev => 
@@ -82,10 +85,23 @@ export default function Home() {
 
   const isFiltering = searchQuery.length > 0 || selectedCategories.length > 0;
   const featuredPost = (!isFiltering && filteredPosts.length > 0) ? filteredPosts[0] : null;
+  const topStories = !isFiltering
+    ? filteredPosts.slice(featuredPost ? 1 : 0, (featuredPost ? 1 : 0) + 6)
+    : [];
+  const sectionCategories = categoryCounts.slice(0, 3).map((item) => item.category);
+  const categorySections = sectionCategories
+    .map((category) => ({
+      category,
+      posts: filteredPosts.filter((post) => post.categories.includes(category)).slice(0, 3),
+    }))
+    .filter((section) => section.posts.length > 0);
   const regularPosts = featuredPost ? filteredPosts.slice(1) : filteredPosts;
   
   const totalPages = Math.ceil(regularPosts.length / POSTS_PER_PAGE);
   const paginatedPosts = regularPosts.slice((currentPage - 1) * POSTS_PER_PAGE, currentPage * POSTS_PER_PAGE);
+  
+  const formatSectionLabel = (value: string) =>
+    value.replace(/[-_]/g, ' ').replace(/\b\w/g, (char) => char.toUpperCase());
 
   return (
     <div className="w-full">
@@ -103,7 +119,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      <div className="max-w-[1800px] mx-auto px-4 sm:px-6 lg:px-8 py-10">
         
         {/* Brutalist Hero Section */}
         <div className="mb-16 mt-8">
@@ -140,19 +156,149 @@ export default function Home() {
           </div>
         </div>
 
-        {!searchQuery && selectedCategories.length === 0 && featuredPost && (
-          <FeaturedPost post={featuredPost} onClick={() => navigate(`/post/${featuredPost.id}`)} />
+        <div className="mb-8">
+          <div className="flex flex-wrap gap-3 items-center bg-card border border-border rounded-3xl p-4 shadow-sm">
+            <span className="text-[11px] uppercase tracking-[0.3em] text-foreground/50">Índice</span>
+            <a href="#featured" className="rounded-full border border-border bg-background px-4 py-2 text-xs font-bold uppercase tracking-[0.25em] text-foreground transition-colors hover:border-foreground/70 hover:text-foreground/90">Destacado</a>
+            <a href="#top-stories" className="rounded-full border border-border bg-background px-4 py-2 text-xs font-bold uppercase tracking-[0.25em] text-foreground transition-colors hover:border-foreground/70 hover:text-foreground/90">Titulares</a>
+            <a href="#sections" className="rounded-full border border-border bg-background px-4 py-2 text-xs font-bold uppercase tracking-[0.25em] text-foreground transition-colors hover:border-foreground/70 hover:text-foreground/90">Secciones</a>
+            <a href="#filters" className="rounded-full border border-border bg-background px-4 py-2 text-xs font-bold uppercase tracking-[0.25em] text-foreground transition-colors hover:border-foreground/70 hover:text-foreground/90">Filtrar</a>
+            <a href="#latest" className="rounded-full border border-border bg-background px-4 py-2 text-xs font-bold uppercase tracking-[0.25em] text-foreground transition-colors hover:border-foreground/70 hover:text-foreground/90">Últimas</a>
+          </div>
+        </div>
+
+        <div className="grid gap-6 lg:grid-cols-[1.2fr,0.8fr] mb-12">
+          <div className="bg-card border border-border rounded-3xl p-6 shadow-sm">
+            <div className="flex items-center justify-between gap-4 mb-6">
+              <div>
+                <p className="text-xs uppercase tracking-[0.3em] text-foreground/50">Secciones</p>
+                <h2 className="text-2xl font-bold">Ordena y explora rápido</h2>
+              </div>
+              <span className="inline-flex items-center rounded-full border border-border bg-background px-3 py-1 text-[11px] uppercase tracking-[0.3em] text-foreground/60">
+                {posts.length} posts</span>
+            </div>
+            <div className="grid gap-4 sm:grid-cols-3">
+              <div className="rounded-3xl border border-border bg-background p-4">
+                <p className="text-[11px] uppercase tracking-[0.3em] text-foreground/50 mb-2">Noticias totales</p>
+                <p className="text-3xl font-black text-foreground">{posts.length}</p>
+              </div>
+              <div className="rounded-3xl border border-border bg-background p-4">
+                <p className="text-[11px] uppercase tracking-[0.3em] text-foreground/50 mb-2">Temas activos</p>
+                <p className="text-3xl font-black text-foreground">{totalCategories}</p>
+              </div>
+              <div className="rounded-3xl border border-border bg-background p-4">
+                <p className="text-[11px] uppercase tracking-[0.3em] text-foreground/50 mb-2">Top categoría</p>
+                <p className="text-2xl font-black text-foreground">{topCategory}</p>
+                <p className="text-xs uppercase tracking-[0.2em] text-foreground/60 mt-1">{topCategoryCount} posts</p>
+              </div>
+            </div>
+          </div>
+          <div className="bg-card border border-border rounded-3xl p-6 shadow-sm">
+            <p className="text-xs uppercase tracking-[0.3em] text-foreground/50 mb-4">¿Para qué sirve esta sección?</p>
+            <div className="space-y-4">
+              <div className="rounded-3xl bg-background border border-border p-4">
+                <p className="text-sm font-semibold text-foreground">Encuentra noticias rápido</p>
+                <p className="text-xs text-foreground/60 mt-2">Usa la búsqueda para localizar reportajes, análisis o menciones de IA en todo el feed.</p>
+              </div>
+              <div className="rounded-3xl bg-background border border-border p-4">
+                <p className="text-sm font-semibold text-foreground">Temas y categorías</p>
+                <p className="text-xs text-foreground/60 mt-2">Cada badge muestra cuánto aparece ese tema en la cobertura actual, como si fueran secciones de un medio.</p>
+              </div>
+              <div className="rounded-3xl bg-background border border-border p-4">
+                <p className="text-sm font-semibold text-foreground">Dashboard de noticias</p>
+                <p className="text-xs text-foreground/60 mt-2">Esta área organiza el contenido para que el sitio se lea como una portada de noticias moderna.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {!isFiltering && featuredPost && (
+          <div id="featured" className="grid gap-6 lg:grid-cols-[2.6fr,1fr] xl:grid-cols-[3fr,1fr] 2xl:grid-cols-[4fr,1fr] mb-12">
+            <FeaturedPost post={featuredPost} onClick={() => navigate(`/post/${featuredPost.id}`)} />
+            <div className="space-y-6">
+              <div className="bg-card border border-border rounded-3xl p-6 shadow-sm">
+                <div className="flex items-center justify-between mb-5">
+                  <div>
+                    <p className="text-xs uppercase tracking-[0.3em] text-foreground/50">Top stories</p>
+                    <h3 className="text-xl font-bold">Titulares recientes</h3>
+                  </div>
+                  <span className="text-[11px] uppercase tracking-[0.3em] text-foreground/50">{topStories.length} items</span>
+                </div>
+                <div className="space-y-4">
+                  {topStories.map((post) => (
+                    <button
+                      key={post.id}
+                      onClick={() => navigate(`/post/${post.id}`)}
+                      className="w-full text-left rounded-3xl border border-border bg-background p-4 transition-colors hover:border-foreground/60 hover:bg-foreground/5"
+                    >
+                      <div className="flex flex-col gap-2">
+                        <span className="text-sm uppercase tracking-[0.2em] text-foreground/50">
+                          {formatSectionLabel(post.categories[0] || 'noticia')}
+                        </span>
+                        <span className="font-semibold text-foreground">{post.title}</span>
+                        <span className="text-xs text-foreground/60">{post.excerpt}</span>
+                      </div>
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              <div className="bg-card border border-border rounded-3xl p-6 shadow-sm">
+                <p className="text-xs uppercase tracking-[0.3em] text-foreground/50 mb-5">Secciones destacadas</p>
+                <div className="grid gap-3">
+                  {sectionCategories.map((category) => (
+                    <div
+                      key={category}
+                      className="rounded-3xl border border-border bg-background p-4"
+                    >
+                      <p className="text-sm font-semibold text-foreground">{formatSectionLabel(category)}</p>
+                      <p className="text-xs text-foreground/60 mt-2">
+                        {filteredPosts.filter((post) => post.categories.includes(category)).length} noticias en esta sección.
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
         )}
       
-      <Filters 
-        searchQuery={searchQuery}
-        setSearchQuery={setSearchQuery}
-        categories={categories}
-        selectedCategories={selectedCategories}
-        toggleCategory={toggleCategory}
-      />
-      
-      <div className="mb-8">
+      <div id="filters">
+        <Filters 
+          searchQuery={searchQuery}
+          setSearchQuery={setSearchQuery}
+          categoryCounts={categoryCounts}
+          selectedCategories={selectedCategories}
+          toggleCategory={toggleCategory}
+        />
+      </div>
+
+      {!isFiltering && categorySections.length > 0 && (
+        <section id="sections" className="grid gap-6 lg:grid-cols-3 mb-12">
+          {categorySections.map(({ category, posts }) => (
+            <div key={category} className="bg-card border border-border rounded-3xl p-6 shadow-sm">
+              <div className="mb-5">
+                <p className="text-xs uppercase tracking-[0.3em] text-foreground/50">Sección</p>
+                <h3 className="text-xl font-bold">{formatSectionLabel(category)}</h3>
+              </div>
+              <div className="space-y-4">
+                {posts.map((post) => (
+                  <button
+                    key={post.id}
+                    onClick={() => navigate(`/post/${post.id}`)}
+                    className="w-full text-left rounded-3xl border border-border bg-background p-4 transition-colors hover:border-foreground/60 hover:bg-foreground/5"
+                  >
+                    <p className="text-sm font-semibold text-foreground">{post.title}</p>
+                    <p className="text-[11px] text-foreground/60 mt-2">{post.excerpt}</p>
+                  </button>
+                ))}
+              </div>
+            </div>
+          ))}
+        </section>
+      )}
+
+      <div id="latest" className="mb-8">
         <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
           {isFiltering ? 'Resultados de búsqueda' : 'Últimas Noticias'}
           <span className="text-sm font-normal text-foreground/50 bg-muted px-2 py-1 rounded-full">

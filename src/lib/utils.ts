@@ -77,8 +77,26 @@ export function formatPostDate(post: Post): string {
   });
 }
 
+export interface CategoryCount {
+  category: string;
+  count: number;
+}
+
 export function getAllCategories(posts: Post[]): string[] {
   const set = new Set<string>();
   posts.forEach(p => p.categories.forEach(c => set.add(c)));
   return Array.from(set).sort();
+}
+
+export function getCategoryCounts(posts: Post[]): CategoryCount[] {
+  const counts = new Map<string, number>();
+  posts.forEach((post) => {
+    post.categories.forEach((cat) => {
+      counts.set(cat, (counts.get(cat) ?? 0) + 1);
+    });
+  });
+
+  return Array.from(counts.entries())
+    .map(([category, count]) => ({ category, count }))
+    .sort((a, b) => b.count - a.count || a.category.localeCompare(b.category));
 }
