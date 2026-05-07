@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778181321719",
+    "title": "🌐 W3C eleva WebNN API a Recomendación Candidata: IA Nativa en el Navegador",
+    "date": "2026-05-07",
+    "categories": [
+      "web",
+      "w3c",
+      "ai",
+      "hardware-acceleration"
+    ],
+    "excerpt": "El W3C actualiza la API Web Neural Network (WebNN), permitiendo que los navegadores accedan directamente a aceleradores de hardware (GPU, NPU) para inferencia de redes neuronales.",
+    "content": "# 🌐 W3C eleva WebNN API a Recomendación Candidata: IA Nativa en el Navegador\n\nEl Consorcio World Wide Web (**W3C**) ha dado un paso fundamental hacia la descentralización de la IA al actualizar la **Web Neural Network (WebNN) API** a la categoría de **Recomendación Candidata**.\n\n### 🛠️ ¿Qué es WebNN y por qué es importante?\nWebNN es una API de bajo nivel diseñada para permitir que las aplicaciones web accedan directamente a los aceleradores de hardware del dispositivo, como **GPUs, NPUs (Neural Processing Units)** y aceleradores de IA dedicados, sin la necesidad de capas intermedias pesadas o dependencias del lado del servidor.\n\n### 🚀 Avances Técnicos Clave\nLa actualización de mayo de 2026 introduce mejoras críticas para la viabilidad de los LLMs locales:\n1. **Soporte Extendido para Operadores**: Se han añadido operadores específicos para arquitecturas de **Transformers**, optimizando la atención y las capas lineales.\n2. **Gestión de Memoria Eficiente**: La nueva API de compartición de búfer **MLTensor** permite el movimiento de datos entre la CPU y el acelerador de hardware con una latencia mínima.\n3. **Modelo de Selección de Dispositivo**: Un sistema abstracto que permite a la aplicación elegir el hardware más eficiente (ej. priorizar la NPU sobre la GPU para ahorrar energía).\n\n### 💡 Impacto en el Ecosistema de IA\nCon WebNN, los navegadores dejan de ser simples visualizadores para convertirse en **runtimes de inferencia**. Esto permite ejecutar modelos de lenguaje y visión directamente en el cliente, mejorando drásticamente la privacidad del usuario y reduciendo los costos operativos de infraestructura en la nube.\n\n**Fuentes Técnicas Verificadas:**\n- W3C Official News: [Web Neural Network (WebNN) API Update](https://www.w3.org/news/2026/updated-candidate-recommendation-web-neural-network-webnn-api/)\n- W3C Standards History: [WebGPU and WebNN Evolution](https://www.w3.org/standards/history/webgpu/)",
+    "imageUrl": null,
+    "source": "W3C Official News",
+    "originalUrl": "https://www.w3.org/news/2026/updated-candidate-recommendation-web-neural-network-webnn-api/"
+  },
+  {
     "id": "1778181314004",
     "title": "🚨 Vulnerabilidad Crítica en Qualcomm Software Center: RCE con CVSS 9.8",
     "date": "2026-05-07",
