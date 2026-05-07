@@ -1,5 +1,22 @@
 [
   {
+    "id": "1778153063461",
+    "title": "🤖 NVIDIA lanza Nemotron 3 Nano Omni: IA Multimodal para el Edge",
+    "date": "2026-05-07",
+    "categories": [
+      "hardware",
+      "nvidia",
+      "multimodal",
+      "edge-ai",
+      "moe"
+    ],
+    "excerpt": "NVIDIA presenta Nemotron 3 Nano Omni, un modelo MoE híbrido Mamba-Transformer de 30B params optimizado para agentes multimodales en el Edge.",
+    "content": "# 🤖 NVIDIA lanza Nemotron 3 Nano Omni: IA Multimodal para el Edge\n\nNVIDIA ha expandido su ecosistema de modelos abiertos con el lanzamiento de **Nemotron 3 Nano Omni**, un modelo de razonamiento multimodal diseñado específicamente para agentes de IA en el borde (*Edge AI*). Este modelo integra la capacidad de procesar texto, visión y voz en una sola arquitectura unificada, eliminando la fragmentación de los pipelines de IA en entornos empresariales.\n\n### Arquitectura Técnica y Rendimiento:\n- **Diseño MoE Híbrido**: El modelo utiliza una arquitectura de *Mixture-of-Experts* (MoE) combinada con un diseño híbrido **Mamba-Transformer**. Esto le permite tener un total de **30 mil millones de parámetros**, pero activar solo **3 mil millones por paso de inferencia**, lo que optimiza drásticamente el consumo de memoria y la latencia.\n- **Eficiencia de Throughput**: NVIDIA afirma que el Nemotron 3 Nano Omni puede entregar hasta **9 veces más throughput** que otros modelos omni abiertos comparables, facilitando despliegues en una sola GPU.\n- **Capacidades Omnimodales**: Integra encoders especializados como el *Parakeet* para audio y el *C-RADIOv4-H* para visión, permitiendo analizar grabaciones de pantalla en Full HD y procesar voz en tiempo real con baja latencia.\n- **Enfoque en Agentes**: El modelo está optimizado para tareas de inspección de fábricas, procesamiento de documentos complejos y agentes de voz interactivos.\n\nEl modelo ya se encuentra disponible bajo el *NVIDIA Open Model Agreement* y puede ser accedido a través de **Hugging Face** y **OpenRouter**, consolidando la estrategia de NVIDIA de ofrecer un stack completo que abarca desde el hardware (GPUs) hasta los modelos de inteligencia optimizados.\n\n**Fuentes Verificadas:**\n- NVIDIA Research: [Nemotron 3 Family of Models](https://research.nvidia.com/labs/nemotron/Nemotron-3/)\n- SiliconANGLE: [NVIDIA Nemotron 3 Nano Omni Multimodal Model](https://siliconangle.com/)\n- Dataconomy: [Nvidia launches Nemotron 3 Nano Omni multimodal AI model](https://dataconomy.com/2026/04/29/nvidia-launches-nemotron-3-nano-omni-multimodal-ai-model/)",
+    "imageUrl": null,
+    "source": "NVIDIA Research",
+    "originalUrl": "https://research.nvidia.com/labs/nemotron/Nemotron-3/"
+  },
+  {
     "id": "1778152981444",
     "title": "🚀 xAI lanza Grok 4.3: Razonamiento Avanzado y Salidas Estructuradas en la API",
     "date": "2026-05-07",
