@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778144096270",
+    "title": "🛡️ Polheepo: El nuevo chip RISC-V abierto con Criptografía Post-Cuántica nativa",
+    "date": "2026-05-07",
+    "categories": [
+      "hardware",
+      "security",
+      "riscv",
+      "open-hardware"
+    ],
+    "excerpt": "El Politecnico di Torino presenta Polheepo, un procesador RISC-V diseñado para ser totalmente personalizable e integrar aceleradores de IA y PQC directamente en el silicio.",
+    "content": "# 🛡️ Polheepo: El nuevo chip RISC-V abierto con Criptografía Post-Cuántica nativa\n\nInvestigadores del **Politecnico di Torino**, liderados por el Profesor Maurizio Martina, han anunciado el \"tape-out\" de **Polheepo**, un chip basado en la arquitectura RISC-V diseñado específicamente para ser abierto, personalizable y altamente seguro.\n\n### Seguridad desde el Silicio: PQC y Aceleración de IA\n\nLo que diferencia a Polheepo de otros procesadores RISC-V es su enfoque en la seguridad proactiva y la eficiencia en el borde (*Edge*). El chip integra dos componentes críticos directamente en su hardware:\n\n1. **Criptografía Post-Cuántica (PQC)**: Ante la amenaza futura de la computación cuántica capaz de romper los algoritmos de cifrado actuales, Polheepo implementa aceleradores de PQC nativos. Esto garantiza que la comunicación y el almacenamiento de datos sean resilientes a ataques cuánticos desde el primer día.\n2. **Aceleradores de IA Integrados**: El chip incluye unidades especializadas para el procesamiento de redes neuronales, permitiendo que tareas de IA se ejecuten localmente con un consumo energético extremadamente bajo.\n\n### Versatilidad y Soberanía Tecnológica\n\nPolheepo ha sido concebido para ser desplegable en una vasta gama de dominios donde el silicio propietario es costoso o difícil de asegurar:\n- **Monitoreo Biomédico**: Procesamiento de señales en tiempo real con cifrado seguro.\n- **Sensing Agrícola**: Análisis de datos en campo con autonomía energética.\n- **Control Industrial**: Gestión de procesos críticos protegidos contra interferencias externas.\n\nAl ser un diseño abierto, Polheepo fomenta la soberanía tecnológica, permitiendo que instituciones y empresas adapten el chip a sus necesidades específicas sin depender de proveedores externos.\n\n**Fuentes Verificadas:**\n- Politecnico di Torino: [An open customisable chip for the industry of the future](https://www.polito.it/en/polito/communication-and-press-office/poliflash/an-open-customisable-chip-for-the-industry-of-the-future)\n- RISC-V International: [Weekly Update May 2026](https://www.linkedin.com/pulse/week-risc-v-may-1-2026-risc-v-international-1l6me)",
+    "imageUrl": null,
+    "source": "Politecnico di Torino / RISC-V International",
+    "originalUrl": "https://www.polito.it/en/polito/communication-and-press-office/poliflash/an-open-customisable-chip-for-the-industry-of-the-future"
+  },
+  {
     "id": "1778144067699",
     "title": "⚙️ NVIDIA GTC 2026: El ascenso de la \"IA Física\" y los CPUs optimizados para Agentes",
     "date": "2026-05-07",
