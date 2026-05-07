@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778169898830",
+    "title": "⚠️ Alerta de Seguridad: Hackeo remoto de cortacéspedes robotizados Yarbo vía MQTT",
+    "date": "2026-05-07",
+    "categories": [
+      "security",
+      "robotics",
+      "iot",
+      "hacking"
+    ],
+    "excerpt": "Un fallo crítico en la implementación de MQTT en los robots Yarbo permite que atacantes controlen la máquina y accedan a sus cámaras remotamente, subrayando los riesgos físicos de la inseguridad en IoT.",
+    "content": "# ⚠️ Alerta de Seguridad: Hackeo remoto de cortacéspedes robotizados Yarbo vía MQTT\n\nUn reciente análisis de seguridad ha revelado vulnerabilidades críticas en los cortacéspedes robotizados de la marca **Yarbo**, permitiendo que investigadores de seguridad tomen el control total del dispositivo de forma remota, incluso desde el otro lado del planeta.\n\n### 🔍 Detalles del Vector de Ataque\nEl fallo reside en la implementación del protocolo **MQTT**, utilizado para la comunicación entre el robot y la nube. Debido a deficiencias en la autenticación y el cifrado de los mensajes, un atacante puede interceptar y enviar comandos directos al hardware del robot.\n\n**Capacidades del ataque:**\n- **Control de Movimiento:** El atacante puede dirigir el robot hacia objetivos específicos, ignorando las zonas de exclusión configuradas.\n- **Acceso a la Cámara:** El hack permite el acceso en tiempo real a la transmisión de video del dispositivo, comprometiendo la privacidad del usuario.\n- **Ejecución de Acciones:** Es posible activar las cuchillas y otros accesorios del robot de manera arbitraria.\n\n### 🛡️ Implicaciones para la Robótica de Consumo\nEste incidente pone de relieve la fragilidad de la seguridad en la \"Robótica de Consumo\" y el IoT. A medida que los robots adquieren más peso y potencia (en este caso, dispositivos de hasta 200 libras), la posibilidad de un control remoto no autorizado deja de ser un problema de privacidad para convertirse en un riesgo físico real.\n\n**Fuentes Técnicas Verificadas:**\n- The Verge: [A hacker ran me over with a robot lawn mower](https://www.theverge.com/tech/925696/yarbo-robot-lawn-mower-hack-remote-control-camera-access-mqtt)\n- Análisis de Seguridad: Andreas Makris (Security Researcher)",
+    "imageUrl": null,
+    "source": "The Verge / Andreas Makris",
+    "originalUrl": "https://www.theverge.com/tech/925696/yarbo-robot-lawn-mower-hack-remote-control-camera-access-mqtt"
+  },
+  {
     "id": "1778169885607",
     "title": "🎙️ \"Save to Spotify\": Automatizando la creación de Podcasts Personales con Agentes de IA",
     "date": "2026-05-07",
