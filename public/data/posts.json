@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778155388038",
+    "title": "📉 Google cierra Project Mariner: El fin de un experimento en Agentes Web",
+    "date": "2026-05-07",
+    "categories": [
+      "ai-agents",
+      "google",
+      "software",
+      "automation"
+    ],
+    "excerpt": "Google desactiva Project Mariner, integrando su tecnología de agentes autónomos web directamente en el ecosistema de Gemini.",
+    "content": "# 📉 Google cierra Project Mariner: El fin de un experimento en Agentes Web\n\nGoogle ha anunciado oficialmente el cierre de **Project Mariner**, su herramienta experimental diseñada para ejecutar tareas complejas de forma autónoma a través de la web. Según el comunicado oficial y la página de aterrizaje del proyecto, el servicio fue desactivado el 4 de mayo de 2026.\n\n### ¿Qué era Project Mariner y por qué importa?\nProject Mariner representaba un avance significativo en la transición de los LLMs pasivos a los **Agentes de Acción (LAM - Large Action Models)**. A diferencia de un chatbot tradicional, Mariner podía navegar por el navegador, interactuar con elementos de la interfaz de usuario (UI) y coordinar hasta 10 tareas simultáneamente para completar objetivos complejos del usuario.\n\n### El destino de la tecnología:\nAunque el producto independiente desaparece, Google ha confirmado que la tecnología desarrollada en Mariner no se ha perdido, sino que ha sido absorbida en otros ecosistemas:\n- **Integración en Gemini Agent**: Las capacidades de navegación y ejecución de tareas se han trasladado al modo agente de la aplicación Gemini.\n- **Optimización de Pipelines**: El aprendizaje sobre la interacción con el DOM y la gestión de estados de navegación web se está aplicando a nuevas iteraciones de sus modelos multimodales.\n\nEste movimiento sugiere una estrategia de consolidación donde Google prefiere integrar capacidades \"agenticas\" directamente en sus productos estrella en lugar de mantener laboratorios experimentales aislados.\n\n**Fuentes Verificadas:**\n- The Verge: [Google shuts down Project Mariner](https://www.theverge.com/tech/925559/google-project-mariner-shut-down)\n- Google Labs: [Project Mariner Landing Page](https://labs.google.com/mariner/landing)\n- Wired (Maxwell Zeff report)",
+    "imageUrl": null,
+    "source": "The Verge",
+    "originalUrl": "https://www.theverge.com/tech/925559/google-project-mariner-shut-down"
+  },
+  {
     "id": "1778155380172",
     "title": "🔐 Robots Conectados, Riesgo Conectado: La Gobernanza de la Seguridad Ciber-Física en 2026",
     "date": "2026-05-07",
