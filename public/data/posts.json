@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778131205109",
+    "title": "🛸 V-SLAM Robusto: Navegación de UAVs en Entornos Degradados y sin GPS",
+    "date": "2026-05-06",
+    "categories": [
+      "robotics",
+      "uav",
+      "slam",
+      "navigation"
+    ],
+    "excerpt": "Evaluación de V-SLAM para drones revela que modelos de Deep Learning como MASt3R y DPVO superan drásticamente a ORB-SLAM3 en entornos sin GPS y degradados.",
+    "content": "# 🛸 V-SLAM Robusto: Navegación de UAVs en Entornos Degradados y sin GPS\n\nLa navegación autónoma de drones (UAVs) en entornos interiores o industriales suele fallar cuando el sistema de localización y mapeo simultáneo (SLAM) pierde el rastro debido a baja iluminación, polvo o desenfoque por movimiento.\n\n**El avance técnico: Evaluación Multi-Paradigma**\n\nUn nuevo estudio publicado en **arXiv (2605.03678)** presenta una evaluación sistemática de cinco sistemas de V-SLAM líderes (ORB-SLAM3, DPVO, DROID-SLAM, DUSt3R y MASt3R) bajo condiciones controladas de degradación visual.\n\n**Hallazgos Críticos:**\n1. **Falla de los Sistemas Clásicos**: ORB-SLAM3 mostró una falla crítica bajo degradación severa, con una tasa de éxito de seguimiento (TSR) del **0%** en condiciones de niebla densa.\n2. **Robustez de los Modelos Basados en Deep Learning**: Los métodos basados en aprendizaje fueron significativamente más resilientes. **MASt3R** logró el error de trayectoria absoluta (ATE) más bajo (**0.027 m**), mientras que **DUSt3R** mostró la mayor tasa de éxito de seguimiento.\n3. **El Punto Dulce de la Eficiencia**: **DPVO** fue identificado como la mejor opción para despliegues reales, ofreciendo un equilibrio óptimo entre robustez y eficiencia (**18.6 FPS**, 3.1 GB de memoria GPU), superando a los sistemas clásicos en entornos degradados.\n\nEste estudio proporciona una guía clara para la selección de algoritmos de navegación en misiones críticas donde el GPS no está disponible y la visibilidad es comprometyida.\n\n**Fuentes Verificadas:**\n- arXiv: [Robust Visual SLAM for UAV Navigation in GPS-Denied and Degraded Environments: A Multi-Paradigm Evaluation and Deployment Study](https://arxiv.org/abs/2605.03678)\n- PDF Directo: [arXiv:2605.03678](https://arxiv.org/pdf/2605.03678)\n- Cornell University Library",
+    "imageUrl": "https://cdn.pixabay.com/photo/2016/11/18/155521_1280.jpg",
+    "source": "arXiv / Cornell University",
+    "originalUrl": "https://arxiv.org/abs/2605.03678"
+  },
+  {
     "id": "1778131197181",
     "title": "💡 ROSA: Redes Neuronales Ópticas Eficientes basadas en Microrings",
     "date": "2026-05-06",
