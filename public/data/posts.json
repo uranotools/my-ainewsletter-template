@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778144052894",
+    "title": "🌐 WebNN API: El W3C impulsa la inferencia de IA nativa en el navegador",
+    "date": "2026-05-07",
+    "categories": [],
+    "excerpt": "",
+    "content": "# 🌐 WebNN API: El W3C impulsa la inferencia de IA nativa en el navegador\n\nEl Consorcio de la World Wide Web (W3C) ha dado un paso decisivo hacia la descentralización de la IA al publicar una actualización de la **Recomendación Candidata (Candidate Recommendation)** para la API de Redes Neuronales Web (**WebNN**). Esta especificación técnica busca estandarizar la forma en que los navegadores acceden a la aceleración de hardware (GPU, NPU, TPU) para ejecutar modelos de IA localmente.\n\n**Avances Técnicos en la Nueva Versión**\n\nLa actualización de mayo de 2026 no es un simple ajuste, sino que expande significativamente la capacidad de producción de la API:\n\n1. **Soporte Expandido de Operadores**: Se han añadido nuevos operadores específicos para arquitecturas de **Transformers**, facilitando que los LLMs modernos se ejecuten con eficiencia nativa sin depender de capas pesadas de WebAssembly.\n2. **API de Compartición de Búfer MLTensor**: Esta nueva funcionalidad optimiza la transferencia de datos entre la CPU y el acelerador de hardware, reduciendo la latencia de memoria, un cuello de botella crítico en la inferencia on-device.\n3. **Modelo Abstracto de Selección de Dispositivo**: Permite que la aplicación elija dinámicamente el mejor backend disponible (por ejemplo, priorizar una NPU de Intel sobre una GPU integrada) para maximizar el ahorro energético y la velocidad.\n\n**¿Por qué es esto disruptivo?**\n\nHasta ahora, la IA en el navegador dependía mayormente de WebGPU (más general) o de implementaciones propietarias. WebNN ofrece una capa de abstracción de bajo nivel que permite a los desarrolladores escribir código una sola vez y obtener el máximo rendimiento de cualquier hardware compatible. Esto abre la puerta a aplicaciones de visión computacional en tiempo real, recomendaciones personalizadas y procesamiento de lenguaje natural con **privacidad total**, ya que los datos nunca abandonan el dispositivo del usuario.\n\nEl W3C ahora solicita implementaciones interoperables de los principales navegadores para avanzar hacia la Recomendación Final.\n\n**Fuentes Verificadas:**\n- W3C News: [Updated Candidate Recommendation: Web Neural Network (WebNN) API](https://www.w3.org/news/2026/updated-candidate-recommendation-web-neural-network-webnn-api/)\n- Progosling News: [W3C Elevates Web Neural Network (WebNN) API](https://progosling.com/en/dev-digest/2026-02/webnn-candidate-recommendation)\n- CADE Project: [WebNN API published by the W3C](https://cadeproject.org/updates/updated-candidate-recommendation-web-neural-network-webnn-api-published-by-the-world-wide-web-consortium/)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778144034968",
     "title": "⚠️ Alerta Crítica vLLM: CVE-2026-22778 permite RCE mediante enlaces de video maliciosos",
     "date": "2026-05-07",
