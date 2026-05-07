@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778160727773",
+    "title": "💎 Google DeepMind lanza la familia de modelos abiertos Gemma 4",
+    "date": "2026-05-07",
+    "categories": [
+      "open-source",
+      "google",
+      "gemma",
+      "machine-learning"
+    ],
+    "excerpt": "Google DeepMind presenta Gemma 4, una familia de modelos abiertos multimodales optimizados para rendimiento local y personalización.",
+    "content": "# 💎 Google DeepMind lanza la familia de modelos abiertos Gemma 4\n\nGoogle DeepMind ha expandido su ecosistema de modelos abiertos con el lanzamiento de **Gemma 4**, una nueva generación de modelos ligeros y potentes diseñados para la comunidad de desarrolladores e investigadores. Gemma 4 hereda la tecnología de los modelos Gemini, pero optimizada para el despliegue local y la personalización mediante *fine-tuning*.\n\n### Hitos Técnicos de Gemma 4:\n- **Arquitectura Optimizada**: Gemma 4 introduce mejoras en la gestión de la atención y el procesamiento de tokens, permitiendo un rendimiento superior en razonamiento lógico y codificación en comparación con sus predecesores.\n- **Variantes de Tamaño**: La familia incluye múltiples tamaños (desde versiones Nano hasta modelos más robustos), permitiendo que los desarrolladores elijan la escala adecuada según el hardware disponible (desde smartphones hasta GPUs de servidor).\n- **Soporte Multimodal Nativo**: A diferencia de versiones anteriores, Gemma 4 integra capacidades multimodales desde su base, permitiendo el procesamiento de imágenes y texto de manera nativa.\n- **Licencia Abierta**: Siguiendo la filosofía de democratizar la IA, Gemma 4 se distribuye con pesos abiertos, facilitando la auditoría de seguridad y el desarrollo de aplicaciones especializadas.\n\nEste lanzamiento refuerza la competencia en el espacio de los modelos abiertos, ofreciendo una alternativa robusta y eficiente para quienes buscan evitar la dependencia de APIs cerradas.\n\n**Fuentes Verificadas:**\n- Google Blog: [Google DeepMind releases Gemma 4 open model family](https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/)\n- Hugging Face: [Gemma 4 Model Card](https://huggingface.co/google/gemma-4)\n- Google AI Edge: [Deploying Gemma 4 on local hardware](https://ai.google.dev/gemma)",
+    "imageUrl": null,
+    "source": "Google DeepMind",
+    "originalUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/"
+  },
+  {
     "id": "1778160719951",
     "title": "🛠️ Anthropic propone \"Agent Skills\" como Estándar Abierto para Interoperabilidad de IA",
     "date": "2026-05-07",
