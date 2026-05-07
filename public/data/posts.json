@@ -1,5 +1,54 @@
 [
   {
+    "id": "1778153063461",
+    "title": "🤖 NVIDIA lanza Nemotron 3 Nano Omni: IA Multimodal para el Edge",
+    "date": "2026-05-07",
+    "categories": [
+      "hardware",
+      "nvidia",
+      "multimodal",
+      "edge-ai",
+      "moe"
+    ],
+    "excerpt": "NVIDIA presenta Nemotron 3 Nano Omni, un modelo MoE híbrido Mamba-Transformer de 30B params optimizado para agentes multimodales en el Edge.",
+    "content": "# 🤖 NVIDIA lanza Nemotron 3 Nano Omni: IA Multimodal para el Edge\n\nNVIDIA ha expandido su ecosistema de modelos abiertos con el lanzamiento de **Nemotron 3 Nano Omni**, un modelo de razonamiento multimodal diseñado específicamente para agentes de IA en el borde (*Edge AI*). Este modelo integra la capacidad de procesar texto, visión y voz en una sola arquitectura unificada, eliminando la fragmentación de los pipelines de IA en entornos empresariales.\n\n### Arquitectura Técnica y Rendimiento:\n- **Diseño MoE Híbrido**: El modelo utiliza una arquitectura de *Mixture-of-Experts* (MoE) combinada con un diseño híbrido **Mamba-Transformer**. Esto le permite tener un total de **30 mil millones de parámetros**, pero activar solo **3 mil millones por paso de inferencia**, lo que optimiza drásticamente el consumo de memoria y la latencia.\n- **Eficiencia de Throughput**: NVIDIA afirma que el Nemotron 3 Nano Omni puede entregar hasta **9 veces más throughput** que otros modelos omni abiertos comparables, facilitando despliegues en una sola GPU.\n- **Capacidades Omnimodales**: Integra encoders especializados como el *Parakeet* para audio y el *C-RADIOv4-H* para visión, permitiendo analizar grabaciones de pantalla en Full HD y procesar voz en tiempo real con baja latencia.\n- **Enfoque en Agentes**: El modelo está optimizado para tareas de inspección de fábricas, procesamiento de documentos complejos y agentes de voz interactivos.\n\nEl modelo ya se encuentra disponible bajo el *NVIDIA Open Model Agreement* y puede ser accedido a través de **Hugging Face** y **OpenRouter**, consolidando la estrategia de NVIDIA de ofrecer un stack completo que abarca desde el hardware (GPUs) hasta los modelos de inteligencia optimizados.\n\n**Fuentes Verificadas:**\n- NVIDIA Research: [Nemotron 3 Family of Models](https://research.nvidia.com/labs/nemotron/Nemotron-3/)\n- SiliconANGLE: [NVIDIA Nemotron 3 Nano Omni Multimodal Model](https://siliconangle.com/)\n- Dataconomy: [Nvidia launches Nemotron 3 Nano Omni multimodal AI model](https://dataconomy.com/2026/04/29/nvidia-launches-nemotron-3-nano-omni-multimodal-ai-model/)",
+    "imageUrl": null,
+    "source": "NVIDIA Research",
+    "originalUrl": "https://research.nvidia.com/labs/nemotron/Nemotron-3/"
+  },
+  {
+    "id": "1778152981444",
+    "title": "🚀 xAI lanza Grok 4.3: Razonamiento Avanzado y Salidas Estructuradas en la API",
+    "date": "2026-05-07",
+    "categories": [
+      "models",
+      "xai",
+      "llm",
+      "api"
+    ],
+    "excerpt": "xAI despliega Grok 4.3 con capacidades de razonamiento interno, salidas estructuradas y optimización de API para desarrolladores.",
+    "content": "# 🚀 xAI lanza Grok 4.3: Razonamiento Avanzado y Salidas Estructuradas en la API\n\nxAI ha desplegado oficialmente **Grok 4.3**, una nueva iteración de su modelo de lenguaje diseñada para mejorar la precisión en el razonamiento complejo y la integración con sistemas externos. A diferencia de versiones anteriores, Grok 4.3 introduce una arquitectura optimizada que permite al modelo \"pensar\" antes de responder, implementando procesos de razonamiento interno similares a los modelos de cadena de pensamiento (*Chain-of-Thought*) más avanzados del mercado.\n\n### Especificaciones Técnicas y Capacidades:\n- **Ventana de Contexto**: Soporte optimizado para contextos extensos, con una estructura de precios diferenciada para solicitudes que superen los 200K tokens.\n- **Salidas Estructuradas**: Capacidad nativa para devolver respuestas en formatos organizados y específicos, facilitando la integración directa en pipelines de desarrollo de software sin necesidad de post-procesamiento complejo.\n- **Uso de Herramientas (Tool Use)**: Integración mejorada para conectar el modelo a herramientas externas y sistemas de datos en tiempo real.\n- **Actualización de Conocimiento**: El modelo cuenta con un corte de conocimiento (*knowledge cutoff*) actualizado a diciembre de 2025.\n\nDesde la perspectiva de la API, xAI ha establecido límites de tasa competitivos, permitiendo hasta 1,800 solicitudes por minuto y 10 millones de tokens por minuto en regiones clave como `us-east-1` y `eu-west-1`. Esta actualización posiciona a Grok 4.3 no solo como un chatbot, sino como un motor de inferencia robusto para aplicaciones empresariales que requieran alta fiabilidad en la estructuración de datos.\n\n**Fuentes Verificadas:**\n- xAI Developers: [Documentación Oficial de Grok 4.3](https://docs.x.ai/developers/models/grok-4.3)\n- Grok Release Notes: [Notas de Versión Oficiales](https://grok.com/release-notes)\n- Comunidad Técnica: [Discusiones de implementación en r/singularity](https://www.reddit.com/r/singularity/comments/1t0bdh3/grok_43_is_out_in_the_api/)",
+    "imageUrl": null,
+    "source": "xAI Docs",
+    "originalUrl": "https://docs.x.ai/developers/models/grok-4.3"
+  },
+  {
+    "id": "1778152973370",
+    "title": "⚛️ Avance en Magnones: El Camino hacia Computadoras Cuánticas del Tamaño de una Moneda",
+    "date": "2026-05-07",
+    "categories": [
+      "quantum",
+      "physics",
+      "hardware",
+      "university-of-vienna"
+    ],
+    "excerpt": "Investigadores de la Universidad de Viena extienden la vida de los magnones 100 veces, permitiendo la creación de computadoras cuánticas ultra-compactas.",
+    "content": "# ⚛️ Avance en Magnones: El Camino hacia Computadoras Cuánticas del Tamaño de una Moneda\n\nUn equipo internacional de físicos liderado por Andrii Chumak de la **Universidad de Viena** ha logrado un hito fundamental en la computación cuántica al extender la vida útil de los **magnones** en cien veces, alcanzando una estabilidad de hasta **18 microsegundos**. Este descubrimiento rompe una barrera técnica crítica que limitaba la viabilidad de los sistemas cuánticos basados en magnetización.\n\n### El Rol de los Magnones en la Computación Cuántica\nLos magnones son ondas diminutas de magnetización que se propagan a través de materiales magnéticos sólidos. A diferencia de los fotones (que viajan en vacío o fibra) o los electrones, los magnones son ideales para construir sistemas cuánticos híbridos y metrología cuántica debido a su capacidad de interactuar eficientemente con otros estados cuánticos en materiales sólidos.\n\n**Claves del Descubrimiento:**\n- **Superación del Límite Térmico**: Anteriormente, la vida útil de los magnones estaba limitada a unos pocos cientos de nanosegundos. El equipo de Viena demostró que este límite no es una ley fundamental de la física, sino una consecuencia de la elección de materiales.\n- **Miniaturización Extrema**: Gracias a esta estabilidad, se abre la posibilidad de crear procesadores cuánticos extremadamente compactos, potencialmente del tamaño de una moneda de un centavo, eliminando la necesidad de infraestructuras de refrigeración y vacío masivas.\n- **Memoria Cuántica Fiable**: El aumento en la coherencia temporal permite que los magnones actúen como unidades de memoria cuántica mucho más fiables, facilitando la transferencia de información entre diferentes nodos de un chip cuántico.\n\nEste avance posiciona a la computación cuántica basada en espín y magnetización como una alternativa viable y escalable frente a los qubits superconductores tradicionales.\n\n**Fuentes Verificadas:**\n- Universidad de Viena: [Comunicado Oficial de Investigación](https://www.univie.ac.at/en/news/detail/breakthrough-in-magnon-research-paves-the-way-for-mini-quantum-computers)\n- EurekAlert!: [Physicists extend magnon lifetimes 100-fold](https://www.eurekalert.org/news-releases/1126720)\n- Science Forum: [Magnon Breakthrough for Mini Quantum Computers](https://www.sflorg.com/2026/05/qs05042601.html)",
+    "imageUrl": null,
+    "source": "University of Vienna",
+    "originalUrl": "https://www.univie.ac.at/en/news/detail/breakthrough-in-magnon-research-paves-the-way-for-mini-quantum-computers"
+  },
+  {
     "id": "1778152042257",
     "date": "2026-05-07",
     "categories": [
