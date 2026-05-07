@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778179295102",
+    "title": "🚨 Zero-Day en PAN-OS: Actores Estatales Explotan Fallo Crítico para Acceso Root",
+    "date": "2026-05-07",
+    "categories": [
+      "security",
+      "paloalto",
+      "zero-day",
+      "network-security"
+    ],
+    "excerpt": "Actores estatales están explotando un Zero-Day crítico en PAN-OS de Palo Alto Networks para obtener acceso Root, comprometiendo la seguridad perimetral de diversas organizaciones.",
+    "content": "# 🚨 Zero-Day en PAN-OS: Actores Estatales Explotan Fallo Crítico para Acceso Root\n\nSe ha reportado que actores patrocinados por estados están utilizando activamente un **Zero-Day** en el sistema operativo **PAN-OS** de Palo Alto Networks para obtener acceso de superusuario (**Root**) en firewalls y dispositivos de red críticos.\n\n### 🛠️ Detalles del Ataque\nLa vulnerabilidad (identificada preliminarmente como CVE-2026-0300) permite la ejecución remota de código (RCE) sin autenticación previa. Los atacantes aprovechan una falla en el procesamiento de paquetes de gestión para inyectar comandos que les otorgan acceso total al dispositivo.\n\nEste ataque es particularmente alarmante debido a:\n1. **Origen**: El uso de infraestructura y técnicas propias de grupos APT (Advanced Persistent Threats) vinculados a gobiernos.\n2. **Impacto**: El control Root sobre un firewall permite interceptar todo el tráfico de red de una organización, robar credenciales y pivotar hacia el interior de la red corporativa.\n\n### 🔐 Mitigación\nPalo Alto Networks ha emitido alertas urgentes. Se recomienda a los clientes:\n- Aplicar los parches de emergencia inmediatamente.\n- Restringir el acceso a la interfaz de gestión del dispositivo únicamente a IPs internas confiables.\n- Revisar los logs de acceso en busca de conexiones inusuales desde IPs extranjeras.\n\n**Fuentes Técnicas Verificadas:**\n- Daily CyberSecurity: [State-Sponsored Actors Weaponize Critical PAN-OS Zero-Day for Root](https://securityonline.info/palo-alto-networks-cve-2026-0300-pan-os-root-rce-zero-day/)\n- Threat Intelligence Report May 2026.",
+    "imageUrl": null,
+    "source": "Daily CyberSecurity / Palo Alto Security Alerts",
+    "originalUrl": "https://securityonline.info/palo-alto-networks-cve-2026-0300-pan-os-root-rce-zero-day/"
+  },
+  {
     "id": "1778179287236",
     "title": "⚠️ Alerta Crítica: Vulnerabilidad en WatchGuard Agent permite privilegios SYSTEM en Windows",
     "date": "2026-05-07",
