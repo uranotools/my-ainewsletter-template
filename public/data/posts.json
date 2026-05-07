@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778183476736",
+    "title": "🚨 CVE-2026-23813: Bypass de Autenticación Crítico en Switches HPE Aruba AOS-CX",
+    "date": "2026-05-07",
+    "categories": [
+      "security",
+      "networking",
+      "hpe-aruba",
+      "critical-vuln"
+    ],
+    "excerpt": "Falla crítica CVSS 9.8 en switches Aruba AOS-CX permite bypass de autenticación y reset de password de admin, comprometiendo el núcleo de redes empresariales.",
+    "content": "# 🚨 CVE-2026-23813: Bypass de Autenticación Crítico en Switches HPE Aruba AOS-CX\n\nSe ha identificado una vulnerabilidad de severidad crítica (**CVSS 9.8**) que afecta a la interfaz de gestión web de los switches **HPE Aruba Networking AOS-CX**, permitiendo que un atacante remoto no autenticado tome el control total del dispositivo.\n\n### 🛠️ Detalles Técnicos del Fallo\nLa vulnerabilidad reside en una falla de **autenticación impropia (CWE-287)** dentro del plano de gestión (*management plane*) de los switches de la serie CX.\n\n**Vector de Ataque y Riesgos:**\n- **Bypass Total**: Un actor remoto puede eludir los controles de autenticación existentes sin necesidad de credenciales.\n- **Reset de Password**: El atacante puede restablecer la contraseña del administrador, obteniendo privilegios root sobre el sistema operativo del switch.\n- **Impacto en Red**: Dado que estos switches suelen operar en las capas de núcleo (*core*) o distribución de redes empresariales, un compromiso permite la interceptación de tráfico, manipulación de VLANs y pivoteo profundo hacia otros sistemas internos.\n\n### 🛡️ Mitigación y Respuesta\nHPE ha publicado el boletín de seguridad **HPESBNW05027** y ha liberado parches de firmware urgentes.\n\n**Recomendaciones Inmediatas:**\n1. **Actualizar Firmware**: Instalar la versión parcheada de AOS-CX inmediatamente.\n2. **Aislamiento de Gestión**: Restringir el acceso a la interfaz web solo a hosts confiables mediante ACLs.\n3. **Segmentación**: Aislar el tráfico de gestión en una VLAN dedicada y segura.\n\n**Fuentes Técnicas Verificadas:**\n- NVD NIST: [CVE-2026-23813 Detail](https://nvd.nist.gov/vuln/detail/CVE-2026-23813)\n- CSA Singapore: [Alert AL-2026-023: Critical Vulnerabilities in Aruba Networking AOS-CX](https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-023/)\n- Action1 Security: [CVE-2026-23813 Analysis](https://www.action1.com/vulnerabilities/cve-2026-23813/)",
+    "imageUrl": null,
+    "source": "NVD NIST / HPE Aruba",
+    "originalUrl": "https://nvd.nist.gov/vuln/detail/CVE-2026-23813"
+  },
+  {
     "id": "1778183468134",
     "title": "🎧 Apple AirPods con Cámaras: El Próximo Paso en la IA Ubicua (2026)",
     "date": "2026-05-07",
