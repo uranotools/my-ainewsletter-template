@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778263264818",
+    "title": "🍏 Apple e Intel: El regreso inesperado a la fabricación de chips (2026)",
+    "date": "2026-05-08",
+    "categories": [],
+    "excerpt": "Apple y Intel retoman su alianza para la fabricación de chips, buscando diversificar su cadena de suministro y fortalecer la producción en Estados Unidos.",
+    "content": "### 🍏 Apple e Intel: El regreso inesperado a la fabricación de chips (2026)\n\nEn un giro estratégico sorprendente para la industria de los semiconductores, **Apple e Intel** han alcanzado un \"acuerdo preliminar\" para que Intel vuelva a fabricar chips destinados al hardware de Apple. Esta noticia, reportada inicialmente por *The Wall Street Journal* el 8 de mayo de 2026, marca un retorno a la colaboración tras la exitosa transición de Apple hacia su propia arquitectura de Apple Silicon.\n\n**Análisis Técnico y Contexto:**\nAunque Apple ha logrado una eficiencia energética y un rendimiento líderes con sus chips M-series y A-series, la creciente demanda de capacidad de producción y la necesidad de diversificar las fundiciones (evitando la dependencia total de TSMC) parecen ser los motores de este acuerdo. Intel, bajo el liderazgo de su nuevo CEO **Lip-Bu Tan** (nombrado en marzo de 2025) y con un respaldo estratégico del gobierno de EE. UU. (que posee el 10% de la compañía), está posicionando sus fundiciones (Intel Foundry Services) como una alternativa viable y soberana para el diseño de chips avanzado en suelo estadounidense.\n\n**Puntos Clave:**\n- **Diversificación de Supply Chain:** Apple busca mitigar riesgos geopolíticos y de capacidad al integrar la capacidad de fabricación de Intel.\n- **Soberanía Tecnológica:** El acuerdo se alinea con los esfuerzos de EE. UU. por repatriar la fabricación de semiconductores críticos.\n- **Incertidumbre de Producto:** Aún no se ha confirmado si Intel fabricará núcleos de CPU, aceleradores de IA o componentes complementarios para los dispositivos de Apple.\n\n**Fuentes Verificadas:**\n- [The Verge - Apple reportedly has a deal to use Intel-made chips again](https://www.theverge.com/tech/926988/apple-intel-chips)\n- [The Wall Street Journal - Apple-Intel Preliminary Agreement](https://www.wsj.com/tech/apple-intel-have-reached-preliminary-chip-making-agreement-69eb9370)\n- [Bloomberg - Apple explores US-based chip building](https://www.bloomberg.com/news/articles/2026-05-05/apple-explores-using-intel-and-samsung-to-build-main-device-chips-in-the-us)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778259356100",
     "title": "🤖 NVIDIA Cosmos y GR00T: El Cerebro de la Próxima Generación de Robots",
     "date": "2026-05-08",
