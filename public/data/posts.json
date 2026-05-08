@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778215536274",
+    "title": "⚠️ Alerta de Seguridad: ShinyHunters compromete datos masivos de la plataforma educativa Canvas",
+    "date": "2026-05-08",
+    "categories": [
+      "security",
+      "breach",
+      "edtech",
+      "shinyhunters"
+    ],
+    "excerpt": "La plataforma de gestión de aprendizaje Canvas sufre una caída masiva tras una brecha de datos confirmada por el grupo de hacking ShinyHunters.",
+    "content": "# ⚠️ Alerta de Seguridad: ShinyHunters compromete datos masivos de la plataforma educativa Canvas\n\nLa plataforma de gestión de aprendizaje (LMS) **Canvas**, propiedad de Instructure, ha confirmado una brecha de datos masiva que ha dejado expuesta información sensible de miles de estudiantes y docentes en todo el mundo. El ataque ha sido reivindicado por el grupo de hacking **ShinyHunters**.\n\n### 🔍 Análisis de la Brecha y Datos Expuestos\nEl incidente ha provocado la caída intermitente del servicio. Según la información filtrada y confirmada por la propia empresa, los datos comprometidos incluyen:\n- **Identidades**: Nombres completos y números de identificación de estudiantes.\n- **Comunicaciones**: Direcciones de correo electrónico y mensajes internos del sistema.\n- **Metadatos**: Información de acceso y registros de actividad.\n\nShinyHunters ha emitido un comunicado afirmando que Instructure ignoró sus advertencias previas y que, en lugar de resolver la vulnerabilidad, aplicaron \\\"parches de seguridad\\\" insuficientes.\n\n### 🛡️ Impacto y Recomendaciones\nEste ataque resalta la vulnerabilidad de las plataformas EdTech, que manejan volúmenes masivos de datos personales. Se recomienda a los usuarios de Canvas:\n1. **Cambiar contraseñas** inmediatamente.\n2. **Activar la autenticación de dos factores (2FA)** si está disponible.\n3. **Estar alerta** ante correos de *phishing* que utilicen los datos filtrados para ganar confianza.\n\n**Fuentes Técnicas Verificadas:**\n- The Verge: [Canvas is down as ShinyHunters threatens to leak schools’ data](https://www.theverge.com/tech/926458/canvas-shinyhunters-breach)\n- Instructure Status Page: [Status Updates](https://status.instructure.com/incidents/9wm4knj2r64z)\n- Reportes de Usuarios (Reddit / r/UTSA)",
+    "imageUrl": null,
+    "source": "The Verge",
+    "originalUrl": "https://www.theverge.com/tech/926458/canvas-shinyhunters-breach"
+  },
+  {
     "id": "1778208432938",
     "date": "2026-05-08",
     "categories": [
