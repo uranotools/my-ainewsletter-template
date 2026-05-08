@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778284760863",
+    "title": "⚡ vLLM v0.20.1: Salto en rendimiento con FlashAttention 4 y PyTorch 2.10",
+    "date": "2026-05-08",
+    "categories": [],
+    "excerpt": "vLLM v0.20.1 introduce soporte para FlashAttention 4 y migra a PyTorch 2.10, optimizando la latencia y el throughput de inferencia.",
+    "content": "# ⚡ vLLM v0.20.1: Salto en rendimiento con FlashAttention 4 y PyTorch 2.10\\n\\nEl ecosistema de inferencia de modelos de lenguaje ha recibido una actualización fundamental con el lanzamiento de **vLLM v0.20.1**. Esta versión no solo introduce mejoras de estabilidad, sino que redefine la eficiencia del motor de servicio mediante la integración de tecnologías de vanguardia en el stack de cómputo.\\n\\n### Innovaciones Clave de la Versión\\n\\n1. **Integración de FlashAttention 4**: El hito más relevante de este release es el soporte nativo para el backend de **FlashAttention 4**. Esta implementación optimiza la computación de la atención en las GPUs más modernas, reduciendo drásticamente la latencia y permitiendo un throughput de tokens por segundo significativamente mayor, especialmente en contextos largos.\\n\\n2. **Actualización a PyTorch 2.10**: vLLM ha migrado su base a **PyTorch 2.10.0**. Aunque esto representa un cambio disruptivo (*breaking change*) en las dependencias del entorno, permite aprovechar las últimas optimizaciones del compilador de PyTorch y mejoras en la gestión de memoria de tensores.\\n\\n### Implicaciones para la Producción\\nPara los ingenieros de ML, esta actualización significa que el despliegue de modelos MoE (Mixture of Experts) y modelos densos masivos será más eficiente en términos de memoria y tiempo de respuesta. La combinación de PagedAttention (ya consolidada en vLLM) con la nueva velocidad de FlashAttention 4 posiciona a este motor como el estándar para servicios de inferencia de alta escala.\\n\\n**Fuentes Verificadas:**\\n- **vLLM Official:** [vLLM Releases](https://vllm.ai/releases)\\n- **GitHub:** [vllm-project/vllm Releases](https://github.com/vllm-project/vllm/releases)\\n- **PyPI:** [vllm 0.20.1](https://pypi.org/project/vllm/)",
+    "imageUrl": "https://opengraph.githubassets.com/39k2ia/vllm-project/vllm/releases",
+    "source": "vLLM Project / GitHub",
+    "originalUrl": "https://github.com/vllm-project/vllm/releases"
+  },
+  {
     "id": "1778284596581",
     "title": "🖥️ Asus ROG Strix XG129C: El nuevo \"sidekick\" táctil para el setup gaming",
     "date": "2026-05-08",
