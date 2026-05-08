@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778226258884",
+    "title": "🧠 Modelos VLA: El salto hacia la \"IA Física\" en las sumisiones de ICLR 2026",
+    "date": "2026-05-08",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "🤖 **Estado del Arte en VLA: Tendencias de ICLR 2026 en Robótica Física**\n\nLa frontera de la IA robótica se está desplazando hacia los modelos VLA (Vision-Language-Action). Según el análisis de las sumisiones para la conferencia ICLR 2026, el enfoque ha pasado de la simple predicción de tokens a la implementación de \"difusión discreta\" y razonamiento embebido para el control motor en tiempo real.\n\nLos modelos VLA integran la percepción visual y la comprensión semántica del lenguaje para generar acciones físicas directas, eliminando la necesidad de capas intermedias de planificación manual. Las tendencias clave identificadas incluyen el desarrollo de nuevos tokenizadores de acción y la reducción de la brecha entre los laboratorios de vanguardia (frontier labs) y la investigación académica abierta. El objetivo es lograr que los robots no solo sigan instrucciones, sino que comprendan la física del entorno a través de representaciones latentes más eficientes, permitiendo una generalización mucho mayor en tareas domésticas y primarias.\n\n**Fuentes verificadas:**\n- ICLR 2026 Research Analysis (Moritz Reuss): https://mbreuss.github.io/blog_post_iclr_26_vla.html\n- OpenVLA Framework Documentation\n- ICLR Anonymous Submissions 2026",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778226250752",
     "title": "🔌 SpaceX lanza \"Terafab\": Una apuesta de $55B por GPUs propias y soberanía en chips de IA",
     "date": "2026-05-08",
