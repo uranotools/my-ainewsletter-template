@@ -1,5 +1,20 @@
 [
   {
+    "id": "1778257303417",
+    "title": "⚠️ Alerta de Seguridad: CVE-2026-31431 \"Copy Fail\" - Escalada de Privilegios en Linux",
+    "date": "2026-05-08",
+    "categories": [
+      "security",
+      "linux",
+      "kernel"
+    ],
+    "excerpt": "Una vulnerabilidad crítica en el kernel de Linux permite a usuarios locales escalar privilegios a root mediante la corrupción del caché de páginas utilizando la función splice().",
+    "content": "### ⚠️ Alerta de Seguridad: CVE-2026-31431 \"Copy Fail\" - Escalada de Privilegios en Linux\n\nSe ha identificado una vulnerabilidad crítica, designada como **CVE-2026-31431** (conocida internamente como \"Copy Fail\"), que afecta a múltiples versiones del kernel de Linux. Esta falla permite que un usuario con privilegios limitados en el sistema pueda escalar sus permisos hasta obtener acceso de superusuario (**root**).\n\n**Análisis Técnico:**\nLa vulnerabilidad reside en la implementación de `algif_aead` y la interacción con la función `splice()`. Un atacante puede manipular la transferencia de datos entre tuberías (*pipes*) y archivos, provocando una corrupción en el caché de páginas (*page cache*) de binarios con el bit `setuid` activado. Al corromper la memoria donde reside el binario ejecutable, el atacante puede inyectar código arbitrario que se ejecuta con los privilegios del propietario del archivo (root).\n\n**Impacto y Mitigación:**\n- **Impacto:** Crítico. Permite la toma total del control del sistema host.\n- **Mitigación:** Se recomienda actualizar inmediatamente al kernel parcheado o deshabilitar las capacidades de `splice` en entornos donde no sean estrictamente necesarias.\n\n**Fuentes:**\n- [CVE MITRE Database](https://cve.mitre.org/)\n- [Linux Kernel Mailing List (LKML)](https://lkml.org/)\n- [NVD - National Vulnerability Database](https://nvd.nist.gov/)",
+    "imageUrl": null,
+    "source": "CVE Database",
+    "originalUrl": "https://cve.mitre.org/"
+  },
+  {
     "id": "1778256863357",
     "date": "2026-05-08",
     "categories": [
