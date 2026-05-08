@@ -2,6 +2,9 @@
 
 Un template moderno, estático y optimizado para la publicación automática de newsletters y noticias de Inteligencia Artificial utilizando React 18, Vite, TypeScript y TailwindCSS.
 
+Your personal Newsletter AI Tutorial: [Go to tutorial](https://uranoproject.medium.com/how-to-create-your-own-personal-ai-newsletter-with-urano-desktop-4c8a714cf311)
+Tu sitio de Noticias con IA, Tutorial: [Go to tutorial](https://uranoproject.medium.com/c%C3%B3mo-crear-tu-propia-newsletter-de-ia-personal-y-aut%C3%B3noma-con-urano-desktop-45436d24d240)
+
 Diseñado con una estética "The 8088 / Industrial Elegance" y modo oscuro por defecto.
 
 ## Funcionalidades
