@@ -1,5 +1,20 @@
 [
   {
+    "id": "1778246255697",
+    "title": "📦 Nanoleaf y el Salto a la IA Física: Robótica y Bienestar en el Hogar",
+    "date": "2026-05-08",
+    "categories": [
+      "hardware",
+      "robotics",
+      "embodied-ai"
+    ],
+    "excerpt": "Nanoleaf abandona su etiqueta de empresa de iluminación para enfocarse en la IA Encarnada y la robótica doméstica.",
+    "content": "## 🤖 Nanoleaf Pivota hacia la \"IA Embodied\": Más allá de la Iluminación Inteligente\n\nLa compañía Nanoleaf, reconocida globalmente por sus paneles de luz modulares, ha anunciado un cambio estratégico radical en su modelo de negocio. Tras un periodo de relativa inactividad en lanzamientos de productos, la empresa ha revelado que está evolucionando su marca para centrarse en la **IA Embodied (IA Encarnada)**, la robótica y el bienestar.\n\n### 🚀 El Fin de la \"Era Aburrida\" del Smart Home\nGimmy Chu, CEO y cofundador de Nanoleaf, ha sido tajante al afirmar que el hogar inteligente se ha vuelto \"aburrido\". Para combatir esto, la empresa está desarrollando una nueva línea de productos que integran la IA no solo como una interfaz de voz, sino como una entidad capaz de interactuar físicamente con el entorno.\n\n**Los tres ejes de la evolución de Nanoleaf:**\n1. **Robótica y IA Embodied:** Desarrollo de dispositivos que pueden moverse y reaccionar físicamente en el espacio doméstico, integrando modelos de visión y acción.\n2. **Terapia de Luz Roja:** Integración de ciencia del bienestar mediante el uso de longitudes de onda específicas para mejorar la salud y el sueño.\n3. **Ecosistema de IA:** Transformar sus productos de iluminación en sensores activos que alimentan la inteligencia del hogar.\n\n**Implicaciones Técnicas:**\nEste movimiento refleja la tendencia general de la industria hacia la **IA Física**. Ya no basta con que la IA responda preguntas en una pantalla; la tendencia para 2026 es que la IA tenga un \"cuerpo\" (ya sea un robot móvil o un dispositivo actuador) para ejecutar tareas complejas en el mundo real.\n\n**Fuentes:**\n- The Verge: [Nanoleaf bets its future on robots, red light therapy, and AI](https://www.theverge.com/tech/926342/nanoleaf-smart-lighting-ai-robotics-red-light-wellness)\n- Nanoleaf Official: [Evolving Nanoleaf](https://us-shop.nanoleaf.me/blogs/general/evolving-nanoleaf-bringing-access-into-innovation)",
+    "imageUrl": null,
+    "source": "The Verge / Nanoleaf",
+    "originalUrl": "https://www.theverge.com/tech/926342/nanoleaf-smart-lighting-ai-robotics-red-light-wellness"
+  },
+  {
     "id": "1778246247423",
     "title": "🛡️ Crisis de Seguridad en Frameworks de IA: RCE y Robo de Datos en Langflow y Chainlit",
     "date": "2026-05-08",
