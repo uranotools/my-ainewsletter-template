@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778276140373",
+    "title": "🚨 Alerta de Seguridad: RCE Críticos detectados en vLLM y llama.cpp",
+    "date": "2026-05-08",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "🚨 **Alerta de Seguridad Crítica: RCE en vLLM y llama.cpp pone en riesgo servidores de inferencia de IA**\n\nSe han reportado múltiples vulnerabilidades críticas de Ejecución Remota de Código (RCE) que afectan a los motores de inferencia más populares del ecosistema open-source, vLLM y llama.cpp, exponiendo millones de despliegues de modelos de lenguaje (LLMs).\n\n**Análisis de Vulnerabilidades:**\n1. **vLLM (CVE-2026-22778):** Esta vulnerabilidad permite a un atacante tomar control total del servidor simplemente enviando un enlace de video malicioso a la API de vLLM. El fallo se produce durante el procesamiento del input multimodal, permitiendo la inyección de código en el backend de inferencia.\n2. **llama.cpp (CVE-2026-34159):** Un fallo crítico de deserialización en el backend RPC (`deserialize_tensor()`) permite un bypass de seguridad que conduce a RCE. Con una puntuación CVSS de 9.8, es una de las vulnerabilidades más graves detectadas en el motor.\n3. **llama.cpp (CVE-2026-27940):** Un desbordamiento de entero (*integer overflow*) provocado por archivos GGUF maliciosos puede causar desbordamientos de búfer en el heap, comprometiendo la integridad de la memoria del sistema host.\n\n**Recomendaciones Técnicas:**\nSe insta a todos los administradores de sistemas y desarrolladores a actualizar inmediatamente a las versiones parcheadas de ambos frameworks. Se recomienda además restringir el acceso a las APIs de inferencia mediante firewalls y evitar la carga de modelos GGUF de fuentes no verificadas.\n\n**Fuentes Verificadas:**\n- Ox.Security (CVE-2026-22778): [https://www.ox.security/blog/cve-2026-22778-vllm-rce-vulnerability/](https://www.ox.security/blog/cve-2026-22778-vllm-rce-vulnerability/)\n- IntegSec (CVE-2026-27940): [https://integsec.com/blog/cve-2026-27940-llama.cpp-integer-overflow-what-it-means-for-your-business-and-how-to-respond](https://integsec.com/blog/cve-2026-27940-llama.cpp-integer-overflow-what-it-means-for-your-business-and-how-to-respond)\n- The Hacker Wire (CVE-2026-34159): [https://www.thehackerwire.com/llama-cpp-critical-rce-via-rpc-deserialization-bypass/](https://www.thehackerwire.com/llama-cpp-critical-rce-via-rpc-deserialization-bypass/)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778276132291",
     "title": "🤖 Gemini Robotics 1.5: La era de los modelos VLA y la IA Encarnada",
     "date": "2026-05-08",
