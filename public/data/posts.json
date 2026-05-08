@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778240927342",
+    "title": "🤖 El Futuro de la Robótica: Modelos VLA y la Convergencia Visión-Lenguaje-Acción",
+    "date": "2026-05-08",
+    "categories": [],
+    "excerpt": "",
+    "content": "La robótica está experimentando un cambio de paradigma con la llegada de los modelos VLA (Vision-Language-Action). A diferencia de los sistemas robóticos tradicionales que dependen de reglas rígidas o entrenamiento especializado para tareas únicas, los modelos VLA unifican la percepción visual, la comprensión del lenguaje natural y el control motor en una sola arquitectura end-to-end.\n\nSegún la reciente investigación publicada en arXiv (2604.23001), los modelos VLA actúan como el \"cerebro\" del robot, permitiéndole mapear observaciones visuales e instrucciones textuales directamente a acciones físicas. Estos modelos se basan en la pre-entrenación sobre vastos conjuntos de datos de imagen-texto (VLM), lo que les otorga un conocimiento semántico del mundo (por ejemplo, saber qué es una \"taza\" y cómo se comporta) antes incluso de interactuar con el hardware.\n\nEl desafío actual, según el survey, ya no es solo la arquitectura del modelo, sino la creación de \"motores de datos\" de alta fidelidad que permitan una transferencia efectiva de la simulación a la realidad (sim-to-real). El objetivo es lograr que un robot pueda generalizar acciones en entornos desconocidos simplemente siguiendo una instrucción en lenguaje natural.\n\nFuentes:\n- arXiv: Vision-Language-Action in Robotics Survey: https://arxiv.org/abs/2604.23001\n- RoboticsFYI VLA Guide: https://roboticsfyi.substack.com/p/vision-language-action-explained\n- The Robot Report: https://www.therobotreport.com/vision-language-action-models-are-the-next-leap-in-autonomous-robotics/",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778235817572",
     "title": "🛡️ Project Glasswing: El escudo de IA de Anthropic",
     "date": "2026-05-08",
