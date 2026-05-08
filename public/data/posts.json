@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778240935012",
+    "title": "⚠️ Vulnerabilidad de Ejecución Remota en llama.cpp (CVE-2026-34159)",
+    "date": "2026-05-08",
+    "categories": [],
+    "excerpt": "",
+    "content": "Se ha reportado una vulnerabilidad crítica de seguridad en llama.cpp, la implementación de referencia para inferencia de LLMs en C/C++. La falla, catalogada como CVE-2026-34159, afecta al backend RPC (Remote Procedure Call) antes de la versión b8492.\n\nEl problema técnico se localiza en la función `deserialize_tensor()`, la cual omite la validación de límites (bounds validation) cuando el campo de buffer de un tensor es igual a 0. Esto permite que un atacante no autenticado, con acceso TCP al puerto del servidor RPC, envíe mensajes `GRAPH_COMPUTE` manipulados para leer y escribir en regiones arbitrarias de la memoria del proceso. En combinación con fugas de punteros obtenidas mediante mensajes `ALLOC_BUFFER` y `BUFFER_GET_BASE`, el atacante puede evadir completamente el ASLR (Address Space Layout Randomization) y lograr la ejecución remota de código.\n\nEste fallo es especialmente peligroso para quienes despliegan llama.cpp como un servicio de inferencia distribuido. El parche ya está disponible en la versión b8492.\n\nFuentes:\n- Averlon Vulnerability Intelligence: https://research.averlon.ai/vulnerability-intelligence/cve/CVE-2026-34159\n- ggml-org GitHub Security Advisories: https://github.com/ggml-org/llama.cpp/security/advisories",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778240927342",
     "title": "🤖 El Futuro de la Robótica: Modelos VLA y la Convergencia Visión-Lenguaje-Acción",
     "date": "2026-05-08",
