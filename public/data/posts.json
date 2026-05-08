@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778270269429",
+    "title": "🚀 Arm rompe el paradigma: Lanza su primer CPU \"AGI\" de 136 núcleos para los Data Centers de Meta",
+    "date": "2026-05-08",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "🚀 **Arm rompe el paradigma: Lanza su primer CPU \"AGI\" de 136 núcleos para los Data Centers de Meta**\n\nEn un movimiento histórico que redefine su modelo de negocio, Arm ha dejado de ser únicamente un licenciador de propiedad intelectual (IP) para convertirse en un proveedor de silicio terminado. La compañía ha presentado su **AGI CPU**, la primera unidad de procesamiento diseñada y vendida directamente por Arm, optimizada específicamente para cargas de trabajo de Inteligencia Artificial General (AGI) en centros de datos.\n\n**Detalles Técnicos y Arquitectura:**\nEl chip destaca por una configuración masiva de hasta **136 núcleos por procesador**, diseñados para maximizar el rendimiento por vatio. Según los datos técnicos, este nuevo CPU ofrece aproximadamente el **doble de eficiencia energética** en comparación con los procesadores x86 convencionales, un factor crítico para Meta, quien es el primer cliente oficial y socio principal en el despliegue de esta infraestructura.\n\nEste giro estratégico permite a Arm controlar la implementación final del hardware, asegurando que las optimizaciones de bajo nivel para inferencia de IA se ejecuten sin las fricciones habituales de la adaptación de IP por parte de terceros. El despliegue en los data centers de Meta comenzará a finales de este año, sentando las bases para una infraestructura de IA más sostenible y escalable.\n\n**Fuentes Verificadas:**\n- Tom's Hardware: [https://www.tomshardware.com/tech-industry/semiconductors/arm-launches-its-first-data-center-cpu](https://www.tomshardware.com/tech-industry/semiconductors/arm-launches-its-first-data-center-cpu)\n- CNBC: [https://www.cnbc.com/2026/03/24/arm-launches-its-own-cpu-with-meta-as-first-customer.html](https://www.cnbc.com/2026/03/24/arm-launches-its-own-cpu-with-meta-as-first-customer.html)\n- Meta Newsroom: [https://about.fb.com/news/2026/03/meta-partners-with-arm-to-develop-new-class-of-data-center-silicon/](https://about.fb.com/news/2026/03/meta-partners-with-arm-to-develop-new-class-of-data-center-silicon/)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778270062957",
     "title": "🛡️ Seguridad en Robótica: Vulnerabilidad Crítica de MQTT detectada en Robots Yarbo",
     "date": "2026-05-08",
