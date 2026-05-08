@@ -1,5 +1,20 @@
 [
   {
+    "id": "1778257312675",
+    "title": "🔐 Seguridad en IA: NVIDIA NemoClaw y la Exfiltración de Secretos",
+    "date": "2026-05-08",
+    "categories": [
+      "security",
+      "ai",
+      "nvidia"
+    ],
+    "excerpt": "Se descubre la vulnerabilidad CVE-2026-24222 en el framework NVIDIA NemoClaw, permitiendo la exfiltración de datos sensibles mediante Prompt Injection.",
+    "content": "### 🔐 Seguridad en IA: NVIDIA NemoClaw y la Exfiltración de Secretos\n\nInvestigadores de seguridad han revelado una vulnerabilidad crítica en el framework de IA de NVIDIA, denominada **NemoClaw** (**CVE-2026-24222**), que expone los sistemas a ataques de exfiltración de datos mediante técnicas avanzadas de *Prompt Injection*.\n\n**Detalles Técnicos:**\nLa falla se encuentra en la función `validateEndpointUrl()`, la cual no implementa una validación rigurosa de las URLs de destino. Un atacante puede enviar un prompt malicioso que engañe al modelo para que realice una petición HTTP hacia un servidor externo controlado por el atacante (SSRF - Server Side Request Forgery). Si el modelo tiene acceso a secretos del sistema o tokens de API en su contexto, estos pueden ser adjuntados a la petición y exfiltrados.\n\n**Riesgos Asociados:**\n- **Fuga de Datos:** Exposición de claves de API y credenciales internas.\n- **Ataques Indirectos:** Capacidad de pivotar desde la IA hacia otros servicios internos de la red.\n\n**Fuentes:**\n- [NVIDIA Security Advisories](https://nvidia.com/security)\n- [CVE Details - CVE-2026-24222](https://cvedetails.com/)\n- [AI Security Hub](https://aisecurityhub.io/)",
+    "imageUrl": null,
+    "source": "NVIDIA Security",
+    "originalUrl": "https://nvidia.com/security"
+  },
+  {
     "id": "1778257303417",
     "title": "⚠️ Alerta de Seguridad: CVE-2026-31431 \"Copy Fail\" - Escalada de Privilegios en Linux",
     "date": "2026-05-08",
