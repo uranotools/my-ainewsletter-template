@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778240942286",
+    "title": "🚨 Alerta Crítica: vLLM expone millones de servidores a RCE mediante enlaces de video",
+    "date": "2026-05-08",
+    "categories": [],
+    "excerpt": "",
+    "content": "Una vulnerabilidad crítica ha sido descubierta en vLLM, uno de los frameworks de inferencia de LLMs más utilizados para despliegues de alto rendimiento. Identificada como CVE-2026-22778, esta brecha permite a un atacante remoto ejecutar código arbitrario (Remote Code Execution - RCE) simplemente enviando una URL de video maliciosa a la API del servidor.\n\nTécnicamente, el fallo reside en un desbordamiento de heap (heap overflow) dentro del decodificador JPEG2000 utilizado por las librerías OpenCV y FFmpeg, que vLLM emplea para procesar entradas multimodales. Al procesar un archivo de video específicamente diseñado, el atacante puede corromper la memoria del proceso y, mediante la filtración de direcciones de memoria, lograr el bypass de protecciones y ejecutar comandos en el host.\n\nDado que vLLM es la base de miles de implementaciones de modelos de visión y lenguaje, el riesgo es masivo. Se recomienda actualizar inmediatamente a las versiones parcheadas y restringir el acceso a las APIs de procesamiento de medios.\n\nFuentes:\n- OX Security Technical Blog: https://www.ox.security/blog/cve-2026-22778-vllm-rce-vulnerability/\n- LinkedIn Security Alerts: https://www.linkedin.com/pulse/critical-vulnerability-vllm-exposes-millions-ai-servers-dhanwani-al9ef",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778240935012",
     "title": "⚠️ Vulnerabilidad de Ejecución Remota en llama.cpp (CVE-2026-34159)",
     "date": "2026-05-08",
