@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778263279586",
+    "title": "🤖 Figure AI expande la autonomía doméstica con Helix-02 y Figure 03",
+    "date": "2026-05-08",
+    "categories": [],
+    "excerpt": "Figure AI presenta la capacidad \"Bedroom Tidy\" en Helix-02 y escala la producción del Figure 03 para despliegue doméstico.",
+    "content": "### 🤖 Figure AI expande la autonomía doméstica con Helix-02 y Figure 03\n\nLa empresa de robótica **Figure AI** continúa acelerando la implementación de la \"IA Física\" en entornos reales. El 8 de mayo de 2026, la compañía presentó avances significativos en sus modelos **Helix-02** y la producción del **Figure 03**, demostrando capacidades de interacción doméstica avanzada.\n\n**Hito Técnico: \"Bedroom Tidy\"**\nLa actualización más notable es la demostración de la capacidad **\"Bedroom Tidy\"** del modelo Helix-02. A diferencia de las tareas industriales repetitivas, el ordenado de una habitación requiere una comprensión semántica profunda del entorno y una coordinación motora fina para manipular objetos diversos sin dañarlos. Esto es posible gracias a la arquitectura de redes neuronales extremo a extremo (*end-to-end*) que procesa la visión y la acción en un solo flujo, reduciendo la latencia entre la percepción y el movimiento.\n\n**Progreso en la Producción:**\nParalelamente, Figure AI ha confirmado el escalado de la producción del **Figure 03**. Este modelo está diseñado para una integración más profunda en flujos de trabajo comerciales y domésticos, optimizando el consumo energético y la seguridad en la interacción humano-robot. La empresa busca transitar de prototipos de laboratorio a despliegues masivos, utilizando el aprendizaje por imitación y el pre-entrenamiento a escala de internet para generalizar tareas domésticas.\n\n**Fuentes Verificadas:**\n- [Figure AI News - Helix-02 Bedroom Tidy](https://www.figure.ai/news)\n- [Singularity Moments - AI Robotics Guide 2026](https://www.singularitymoments.com/ai-robotics-guide-2026/)\n- [GrabRobot - Humanoid Workforce Deployment](https://www.grabarobot.com/blog/humanoid-robot-workforce-deployment-2026/)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778263272783",
     "title": "⚠️ Alerta de Seguridad: CVE-2026-7415 expone robots Yarbo mediante MQTT anónimo",
     "date": "2026-05-08",
