@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, Calendar, Zap, ExternalLink } from 'lucide-react';
+import { ArrowLeft, Calendar, Zap, ExternalLink, Monitor } from 'lucide-react';
 import { MarkdownRenderer } from '../lib/markdown';
 import { formatPostDate } from '../lib/utils';
 import { POSTS_JSON_URL } from '../config';
@@ -87,6 +87,27 @@ export default function PostView() {
 
   const readingTime = Math.max(1, Math.round(post.content.split(/\s+/).filter(Boolean).length / 220));
 
+  const openInUranoDesktop = () => {
+    try {
+      // Construir el prompt con el título, excerpt y URL del post
+      const basePrompt = `Explica algo interesante sobre este artículo`;
+      const title = post.title;
+      const excerpt = post.excerpt ? `: ${post.excerpt}` : '';
+      const url = window.location.href;
+      
+      const fullPrompt = `${basePrompt} "${title}${excerpt}" - Link: ${url}`;
+      
+      // Codificar el prompt para URL
+      const encodedPrompt = encodeURIComponent(fullPrompt);
+      
+      // Abrir la aplicación con el prompt
+      window.location.href = `urano://?prompt=${encodedPrompt}`;
+    } catch (error) {
+      // Si hay error, ir directamente al sitio de descarga
+      window.location.href = 'https://uranoai.com/workspace';
+    }
+  };
+
   return (
     <article className="max-w-[1800px] mx-auto px-4 sm:px-6 lg:px-8 py-10">
       <Link to="/" className="inline-flex items-center text-foreground/60 hover:text-foreground transition-colors mb-8">
@@ -147,6 +168,14 @@ export default function PostView() {
                   <ExternalLink className="w-4 h-4" />
                 </a>
               )}
+              <button
+                onClick={openInUranoDesktop}
+                className="flex items-center gap-2 text-primary font-bold hover:text-primary/80 transition-colors"
+                title="Abrir en Urano Desktop (o descargar si no tienes la app)"
+              >
+                <Monitor className="w-4 h-4" />
+                <span>Investigar con UranoDesktop</span>
+              </button>
             </div>
           </header>
 
@@ -199,10 +228,19 @@ export default function PostView() {
                     href={post.originalUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block rounded-2xl border border-foreground/10 bg-foreground/5 px-4 py-3 text-sm font-semibold text-primary hover:bg-primary/10 transition-colors"
+                    className="block rounded-2xl border border-foreground/10 bg-foreground/5 px-4 py-3 text-sm font-semibold text-primary hover:bg-primary/10 transition-colors mb-3"
                   >
                     Abrir fuente original
                   </a>
+                  <button
+                    onClick={openInUranoDesktop}
+                    className="block w-full rounded-2xl border border-foreground/10 bg-foreground/5 px-4 py-3 text-sm font-semibold text-primary hover:bg-primary/10 transition-colors"
+                  >
+                    <div className="flex items-center justify-center gap-2">
+                      <Monitor className="w-4 h-4" />
+                      Abrir en Urano Desktop
+                    </div>
+                  </button>
                 </div>
               )}
             </div>
