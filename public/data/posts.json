@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778215553604",
+    "title": "🎧 Apple AirPods con cámaras para IA: El nuevo sentido visual de Siri",
+    "date": "2026-05-08",
+    "categories": [
+      "apple",
+      "airpods",
+      "ai",
+      "hardware"
+    ],
+    "excerpt": "Apple acerca la producción de unos AirPods equipados con cámaras diseñadas para proporcionar contexto visual a Siri en tiempo real.",
+    "content": "# 🎧 Apple AirPods con cámaras para IA: El nuevo sentido visual de Siri\n\nApple está acelerando la producción de una nueva generación de AirPods que integran cámaras diseñadas específicamente para potenciar la inteligencia artificial de Siri, transformando los auriculares en un dispositivo de **computación ambiental**.\n\n### 👁️ Funcionalidad: Visión Contextual en Tiempo Real\nA diferencia de las cámaras convencionales, los sensores integrados en los AirPods no están diseñados para capturar fotografías o videos de alta resolución. Su propósito es captar **información visual de baja resolución** que Siri pueda procesar en tiempo real para proporcionar respuestas contextuales.\n\n**Casos de uso previstos:**\n- **Interacción con el Entorno**: El usuario puede preguntar a Siri: \\\"¿Qué puedo cocinar con los ingredientes que tengo delante?\\\" y la IA analizará la escena para dar sugerencias.\n- **Asistencia de Navegación**: Apoyo en el reconocimiento de objetos o señales durante el desplazamiento.\n- **Accesibilidad**: Descripción de entornos para personas con discapacidad visual.\n\n### ⚙️ Estado de Producción\nSegún reportes de Mark Gurman (Bloomberg), los prototipos se encuentran actualmente en la etapa de **Design Validation Test (DVT)**, que es el paso inmediatamente anterior a la Validación de Producción (PVT). Esto indica que el diseño está prácticamente cerrado y Apple está afinando la manufactura masiva.\n\n**Fuentes Técnicas Verificadas:**\n- The Verge: [Apple's AirPods with cameras for AI are apparently close to production](https://www.theverge.com/tech/926376/apple-airpods-cameras-ai-production)\n- Bloomberg (Mark Gurman)\n- Apple Internal Testing (vía Bloomberg)",
+    "imageUrl": null,
+    "source": "The Verge",
+    "originalUrl": "https://www.theverge.com/tech/926376/apple-airpods-cameras-ai-production"
+  },
+  {
     "id": "1778215545212",
     "title": "🚀 SpaceX apuesta $55 mil millones por su propia infraestructura de chips de IA \"Terafab\"",
     "date": "2026-05-08",
