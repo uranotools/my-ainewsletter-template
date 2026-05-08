@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778263272783",
+    "title": "⚠️ Alerta de Seguridad: CVE-2026-7415 expone robots Yarbo mediante MQTT anónimo",
+    "date": "2026-05-08",
+    "categories": [],
+    "excerpt": "Vulnerabilidad crítica (CVSS 9.8) en firmware de Yarbo permite control total del robot mediante conexiones MQTT anónimas.",
+    "content": "### ⚠️ Alerta de Seguridad: CVE-2026-7415 expone robots Yarbo mediante MQTT anónimo\n\nSe ha detectado una vulnerabilidad crítica identificada como **CVE-2026-7415** que afecta la seguridad de los robots de mantenimiento Yarbo, específicamente en la versión de firmware **v2.3.9**. Esta vulnerabilidad ha sido catalogada con un puntaje de severidad **CVSS 9.8 (Crítica)** debido a la facilidad de explotación y el impacto total sobre el dispositivo.\n\n**Detalles Técnicos:**\nEl fallo reside en la configuración del broker **MQTT** embebido en el firmware. El sistema está configurado para permitir conexiones anónimas sin la implementación de Listas de Control de Acceso (ACL) a nivel de tópico. Esto significa que cualquier host que se encuentre en la misma red local que el robot puede:\n1. **Suscribirse a tópicos de telemetría sensibles**, obteniendo datos en tiempo real sobre la ubicación, estado y actividad del robot.\n2. **Publicar mensajes de control directamente**, permitiendo que un atacante tome el control total del movimiento y las funciones del robot sin necesidad de autenticación o autorización.\n\n**Impacto y Mitigación:**\nEste tipo de vulnerabilidades en la robótica de servicio pueden derivar en riesgos físicos y de privacidad. Se recomienda a los usuarios y administradores de flota actualizar inmediatamente el firmware a la versión más reciente proporcionada por el fabricante y restringir el acceso a la red local mediante segmentación (VLANs) para evitar que dispositivos no autorizados accedan al puerto MQTT.\n\n**Fuentes Verificadas:**\n- [The Hacker Wire - CVE-2026-7415 Detailed Analysis](https://www.thehackerwire.com/vulnerability/CVE-2026-7415/)\n- [NIST National Vulnerability Database (NVD)](https://www.nist.gov/itl/nvd)\n- [CVE.org - CVE-2026-7415 Record](https://www.cve.org/)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778263264818",
     "title": "🍏 Apple e Intel: El regreso inesperado a la fabricación de chips (2026)",
     "date": "2026-05-08",
