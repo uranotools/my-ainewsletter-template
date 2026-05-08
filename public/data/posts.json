@@ -1,5 +1,20 @@
 [
   {
+    "id": "1778280120259",
+    "title": "🧬 Bio-Tech 2026: la IA pasa de la teoría a la clínica en el descubrimiento de fármacos",
+    "date": "2026-05-08",
+    "categories": [
+      "biotech",
+      "ai",
+      "pharma"
+    ],
+    "excerpt": "El descubrimiento de fármacos mediante IA alcanza la madurez clínica en 2026, con la transición de modelos teóricos a candidatos reales en Fase II/III.",
+    "content": "🧬 **Bio-Tech 2026: La IA pasa de la teoría a la clínica en el descubrimiento de fármacos**\n\nEl año 2026 marca un punto de inflexión en la industria farmacéutica: la Inteligencia Artificial ha dejado de ser una herramienta de cribado virtual para convertirse en el motor principal de candidatos clínicos en fases avanzadas.\n\n**Hitos Técnicos:**\nLa integración de modelos generativos de proteínas y la evolución de sistemas como **AlphaFold 3** han permitido que las empresas de Bio-AI pasen de proponer moléculas \"prometedoras\" a entregar fármacos en Fase II y III de ensayos clínicos. La tendencia actual se centra en el **diseño multimodal**, donde la IA no solo predice la estructura de una proteína, sino que optimiza simultáneamente la farmacocinética (ADME) y la toxicidad, reduciendo el ciclo de descubrimiento de años a meses.\n\nAdemás, se observa una inversión masiva en plataformas de automatización de laboratorio (*closed-loop labs*), donde la IA diseña la molécula, la sintetiza mediante robótica y analiza el resultado en tiempo real para refinar el modelo, creando un ciclo de retroalimentación autónomo que acelera la validación experimental.\n\n**Datos No Comprobados (Especulativos):**\nExisten reportes no oficiales sobre la posibilidad de que el primer fármaco diseñado 100% por IA sin intervención humana en la etapa de diseño molecular reciba aprobación acelerada de la FDA antes de finalizar el año, aunque las farmacéuticas mantienen cautela sobre los plazos exactos.\n\n**Fuentes Verificadas:**\n- **Bio-in-Tech:** [AI in Drug Discovery: The Complete Guide (2026)](https://bio-in-tech.com/blog/ai-in-drug-discovery-complete-guide-2026/)\n- **BiomedNexus:** [25 AI Drug Discovery Companies Delivering Clinical Candidates](https://biomednexus.com/ai-drug-discovery-companies-clinical-candidates-2026/)\n- **IntuitionLabs:** [AI Biologics Discovery: 2026 Pharma Investment Trends](https://intuitionlabs.ai/articles/ai-biologics-discovery-pharma-investment-trends)",
+    "imageUrl": null,
+    "source": "Bio-in-Tech / BiomedNexus",
+    "originalUrl": "https://bio-in-tech.com/blog/ai-in-drug-discovery-complete-guide-2026/"
+  },
+  {
     "id": "1778276140373",
     "title": "🚨 Alerta de Seguridad: RCE Críticos detectados en vLLM y llama.cpp",
     "date": "2026-05-08",
