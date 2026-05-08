@@ -1,5 +1,17 @@
 [
   {
+    "id": "1778235369760",
+    "date": "2026-05-08",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778234254641",
     "title": "🚨 Seguridad: Google Chrome lanza parche de emergencia para fallos críticos en WebGPU y V8",
     "date": "2026-05-08",
