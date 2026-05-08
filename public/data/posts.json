@@ -1,5 +1,17 @@
 [
   {
+    "id": "1778208417118",
+    "date": "2026-05-08",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778204850039",
     "title": "⚠️ Alerta Crítica: CVE-2026-22778 permite RCE total en servidores vLLM vía Video",
     "date": "2026-05-08",
