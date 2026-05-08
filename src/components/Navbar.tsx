@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Settings, Moon, Sun } from 'lucide-react';
+import { Moon, Sun } from 'lucide-react';
 
 export default function Navbar() {
   const [isDark, setIsDark] = React.useState(() => {
@@ -69,13 +69,6 @@ export default function Navbar() {
             >
               {isDark ? <Sun className="w-6 h-6 stroke-[3]" /> : <Moon className="w-6 h-6 stroke-[3]" />}
             </button>
-            <Link 
-              to="/?role=editor" 
-              className="p-3 text-foreground hover:bg-primary hover:text-primary-foreground border-4 border-transparent hover:border-foreground transition-all"
-              aria-label="Editor Dashboard"
-            >
-              <Settings className="w-6 h-6 stroke-[3]" />
-            </Link>
           </div>
         </div>
       </div>
