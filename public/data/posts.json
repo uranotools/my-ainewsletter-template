@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778201158585",
+    "title": "⚠️ Brecha masiva en Canvas: ShinyHunters compromete datos de 275 millones de usuarios",
+    "date": "2026-05-08",
+    "categories": [],
+    "excerpt": "ShinyHunters compromete datos de 275 millones de usuarios de Canvas, incluyendo nombres, correos y mensajes privados de 9,000 escuelas.",
+    "content": "# ⚠️ Brecha masiva en Canvas: ShinyHunters compromete datos de 275 millones de usuarios\n\nEl sector de la tecnología educativa (*EdTech*) ha sufrido uno de sus golpes más severos. **Instructure**, la compañía detrás de la plataforma de gestión de aprendizaje **Canvas**, ha confirmado una brecha de seguridad masiva tras las reclamaciones del grupo de hacking **ShinyHunters**. Se estima que hasta **275 millones de usuarios** a nivel global han sido afectados.\n\n### 🔍 Análisis del Incidente\nEl grupo ShinyHunters afirmó haber vulnerado los sistemas de Instructure, obteniendo acceso a registros personales de estudiantes, profesores y personal administrativo de aproximadamente **9,000 instituciones educativas** en todo el mundo.\n\n**Datos comprometidos confirmados:**\n- Nombres completos de los usuarios.\n- Direcciones de correo electrónico personales e institucionales.\n- Números de identificación de estudiantes (ID).\n- Mensajes privados enviados entre usuarios dentro de la plataforma.\n\n### 🛡️ Riesgos y Mitigación\nAunque Instructure ha indicado que no hay evidencia de que las contraseñas hayan sido comprometidas en texto plano, la filtración de mensajes privados y correos electrónicos abre la puerta a ataques de **phishing altamente dirigidos** y extorsión. El grupo criminal ha utilizado tácticas de \"pagar o filtrar\" (*pay or leak*), presionando a las instituciones para evitar la publicación masiva de la data. Se recomienda a todos los usuarios de Canvas activar la autenticación de dos factores (2FA) y estar alerta ante comunicaciones sospechosas.\n\n**Fuentes Técnicas Verificadas:**\n- TechCrunch: [Hackers steal students' data during breach at Instructure](https://techcrunch.com/2026/05/05/hackers-steal-students-data-during-breach-at-education-tech-giant-instructure/)\n- Bitdefender: [Instructure confirms breach; millions of Canvas users impacted](https://www.bitdefender.com/en-us/blog/hotforsecurity/canvas-data-breach-2026)\n- Inside Higher Ed: [“PAY OR LEAK”: Hackers Target Big Higher Ed Vendor](https://www.insidehighered.com/news/tech-innovation/administrative-tech/2026/05/05/pay-or-leak-hackers-target-big-higher-ed-vendor)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778197400327",
     "title": "🤖 Tesla Optimus Gen 3: El inicio de la producción masiva de humanoides",
     "date": "2026-05-07",
