@@ -1,5 +1,20 @@
 [
   {
+    "id": "1778280135238",
+    "title": "🛡️ RISCover: Exponiendo las grietas de seguridad en CPUs RISC-V",
+    "date": "2026-05-08",
+    "categories": [
+      "security",
+      "hardware",
+      "riscv"
+    ],
+    "excerpt": "El marco RISCover revela que las implementaciones comerciales de RISC-V presentan vulnerabilidades críticas de canales laterales, desafiando la premisa de seguridad del hardware abierto.",
+    "content": "🛡️ **RISCover: Exponiendo las grietas de seguridad en CPUs RISC-V**\n\nA pesar de la narrativa de que una ISA (Instruction Set Architecture) abierta garantiza una mayor seguridad, investigaciones recientes presentadas en **FOSDEM 2026** revelan que las implementaciones reales de CPUs RISC-V están \"quedándose cortas\" en términos de protección microarquitectónica.\n\n**Análisis de la Vulnerabilidad:**\nEl equipo del Centro Helmholtz CISPA ha demostrado que incluso los diseños *in-order* más simples sufren de fallos arquitectónicos y canales laterales (*side-channels*) potentes. La vulnerabilidad no reside en la especificación de RISC-V, sino en cómo los fabricantes implementan el hardware. \n\nPara combatir la opacidad de los diseños comerciales (muchos de los cuales son de código cerrado), se ha desarrollado **RISCover**, un framework de espacio de usuario capaz de detectar automáticamente vulnerabilidades explotables en CPUs RISC-V sin necesidad de acceder a los archivos RTL del chip. RISCover compara el comportamiento del hardware real con simuladores para identificar discrepancias que indican la presencia de fugas de información o fallos de aislamiento de privilegios.\n\nEste hallazgo subraya que la \"seguridad por apertura\" de la ISA no es suficiente si la implementación física introduce vectores de ataque similares a Spectre o Meltdown en x86.\n\n**Fuentes Verificadas:**\n- **Phoronix:** [Security Researchers Find Current RISC-V CPU Implementations Coming Up Short](https://www.phoronix.com/news/RISC-V-Security-CPU-Not-So-Good)\n- **ScienceDirect:** [Attacks, defenses and perspectives for the runtime security of RISC-V](https://www.sciencedirect.com/science/article/pii/S0167404825005061)\n- **FabianThomas.de:** [RISCover: Automatic Discovery of User-exploitable Architectural Vulnerabilities](https://fabianthomas.de/publications/2025/thomas2025riscover/)",
+    "imageUrl": null,
+    "source": "Phoronix / CISPA Helmholtz Center",
+    "originalUrl": "https://www.phoronix.com/news/RISC-V-Security-CPU-Not-So-Good"
+  },
+  {
     "id": "1778280127250",
     "title": "⚛️ Fotónica Cuántica: Emisores de Luz Deterministas mediante Origami de ADN",
     "date": "2026-05-08",
