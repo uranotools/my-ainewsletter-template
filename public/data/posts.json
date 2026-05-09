@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778306689670",
+    "title": "🌐 W3C WebNN API: Aceleración de Hardware Nativa para la IA en el Navegador",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "W3C estandariza la API WebNN, permitiendo que los navegadores accedan directamente a las NPU y GPU para inferencia de IA local y eficiente.",
+    "content": "# 🌐 W3C WebNN API: Aceleración de Hardware Nativa para la IA en el Navegador\n\nEl Consorcio de la World Wide Web (W3C) ha elevado la **Web Neural Network (WebNN) API** a la categoría de **Recomendación Candidata Actualizada**, marcando un hito en la forma en que la inteligencia artificial se ejecuta en el cliente.\n\n### ¿Qué es WebNN y por qué es importante?\nHasta ahora, la IA en el navegador dependía mayoritariamente de WebAssembly (WASM) o WebGPU. Aunque potentes, estas tecnologías requieren que el desarrollador gestione manualmente los shaders o la memoria de la GPU. **WebNN** cambia el paradigma:\n- **Abstracción de Hardware**: Proporciona una capa de abstracción agnóstica al hardware. El desarrollador define la red neuronal y el navegador se encarga de mapearla al acelerador más eficiente disponible (NPU, GPU o CPU).\n- **Acceso Directo a la NPU**: Permite que las aplicaciones web utilicen las Unidades de Procesamiento Neuronal (NPUs) integradas en los nuevos procesadores (como Intel Core Ultra o AMD Ryzen AI), reduciendo drásticamente el consumo de energía y la latencia.\n\n### Impacto en la Privacidad y el Rendimiento\nAl mover la inferencia del servidor al dispositivo del usuario mediante WebNN, se eliminan los costos de transferencia de datos y se mejora la privacidad, ya que los datos sensibles no abandonan el navegador. Esto abre la puerta a agentes de IA locales complejos que funcionan en tiempo real sin depender de una conexión a internet constante.\n\n**Fuentes Verificadas:**\n- **W3C Official**: [Updated Candidate Recommendation: WebNN API](https://www.w3.org/news/2026/updated-candidate-recommendation-web-neural-network-webnn-api/)\n- **W3C Technical Spec**: [Web Neural Network API Specification](https://www.w3.org/TR/webnn/)\n- **Progosling Dev Digest**: [W3C Elevates WebNN API to Candidate Recommendation](https://progosling.com/en/dev-digest/2026-02/webnn-candidate-recommendation)",
+    "imageUrl": "/assets/images/captures/capture-1778306513856.png",
+    "source": "W3C / Progosling",
+    "originalUrl": "https://www.w3.org/news/2026/updated-candidate-recommendation-web-neural-network-webnn-api/"
+  },
+  {
     "id": "1778306682065",
     "title": "⚡ AMD Instinct MI350X: La Respuesta de CDNA 4 frente a NVIDIA Blackwell",
     "date": "2026-05-09",
