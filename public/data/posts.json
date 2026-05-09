@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778301911081",
+    "title": "🖥️ Asus ROG Strix XG129C: El \"Sidekick\" Táctil para el Monitoreo de Hardware",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "Asus presenta el ROG Strix XG129C, una pantalla táctil de 12.3\" con integración nativa de AIDA64 para monitoreo de hardware avanzado.",
+    "content": "# 🖥️ Asus ROG Strix XG129C: El \"Sidekick\" Táctil para el Monitoreo de Hardware\n\nAsus ha lanzado el **ROG Strix XG129C**, una pantalla secundaria táctil de 12.3 pulgadas diseñada específicamente para complementar setups de alto rendimiento, permitiendo el monitoreo de sistema sin interrumpir la pantalla principal.\n\n### Especificaciones Técnicas del Panel\nEl dispositivo utiliza un panel **IPS táctil** con resolución 720p, optimizado para el consumo energético y la legibilidad en ángulos cerrados. En términos de fidelidad cromática, el XG129C destaca con una cobertura del **125% del espacio sRGB** y el **90% del DCI-P3**, asegurando que los dashboards de monitoreo sean nítidos y precisos.\n\n### Integración con AIDA64 Extreme\nEl valor técnico central de este periférico es su integración nativa con **AIDA64 Extreme**. Asus incluye una suscripción de un año a esta herramienta, permitiendo que el usuario configure paneles personalizados para rastrear en tiempo real:\n- **Frecuencias de Reloj (Clock speeds)** de CPU y GPU.\n- **Temperaturas críticas** (Hotspots) y uso de VRAM.\n- **Cargas de trabajo por núcleo** y consumo de energía (Watts).\n\nEste enfoque elimina la necesidad de usar overlays de software que consumen ciclos de GPU y obstruyen la visión durante el gaming o la producción de contenido.\n\n**Fuentes Verificadas:**\n- **The Verge**: [Asus chases Elgato with its own secondary touchscreen display](https://www.theverge.com/games/927333/asus-rog-strix-xg129c-secondary-display)\n- **Asus Press**: [Strix OLED XG34WCDMS & XG129C Gaming Monitors Announcement](https://press.asus.com/news/press-releases/strix-oled-xg34wcdms-xg129c-gaming-monitors/)\n- **AIDA64 Official**: [Hardware Monitoring Tools for Secondary Displays](https://www.aida64.com/online-store/aida64-extreme)",
+    "imageUrl": "/assets/images/captures/capture-1778301823775.png",
+    "source": "The Verge / Asus",
+    "originalUrl": "https://www.theverge.com/games/927333/asus-rog-strix-xg129c-secondary-display"
+  },
+  {
     "id": "1778301500184",
     "title": "🖥️ Asus ROG Strix XG129C: El \"Sidekick\" Táctil para el Monitoreo de Hardware en Tiempo Real",
     "date": "2026-05-09",
