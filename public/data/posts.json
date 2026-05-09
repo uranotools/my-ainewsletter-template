@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778344724303",
+    "title": "⚛️ Microsoft y el Salto Topológico: Qubits Protegidos contra Errores",
+    "date": "2026-05-09",
+    "categories": [],
+    "excerpt": "",
+    "content": "⚛️ **Microsoft y el Salto Topológico: Qubits Protegidos contra Errores**\\n\\nMicrosoft ha logrado un hito fundamental en la computación cuántica al avanzar en la implementación de **qubits topológicos**. A diferencia de los qubits superconductores tradicionales, que son extremadamente sensibles al ruido ambiental (decoherencia), los qubits topológicos utilizan estados de materia exóticos conocidos como **modos cero de Majorana** para almacenar información.\\n\\nLa ventaja técnica es masiva: la información en un qubit topológico está \\\"protegida\\\" por la topología del sistema, lo que significa que las pequeñas perturbaciones locales no pueden alterar el estado cuántico. Esto reduce drásticamente la necesidad de complejos protocolos de Corrección de Errores Cuánticos (QEC), que normalmente requieren miles de qubits físicos para crear un único qubit lógico estable. Con el chip **Majorana 1**, Microsoft busca escalar la computación cuántica hacia sistemas de millones de qubits, permitiendo resolver problemas de química cuántica y ciencia de materiales que son intratables para cualquier supercomputadora clásica.\\n\\n**Fuentes verificadas:**\\n- WebPro News: [https://www.webpronews.com/microsofts-quantum-leap-topological-qubits-unlock-error-protected-computing-futu/]\\n- Fusion of Science Quantum Report.\\n- Programming Helper Technical Analysis.",
+    "imageUrl": "/assets/images/captures/capture-1778344593215.png",
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778344714208",
     "title": "🦾 Genesis AI GENE-26.5: Hacia la Manipulación Física a Nivel Humano",
     "date": "2026-05-09",
