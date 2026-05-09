@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778354642144",
+    "title": "💊 Isomorphic Labs: El salto de AlphaFold de la predicción a los ensayos clínicos humanos",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "### 🧬 Isomorphic Labs inicia ensayos humanos con fármacos diseñados por IA para Oncología\n\nEn un hito para la medicina computacional, **Isomorphic Labs** (la spin-off de Alphabet y Google DeepMind) ha anunciado el inicio de los primeros ensayos clínicos en humanos para fármacos diseñados íntegramente mediante inteligencia artificial, específicamente enfocados en el tratamiento del cáncer.\n\n**Detalles Técnicos:**\nEl núcleo de este avance reside en la utilización de **AlphaFold 3**, que permite predecir no solo la estructura de las proteínas, sino también sus interacciones con ligandos, ácidos nucleicos y iones con una precisión sin precedentes. Isomorphic Labs ha implementado una estrategia de \"pegamento molecular\" (*molecular glue*), diseñando moléculas que fuerzan la interacción entre proteínas que normalmente no se unirían, permitiendo atacar dianas oncológicas que antes se consideraban \"no farmacologizables\" (*undruggable*).\n\nEsta metodología reduce drásticamente el espacio de búsqueda química, eliminando miles de candidatos fallidos antes de entrar al laboratorio húmedo y comprimiendo los tiempos de descubrimiento de años a meses. Con el respaldo de una ronda de financiación de 600 millones de dólares y alianzas con gigantes como Novartis y Eli Lilly, este proyecto marca la transición de la IA generativa de proteínas desde la predicción teórica hacia la validación clínica real.\n\n**Fuentes verificadas:**\n- [ChemDiv: Isomorphic Labs Launches Human Trials for AI-Designed Cancer Drugs](https://www.chemdiv.com/company/media/pharma-news/2026/isomorphic-labs-launches-human-trials-for-ai-designed-cancer-drugs/)\n- [Welcome.ai: Isomorphic Labs Advances AI-Designed Drugs](https://www.welcome.ai/content/isomorphic-labs-advances-ai-designed-drugs-to-human-trials)\n- [IntuitionLabs: AI Drug Discovery in Trials](https://intuitionlabs.ai/articles/isomorphic-labs-alphafold-ai-drug-discovery-trials)\n- [AItoolsbee: Isomorphic Labs Technical Report](https://aitoolsbee.com/news/ai-drug-discovery-push-from-isomorphic-labs-in-new-technical-report/)\n\n**Categorías:** biotech, alphafold, deepmind, drug-discovery",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778352917101",
     "title": "📦 vLLM v0.20.1: Optimización de rendimiento y estabilidad para DeepSeek V4",
     "date": "2026-05-09",
