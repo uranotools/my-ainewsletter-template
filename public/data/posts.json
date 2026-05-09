@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778326593804",
+    "title": "🤖 ACoT-VLA: Rompiendo la brecha semántica-cinemática en Robótica con Action Chain-of-Thought",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "🤖 **ACoT-VLA: Rompiendo la brecha semántica-cinemática en Robótica con Action Chain-of-Thought**\n\nEn el marco de **CVPR 2026**, se ha presentado **ACoT-VLA**, un paradigma innovador para los modelos de Visión-Lenguaje-Acción (VLA) que busca resolver uno de los problemas más persistentes en la robótica: la brecha entre la comprensión semántica (qué hacer) y la ejecución cinemática (cómo mover el motor).\n\nA diferencia de los VLAs tradicionales, que razonan principalmente sobre la percepción visual, ACoT-VLA introduce el **Action Chain-of-Thought**. Este enfoque permite que el robot \"piense\" directamente en el lenguaje de las acciones, generando una secuencia lógica de pasos cinemáticos antes de ejecutar el movimiento físico. Al desplazar el locus del razonamiento desde la percepción hacia la acción, el modelo logra una precisión mucho mayor en tareas de manipulación fina y una mejor capacidad de generalización en entornos no vistos.\n\nEsta implementación, liderada por **AgibotTech**, demuestra que la integración de razonamiento explícito en la cadena de acción es la clave para pasar de robots que \"imitan\" a robots que \"entienden\" la física de su entorno.\n\n**Fuentes verificadas:**\n- AgibotTech GitHub: [https://github.com/AgibotTech/ACoT-VLA]\n- VLA Survey: [https://vla-survey.github.io/]\n- CVPR 2026 Proceedings: [https://cvpr.thecvf.com/]",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778326586730",
     "title": "🚀 NVIDIA Blackwell Ultra GB300: La nueva era de los Superchips para Razonamiento de IA",
     "date": "2026-05-09",
