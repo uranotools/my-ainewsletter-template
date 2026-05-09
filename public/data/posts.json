@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778341138346",
+    "title": "⚡ Allwinner T536: El SoC Híbrido Arm + RISC-V para Edge AI",
+    "date": "2026-05-09",
+    "categories": [],
+    "excerpt": "",
+    "content": "⚡ **Allwinner T536: El SoC Híbrido Arm + RISC-V para Edge AI**\\n\\nSe ha presentado la nueva línea de hardware de Boardcon basada en el procesador **Allwinner T536**, implementada en el SoM PICOT536 y la SBC EMT536. Este SoC destaca por su arquitectura híbrida, combinando lo mejor de dos mundos: un núcleo de aplicación potente y coprocesadores de control deterministas.\\n\\nLa arquitectura del T536 integra:\\n- **CPU Principal**: Quad-core Arm Cortex-A55 para el manejo de aplicaciones y sistema operativo.\\n- **Coprocesadores RISC-V**: Implementa núcleos **XuanTie E907 y E902**, ideales para tareas de control en tiempo real y gestión de periféricos con baja latencia.\\n- **Aceleración de IA**: Incluye una NPU de **2 TOPS**, optimizada para visión artificial y robótica en el borde.\\n\\nEste enfoque híbrido permite que la misma placa gestione la interfaz de usuario (HMI) y la inteligencia de alto nivel vía Arm, mientras que el control físico y la sincronización crítica se delegan a los núcleos RISC-V, eliminando la necesidad de controladores externos complejos en aplicaciones industriales y de visión artificial.\\n\\n**Fuentes verificadas:**\\n- CNX Software: [https://www.cnx-software.com/2026/05/04/boardcon-picot536-som-and-emt536-sbc-feature-allwinner-t536-edge-ai-processor/]\\n- Semi IP Hub.\\n- Boardcon Official.",
+    "imageUrl": "/assets/images/captures/capture-1778341021718.png",
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778335409090",
     "title": "🤖 Figure 03: El pivot de Figure AI hacia la robótica doméstica generalista",
     "date": "2026-05-09",
