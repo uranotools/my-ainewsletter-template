@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778301917796",
+    "title": "📺 Amazon Prime Video: El Giro Hacia el Formato Vertical y la \"Economía de Clips\"",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "Prime Video implementa un feed de clips verticales (9:16) para optimizar el descubrimiento de contenido y la conversión de usuarios en móviles.",
+    "content": "# 📺 Amazon Prime Video: El Giro Hacia el Formato Vertical y la \"Economía de Clips\"\n\nAmazon ha integrado un feed de video vertical nativo en la aplicación de **Prime Video**, una decisión de ingeniería de producto orientada a reducir la fricción de descubrimiento de contenido mediante el uso de formatos cortos (*short-form*).\n\n### Implementación Técnica: El Feed de \"Clips\"\nLa nueva funcionalidad introduce un carrusel de clips optimizado para la relación de aspecto **9:16**. Técnicamente, esto implica una reestructuración del flujo de entrega de video para soportar un scroll fluido similar al de TikTok o Reels. Los puntos clave de la implementación son:\n- **Túneles de Conversión Directa**: Los clips no son solo previsualizaciones; funcionan como disparadores que permiten al usuario saltar instantáneamente al título completo, rentar o comprar el contenido, optimizando el embudo de conversión (conversion funnel).\n- **Personalización Algorítmica**: El feed se alimenta dinámicamente basándose en el historial de visualización del usuario, sugiriendo fragmentos de series y películas con alta probabilidad de retención.\n\n### Análisis de Tendencia en UX de Streaming\nEsta movida refleja la \"TikTokización\" de las plataformas de VOD (Video On Demand). La transición de trailers horizontales tradicionales a clips verticales responde a la necesidad de capturar la atención del usuario en dispositivos móviles, donde el micro-consumo es la norma. Para lograr esto, Amazon ha tenido que implementar procesos masivos de transcodificación de activos para adaptar el contenido original al formato vertical sin pérdida crítica de calidad.\n\n**Fuentes Verificadas:**\n- **The Verge**: [Amazon is adding a vertical video feed to Prime Video](https://www.theverge.com/streaming/927327/amazon-prime-video-vertical-video-feed)\n- **Amazon Press**: [Prime Video delivers a new way to discover entertainment with Clips](https://press.aboutamazon.com/prime-video/2026/5/prime-video-delivers-a-new-way-to-discover-entertainment-with-clips)\n- **Industry Analysis**: [The rise of short-form discovery in VOD platforms 2026](https://www.theverge.com/streaming/920179/netflix-vertical-video-feed-mobile-app-ui)",
+    "imageUrl": null,
+    "source": "The Verge / Amazon Press",
+    "originalUrl": "https://www.theverge.com/streaming/927327/amazon-prime-video-vertical-video-feed"
+  },
+  {
     "id": "1778301911081",
     "title": "🖥️ Asus ROG Strix XG129C: El \"Sidekick\" Táctil para el Monitoreo de Hardware",
     "date": "2026-05-09",
