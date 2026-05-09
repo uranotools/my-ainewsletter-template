@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778304274836",
+    "title": "📊 Stanford AI Index 2026: El Mapa Técnico del Estado Actual de la IA",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "El AI Index Report 2026 de Stanford HAI ofrece una visión data-driven sobre el progreso técnico, la eficiencia de entrenamiento y el impacto económico de la IA.",
+    "content": "# 📊 Stanford AI Index 2026: El Mapa Técnico del Estado Actual de la IA\n\nEl Centro de Investigación de IA de la Universidad de Stanford (HAI) ha publicado el **AI Index Report 2026**, consolidándose como la fuente de datos más rigurosa y objetiva sobre el progreso técnico, económico y social de la inteligencia artificial en el último año.\n\n### Dimensiones del Análisis Técnico\nEl reporte de 2026 se centra en métricas críticas que definen la eficiencia de los modelos actuales:\n- **Eficiencia de Entrenamiento**: Un análisis detallado sobre el costo computacional vs. la ganancia de rendimiento, destacando la transición hacia arquitecturas más eficientes que los densos Transformers tradicionales.\n- **Capacidad de Razonamiento**: Evaluación de los benchmarks de razonamiento complejo (matemáticas y código), donde se observa una estabilización en el rendimiento de los modelos generalistas y un auge en los modelos especializados.\n- **Impacto Económico y Adopción**: Datos sobre la integración de la IA en flujos de trabajo industriales y la creación de nuevos mercados de servicios basados en agentes autónomos.\n\n### Conclusiones Clave\nEl informe subraya que, aunque la escala de los modelos sigue creciendo, el enfoque de la industria se ha desplazado hacia la **fiabilidad y la interpretabilidad**, buscando reducir las alucinaciones en aplicaciones críticas. El AI Index 2026 sirve como hoja de ruta para legisladores y líderes tecnológicos para entender dónde reside el verdadero avance técnico frente al hype mediático.\n\n**Fuentes Verificadas:**\n- **Stanford HAI**: [The 2026 AI Index Report](https://hai.stanford.edu/ai-index/2026-ai-index-report)\n- **Stanford University**: [AI Index Data Insights](https://hai.stanford.edu/)\n- **Academic Analysis**: [Comparative Review of AI Index 2025 vs 2026](https://hai.stanford.edu/ai-index)",
+    "imageUrl": "/assets/images/captures/capture-1778304099110.png",
+    "source": "Stanford HAI",
+    "originalUrl": "https://hai.stanford.edu/ai-index/2026-ai-index-report"
+  },
+  {
     "id": "1778304266836",
     "title": "🔐 Cisco State of AI Security 2026: Protegiendo el Pipeline de la IA",
     "date": "2026-05-09",
