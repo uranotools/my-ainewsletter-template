@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778319518762",
+    "title": "⚛️ Salto en Computación Cuántica: Rastreo de Qubits en Tiempo Real para la Corrección de Errores",
+    "date": "2026-05-09",
+    "categories": [
+      "quantum",
+      "physics",
+      "ai-hardware",
+      "computing"
+    ],
+    "excerpt": "",
+    "content": "La industria de la computación cuántica ha superado uno de sus obstáculos más persistentes: la fragilidad de los qubits frente al ruido ambiental. Recientes avances reportados en abril de 2026 revelan el desarrollo de un sistema de **rastreo de fluctuaciones de qubits en tiempo real**, permitiendo la corrección de errores mientras ocurren, en lugar de detectarlos a posteriori.\n\nEste avance combina protocolos de codificación optimizados con una extracción de síndromes más eficiente, reduciendo drásticamente la tasa de error lógico. La capacidad de estabilizar qubits en tiempo real es el puente necesario para pasar de la era NISQ (Noisy Intermediate-Scale Quantum) a la computación cuántica tolerante a fallos, acercándonos a procesadores capaces de ejecutar cargas de trabajo de IA cuántica y simulaciones moleculares complejas con una precisión sin precedentes.\n\n**Fuentes:**\n- [Andrew Hansen: Quantum Breakthrough 2026](https://www.andrewhansen.au/quantum-computing-breakthrough-real-time-qubit-tracking-transforms-error-correction-in-2026/)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778319510207",
     "title": "⚡ La Crisis Energética de la IA: El Colapso de las Redes Eléctricas ante los Data Centers",
     "date": "2026-05-09",
