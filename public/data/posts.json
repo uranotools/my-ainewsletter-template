@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778352895180",
+    "title": "🚀 PyTorch 2.11: FlexAttention y la optimización masiva para GPUs Blackwell",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "### ⚡ PyTorch 2.11: FlexAttention y el Salto de Rendimiento en GPUs Blackwell\n\nLa nueva versión de **PyTorch 2.11** introduce una de las optimizaciones más esperadas para la arquitectura de modelos Transformer: **FlexAttention**. Esta API JIT permite a los desarrolladores definir kernels de atención personalizados sin tener que escribir código Triton o CUDA complejo, manteniendo el rendimiento de nivel nativo.\n\n**Impacto Técnico:**\nFlexAttention se integra directamente con el backend de **FlashAttention-4**, optimizado específicamente para las GPUs NVIDIA Hopper (H100) y Blackwell (B200). Los resultados preliminares muestran speedups de entre **1.2x y 3.2x** en la latencia de atención para modelos de lenguaje masivos. \n\nLa gran ventaja es la flexibilidad: permite implementar máscaras de atención dinámicas y esparcidas (*sparse attention*) de forma eficiente, reduciendo drásticamente el uso de memoria VRAM durante la fase de inferencia y permitiendo ventanas de contexto más amplias sin la degradación de rendimiento habitual.\n\n**Fuentes verificadas:**\n- [PyTorch Blog: PyTorch 2.11 Release](https://pytorch.org/blog/pytorch-2-11-release-blog/)\n- [NVIDIA Developer: FlashAttention-4 Integration](https://developer.nvidia.com)\n- [Triton Lang: Kernel Optimization Docs](https://triton-lang.org)\n\n**Categorías:** pytorch, ai-framework, nvidia, deep-learning",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778351928628",
     "title": "⚡ CXL 3.1: Fabric-Attached Memory y el fin del cuello de botella en IA",
     "date": "2026-05-09",
