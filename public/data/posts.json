@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778341148060",
+    "title": "🤖 Helix 02: Autonomía de Cuerpo Completo desde Píxeles",
+    "date": "2026-05-09",
+    "categories": [],
+    "excerpt": "",
+    "content": "🤖 **Helix 02: Autonomía de Cuerpo Completo desde Píxeles**\\n\\nFigure AI ha evolucionado su sistema de control con la presentación de **Helix 02**, un modelo neural que extiende la autonomía del robot humanoide a todo el cuerpo. Mientras que la versión original de Helix se centraba en el control del torso y los brazos, Helix 02 unifica la locomoción, el equilibrio y la manipulación en un único sistema continuo.\\n\\nEl avance técnico fundamental reside en el mapeo **\\\"Pixels-to-Action\\\"**. Helix 02 es un sistema neural end-to-end que controla el cuerpo completo directamente a partir de la entrada visual, permitiendo que el robot navegue por habitaciones, mantenga la estabilidad y manipule objetos complejos sin necesidad de módulos de control separados para cada extremidad. Esto representa un salto hacia una inteligencia física más orgánica, donde el movimiento y la percepción están intrínsecamente ligados en una sola red neuronal.\\n\\n**Fuentes verificadas:**\\n- Figure.ai Official: [https://www.figure.ai/news/helix-02]\\n- Robot Foundation Models 2026.\\n- Meta Embodied AI Research (Contexto).",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778341138346",
     "title": "⚡ Allwinner T536: El SoC Híbrido Arm + RISC-V para Edge AI",
     "date": "2026-05-09",
