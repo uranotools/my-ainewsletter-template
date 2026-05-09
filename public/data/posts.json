@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778308583655",
+    "title": "🤖 NVIDIA Cosmos & GR00T: El salto a la \"IA Física\" y la Robótica Generativa (2026)",
+    "date": "2026-05-09",
+    "categories": [
+      "robotics",
+      "ai",
+      "nvidia",
+      "hardware"
+    ],
+    "excerpt": "",
+    "content": "NVIDIA ha lanzado oficialmente sus nuevos modelos de IA Física, destacando la familia **Cosmos** y el proyecto **GR00T**. A diferencia de los LLMs tradicionales, estos modelos están diseñados para comprender la física del mundo real, permitiendo que los robots humanoides aprendan tareas complejas mediante la observación y la simulación acelerada en NVIDIA Isaac Sim. \n\nLos socios globales ya están desplegando la siguiente generación de robots capaces de manipular objetos con precisión milimétrica y adaptarse a entornos dinámicos sin entrenamiento previo exhaustivo. Este avance marca la transición de la IA generativa de texto/imagen hacia la **IA Física**, donde el modelo interactúa directamente con la materia y el espacio.\n\n**Fuentes:**\n- [NVIDIA Investor Relations](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-New-Physical-AI-Models-as-Global-Partners-Unveil-Next-Generation-Robots/default.aspx)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778308574621",
     "title": "⚠️ Alerta Crítica: CVE-2026-5281, Zero-Day en WebGPU de Chrome (Dawn)",
     "date": "2026-05-09",
