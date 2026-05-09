@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778355847126",
+    "title": "⚡ HBM4: El nuevo estándar de memoria que redefine la velocidad de la IA",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "### 💾 JEDEC lanza el estándar HBM4: Superando el 'Muro de la Memoria' en IA\n\nEl consorcio JEDEC ha oficializado el estándar **HBM4 (High Bandwidth Memory 4)**, la sexta generación de memoria de alto ancho de banda, diseñada específicamente para satisfacer las demandas extremas de los aceleradores de IA y los sistemas de computación de alto rendimiento (HPC).\n\n**Innovaciones Técnicas:**\nEl salto más significativo de HBM4 es la duplicación del ancho de la interfaz, que pasa a **2048 bits**, y la implementación de **32 canales independientes**. Esta arquitectura permite alcanzar un ancho de banda masivo que supera los **2.0 TB/s por stack**, llegando incluso a los 3.3 TB/s en configuraciones avanzadas. Además, la capacidad se expande hasta los **64 GB por stack**, permitiendo que modelos de lenguaje más grandes residan completamente en la memoria de alta velocidad, reduciendo la dependencia de accesos lentos a la memoria del sistema.\n\nLa producción masiva, liderada por Samsung, SK Hynix y Micron, está prevista para 2026. Esta tecnología es fundamental para combatir el \"Memory Wall\", asegurando que las GPUs y NPUs de próxima generación no queden inactivas esperando datos, optimizando así el throughput de tokens en la inferencia de LLMs.\n\n**Fuentes verificadas:**\n- [All About Circuits: JEDEC Officially Releases HBM4 Standard](https://www.allaboutcircuits.com/news/jedec-officially-releases-hbm4-memory-standard/)\n- [Siemens Semiconductor: HBM3e and HBM4 Design Guide](https://blogs.sw.siemens.com/semiconductor-packaging/2026/04/24/hbm3e-hbm4-ic-design-guide/)\n- [SemiAnalysis: Scaling the Memory Wall Roadmap](https://newsletter.semianalysis.com/p/scaling-the-memory-wall-the-rise-and-roadmap-of-hbm)\n\n**Categorías:** hardware, semicondutores, hbm4, ai-infrastructure",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778355516779",
     "title": "⚙️ Semidynamics y SiPearl: Hacia una infraestructura de IA Soberana en Europa",
     "date": "2026-05-09",
