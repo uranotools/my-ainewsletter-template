@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778332835283",
+    "title": "⚡ MIPS S8200: La nueva NPU RISC-V diseñada para la \"IA Física\" en el Edge",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "⚡ **MIPS S8200: La nueva NPU RISC-V diseñada para la \"IA Física\" en el Edge**\n\nMIPS, compañía de GlobalFoundries, ha lanzado la **S8200**, una Unidad de Procesamiento Neuronal (NPU) basada en la arquitectura abierta **RISC-V**, diseñada específicamente para habilitar la llamada \"IA Física\" en el borde autónomo. A diferencia de los aceleradores genéricos, la S8200 implementa un enfoque \"software-first\", optimizando la integración entre el compilador y el silicio para reducir la fricción en el despliegue de modelos de IA en tiempo real.\n\nLa S8200 integra núcleos escalares y unidades de ejecución vectorial avanzadas, permitiendo que plataformas de transporte autónomo, robótica industrial y sistemas embebidos ejecuten inferencias complejas con una eficiencia energética líder en su clase. Este lanzamiento consolida a RISC-V como la base fundamental para la próxima generación de hardware de IA, permitiendo a las empresas diseñar silicio propietario optimizado para tareas específicas sin las restricciones de licencias cerradas.\n\nCon el respaldo de la capacidad de fabricación de GlobalFoundries, la S8200 ya se encuentra en fase de muestreo para clientes estratégicos en el sector de la movilidad autónoma y la robótica de misión crítica.\n\n**Fuentes verificadas:**\n- MIPS Official: [https://mips.com/press-releases/mips-s8200-delivers-software-first-risc-v-npu-to-enable-physical-ai-at-the-autonomous-edge/]\n- TechPowerUp (Semidynamics contrast): [https://www.techpowerup.com/336433/semidynamics-announces-cervell-all-in-one-risc-v-npu]\n- GlobalFoundries News: [https://www.globalfoundries.com/]",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778332825971",
     "title": "🤖 Boston Dynamics Atlas: Del Laboratorio a la Producción Industrial Masiva",
     "date": "2026-05-09",
