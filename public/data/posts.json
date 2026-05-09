@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778304266836",
+    "title": "🔐 Cisco State of AI Security 2026: Protegiendo el Pipeline de la IA",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "El reporte de Cisco analiza las amenazas de envenenamiento de datos y ataques de inversión en IA, proponiendo un marco de Zero Trust para proteger el pipeline.",
+    "content": "# 🔐 Cisco State of AI Security 2026: Protegiendo el Pipeline de la IA\n\nCisco ha lanzado su informe insignia **State of AI Security Report 2026**, proporcionando un análisis exhaustivo sobre las amenazas emergentes que afectan a las infraestructuras de IA y las estrategias globales para mitigar riesgos en el ciclo de vida del modelo.\n\n### Amenazas en el Horizonte de la IA\nEl informe identifica vectores de ataque críticos que han ganado tracción en 2026:\n- **Envenenamiento de Datos (Data Poisoning)**: Técnicas sofisticadas para introducir sesgos o \"puertas traseras\" en los datasets de entrenamiento, comprometiendo la salida del modelo.\n- **Ataques de Inversión de Modelo**: Métodos para extraer datos sensibles del conjunto de entrenamiento a partir de las respuestas del modelo.\n- **Vulnerabilidades en el Orquestador**: Fallos en las capas de middleware que conectan los LLMs con herramientas externas (herramientas de ejecución de código, APIs), permitiendo la inyección de prompts maliciosos.\n\n### Estándares y Mitigación\nCisco propone un marco de **\"Seguridad Zero Trust para IA\"**, que incluye la implementación de firewalls específicos para IA que inspeccionen el tráfico entre el usuario y el modelo, y la validación continua de los pesos del modelo para detectar alteraciones no autorizadas. El reporte enfatiza la necesidad de estándares globales de seguridad coordinados entre proveedores de nube y desarrolladores de modelos.\n\n**Fuentes Verificadas:**\n- **Cisco Security**: [State of AI Security Report 2026](https://www.cisco.com/c/en/us/products/security/state-of-ai-security.html)\n- **Cisco Newsroom**: [AI Security Framework Updates](https://www.cisco.com/c/en/us/about/newsroom.html)\n- **Industry Security Standards**: [Global AI Safety & Security Benchmarks 2026](https://www.cisco.com/c/en/us/products/security/)",
+    "imageUrl": "/assets/images/captures/capture-1778304103103.png",
+    "source": "Cisco Security",
+    "originalUrl": "https://www.cisco.com/c/en/us/products/security/state-of-ai-security.html"
+  },
+  {
     "id": "1778304259858",
     "title": "🚀 vLLM se actualiza a PyTorch 2.11: Optimización Extrema para NVIDIA Blackwell",
     "date": "2026-05-09",
