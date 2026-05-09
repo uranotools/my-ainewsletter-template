@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778359267420",
+    "title": "⚡ AMD Ryzen AI PRO 400: 50 TOPS de potencia NPU llegan al escritorio",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "### 💻 AMD Ryzen AI PRO 400: La Primera NPU de Escritorio con 50 TOPS\n\nAMD ha dado un paso decisivo en la democratización de la IA local con el lanzamiento de la serie **Ryzen AI PRO 400**. Estos procesadores para escritorio son los primeros en integrar una NPU (Neural Processing Unit) capaz de alcanzar los **50 TOPS** (Trillion Operations Per Second), estableciendo un nuevo estándar para la computación en el borde (*Edge AI*).\n\n**Detalles Técnicos:**\nLa serie 400 está diseñada para ejecutar modelos generativos complejos directamente en el hardware del PC, eliminando la latencia y los costos asociados con la nube. Mientras que la competencia se centra en laptops, AMD ha llevado esta capacidad al formato de escritorio AM5, permitiendo que flujos de trabajo profesionales de IA (como el desarrollo de software asistido y la creación de contenido sintético) se ejecuten localmente con alta eficiencia energética.\n\nEste despliegue compite directamente con la arquitectura *Panther Lake* de Intel, impulsando la transición hacia los \"AI PCs\" donde el hardware está optimizado no solo para el cómputo general, sino específicamente para la aceleración de tensores y la gestión de memoria optimizada para LLMs locales.\n\n**Fuentes verificadas:**\n- [AMD Blog: Ryzen AI PRO 400 Series CPUs](https://www.amd.com/en/blogs/2026/amd-ryzen-ai-pro-400-series-cpus-deliver-advanced-ai-for-desktops.html)\n- [Techpression: 2026 NPU Score Guide](https://techpression.com/2026-guide-best-ai-laptops-npu-score/)\n- [Tech-Insider: Panther Lake vs Ryzen AI 400](https://tech-insider.org/panther-lake-vs-amd-ryzen-ai-400-2026/)\n\n**Categorías:** hardware, amd, npu, ai-pc",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778359258314",
     "title": "🚀 Llama 4 \"Herd\": La nueva era de MoE y contextos de 10 millones de tokens",
     "date": "2026-05-09",
