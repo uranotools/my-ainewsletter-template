@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778330949362",
+    "title": "🤖 MolmoAct2: El salto hacia la Robótica Abierta y el Razonamiento de Acción Real",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "🤖 **MolmoAct2: El salto hacia la Robótica Abierta y el Razonamiento de Acción Real**\n\nLa robótica generalista ha dado un paso adelante con el lanzamiento de **MolmoAct2** (arXiv:2605.02881), un modelo de Visión-Lenguaje-Acción (VLA) diseñado específicamente para despliegues prácticos y reales. A diferencia de los modelos cerrados, MolmoAct2 es un modelo de pesos abiertos que busca democratizar el control robótico avanzado sin requerir hardware prohibitivamente costoso.\n\nEl sistema introduce tres innovaciones clave:\n1. **MolmoER**: Un backbone de VLM especializado en razonamiento espacial y embebido, entrenado con un corpus de 3.3M de muestras.\n2. **OpenFAST**: Un tokenizador de acciones de código abierto entrenado en millones de trayectorias a través de cinco encarnaciones robóticas distintas.\n3. **MolmoThink**: Una variante de razonamiento con profundidad adaptativa que optimiza la latencia al re-predecir tokens solo en regiones de la escena que cambian entre pasos temporales.\n\nEn pruebas empíricas, MolmoAct2 ha superado a baselines fuertes como Pi-05, e incluso ha superado a modelos frontera como **GPT-5** y **Gemini Robotics ER-1.5** en 13 benchmarks de razonamiento embebido, marcando un hito en la capacidad de los modelos abiertos para ejecutar tareas físicas complejas.\n\n**Fuentes verificadas:**\n- Emergent Mind (arXiv:2605.02881): [https://www.emergentmind.com/papers/2605.02881]\n- Hugging Face Papers: [https://huggingface.co/papers]\n- VLA Leaderboard: [https://vlaleaderboard.com/]",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778330941175",
     "title": "⚡ NVIDIA Blackwell Ultra: Potenciando la Era de las \"Fábricas de IA\" y el Razonamiento",
     "date": "2026-05-09",
