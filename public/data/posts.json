@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778344703694",
+    "title": "🖼️ Inyecciones de Prompt basadas en Imágenes: El nuevo vector de ataque en LLMs Multimodales",
+    "date": "2026-05-09",
+    "categories": [],
+    "excerpt": "",
+    "content": "🖼️ **Inyecciones de Prompt basadas en Imágenes: El nuevo vector de ataque en LLMs Multimodales**\\n\\nUna reciente investigación de la **Cloud Security Alliance (CSA)** ha puesto de relieve una vulnerabilidad crítica en los despliegues de modelos de lenguaje multimodales (LMMs). Se ha identificado una clase de ataques denominada \\\"Inyección de Prompt basada en Imágenes\\\", donde las instrucciones maliciosas no se envían vía texto, sino que están **embebidas visualmente** en la imagen mediante perturbaciones adversarias casi imperceptibles para el ojo humano.\\n\\nTécnicamente, estas instrucciones actúan directamente sobre el codificador visual del modelo, permitiendo que el atacante \\\"secuestre\\\" el flujo de razonamiento del LLM y obligándolo a ejecutar acciones no autorizadas o a filtrar información sensible, saltándose completamente los guardrails de texto tradicionales. Este vector de ataque es especialmente peligroso en sistemas de IA que procesan automáticamente documentos, capturas de pantalla o feeds de video en tiempo real.\\n\\nLa CSA recomienda la implementación de filtros de pre-procesamiento de imágenes y el uso de técnicas de \\\"adversarial training\\\" para robustecer la percepción visual de los modelos frente a estos inputs manipulados.\\n\\n**Fuentes verificadas:**\\n- Cloud Security Alliance (CSA) Research Note: [https://labs.cloudsecurityalliance.org/research/csa-research-note-image-prompt-injection-multimodal-llm-2026/]\\n- Red Hat AI Security Blog.\\n- Redfox Cybersecurity Analysis.",
+    "imageUrl": "/assets/images/captures/capture-1778344590960.png",
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778341158297",
     "title": "🤖 NVIDIA Isaac GR00T N1.7: Razonamiento VLA y Control Dextero para Humanoides",
     "date": "2026-05-09",
