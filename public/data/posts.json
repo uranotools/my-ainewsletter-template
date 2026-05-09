@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778369993226",
+    "title": "🤖 Lite VLA: Control de Acción-Visión-Lenguaje eficiente para Robótica Edge",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "El despliegue de modelos de Visión-Lenguaje-Acción (VLA) en la periferia (edge) ha sido históricamente limitado por el alto consumo de recursos computacionales. Para solventar esto, se ha desarrollado \"Lite VLA\", un framework diseñado para robots móviles que operan en entornos restringidos y sin acceso a GPS.\n\nLite VLA implementa modelos de lenguaje-visión (VLM) optimizados que permiten el razonamiento y la comprensión de escenas en tiempo real directamente sobre hardware embebido, eliminando la dependencia de la conectividad en la nube. Esta arquitectura permite que el robot ejecute simultáneamente la movilidad y el razonamiento contextual bajo estrictas restricciones de CPU y memoria. Esta innovación es crítica para aplicaciones de robótica de servicio, respuesta a desastres y operaciones de defensa, donde la autonomía asegurada y la baja latencia son requisitos operativos no negociables.\n\nFuentes verificadas:\n- arXiv:2511.05642: https://arxiv.org/abs/2511.05642\n- Cornell University Robotics Research",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778366396905",
     "title": "🤖 PRISM: Cerrando la brecha entre Percepción y Acción en Agentes Embodied (2026)",
     "date": "2026-05-09",
