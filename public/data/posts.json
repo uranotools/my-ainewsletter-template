@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778304259858",
+    "title": "🚀 vLLM se actualiza a PyTorch 2.11: Optimización Extrema para NVIDIA Blackwell",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "vLLM migra a PyTorch 2.11 para optimizar la inferencia en GPUs NVIDIA Blackwell mediante la integración de FlashInfer y soporte nativo para CUDA/XPU.",
+    "content": "# 🚀 vLLM se actualiza a PyTorch 2.11: Optimización Extrema para NVIDIA Blackwell\n\nEl motor de inferencia de alta eficiencia **vLLM** ha implementado una actualización crítica en su base de dependencias, migrando oficialmente a **PyTorch 2.11**. Este cambio no es solo una actualización de versión, sino un movimiento estratégico para desbloquear el máximo rendimiento en la nueva arquitectura de GPUs de NVIDIA.\n\n### Impacto Técnico y Cambios en Dependencias\nLa transición a PyTorch 2.11 introduce cambios significativos en el entorno de despliegue:\n- **Compatibilidad CUDA/XPU**: Ahora vLLM soporta PyTorch 2.11 tanto para backends de NVIDIA CUDA como para Intel XPU (eliminando la restricción previa a la versión 2.10).\n- **Breaking Change**: Se advierte a los usuarios que esta actualización es un cambio disruptivo (*breaking change*) en las dependencias del entorno, requiriendo la actualización de los contenedores de despliegue.\n\n### Sinergia con NVIDIA Blackwell (B200/GB200)\nEl objetivo principal de esta migración es optimizar la inferencia en los chips **Blackwell**. Gracias a la colaboración con ingenieros de PyTorch, vLLM ha integrado soporte para **FlashInfer**, permitiendo:\n- Reducción drástica de la latencia en la fase de preámbulo de la atención.\n- Aprovechamiento nativo de los núcleos de tensores FP4 de Blackwell.\n- Mayor eficiencia en la gestión de la memoria KV Cache, permitiendo un throughput significativamente más alto en modelos de escala masiva.\n\n**Fuentes Verificadas:**\n- **GitHub vLLM Releases**: [vLLM Project Releases](https://github.com/vllm-project/vllm/releases)\n- **PyTorch Blog**: [PyTorch + vLLM Collaboration](https://pytorch.org/blog/pytorch-vllm-♥️/)\n- **NVIDIA Docs**: [vLLM Release Notes for NVIDIA Frameworks](https://docs.nvidia.com/deeplearning/frameworks/vllm-release-notes/overview.html)",
+    "imageUrl": "/assets/images/1778304197649-releases",
+    "source": "vLLM GitHub / PyTorch Blog",
+    "originalUrl": "https://github.com/vllm-project/vllm/releases"
+  },
+  {
     "id": "1778301925304",
     "title": "🚨 Vulnerabilidad Crítica en Robots Yarbo: Hackeo de Sistemas de Diagnóstico Remoto",
     "date": "2026-05-09",
