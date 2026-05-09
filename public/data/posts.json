@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778341158297",
+    "title": "🤖 NVIDIA Isaac GR00T N1.7: Razonamiento VLA y Control Dextero para Humanoides",
+    "date": "2026-05-09",
+    "categories": [],
+    "excerpt": "",
+    "content": "🤖 **NVIDIA Isaac GR00T N1.7: Razonamiento VLA y Control Dextero para Humanoides**\\n\\nNVIDIA ha liberado en acceso temprano **Isaac GR00T N1.7**, un modelo fundacional de Visión-Lenguaje-Acción (VLA) diseñado para la robótica humanoide. Este lanzamiento marca un hito crítico al incluir **licencias comerciales**, permitiendo que las políticas de comportamiento desarrolladas sobre GR00T pasen de la fase de prototipo a despliegues reales de producción.\\n\\nTécnicamente, la versión N1.7 introduce mejoras sustanciales en dos áreas clave:\\n1. **Razonamiento Estructurado**: Implementa un sistema de razonamiento a nivel de tarea y subtarea para horizontes temporales largos, eliminando el fallo común de pérdida de coherencia en secuencias de acción extendidas.\\n2. **Control Dextero a Nivel de Dedos**: El modelo ahora soporta una actuación mucho más fina, permitiendo tareas de ensamblaje de piezas pequeñas y manipulaciones ricas en contacto, reduciendo la necesidad de fine-tuning exhaustivo por tarea.\\n\\nLos pesos del modelo están disponibles en HuggingFace y el código base en GitHub, impulsando la democratización de la robótica generalista.\\n\\n**Fuentes verificadas:**\\n- NVIDIA Developer Forums: [https://forums.developer.nvidia.com/t/early-access-isaac-gr00t-n1-7-open-reasoning-vla-model-for-humanoid-robotics/366916]\\n- GitHub NVIDIA Isaac-GR00T.\\n- HuggingFace NVIDIA Collection.",
+    "imageUrl": "/assets/images/captures/capture-1778341021972.png",
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778341148060",
     "title": "🤖 Helix 02: Autonomía de Cuerpo Completo desde Píxeles",
     "date": "2026-05-09",
