@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778301925304",
+    "title": "🚨 Vulnerabilidad Crítica en Robots Yarbo: Hackeo de Sistemas de Diagnóstico Remoto",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "Fallo crítico de seguridad en robots Yarbo expone datos sensibles y permite el control remoto no autorizado vía sistemas de diagnóstico.",
+    "content": "# 🚨 Vulnerabilidad Crítica en Robots Yarbo: Hackeo de Sistemas de Diagnóstico Remoto\n\nSe ha revelado una brecha de seguridad masiva en los cortacéspedes robóticos de **Yarbo**, donde una falla en la implementación de sus sistemas de diagnóstico remoto ha permitido que atacantes tomen control total de los dispositivos.\n\n### Detalles Técnicos de la Brecha\nLa vulnerabilidad radica en la gestión de los protocolos de comunicación y el acceso a los sistemas de diagnóstico. Investigadores de seguridad descubrieron que miles de estos robots podían ser interceptados, exponiendo datos sensibles del usuario en texto plano o mediante accesos no autorizados a la nube, incluyendo:\n- **Coordenadas GPS precisas** de la ubicación del dispositivo.\n- **Contraseñas de redes Wi-Fi** locales.\n- **Direcciones de correo electrónico** y otros metadatos de identidad.\n\nEl ataque es particularmente peligroso porque permite el control remoto del hardware, lo que en casos extremos ha resultado en que los robots actúen de manera errática o peligrosa fuera de sus perímetros establecidos.\n\n### Respuesta de Yarbo\nTras la publicación de los hallazgos, Yarbo emitió una respuesta técnica detallada confirmando las vulnerabilidades. Como medida de mitigación inmediata, la empresa ha **cortado temporalmente el acceso remoto** a los sistemas de diagnóstico mientras despliega parches de firmware para cerrar los vectores de ataque y cifrar la comunicación entre el robot y el servidor.\n\n**Fuentes Verificadas:**\n- **The Verge**: [Here is Yarbo’s promise to fix the robot mower that ran me over](https://www.theverge.com/tech/926989/yarbo-robot-lawn-mower-hack-company-update-security-promise)\n- **Yarbo Official**: [Security Update Regarding Yarbo Remote Diagnostic Systems](https://www.yarbo.com/pages/security-update-regarding-yarbo-remote-diagnostic-systems)\n- **Security Research Analysis**: [IoT Device Vulnerability Report 2026](https://www.theverge.com/tech/925696/yarbo-robot-lawn-mower-hack-remote-control-camera-access-mqtt)",
+    "imageUrl": null,
+    "source": "The Verge / Yarbo",
+    "originalUrl": "https://www.theverge.com/tech/926989/yarbo-robot-lawn-mower-hack-company-update-security-promise"
+  },
+  {
     "id": "1778301917796",
     "title": "📺 Amazon Prime Video: El Giro Hacia el Formato Vertical y la \"Economía de Clips\"",
     "date": "2026-05-09",
