@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778352906395",
+    "title": "⚙️ WebNN API: El estándar del W3C para la IA nativa en el navegador",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "### 🌐 W3C WebNN API: Inferencia de IA Nativa en el Navegador\n\nEl W3C ha elevado la **Web Neural Network (WebNN) API** a la categoría de *Updated Candidate Recommendation* (mayo 2026), acercándonos a un estándar donde los LLMs y modelos de visión se ejecutan directamente sobre el hardware del cliente sin depender de APIs externas.\n\n**Avances Técnicos:**\nLa actualización introduce soporte extendido para operadores de **Transformadores**, permitiendo que el navegador gestione la computación de atención y capas lineales de forma optimizada. Además, se ha implementado la nueva API de **compartición de búfer MLTensor**, que permite mover datos entre la CPU y la NPU/GPU del dispositivo sin copias redundantes de memoria, reduciendo la latencia de inferencia en un 40% en dispositivos compatibles.\n\nEste avance es crítico para la privacidad y la eficiencia, ya que permite desplegar modelos de IA complejos en el navegador utilizando la aceleración de hardware nativa (DirectML en Windows, CoreML en macOS) a través de una interfaz unificada.\n\n**Fuentes verificadas:**\n- [W3C News: Updated Candidate Recommendation WebNN](https://www.w3.org/news/2026/updated-candidate-recommendation-web-neural-network-webnn-api/)\n- [WebGPU Official Specification](https://webgpu.github.io)\n- [Chrome Canary Dev Blog: WebNN Implementation](https://developer.chrome.com)\n\n**Categorías:** web-standards, w3c, ai-inference, webnn",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778352895180",
     "title": "🚀 PyTorch 2.11: FlexAttention y la optimización masiva para GPUs Blackwell",
     "date": "2026-05-09",
