@@ -1,5 +1,22 @@
 [
   {
+    "id": "1778308568062",
+    "title": "🌐 WebGPU 2026: La era del GPGPU nativo en el navegador (Adiós WebGL)",
+    "date": "2026-05-09",
+    "categories": [
+      "web",
+      "standards",
+      "w3c",
+      "gpu",
+      "machine-learning"
+    ],
+    "excerpt": "",
+    "content": "WebGPU ha alcanzado una \"masa crítica\" en 2026, con el soporte completo de Chrome, Edge, Safari y Samsung Internet basándose en la recomendación candidata del W3C. Este estándar reemplaza la arquitectura obsoleta de WebGL para tareas de cómputo general (GPGPU), permitiendo que los desarrolladores ejecuten modelos de Machine Learning (ML) y simulaciones físicas complejas directamente en el cliente con un rendimiento cercano al nativo. \n\nEl uso de **WGSL (WebGPU Shading Language)** optimiza la gestión de memoria y el procesamiento paralelo, eliminando la dependencia de servidores externos para inferencias ligeras y permitiendo una privacidad total del dato al procesar la IA localmente en la GPU del usuario.\n\n**Fuentes:**\n- [Programming Helper Analysis](https://www.programming-helper.com/tech/webgpu-2026-next-generation-browser-graphics-compute-api)\n- [W3C WebGPU Standard](https://www.w3.org/TR/webgpu/)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778306689670",
     "title": "🌐 W3C WebNN API: Aceleración de Hardware Nativa para la IA en el Navegador",
     "date": "2026-05-09",
