@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778285743231",
+    "title": "🤖 Vulnerabilidad Crítica en Robots Yarbo: Hackeo Remoto y Promesas de Seguridad",
+    "date": "2026-05-09",
+    "categories": [],
+    "excerpt": "Robots Yarbo expuestos a hackeos remotos que filtran GPS y claves Wi-Fi. La empresa reconoce el fallo y suspende accesos remotos.",
+    "content": "# 🤖 Vulnerabilidad Crítica en Robots Yarbo: Hackeo Remoto y Promesas de Seguridad\\n\\nUn fallo de seguridad masivo ha dejado expuestos a miles de usuarios de los robots cortacéspedes de la empresa **Yarbo**. Según investigaciones recientes, estos dispositivos pueden ser secuestrados con facilidad, exponiendo datos extremadamente sensibles de los propietarios.\\n\\n### El Fallo Técnico\\nLa vulnerabilidad permite a atacantes remotos tomar el control total de las máquinas. El riesgo no es solo la manipulación física del robot (que en casos extremos puede resultar en accidentes), sino la filtración de información privada. Se ha confirmado que los atacantes pueden extraer:\\n- **Coordenadas GPS** precisas de la ubicación del dispositivo.\\n- **Contraseñas de redes Wi-Fi** almacenadas en el robot.\\n- **Direcciones de correo electrónico** y otros metadatos de usuario.\\n\\n### Respuesta de Yarbo\\nTras la difusión de estos hallazgos, Yarbo ha emitido una respuesta detallada de 1,200 palabras reconociendo los fallos. La compañía ha tomado las siguientes medidas inmediatas:\\n1. **Corte de acceso remoto**: Se ha suspendido temporalmente el acceso remoto a los sistemas de diagnóstico para detener los ataques activos.\\n2. **Plan de remediación**: La empresa ha admitido que el problema fue un error de diseño en sus sistemas de diagnóstico remoto y está trabajando en un parche de seguridad integral.\\n\\nEste incidente subraya la fragilidad de la seguridad en el ecosistema de la \"IA Física\" y la robótica doméstica, donde la convergencia de control mecánico y conectividad a la nube crea vectores de ataque críticos.\\n\\n**Fuentes Verificadas:**\\n- **The Verge:** [Here is Yarbo’s promise to fix the robot mower that ran me over](https://www.theverge.com/tech/926989/yarbo-robot-lawn-mower-hack-company-update-security-promise)\\n- **Yarbo Official:** [Security Update Regarding Yarbo Remote Diagnostic Systems](https://www.yarbo.com/pages/security-update-regarding-yarbo-remote-diagnostic-systems)",
+    "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/0b40c0f7e4e14d22b4eb0a04c2c2394e.webp?quality=90&strip=all&crop=0,0,100,100",
+    "source": "The Verge / Yarbo",
+    "originalUrl": "https://www.theverge.com/tech/926989/yarbo-robot-lawn-mower-hack-company-update-security-promise"
+  },
+  {
     "id": "1778284769328",
     "title": "⚠️ Alerta Crítica: CVE-2026-4810 permite Ejecución Remota de Código (RCE) en el AI Agent Development Kit de Google",
     "date": "2026-05-08",
