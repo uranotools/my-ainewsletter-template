@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778359258314",
+    "title": "🚀 Llama 4 \"Herd\": La nueva era de MoE y contextos de 10 millones de tokens",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "### 🦙 Llama 4 \"Herd\": Arquitectura MoE y la Revolución del Contexto de 10M de Tokens\n\nMeta ha revelado los detalles técnicos de la familia de modelos **Llama 4**, introduciendo un enfoque de \"manada\" (*Herd*) que optimiza la eficiencia y la capacidad de razonamiento a través de diferentes escalas de modelos: **Scout**, **Maverick** y **Behemoth**.\n\n**Análisis Técnico:**\nEl modelo **Scout** destaca por su implementación de una arquitectura *Mixture-of-Experts* (MoE) altamente eficiente: posee 109B de parámetros totales, pero solo activa 17B por token durante la inferencia. Este diseño le permite alcanzar una ventana de contexto masiva de **10 millones de tokens**, transformando la capacidad de recuperación de información (*RAG*) y el análisis de documentos extensos.\n\nPor su parte, **Maverick** se posiciona como el líder en razonamiento multimodal, superando en diversos benchmarks a GPT-4o. En la cima de la jerarquía se encuentra **Behemoth**, un modelo maestro de 2 billones de parámetros utilizado principalmente para la destilación de conocimiento hacia las variantes más pequeñas. La arquitectura general introduce una estructura de expertos compartidos y enrutados, junto con una integración de fusión temprana (*early-fusion*) para capacidades multimodales nativas.\n\n**Fuentes verificadas:**\n- [AlphaXiv: The Llama 4 Herd Architecture](https://www.alphaxiv.org/overview/2601.11659v1)\n- [Catalyzex: Llama 4 Technical Notes](https://www.catalyzex.com/paper/the-llama-4-herd-architecture-training)\n- [Singularity Moments: Llama 4 Meta Guide](https://singularitymoments.com/llama-4-meta-guide/)\n- [Collabnix: Deep Technical Analysis of Llama 4](https://collabnix.com/deep-technical-analysis-of-llama-4-scout-maverick-and-behemoth/)\n\n**Categorías:** llm, meta, moe, architecture",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778359249547",
     "title": "📦 Triton 3.7.0: Maximizando la eficiencia de los kernels en GPUs Blackwell",
     "date": "2026-05-09",
