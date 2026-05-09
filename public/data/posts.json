@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778335399707",
+    "title": "⚡ AMD Instinct MI400: La nueva era de la arquitectura CDNA 5 y HBM4",
+    "date": "2026-05-09",
+    "categories": [],
+    "excerpt": "",
+    "content": "⚡ **AMD Instinct MI400: La nueva era de la arquitectura CDNA 5 y HBM4**\\n\\nAMD ha revelado los detalles técnicos de su próxima generación de aceleradores para IA, la serie **Instinct MI400**, prevista para 2026. El salto tecnológico principal es la transición a la arquitectura **CDNA 5**, diseñada específicamente para optimizar la inferencia de modelos multimodales masivos y el entrenamiento de redes neuronales de próxima generación.\\n\\nUna de las especificaciones más disruptivas es la integración de memoria **HBM4**, permitiendo una capacidad masiva de hasta **432 GB por acelerador**. Esta expansión de memoria es crítica para reducir la latencia en el movimiento de pesos de modelos que superan los billones de parámetros, permitiendo que el modelo resida completamente en el dispositivo sin recurrir a swaps lentos de memoria. AMD busca con esto cerrar la brecha de rendimiento frente a la plataforma Vera Rubin de NVIDIA, enfocándose en el concepto de \\\"AI Factories\\\" para computación a escala de exaflops.\\n\\n**Fuentes verificadas:**\\n- Wccftech: [https://wccftech.com/amd-instinct-mi400-accelerator-doubles-compute-40-pflops-432-gb-hbm4-memory-2026-launch/]\\n- Tech-Insider.\\n- TechPowerUp.",
+    "imageUrl": "/assets/images/captures/capture-1778333752004.png",
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778334009868",
     "title": "🤖 Figure 03: El pivot de Figure AI hacia la robótica doméstica generalista",
     "date": "2026-05-09",
