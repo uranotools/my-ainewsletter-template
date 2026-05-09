@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778291057342",
+    "title": "🌐 W3C WebNN API: El estándar para la IA nativa en el navegador",
+    "date": "2026-05-09",
+    "categories": [],
+    "excerpt": "El W3C actualiza la API WebNN, permitiendo que los navegadores accedan directamente a NPUs y GPUs para ejecutar IA localmente con rendimiento nativo.",
+    "content": "# 🌐 W3C WebNN API: El estándar para la IA nativa en el navegador\n\nEl Consorcio World Wide Web (W3C) ha elevado la **Web Neural Network (WebNN) API** a la categoría de Recomendación Candidata actualizada. Este avance marca un hito crítico en la descentralización de la inteligencia artificial, permitiendo que los navegadores web accedan directamente a las capacidades de aceleración de hardware (GPU, NPU y TPU) sin necesidad de capas intermedias pesadas o dependencias del lado del servidor.\n\n### Detalles Técnicos del Estándar\nLa API WebNN define una interfaz de bajo nivel que permite a los desarrolladores ejecutar inferencia de redes neuronales con una latencia mínima. Entre las novedades más destacadas de esta actualización se encuentran:\n- **Soporte Extendido de Operadores**: Inclusión de operadores optimizados para arquitecturas de Transformadores, fundamentales para los modelos LLM modernos.\n- **MLTensor y Compartición de Búfer**: Una nueva API de gestión de memoria que optimiza la transferencia de datos entre el CPU y el acelerador de hardware, reduciendo el overhead de copia de memoria.\n- **Modelo Abstracto de Selección de Dispositivo**: Implementa una lógica de selección inteligente que elige el mejor hardware disponible (por ejemplo, priorizando una NPU sobre una GPU) basándose en la eficiencia energética y la velocidad de cómputo.\n\n### Impacto en el Ecosistema\nCon la implementación de WebNN, aplicaciones complejas de IA podrán ejecutarse localmente con un rendimiento cercano al nativo, mejorando la privacidad del usuario y reduciendo la carga en los centros de datos. Este estándar complementa a WebGPU, proporcionando una capa de abstracción especializada en tensores y grafos de computación neuronal.\n\n**Fuentes Verificadas:**\n- **W3C Official**: [Updated Candidate Recommendation: Web Neural Network (WebNN) API](https://www.w3.org/news/2026/updated-candidate-recommendation-web-neural-network-webnn-api/)\n- **WebGPU Project**: [Integration of Neural Network primitives in modern browsers](https://gpuweb.github.io/)\n- **Chrome Dev Blog**: [Accelerating Web AI with WebNN and WebGPU](https://developer.chrome.com/blog/)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778285743231",
     "title": "🤖 Vulnerabilidad Crítica en Robots Yarbo: Hackeo Remoto y Promesas de Seguridad",
     "date": "2026-05-09",
