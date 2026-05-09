@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778354661075",
+    "title": "🌌 IBM Quantum: Nighthawk y Loon trazan la ruta hacia la computación tolerante a fallos",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "### ⚛️ IBM Quantum: Procesadores Nighthawk y Loon aceleran la Ventaja Cuántica\n\nIBM ha revelado avances críticos en su hoja de ruta hacia la computación cuántica práctica con la presentación de sus nuevos procesadores **Nighthawk** y **Loon**, diseñados para superar los límites actuales de la decoherencia y el error cuántico.\n\n**Análisis Técnico:**\nEl procesador **Nighthawk** (con 120 qubits) ha sido optimizado para ejecutar circuitos con un 30% más de complejidad que sus predecesores, permitiendo hasta 5,000 puertas de dos qubits. El objetivo es alcanzar la \"Ventaja Cuántica Verificada\" para finales de 2026, donde un sistema cuántico resuelva un problema útil de forma prohibitivamente costosa para cualquier supercomputadora clásica.\n\nPor otro lado, el procesador experimental **Loon** es fundamental para la transición hacia la **computación cuántica tolerante a fallos (Fault-Tolerant)**. Loon demuestra la integración de todos los elementos de hardware necesarios para implementar la corrección de errores cuánticos a escala, un paso obligatorio para eliminar el ruido que afecta a los qubits actuales. IBM proyecta que para 2029 podrá entregar el primer sistema cuántico tolerante a fallos a gran escala, apoyado en una nueva infraestructura de fabricación de obleas de 300mm que multiplica por 10 la complejidad física de los chips.\n\n**Fuentes verificadas:**\n- [IBM Newsroom: New Quantum Processors and Software](https://newsroom.ibm.com/2025-11-12-ibm-delivers-new-quantum-processors,-software,-and-algorithm-breakthroughs-on-path-to-advantage-and-fault-tolerance)\n- [PostQuantum: IBM Loon and Nighthawk Analysis](https://postquantum.com/industry-news/ibm-loon-nighthawk/)\n- [Opli.net: Quantum Physics & IBM Roadmap](https://www.opli.net/opli_magazine/quantum_physics/2025/ibm-delivers-new-quantum-processors-software-and-algorithm-breakthroughs-on-path-to-advantage-and-fault-tolerance-nov-news/)\n- [Winbuzzer: IBM Quantum Processors 2026](https://winbuzzer.com/2025/11/12/ibm-unveils-nighthawk-and-loon-quantum-processors-accelerating-quantum-roadmap-to-2026-xcxwbn/)\n\n**Categorías:** quantum-computing, ibm, hardware, fault-tolerance",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778354651622",
     "title": "🦾 OpenVLA: La democratización de la inteligencia física en la robótica moderna",
     "date": "2026-05-09",
