@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778301484148",
+    "title": "🚀 vLLM v0.20.1: Estabilización Crítica para DeepSeek V4 y Salto a CUDA 13",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "vLLM v0.20.1 estabiliza la inferencia de DeepSeek V4 sobre una base técnica renovada con CUDA 13, PyTorch 2.11 y Transformers v5.",
+    "content": "# 🚀 vLLM v0.20.1: Estabilización Crítica para DeepSeek V4 y Salto a CUDA 13\n\nEl ecosistema de inferencia de LLMs ha recibido una actualización fundamental con el lanzamiento de **vLLM v0.20.1**. Aunque se presenta como un parche, este release consolida uno de los saltos de dependencias más agresivos en la historia del proyecto, estabilizando la inferencia de modelos de última generación como DeepSeek V4.\n\n### El Gran Salto de v0.20.0 (Dependency Floor)\nPara entender la relevancia de la v0.20.1, es necesario analizar la base de la v0.20.0 lanzada a finales de abril. Esta versión implementó un \"salto de piso\" en las dependencias técnicas, obligando a los despliegues a actualizar a:\n- **CUDA 13**: Soporte nativo para las nuevas capacidades de gestión de memoria de NVIDIA.\n- **PyTorch 2.11**: Integración de kernels optimizados y mejoras en la gestión de grafos dinámicos.\n- **Transformers v5**: Soporte para nuevas arquitecturas de atención y tokenización.\n\n### Enfoque de v0.20.1: Estabilización de DeepSeek V4\nEl parche v0.20.1 se centra específicamente en la robustez de la inferencia para la arquitectura de **DeepSeek V4**. Las mejoras incluyen:\n- **Optimización de Multi-stream Pre-attention GEMM**: Reducción de la latencia en el preámbulo de la atención.\n- **Mejoras en All-to-All Communication**: Optimización de la transferencia de pesos en configuraciones MoE (Mixture of Experts) utilizando BF16 y MXFP8, reduciendo los cuellos de botella de red en clusters multi-GPU.\n- **Resolución de Deadlocks**: Corrección de fallos de sincronización en la caché de RoPE durante el decoding especulativo.\n\n### Impacto en el Throughput\nGracias a estas optimizaciones, los usuarios de DeepSeek V4 reportan una estabilización del throughput de tokens por segundo, eliminando los picos de latencia que afectaban a la v0.20.0 en entornos de alta carga.\n\n**Fuentes Verificadas:**\n- **Fazm AI**: [vLLM release May 2026: v0.20.1 patch and the v0.20.0 dep-floor jump](https://fazm.ai/t/vllm-release-may-2026)\n- **vLLM GitHub**: [vLLM Tagged Releases v0.20.1](https://github.com/vllm-project/vllm/releases)\n- **DeepSeek Official**: [DeepSeek V4 Model Architecture and Deployment Guide](https://deepseek.com/)",
+    "imageUrl": null,
+    "source": "Fazm AI / vLLM GitHub",
+    "originalUrl": "https://fazm.ai/t/vllm-release-may-2026"
+  },
+  {
     "id": "1778292649850",
     "title": "⚠️ CVE-2026-7415: Hijacking de Robots Yarbo vía Acceso MQTT No Autenticado",
     "date": "2026-05-09",
