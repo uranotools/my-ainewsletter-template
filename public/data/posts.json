@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778359249547",
+    "title": "📦 Triton 3.7.0: Maximizando la eficiencia de los kernels en GPUs Blackwell",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "### ⚙️ Triton 3.7.0: Optimizaciones Críticas para la Arquitectura Blackwell\n\nEl lanzamiento de la versión **3.7.0 de Triton** (7 de mayo de 2026) marca una actualización esencial para los desarrolladores de kernels de Deep Learning, especialmente aquellos que operan sobre la nueva infraestructura de NVIDIA.\n\n**Impacto Técnico:**\nTriton es el lenguaje y compilador que permite escribir kernels de GPU eficientes sin necesidad de recurrir a CUDA C++ complejo. La versión 3.7.0 introduce mejoras críticas en la gestión de **formas dinámicas de tensores**, reduciendo la necesidad de recompilaciones frecuentes cuando el tamaño del batch o la longitud de la secuencia varían. \n\nAdemás, se han optimizado las rutinas de fusión de kernels para aprovechar la potencia de las GPUs **Blackwell B200**, que ofrecen hasta 20 PFLOPS en FP4. Estas optimizaciones permiten una gestión más eficiente del ancho de banda de la memoria HBM3e, minimizando los cuellos de botella en el movimiento de datos durante la fase de inferencia de modelos de billones de parámetros. Para los ingenieros de ML, esto se traduce en una mayor facilidad para implementar arquitecturas experimentales con un rendimiento cercano al teórico del hardware.\n\n**Fuentes verificadas:**\n- [PyPI: Triton 3.7.0 Release](https://pypi.org/project/triton/)\n- [NVIDIA Developer: Blackwell B200 Technical Specs](https://www.aitooldiscovery.com/ai-infra/nvidia-blackwell-architecture)\n- [GitHub: Triton Project Repository](https://github.com/triton-lang/triton)\n\n**Categorías:** frameworks, triton, nvidia, blackwell",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778355864107",
     "title": "🛡️ C2PA: El estándar criptográfico que combate los Deepfakes en la era de la IA",
     "date": "2026-05-09",
