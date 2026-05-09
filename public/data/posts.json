@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778362716320",
+    "title": "🤖 Robótica Blanda: Actuadores Dieléctricos y la ruptura de la barrera de velocidad",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "La robótica blanda ha roto una de sus barreras más persistentes: la velocidad. Gracias a la implementación de Actuadores de Elastómeros Dieléctricos (DEA) y Actuadores de Fluidos Dieléctricos (DFA), los nuevos sistemas robóticos han logrado alcanzar velocidades superiores a los 24 largos corporales por segundo (BL/s), una cifra comparable a la de un guepardo.\n\nEste salto tecnológico es posible gracias a la combinación de actuadores electromagnéticos de silicona y electrónica flexible integrada, que eliminan la necesidad de cables rígidos y pesados (diseños 'untethered'). Estos robots mantienen una alta conformidad y adaptabilidad, permitiéndoles operar en entornos no estructurados y dinámicos donde la robótica rígida fallaría por falta de seguridad o flexibilidad. Las investigaciones publicadas en Nature y Wiley subrayan que la sinergia entre la ciencia de materiales y el control electrónico de alta frecuencia está permitiendo la creación de manipuladores blandos capaces de realizar tareas de precisión a velocidades industriales.\n\nFuentes verificadas:\n- Nature: https://www.nature.com/articles/s44182-026-00074-3\n- Wiley Online Library\n- ScienceDirect",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778362707820",
     "title": "⚛️ Computación Cuántica de Átomos Neutros: El salto a la industrialización (2026)",
     "date": "2026-05-09",
