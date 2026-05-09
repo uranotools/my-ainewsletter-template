@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778335409090",
+    "title": "🤖 Figure 03: El pivot de Figure AI hacia la robótica doméstica generalista",
+    "date": "2026-05-09",
+    "categories": [],
+    "excerpt": "",
+    "content": "🤖 **Figure 03: El pivot de Figure AI hacia la robótica doméstica generalista**\\n\\nFigure AI ha anunciado el lanzamiento de **Figure 03**, la tercera generación de su robot humanoide. A diferencia de los modelos Figure 01 y 02, que estaban orientados a la prueba de concepto en entornos industriales (como almacenes), el Figure 03 marca un giro estratégico hacia el mercado de consumo y el entorno doméstico.\\n\\nTécnicamente, el Figure 03 ha sido rediseñado desde cero tanto en hardware como en software. La pieza central es la integración de **Helix AI**, un sistema de aprendizaje continuo que permite al robot aprender tareas complejas directamente de la observación y la interacción humana, reduciendo la dependencia de datasets pre-entrenados y programación rígida. El objetivo es crear una máquina de propósito general capaz de asistir en tareas cotidianas del hogar, optimizando la locomoción y la manipulación fina para interactuar con objetos no estructurados en entornos reales.\\n\\n**Fuentes verificadas:**\\n- Figure.ai (Official News): [https://www.figure.ai/news/introducing-figure-03]\\n- Aparobot.\\n- Humanoid.guide.",
+    "imageUrl": "/assets/images/captures/capture-1778333746051.png",
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778335399707",
     "title": "⚡ AMD Instinct MI400: La nueva era de la arquitectura CDNA 5 y HBM4",
     "date": "2026-05-09",
