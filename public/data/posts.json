@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778348310885",
+    "title": "⚡ Computación Fotónica: El fin de la era del electrón en la IA",
+    "date": "2026-05-09",
+    "categories": [],
+    "excerpt": "",
+    "content": "⚡ **Computación Fotónica: El fin de la era del electrón en la IA**\\n\\nEl sector del hardware de IA está experimentando un cambio de paradigma con la llegada de los **procesadores fotónicos**, como los desarrollados por **Q.ANT**. A diferencia de las GPUs tradicionales que utilizan electrones, estos aceleradores utilizan la luz (fotones) para realizar multiplicaciones de matrices, la operación fundamental de las redes neuronales.\\n\\nLa ventaja técnica es disruptiva: al eliminar la resistencia eléctrica y el calor asociado, la computación fotónica puede alcanzar velocidades de procesamiento en la escala de los nanosegundos y una eficiencia energética órdenes de magnitud superior a la de los chips de silicio. El **Native Processing Server (NPS)** de Q.ANT es uno de los primeros servidores comerciales que integran esta tecnología en racks de 19 pulgadas, permitiendo que la IA y la computación de alto rendimiento (HPC) operen con una fracción del consumo energético actual, abriendo la puerta a modelos de billones de parámetros que ya no están limitados por la barrera térmica del silicio.\\n\\n**Fuentes verificadas:**\\n- Q.ANT Photonic Computing: [https://qant.com/photonic-computing/]\\n- Nature (Photonic AI research).\\n- TechRadar AI.",
+    "imageUrl": "/assets/images/captures/capture-1778348194237.png",
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778344724303",
     "title": "⚛️ Microsoft y el Salto Topológico: Qubits Protegidos contra Errores",
     "date": "2026-05-09",
