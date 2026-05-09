@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778355497506",
+    "title": "🧬 IA Generativa: Diseñando la próxima generación de proteínas inteligentes",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "### 🧬 Diseño de Proteínas: IA Generativa para la Predicción de Estados Conformacionales\n\nUna reciente publicación en la revista **Nature** (mayo 2026) ha detallado avances disruptivos en la ingeniería de proteínas, específicamente en el diseño de \"ligandos\" o *binders* mediante el uso de IA generativa y la predicción de estados conformacionales.\n\n**Análisis Técnico:**\nEl avance principal radica en que la IA ya no solo predice la estructura estática de una proteína (como hacía AlphaFold en sus inicios), sino que ahora puede predecir la **dinámica conformacional**: cómo cambia la forma de la proteína al interactuar con otras moléculas. Esto permite diseñar proteínas \"inteligentes\" que solo se activan o se unen a su objetivo bajo condiciones biológicas específicas.\n\nMediante el uso de redes neuronales difusas (*diffusion models*) aplicadas a la estructura proteica, los investigadores pueden generar secuencias de aminoácidos totalmente nuevas que se pliegan en formas precisas para bloquear receptores específicos de enfermedades. Este salto técnico permite crear terapias mucho más precisas, reduciendo los efectos secundarios al evitar la unión inespecífica con otras proteínas del cuerpo.\n\n**Fuentes verificadas:**\n- [Nature: The latest AI breakthroughs in structural biology](https://www.nature.com/articles/s42003-026-10112-3)\n- [Frontiers in Microbiology: AI-driven protein design](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2026.1817535/full)\n- [SciDart: 2026 Guide to AI for Proteins](https://www.scidart.com/blog/the-2026-guide-to-ai-for-proteins-tools-trends-and-techniques/)\n\n**Categorías:** biotech, nature, protein-design, generative-ai",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778354661075",
     "title": "🌌 IBM Quantum: Nighthawk y Loon trazan la ruta hacia la computación tolerante a fallos",
     "date": "2026-05-09",
