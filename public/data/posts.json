@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778326578320",
+    "title": "🛡️ Alerta de Seguridad: RCE Pre-Autenticación en el Toolchain de IA Marimo",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "🛡️ **Alerta de Seguridad: RCE Pre-Autenticación en el Toolchain de IA Marimo (CVE-2026-39987)**\n\nSe ha identificado una vulnerabilidad crítica de ejecución remota de código (RCE) pre-autenticada en **Marimo**, la herramienta de notebooks reactivos ampliamente utilizada en flujos de trabajo de desarrollo de IA. Esta falla, catalogada como **CVE-2026-39987** con un puntaje **CVSS v4.0 de 9.3**, permite que un atacante remoto ejecute comandos arbitrarios en el servidor host sin necesidad de credenciales.\n\nEl vector de ataque se localiza en el endpoint de WebSocket del terminal integrado (`/terminal/ws`), el cual aceptaba conexiones sin la validación de identidad adecuada. Esto representa un riesgo masivo para los investigadores y desarrolladores de IA que despliegan instancias de Marimo en entornos de nube o redes corporativas. La vulnerabilidad afecta a todas las versiones iguales o inferiores a la 0.20.4.\n\n**Acción requerida:** Se insta a todos los usuarios a actualizar inmediatamente a la versión **0.23.0** o superior para mitigar este riesgo.\n\n**Fuentes verificadas:**\n- Cloud Security Alliance: [https://labs.cloudsecurityalliance.org/research/csa-research-note-marimo-rce-cve-2026-39987-ai-toolchain-202/]\n- CVEFeed: [https://cvefeed.io/vuln/latest/]\n- Marimo GitHub/Docs: [https://marimo.io/]",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778323327134",
     "title": "🚨 Alerta de Seguridad: CVE-2026-7415 permite el secuestro remoto de robots Yarbo",
     "date": "2026-05-09",
