@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778323309749",
+    "title": "🤖 Evolución de los Modelos VLA: Hacia agentes robóticos prácticos y eficientes",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "🤖 **Evolución de los Modelos VLA: Hacia agentes robóticos prácticos y eficientes**\n\nLa investigación en modelos de Visión-Lenguaje-Acción (VLA) está dando un giro fundamental hacia la practicidad y la eficiencia. Según el reciente paper de arXiv **(2602.22663)**, los VLAs generalistas actuales sufren de escalas de parámetros excesivas y requisitos de pre-entrenamiento prohibitivos que limitan su despliegue en hardware real.\n\nPara resolver esto, se ha introducido **LLaVA-VLA**, un modelo ligero diseñado para despliegues en GPUs de grado consumidor. Esta arquitectura integra un backbone de VLM compacto con tokenización proprioceptiva y \"action chunking\", eliminando la dependencia de pre-entrenamientos costosos mediante un paradigma de dos etapas (post-training y fine-tuning). Además, la comunidad está adoptando el nuevo benchmark **CEBench**, que abarca diversas encarnaciones robóticas tanto en simulación como en el mundo real.\n\nLa tendencia actual, destacada en ICLR 2026, se mueve hacia los \"Reasoning VLAs\" y la implementación de **Embodied Chain-of-Thought (ECoT)**, permitiendo que el robot no solo reaccione, sino que razone sobre la secuencia de acciones físicas necesarias para completar una tarea compleja.\n\n**Fuentes verificadas:**\n- arXiv: [https://arxiv.org/abs/2602.22663]\n- VLA Survey: [https://vla-survey.github.io/]\n- ICLR 2026 Trends (via LinkedIn/Moritz Reuss): [https://www.linkedin.com/posts/moritzreuss_state-of-vla-research-at-iclr-2026-activity-7383813862816546816-V5yD]",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778319518762",
     "title": "⚛️ Salto en Computación Cuántica: Rastreo de Qubits en Tiempo Real para la Corrección de Errores",
     "date": "2026-05-09",
