@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778355855963",
+    "title": "⚙️ eBPF: La llave para desbloquear la observabilidad profunda en la IA",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "### 🔍 Observabilidad 2.0: eBPF para el Debugging de Inferencia de IA\n\nLa gestión de infraestructuras de IA está evolucionando hacia la \"Observabilidad 2.0\", donde la herramienta clave es **eBPF (Extended Berkeley Packet Filter)**. A diferencia de los agentes tradicionales que consumen recursos y añaden latencia, eBPF permite una instrumentación a nivel de kernel, proporcionando una verdad absoluta sobre el comportamiento del sistema.\n\n**Impacto Técnico:**\nLa aplicación de eBPF a la observabilidad de la IA permite trazar el flujo de inferencia de extremo a extremo: desde que un evento de socket llega al kernel hasta que la llamada de inferencia se procesa en el espacio de usuario. Esto es crítico para identificar y solucionar los picos de latencia **p95 y p99** en entornos de producción, donde el cuello de botella puede estar en la gestión de memoria del driver de la GPU o en la saturación del bus PCIe, y no necesariamente en el modelo mismo.\n\nAl combinar eBPF con **OpenTelemetry** y análisis basados en IA, los ingenieros pueden ahora automatizar la detección de la causa raíz de fallos en clusters de inferencia, transformando la depuración de \"cajas negras\" en un proceso transparente y basado en datos del kernel.\n\n**Fuentes verificadas:**\n- [CodeWorm: eBPF AI Observability - Trace Model Inference](https://www.codeworm.dev/2026/02/ebpf-ai-observability-trace-model.html)\n- [Programming Helper: eBPF in 2026 Analysis](https://www.programming-helper.com/tech/ebpf-2026-extended-berkeley-packet-filter-observability-security)\n- [Medium: Observability 2.0 - eBPF and OpenTelemetry](https://kawaldeepsingh.medium.com/observability-2-0-2026-ebpf-opentelemetry-and-ai-that-actually-finds-root-causes-31dfeb2f5659)\n\n**Categorías:** linux, ebpf, observability, ai-ops",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778355847126",
     "title": "⚡ HBM4: El nuevo estándar de memoria que redefine la velocidad de la IA",
     "date": "2026-05-09",
