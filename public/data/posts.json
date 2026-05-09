@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778332817319",
+    "title": "🚨 Alerta de Seguridad Crítica: CVE-2026-22778 permite RCE en servidores vLLM",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "🚨 **Alerta de Seguridad Crítica: CVE-2026-22778 permite RCE en servidores vLLM**\n\nSe ha descubierto una vulnerabilidad de ejecución remota de código (RCE) extremadamente grave en **vLLM**, uno de los frameworks más utilizados para el despliegue de modelos de lenguaje (LLMs) con alto rendimiento. El fallo, identificado como **CVE-2026-22778** y con un puntaje **CVSS de 9.8**, permite que un atacante tome el control total de un servidor de inferencia simplemente enviando un enlace de video malicioso a un endpoint de la API multimodal.\n\nTécnicamente, la vulnerabilidad reside en la forma en que vLLM procesa los inputs de video en sus capacidades multimodales, permitiendo que el código malicioso sea inyectado y ejecutado en el contexto del servidor. Debido a la adopción masiva de vLLM en clusters de GPU para servir modelos como Llama y Mistral, millones de servidores de IA podrían estar expuestos si no han actualizado a las versiones parcheadas.\n\nSe recomienda a todos los operadores de infraestructura de IA revisar sus versiones de vLLM y aplicar los parches de seguridad inmediatamente para evitar la compromisión de sus nodos de cómputo.\n\n**Fuentes verificadas:**\n- Ox Security: [https://www.ox.security/blog/cve-2026-22778-vllm-rce-vulnerability/]\n- The Cyber Express: [https://thecyberexpress.com/cve-2026-22778-vllm-rce-malicious-video-link/]\n- Kodem Security: [https://www.kodemsecurity.com/resources/cve-2026-22778-critical-remote-code-execution-in-vllm-multimodal-inference]",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778330949362",
     "title": "🤖 MolmoAct2: El salto hacia la Robótica Abierta y el Razonamiento de Acción Real",
     "date": "2026-05-09",
