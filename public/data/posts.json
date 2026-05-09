@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778366388564",
+    "title": "🚀 ZAYA1-8B: Razonamiento MoE optimizado sobre Full-Stack AMD (2026)",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "Se ha presentado ZAYA1-8B, un modelo de lenguaje centrado en el razonamiento basado en la arquitectura Mixture-of-Experts (MoE++), que marca un hito en la eficiencia computacional. Con un total de 8 mil millones de parámetros, pero solo 700 millones activos durante la inferencia, ZAYA1-8B logra igualar o superar el rendimiento de modelos mucho más grandes como DeepSeek-R1 en benchmarks críticos de matemáticas y programación.\n\nLo más disruptivo de este lanzamiento es que el modelo fue entrenado íntegramente sobre una plataforma full-stack de AMD (computación, redes y software), demostrando que el ecosistema de AMD es una alternativa viable y competitiva frente a la hegemonía de NVIDIA en el entrenamiento de modelos de razonamiento avanzado. Además, introduce el método Markovian RSA para optimizar el cómputo en tiempo de prueba (test-time compute), permitiendo que el modelo mantenga una alta precisión mientras reduce la longitud de las trazas de razonamiento.\n\nFuentes verificadas:\n- arXiv: https://arxiv.org/abs/2605.05365\n- Technical Report ZAYA1-8B",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778366380032",
     "title": "⚡ Gemini API: Webhooks para Flujos Agenticos de Larga Duración (2026)",
     "date": "2026-05-09",
