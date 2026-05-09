@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778355507315",
+    "title": "⚠️ Alerta de Seguridad: Vulnerabilidades RCE en Agentes de IA (CVE-2026-2256)",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "### ⚠️ Prompts como Shells: Vulnerabilidades RCE en Frameworks de Agentes de IA\n\nUna investigación reciente liderada por el equipo de **Microsoft Defender Security Research** ha puesto al descubierto una vulnerabilidad sistémica en la arquitectura de los agentes autónomos: la transformación de inyecciones de prompt en **Ejecución Remota de Código (RCE)**.\n\n**Análisis Técnico:**\nEl problema radica en la forma en que los frameworks de agentes (como ModelScope MS-Agent) gestionan la transición entre la salida del LLM y la ejecución de herramientas. La vulnerabilidad **CVE-2026-2256** demuestra que un atacante puede ocultar un payload malicioso en un documento o correo electrónico; cuando el agente procesa esta información y decide llamar a una herramienta de sistema (como una shell de comandos), el payload es ejecutado con los privilegios del agente.\n\nEsto representa un riesgo crítico para las implementaciones empresariales, donde los agentes tienen acceso a APIs internas y sistemas de archivos. La recomendación técnica es implementar un aislamiento estricto mediante *sandboxing* de contenedores para cada llamada a herramienta y la validación rigurosa de los argumentos generados por el LLM antes de su ejecución, evitando que el prompt actúe como una terminal de comandos directa.\n\n**Fuentes verificadas:**\n- [Microsoft Security Blog: When prompts become shells](https://www.microsoft.com/en-us/security/blog/2026/05/07/prompts-become-shells-rce-vulnerabilities-ai-agent-frameworks/)\n- [Adversa AI: Top Agentic AI Security Resources](https://adversa.ai/blog/top-agentic-ai-security-resources-may-2026/)\n- [Cloud Security Alliance: CVE-2026-33626 Research Note](https://labs.cloudsecurityalliance.org/research/csa-research-note-lmdeploy-cve-2026-33626-ai-inference-explo/)\n\n**Categorías:** security, rce, ai-agents, cybersecurity",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778355497506",
     "title": "🧬 IA Generativa: Diseñando la próxima generación de proteínas inteligentes",
     "date": "2026-05-09",
