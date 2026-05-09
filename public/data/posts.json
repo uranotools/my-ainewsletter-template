@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778312201719",
+    "title": "⚡ vLLM v0.20.1: Estabilización crítica para DeepSeek V4 y optimizaciones de rendimiento",
+    "date": "2026-05-09",
+    "categories": [
+      "ai-infra",
+      "vllm",
+      "deepseek",
+      "pytorch"
+    ],
+    "excerpt": "",
+    "content": "Se ha lanzado la versión **v0.20.1 de vLLM**, un parche centrado primordialmente en la estabilización de **DeepSeek V4**. Esta actualización introduce mejoras fundamentales en el throughput y la estabilidad, destacando el soporte de comunicación all-to-all en BF16 y MXFP8 a través de FlashInfer. \n\nAdemás, el equipo ha resuelto un deadlock persistente en la operación `topK` cuando el valor es 1024, un error que afectaba la disponibilidad de los servicios de inferencia a gran escala. vLLM también ha actualizado su base a PyTorch 2.11, mejorando la compatibilidad con CUDA 12.9 y optimizando los kernels de computación para reducir la latencia en el procesamiento de tokens. Este lanzamiento es vital para quienes despliegan modelos MoE (Mixture of Experts) masivos en producción.\n\n**Fuentes:**\n- [vLLM GitHub Releases](https://github.com/vllm-project/vllm/releases)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778312192492",
     "title": "📟 MIPS S8200: La nueva NPU RISC-V que impulsa la \"IA Física\" en el Borde",
     "date": "2026-05-09",
