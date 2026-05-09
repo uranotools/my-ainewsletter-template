@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778370009466",
+    "title": "⚠️ Alerta de Seguridad: CVE-2026-43172 expone riesgo de Out-of-Bounds en Driver iwlwifi de Intel",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "Se ha revelado una vulnerabilidad crítica en el kernel de Linux, identificada como CVE-2026-43172, que afecta al controlador iwlwifi de Intel. El fallo se localiza específicamente en la fase de parseo de la memoria compartida (shared-memory parsing) durante el reporte de firmware para el hardware inalámbrico de la serie 22000.\n\nTécnicamente, un reporte de firmware malformado puede provocar un acceso fuera de límites (out-of-bounds array access), lo que podría derivar en la corrupción de la memoria del kernel. Este incidente subraya la fragilidad de la confianza en la frontera entre el firmware y el controlador: el sistema asume que los valores reportados por el hardware son correctos, permitiendo que un atacante con control sobre el firmware comprometa la integridad del núcleo del sistema operativo.\n\nFuentes verificadas:\n- Windows Forum: https://windowsforum.com/threads/cve-2026-43172-iwlwifi-bug-firmware-parsing-out-of-bounds-risk.416744/\n- Linux Kernel Security Disclosures",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778370000909",
     "title": "🌐 WebGPU y WebNN 2026: La era de la IA Nativa en el Navegador",
     "date": "2026-05-09",
