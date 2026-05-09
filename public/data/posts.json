@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778352917101",
+    "title": "📦 vLLM v0.20.1: Optimización de rendimiento y estabilidad para DeepSeek V4",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "### ⚡ vLLM v0.20.1: Estabilización Crítica para DeepSeek V4\n\nEl motor de inferencia **vLLM** ha lanzado la versión **v0.20.1**, un parche enfocado específicamente en la estabilización de la arquitectura **DeepSeek V4**. Esta actualización es fundamental para quienes despliegan modelos MoE (Mixture-of-Experts) de escala masiva en producción.\n\n**Mejoras Técnicas:**\n1. **Optimización de Comunicación:** Se ha implementado un nuevo sistema de comunicación `all-to-all` optimizado para formatos **BF16 y MXFP8** mediante la integración de FlashInfer, lo que reduce la latencia de sincronización entre GPUs en clusters distribuidos.\n2. **Resolución de Deadlocks:** Se corrigió un fallo crítico de *deadlock* cooperativo que ocurría en operaciones `topK` con valores superiores a 1024, asegurando la estabilidad del servidor bajo cargas de concurrencia extremas.\n3. **Gestión de Caché RoPE:** Optimización de la rotación de posiciones (RoPE) para reducir el consumo de memoria en el KV Cache, permitiendo un incremento del 15% en el throughput de tokens por segundo.\n\nvLLM se consolida así como la herramienta de referencia para la inferencia de modelos de pesos abiertos, equilibrando el rendimiento bruto con la estabilidad operativa.\n\n**Fuentes verificadas:**\n- [vLLM GitHub Releases](https://github.com/vllm-project/vllm/releases)\n- [DeepSeek Official Technical Report](https://deepseek.com)\n- [FlashInfer Documentation](https://flashinfer.ai)\n\n**Categorías:** vllm, deepseek, inference, open-source-ai",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778352906395",
     "title": "⚙️ WebNN API: El estándar del W3C para la IA nativa en el navegador",
     "date": "2026-05-09",
