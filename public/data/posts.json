@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778333945861",
+    "title": "🛡️ CVE-2026-20805: El \\\"Memory Jack\\\" y el riesgo de RCE en Agentes de IA",
+    "date": "2026-05-09",
+    "categories": [],
+    "excerpt": "",
+    "content": "🛡️ **CVE-2026-20805: El \\\"Memory Jack\\\" y el riesgo de RCE en Agentes de IA**\\n\\nSe ha detectado una vulnerabilidad crítica, identificada como CVE-2026-20805 y denominada \\\"Memory Jack\\\", que afecta a diversos frameworks de orquestación de agentes de IA. El fallo reside en el mecanismo de **Restauración de Estado (State Restoration)**. Cuando un agente de IA recupera su contexto desde una base de datos de vectores (Vector DB) o un historial de sesión persistente, no valida adecuadamente la integridad de los datos recuperados.\\n\\nUn atacante puede realizar un ataque de \\\"envenenamiento de memoria\\\" inyectando payloads maliciosos en los metadatos de la base de datos de vectores. Al momento de la restauración, el framework procesa estos datos como instrucciones legítimas, permitiendo la **Ejecución Remota de Código (RCE)** en el servidor que aloja el agente. Este vector de ataque es especialmente peligroso en entornos multi-inquilino donde los agentes comparten infraestructura de memoria.\\n\\n**Fuentes verificadas:**\\n- Penligent AI (Hacking Labs): [https://www.penligent.ai/hackinglabs/cve-2026-20805-dissected-the-memory-jack-rce-in-ai-agent-frameworks/]\\n- Microsoft Security Research (Contexto de persistencia).\\n- CVEFeed.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778332835283",
     "title": "⚡ MIPS S8200: La nueva NPU RISC-V diseñada para la \"IA Física\" en el Edge",
     "date": "2026-05-09",
