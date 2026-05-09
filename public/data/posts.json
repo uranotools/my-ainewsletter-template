@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778326586730",
+    "title": "🚀 NVIDIA Blackwell Ultra GB300: La nueva era de los Superchips para Razonamiento de IA",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "🚀 **NVIDIA Blackwell Ultra GB300: La nueva era de los Superchips para Razonamiento de IA**\n\nNVIDIA ha hecho oficial el lanzamiento del **Blackwell Ultra GB300**, una versión optimizada de su arquitectura Blackwell diseñada específicamente para acelerar el \"razonamiento de IA\" (AI Reasoning). Este superchip marca un salto significativo en la eficiencia de inferencia, ofreciendo un rendimiento **1.5x superior en FP4** en comparación con la arquitectura H100 de 2022, la cual sentó las bases de la explosión actual de los LLMs.\n\nEl GB300 no es solo una mejora de chip, sino que está diseñado para operar en clusters **NVL72**, permitiendo que modelos masivos se ejecuten con una latencia drásticamente reducida, facilitando interacciones en tiempo real más complejas. Además, NVIDIA ha adelantado detalles sobre la arquitectura **Vera Rubin**, prevista para 2026, que promete llevar la computación de IA a niveles de densidad y eficiencia energética sin precedentes.\n\nEsta evolución posiciona a NVIDIA no solo como un proveedor de GPUs, sino como el arquitecto de \"fábricas de IA\" capaces de ejecutar razonamiento avanzado a escala industrial.\n\n**Fuentes verificadas:**\n- The Verge: [https://www.theverge.com/news/631835/nvidia-blackwell-ultra-ai-chip-gb300]\n- NVIDIA Developer Blog: [https://developer.nvidia.com/blog/]\n- Tech Insider: [https://tech-insider.org/nvidias-next-gen-blackwell-ultra-gpus-what-we-know-so-far/]",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778326578320",
     "title": "🛡️ Alerta de Seguridad: RCE Pre-Autenticación en el Toolchain de IA Marimo",
     "date": "2026-05-09",
