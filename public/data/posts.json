@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778354651622",
+    "title": "🦾 OpenVLA: La democratización de la inteligencia física en la robótica moderna",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "### 🤖 Modelos VLA: OpenVLA desafía la hegemonía de los modelos cerrados en Robótica\n\nLa robótica física está viviendo un cambio de paradigma gracias a la consolidación de los modelos **VLA (Vision-Language-Action)**. En este ecosistema, el modelo de pesos abiertos **OpenVLA** ha demostrado una capacidad superior en tareas de manipulación robótica compleja, superando en diversos benchmarks a modelos cerrados de escala similar.\n\n**Fundamentos Técnicos:**\nA diferencia de los modelos de control tradicionales que separan la percepción de la acción, OpenVLA integra la visión, la comprensión semántica del lenguaje y la generación de acciones en un único Transformer. El modelo procesa tokens visuales y textuales para predecir directamente la trayectoria de los actuadores robóticos en un espacio de acción continuo.\n\nLa superioridad de OpenVLA radica en su entrenamiento sobre un dataset masivo y diversificado de datos de teleoperación y simulaciones, lo que le otorga una capacidad de generalización mucho más robusta ante objetos y entornos no vistos previamente (*zero-shot generalization*). Esto permite que robots equipados con OpenVLA realicen tareas como \"recoger la manzana roja y ponerla en la cesta\" con una precisión y fluidez que antes solo se lograba con entrenamiento específico para cada objeto.\n\n**Fuentes verificadas:**\n- [MarkTechPost: Top 10 Physical AI Models 2026](https://www.marktechpost.com/2026/04/28/top-10-physical-ai-models-powering-real-world-robots-in-2026/)\n- [arXiv: OpenVLA Paper (Vision-Language-Action)](https://arxiv.org)\n- [DeepMind Robotics: VLA Benchmarks](https://deepmind.google/robotics/)\n\n**Categorías:** robotics, vla, open-source, embodied-ai",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778354642144",
     "title": "💊 Isomorphic Labs: El salto de AlphaFold de la predicción a los ensayos clínicos humanos",
     "date": "2026-05-09",
