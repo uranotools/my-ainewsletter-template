@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778351916939",
+    "title": "⚠️ Seguridad Agéntica: El Nuevo Top 10 de OWASP para IA Autónoma",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "### 🔐 OWASP Top 10 para Aplicaciones Agénticas (Edición 2026)\n\nCon el despliegue masivo de agentes autónomos que no solo chatean, sino que *actúan* sobre el sistema operativo y APIs, OWASP ha lanzado el **Top 10 for Agentic Applications 2026**. Este marco es la primera respuesta estandarizada a los riesgos de seguridad inherentes a los sistemas que planifican y ejecutan herramientas de forma independiente.\n\n**Riesgos Críticos Identificados:**\nEl framework destaca vulnerabilidades que no existen en los LLMs tradicionales:\n1. **Agentic Command Injection:** Cuando un agente interpreta una instrucción maliciosa proveniente de una fuente externa como un comando interno para su herramienta de shell.\n2. **Tool-Call Hijacking:** Intercepción o manipulación de las llamadas a herramientas (API calls) para desviar el flujo de ejecución del agente.\n3. **Excessive Agency:** Asignar permisos de escritura o ejecución demasiado amplios al agente, permitiendo que una alucinación técnica derive en la eliminación de datos críticos.\n\nEl estándar propone la implementación de \"Guardrails de Ejecución\" y la validación obligatoria de cada acción (*Human-in-the-loop*) para operaciones de alto riesgo, transformando el red-teaming de semanas a horas mediante agentes especializados en seguridad.\n\n**Fuentes verificadas:**\n- [OWASP GenAI: Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)\n- [arXiv: 2605.04019 - Redefining AI Red Teaming](https://arxiv.org/html/2605.04019v1)\n- [Snyk Labs: CSA Guide for Autonomous Agents](https://labs.snyk.io/resources/applying-CSA-guide-autonomous-agents/)\n- [AF.net: AI Ethics and Red-Teaming Standards](https://af.net/ar/realtime/ai-ethics-2026-openai-and-anthropic-call-for-new-red-teaming-standards/)\n\n**Categorías:** security, owasp, ai-agents, cybersecurity",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778351905337",
     "title": "⚙️ WebAssembly 3.0: Hacia un Runtime Universal de IA Portable",
     "date": "2026-05-09",
