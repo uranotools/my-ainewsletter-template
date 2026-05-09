@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778291072116",
+    "title": "🏗️ OCP y Arm lanzan la Especificación de Arquitectura de Sistema de Chiplets (FCSA)",
+    "date": "2026-05-09",
+    "categories": [],
+    "excerpt": "El Open Compute Project y Arm estandarizan la interconexión de chiplets con la especificación FCSA, facilitando el hardware modular y la inferencia de IA.",
+    "content": "# 🏗️ OCP y Arm lanzan la Especificación de Arquitectura de Sistema de Chiplets (FCSA)\n\nEl Open Compute Project (OCP), en una colaboración estratégica con Arm, ha publicado la **Foundational Chiplet System Architecture Specification (FCSA)**. Esta especificación técnica busca estandarizar la interconexión de chiplets, permitiendo que componentes de diferentes fabricantes puedan integrarse en un solo paquete (package) de silicio, rompiendo el monopolio de los diseños monolíticos.\n\n### Análisis Técnico de la FCSA\nLa arquitectura FCSA aborda uno de los mayores retos de la computación moderna: la escalabilidad del rendimiento frente al aumento de costos de fabricación. Los puntos clave incluyen:\n- **Estandarización de Interconexiones**: Define protocolos de comunicación física y lógica para que un chiplet de memoria de un proveedor pueda comunicarse eficientemente con un chiplet de cómputo de otro.\n- **Optimización para Inferencia de IA**: La norma está diseñada específicamente para soportar el ancho de banda masivo requerido por los modelos de lenguaje extensos (LLMs), facilitando la creación de aceleradores de IA modulares.\n- **Reducción de Costos y Tiempo de Mercado**: Al permitir la reutilización de chiplets probados (IPs), las empresas pueden diseñar SoCs personalizados sin tener que rediseñar cada componente desde cero.\n\n### Implicaciones para la Industria\nLa FCSA es el primer paso hacia una \"economía de chiplets\" abierta. Esto permitirá que empresas más pequeñas desarrollen aceleradores especializados que puedan integrarse en ecosistemas de hardware más grandes, democratizando el acceso al diseño de semiconductores de alto rendimiento.\n\n**Fuentes Verificadas:**\n- **Open Compute Project**: [Foundational Chiplet System Architecture Specification (FCSA) PDF](https://www.opencompute.org/documents/fcsa-1-0-0-pdf)\n- **Arm Official**: [Collaborating on Open Chiplet Standards for the AI Era](https://www.arm.com/company/news)\n- **Chiplet Marketplace**: [The impact of FCSA on the next wave of AI Inference hardware](https://chiplet-marketplace.com/insights/expert-perspectives/arm-ocp-chiplet-system-architecture-specification-fcsa)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778291064916",
     "title": "⚡ El Desafío Energético de los Data Centers de IA: Crisis de Red y Soluciones Técnicas",
     "date": "2026-05-09",
