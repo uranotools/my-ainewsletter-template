@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778355516779",
+    "title": "⚙️ Semidynamics y SiPearl: Hacia una infraestructura de IA Soberana en Europa",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "### 🇪🇺 Soberanía Tecnológica: Semidynamics y SiPearl impulsan la Computación de IA en la UE\n\nEn un movimiento estratégico para reducir la dependencia de silicio extracomunitario, **Semidynamics** y **SiPearl** han anunciado una cooperación para desarrollar una plataforma de computación de IA a escala de rack con soberanía europea.\n\n**Detalles Técnicos:**\nEl proyecto se basa en la integración de núcleos de alto rendimiento basados en la arquitectura abierta **RISC-V**, combinados con interconexiones avanzadas de chiplets. El objetivo es crear una infraestructura de computación capaz de competir con los clusters de GPUs actuales, pero optimizada específicamente para la eficiencia energética y la seguridad de los datos soberanos de la Unión Europea.\n\nTécnicamente, la plataforma busca maximizar el ancho de banda entre núcleos mediante la implementación de estándares de interconexión abiertos, permitiendo que la plataforma sea escalable y modular. Este esfuerzo es parte de una iniciativa más amplia para asegurar que la infraestructura crítica de IA en Europa no dependa de proveedores únicos, fomentando un ecosistema de hardware abierto y auditable.\n\n**Fuentes verificadas:**\n- [Bolsamania: Semidynamics and SiPearl Strategic Cooperation](https://www.bolsamania.it/news/semidynamics-and-sipearl-announce-strategic-cooperation-to-develop-eu-sovereign-rack-scale-ai-compute-platform/)\n- [Semidynamics Official Announcements](https://semidynamics.com)\n- [SiPearl Technical Roadmap](https://sipearl.com)\n\n**Categorías:** hardware, riscv, eu-sovereignty, ai-infrastructure",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778355507315",
     "title": "⚠️ Alerta de Seguridad: Vulnerabilidades RCE en Agentes de IA (CVE-2026-2256)",
     "date": "2026-05-09",
