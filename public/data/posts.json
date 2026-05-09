@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778351928628",
+    "title": "⚡ CXL 3.1: Fabric-Attached Memory y el fin del cuello de botella en IA",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "### 🚀 CXL 3.1: Rompiendo el 'Muro de la Memoria' con Fabric-Attached Memory (FAM)\n\nLa arquitectura de los centros de datos para IA está experimentando un cambio fundamental con la implementación de **CXL 3.1 (Compute Express Link)**. El avance más disruptivo es la introducción de la **Fabric-Attached Memory (FAM)**, una tecnología que permite la creación de pools de memoria compartida a escala de rack.\n\n**Detalles Técnicos:**\nA diferencia de las generaciones anteriores, CXL 3.1 permite topologías de múltiples saltos (*multi-hop*) mediante switches CXL. Esto significa que decenas de hosts (CPUs y GPUs) pueden acceder a un pool dinámico de memoria DDR5-8000 sin estar físicamente conectados al mismo bus. La FAM optimiza el uso de recursos al eliminar la memoria redundante en cada nodo y permitiendo una expansión elástica según la carga del modelo de IA. \n\nLa implementación se apoya en la especificación PCIe 6.2, alcanzando velocidades de 64 GT/s, y controladores especializados (como los de Montage Technology) que gestionan la coherencia de caché entre hosts heterogéneos. Esto es crítico para el entrenamiento de LLMs masivos donde el cuello de botella ya no es el cómputo, sino el ancho de banda y la capacidad de la memoria.\n\n**Fuentes verificadas:**\n- [Design-Reuse: CXL 3.1 and Data Center Memory](https://www.design-reuse.com/news/202529287-cxl-3-1-mxc-and-the-future-of-data-center-memory-architecture/)\n- [C-Sharp Corner: Compute Express Link Specifications](https://www.c-sharpcorner.com)\n- [Codeworm Technical Insights](https://codeworm.io)\n- [Kad8 Hardware Analysis](https://kad8.io)\n\n**Categorías:** hardware, datacenter, cxl, ai-infrastructure",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778351916939",
     "title": "⚠️ Seguridad Agéntica: El Nuevo Top 10 de OWASP para IA Autónoma",
     "date": "2026-05-09",
