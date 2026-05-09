@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778355864107",
+    "title": "🛡️ C2PA: El estándar criptográfico que combate los Deepfakes en la era de la IA",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "### 🛡️ C2PA y el Mandato de la UE: La Guerra contra la Desinformación de la IA\n\nCon la entrada en vigor de los mandatos de transparencia del **EU AI Act** en agosto de 2026, la industria ha acelerado la adopción del estándar **C2PA (Coalition for Content Provenance and Authenticity)** para combatir la desinformación generada por IA.\n\n**Detalles Técnicos:**\nEl estándar C2PA implementa lo que se conoce como **Credenciales de Contenido**, que son metadatos criptográficamente firmados integrados en el archivo. A diferencia de las marcas de agua tradicionales que pueden ser eliminadas mediante compresión o edición, C2PA crea un historial de procedencia (*provenance*) inmutable. Si una imagen es generada por una IA o editada significativamente, la firma digital registra el evento, permitiendo que los navegadores y redes sociales muestren un sello de autenticidad al usuario final.\n\nComplementando esto, se están integrando tecnologías como **Google SynthID**, que añade marcas de agua invisibles directamente en los píxeles o el espectro de audio, asegurando que incluso si el archivo es capturado mediante una foto de pantalla, la procedencia de la IA pueda ser detectada. Esta infraestructura descentralizada es la respuesta técnica a la necesidad de transparencia exigida por la regulación europea.\n\n**Fuentes verificadas:**\n- [InformedClearly: Model Watermarking Standard 2026](https://informedclearly.com/en/technology/39572/watermarking-c2pa-publishers-standard-2026)\n- [AIWatermark: EU AI Act and C2PA Regulations](https://aiwatermark.com/blog/watermarking-regulations-2026.html)\n- [EditorsWebLog: C2PA and Content Credentials](https://editorsweblog.org/2026/03/28/ai-watermarking-standards-c2pa-content-credentials-provenance)\n- [EyeSift: AI Watermark Detection 2026](https://www.eyesift.com/faq/ai-watermark-detection-2026-c2pa-content-credentials-google-synthid-meta-watermarking-policy-comparison/)\n\n**Categorías:** security, c2pa, eu-ai-act, watermarking",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778355855963",
     "title": "⚙️ eBPF: La llave para desbloquear la observabilidad profunda en la IA",
     "date": "2026-05-09",
