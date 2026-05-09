@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778323317634",
+    "title": "🌐 WebNN API: El estándar definitivo para la aceleración de IA nativa en el navegador",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "🌐 **WebNN API: El estándar definitivo para la aceleración de IA nativa en el navegador**\n\nEl W3C ha actualizado la Recomendación Candidata de la **Web Neural Network (WebNN) API** (con fecha de marzo de 2026), consolidándola como la única vía estandarizada para que las aplicaciones web accedan directamente a las **NPUs (Neural Processing Units)** y otros aceleradores de hardware locales.\n\nA diferencia de WebGPU, que es una API de cómputo general, WebNN está optimizada específicamente para la inferencia de redes neuronales. Las actualizaciones más recientes incluyen la introducción de la API **MLTensor**, que permite el intercambio de búferes mediante \"zero-copy\", reduciendo drásticamente la latencia al mover datos entre la CPU y el acelerador de IA. Asimismo, se ha implementado una tercera ola de operadores diseñados específicamente para acelerar arquitecturas de **Transformers**, permitiendo que LLMs y modelos de difusión se ejecuten localmente en el navegador con un rendimiento cercano al nativo.\n\nEste avance es crítico para la privacidad y la soberanía de los datos, ya que permite despliegues de IA complejos sin la necesidad de enviar información sensible a servidores en la nube.\n\n**Fuentes verificadas:**\n- W3C Specification: [https://www.w3.org/TR/webnn/]\n- WebNN Official: [https://webnn.io/]\n- GitHub WebMachineLearning: [https://github.com/webmachinelearning/webnn]",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778323309749",
     "title": "🤖 Evolución de los Modelos VLA: Hacia agentes robóticos prácticos y eficientes",
     "date": "2026-05-09",
