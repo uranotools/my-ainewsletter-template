@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778292649850",
+    "title": "⚠️ CVE-2026-7415: Hijacking de Robots Yarbo vía Acceso MQTT No Autenticado",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "Vulnerabilidad crítica (CVSS 9.8) en robots Yarbo permite el control remoto total vía MQTT no autenticado, exponiendo datos y seguridad física.",
+    "content": "# ⚠️ CVE-2026-7415: Hijacking de Robots Yarbo vía Acceso MQTT No Autenticado\n\nUn fallo crítico de seguridad ha sido expuesto en los robots cortacéspedes de **Yarbo**, permitiendo que atacantes remotos tomen el control total de los dispositivos. La vulnerabilidad, identificada como **CVE-2026-7415**, afecta a la versión del firmware v2.3.9 y presenta un puntaje CVSS de **9.8 (Crítico)**.\n\n### Detalles Técnicos del Ataque\nEl problema reside en una implementación defectuosa del protocolo **MQTT (Message Queuing Telemetry Transport)** en el firmware. El sistema permite el acceso no autenticado a los brokers MQTT internos, lo que significa que cualquier host en la misma red local puede:\n- **Suscripción a Telemetría**: Acceder a datos sensibles en tiempo real, incluyendo coordenadas GPS precisas, credenciales de Wi-Fi y feeds de cámara en vivo.\nL- **Control Directo**: Publicar mensajes de control directamente al robot, permitiendo maniobras remotas no autorizadas (como el caso documentado por *The Verge* donde el robot fue utilizado para atropellar al periodista).\n\n### Respuesta de la Empresa\nYarbo ha emitido una respuesta oficial confirmando los hallazgos del investigador de seguridad Andreas Makris. La compañía ha procedido a:\n1. **Corte de Acceso Remoto**: Desactivación temporal de los sistemas de diagnóstico remoto para mitigar el riesgo inmediato.\n2. **Plan de Parcheado**: Desarrollo de una actualización de firmware obligatoria para cerrar el puerto MQTT y requerir autenticación robusta.\n\n### Impacto y Riesgo\nSe estima que aproximadamente **11,000 dispositivos** en todo el mundo están vulnerables. El riesgo es extremo debido a la naturaleza física del dispositivo (cuchillas giratorias), transformando un gadget de hogar inteligente en un vector de ataque físico potencial.\n\n**Fuentes Verificadas:**\n- **The Verge**: [Here is Yarbo’s promise to fix the robot mower that ran me over](https://www.theverge.com/tech/926989/yarbo-robot-lawn-mower-hack-company-update-security-promise)\n- **MWM AI**: [Yarbo Robot Mowers Exposed with Critical Flaws](https://mwm.ai/articles/yarbo-robot-mowers-exposed-with-critical-flaws-allowing-remote-hijacking-in-may-2026)\n- **The Hacker Wire**: [Critical Unauthenticated MQTT Access in Yarbo Firmware](https://www.thehackerwire.com/critical-unauthenticated-mqtt-access-in-yarbo-firmware/)\n- **AI Toolly**: [Yarbo to Fix Security Flaws After Robot Mower Hijacking](https://aitoolly.com/ai-news/article/2026-05-09-yarbo-pledges-security-fixes-after-critical-vulnerabilities-allowed-hackers-to-hijack-robot-lawn-mowers)",
+    "imageUrl": "/assets/images/captures/capture-1778291680916.png",
+    "source": "The Verge / The Hacker Wire",
+    "originalUrl": "https://www.theverge.com/tech/926989/yarbo-robot-lawn-mower-hack-company-update-security-promise"
+  },
+  {
     "id": "1778291072116",
     "title": "🏗️ OCP y Arm lanzan la Especificación de Arquitectura de Sistema de Chiplets (FCSA)",
     "date": "2026-05-09",
