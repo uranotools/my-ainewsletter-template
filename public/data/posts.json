@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778348332010",
+    "title": "🚨 CVE-2026-2256: Cuando los Prompts se convierten en Shells (RCE en MS-Agent)",
+    "date": "2026-05-09",
+    "categories": [],
+    "excerpt": "",
+    "content": "🚨 **CVE-2026-2256: Cuando los Prompts se convierten en Shells (RCE en MS-Agent)**\\n\\nSe ha revelado una vulnerabilidad crítica, identificada como **CVE-2026-2256**, que afecta al framework **MS-Agent**. El fallo permite que un atacante tome el control total del sistema host mediante la inyección de prompts cuidadosamente diseñados que el agente ejecuta como comandos de sistema.\\n\\nTécnicamente, la vulnerabilidad reside en que el framework no implementa un aislamiento (sandboxing) robusto entre la generación de texto del LLM y el shell del sistema operativo. Un atacante puede engañar al agente para que ignore sus instrucciones de seguridad y ejecute comandos arbitrarios, transformando la interfaz de chat en una terminal de comandos remota. Con un puntaje **CVSS de 9.8**, este fallo subraya el peligro de otorgar acceso a la shell a agentes de IA sin capas de validación deterministas y estrictas. Microsoft ha publicado una guía de mitigación, aunque el parche definitivo sigue en proceso de despliegue para todas las versiones empresariales.\\n\\n**Fuentes verificadas:**\\n- Microsoft Security Blog: [https://www.microsoft.com/en-us/security/blog/2026/05/07/prompts-become-shells-rce-vulnerabilities-ai-agent-frameworks/]\\n- State of Surveillance.\\n- Rogue Security.",
+    "imageUrl": "/assets/images/captures/capture-1778348190870.png",
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778348321158",
     "title": "🌐 W3C WebNN: Aceleración de Hardware Nativa para la IA en el Navegador",
     "date": "2026-05-09",
