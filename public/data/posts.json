@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778306682065",
+    "title": "⚡ AMD Instinct MI350X: La Respuesta de CDNA 4 frente a NVIDIA Blackwell",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "AMD lanza la serie Instinct MI350X basada en CDNA 4, con 288GB de HBM3E y soporte para FP4/FP6 para competir directamente con NVIDIA Blackwell.",
+    "content": "# ⚡ AMD Instinct MI350X: La Respuesta de CDNA 4 frente a NVIDIA Blackwell\n\nAMD ha dado un golpe sobre la mesa en el mercado de aceleradores de IA con el lanzamiento de la serie **Instinct MI350X**, basada en la nueva arquitectura **CDNA 4**. Este hardware ha sido diseñado específicamente para combatir la hegemonía de la arquitectura Blackwell de NVIDIA en el despliegue de LLMs a escala masiva.\n\n### Especificaciones Técnicas y Memoria\nEl MI350X redefine la capacidad de memoria en el borde del data center:\n- **Capacidad Masiva**: Hasta **288 GB de memoria HBM3E**, permitiendo cargar modelos más grandes en una sola GPU y reduciendo la necesidad de paralelismo de tensores complejo.\n- **Ancho de Banda**: Alcanza los **8 TB/s**, eliminando cuellos de botella críticos en la fase de lectura de pesos durante la inferencia.\n- **Nuevos Tipos de Datos**: Introduce soporte nativo para **MXFP4 y MXFP6**, optimizando la precisión y el rendimiento en la cuantización de modelos, lo que permite un aumento significativo en los tokens por segundo sin degradación perceptible de la calidad.\n\n### Posicionamiento en el Mercado\nMientras NVIDIA apuesta por el ecosistema cerrado de CUDA, AMD refuerza su apuesta por **ROCm**, buscando ofrecer una alternativa más abierta y con una relación rendimiento-precio más competitiva. Con la arquitectura CDNA 4, AMD no solo busca igualar el TFLOPS de la B200, sino superarla en capacidad de memoria bruta, un factor determinante para la inferencia de modelos de más de 1 Trillón de parámetros.\n\n**Fuentes Verificadas:**\n- **AMD Official**: [AMD Instinct MI350X GPUs Product Page](https://www.amd.com/en/products/accelerators/instinct/mi350/mi350x.html)\n- **Tom's Hardware**: [AMD announces MI350X and MI355X AI GPUs](https://www.tomshardware.com/pc-components/gpus/amd-announces-mi350x-and-mi355x-ai-gpus-claims-up-to-4x-generational-gain-up-to-35x-faster-inference-performance)\n- **TechPowerUp**: [AMD Instinct MI350X Series AI GPU Silicon Detailed](https://www.techpowerup.com/337983/amd-instinct-mi350x-series-ai-gpu-silicon-detailed)",
+    "imageUrl": "/assets/images/captures/capture-1778306584263.png",
+    "source": "AMD Official / Tom's Hardware",
+    "originalUrl": "https://www.amd.com/en/products/accelerators/instinct/mi350/mi350x.html"
+  },
+  {
     "id": "1778306674829",
     "title": "🤖 El Salto a los Modelos VLA: El Fin de la \"Alucinación Robótica\"",
     "date": "2026-05-09",
