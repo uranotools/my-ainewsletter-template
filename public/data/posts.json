@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778319502153",
+    "title": "🌐 WASI 0.3.0: WebAssembly se consolida como el estándar para la Computación Universal",
+    "date": "2026-05-09",
+    "categories": [
+      "web",
+      "standards",
+      "wasm",
+      "edge-computing"
+    ],
+    "excerpt": "",
+    "content": "El ecosistema de WebAssembly (WASM) ha alcanzado un hito crítico con el lanzamiento de **WASI 0.3.0**. Esta actualización no es solo un incremento de versión, sino el paso definitivo hacia un modelo de componentes maduro. WASI 0.3.0 introduce soporte nativo para I/O asíncrono y estabiliza el Component Model, permitiendo que módulos escritos en diferentes lenguajes interactúen de forma transparente y segura. \n\nEste avance transforma a WASM de ser una herramienta de optimización para el navegador en una alternativa real y ligera a los contenedores Docker para el edge computing y arquitecturas serverless. Al reducir la sobrecarga de arranque y mejorar la seguridad mediante un modelo de capacidades estrictas, WASI 0.3.0 permite el despliegue de microservicios políglotas con un rendimiento cercano al nativo y un aislamiento total.\n\n**Fuentes:**\n- [ByteIota: WASI 0.3.0 Production](https://byteiota.com/wasi-0-3-0-webassembly-component-model-goes-production/)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778312210835",
     "title": "⚠️ Seguridad IoT: El hackeo masivo de los robots Yarbo expone datos críticos de usuarios",
     "date": "2026-05-09",
