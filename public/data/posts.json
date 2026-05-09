@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778323327134",
+    "title": "🚨 Alerta de Seguridad: CVE-2026-7415 permite el secuestro remoto de robots Yarbo",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "🚨 **Alerta de Seguridad Crítica: CVE-2026-7415 en Robots Yarbo**\n\nSe ha descubierto una vulnerabilidad catastrófica en el firmware de los robots cortacéspedes Yarbo (específicamente v2.3.9) que permite el secuestro remoto completo de las unidades. El fallo, identificado como **CVE-2026-7415**, radica en un acceso MQTT no autenticado, lo que otorga a un atacante la capacidad de suscribirse a temas de telemetría sensibles y publicar mensajes de control directamente al robot sin ninguna credencial.\n\nEl investigador de seguridad Andreas Makris demostró el riesgo al tomar el control de un robot de 90 kg (200 lbs) desde una distancia de 6,000 millas, manipulando no solo el movimiento del dispositivo, sino también accediendo a su cámara integrada y activando las cuchillas giratorias. Con un puntaje **CVSS de 9.8**, esta vulnerabilidad expone datos críticos como coordenadas GPS, contraseñas de Wi-Fi y correos electrónicos de los usuarios.\n\n**Fuentes verificadas:**\n- The Verge: [https://www.theverge.com/tech/926989/yarbo-robot-lawn-mower-hack-company-update-security-promise]\n- The Hacker Wire: [https://www.thehackerwire.com/critical-unauthenticated-mqtt-access-in-yarbo-firmware/]\n- MWM.ai: [https://mwm.ai/articles/yarbo-robot-mowers-exposed-with-critical-flaws-allowing-remote-hijacking-in-may-2026]",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778323317634",
     "title": "🌐 WebNN API: El estándar definitivo para la aceleración de IA nativa en el navegador",
     "date": "2026-05-09",
