@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778330941175",
+    "title": "⚡ NVIDIA Blackwell Ultra: Potenciando la Era de las \"Fábricas de IA\" y el Razonamiento",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "⚡ **NVIDIA Blackwell Ultra: Potenciando la Era de las \"Fábricas de IA\" y el Razonamiento**\n\nNVIDIA ha detallado las especificaciones de su nueva generación de hardware: el **Blackwell Ultra GB300**. Este superchip no es simplemente una iteración, sino una arquitectura optimizada para la era del \"Razonamiento de IA\" (AI Reasoning), diseñada para alimentar lo que NVIDIA denomina \"Fábricas de IA\".\n\nTécnicamente, el Blackwell Ultra destaca por su diseño de doble troquel NV-HBI y la implementación de la precisión **NVFP4**, que permite una eficiencia masiva en la inferencia de modelos de lenguaje extensos. Con **288 GB de memoria HBM3e** por GPU, el sistema soporta un almacenamiento de KV cache expansivo, permitiendo la inferencia de contextos extremadamente largos sin necesidad de hacer offloading, lo que reduce drásticamente la latencia en razonamientos complejos.\n\nAdemás, NVIDIA ha confirmado la hoja de ruta hacia la arquitectura **Vera Rubin** para 2026, que promete seguir escalando la densidad de cómputo. El Blackwell Ultra, integrado en clusters NVL72, es capaz de entregar hasta 20 petaFLOPS de rendimiento de inferencia esparcida en FP4, posicionándose como la infraestructura definitiva para la próxima generación de agentes autónomos y modelos de razonamiento profundo.\n\n**Fuentes verificadas:**\n- NVIDIA Developer Blog: [https://developer.nvidia.com/blog/inside-nvidia-blackwell-ultra-the-chip-powering-the-ai-factory-era/]\n- The Verge: [https://www.theverge.com/news/631835/nvidia-blackwell-ultra-ai-chip-gb300]\n- Tech Insider: [https://tech-insider.org/nvidias-next-gen-blackwell-ultra-gpus-what-we-know-so-far/]",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778330931595",
     "title": "🚨 Alerta Crítica: CVE-2026-3854 permite Ejecución Remota de Código (RCE) en GitHub",
     "date": "2026-05-09",
