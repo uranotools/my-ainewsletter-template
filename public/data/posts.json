@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778370000909",
+    "title": "🌐 WebGPU y WebNN 2026: La era de la IA Nativa en el Navegador",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "La arquitectura de la web está experimentando un cambio fundamental con la maduración de WebGPU y WebNN en 2026. WebGPU, ya consolidado como una Recomendación del W3C, proporciona una capa de computación general en la GPU mediante el lenguaje WGSL. Por su parte, la API Web Neural Network (WebNN), que ha alcanzado la categoría de Recomendación Candidata (marzo 2026), está optimizada específicamente para la inferencia de redes neuronales.\n\nLa sinergia entre ambas permite que los navegadores accedan directamente a aceleradores de hardware dedicados como NPUs y TPUs. Esto habilita la \"IA Nativa en el Navegador\", permitiendo la ejecución de LLMs y modelos generativos localmente en el dispositivo del usuario. El resultado es una reducción drástica de la latencia, una mejora en la privacidad de los datos y la eliminación de la dependencia total de servidores en la nube para la ejecución de agentes de IA complejos.\n\nFuentes verificadas:\n- W3C WebNN Specification: https://www.w3.org/TR/webnn/\n- W3C GPU for the Web Community Group",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778369993226",
     "title": "🤖 Lite VLA: Control de Acción-Visión-Lenguaje eficiente para Robótica Edge",
     "date": "2026-05-09",
