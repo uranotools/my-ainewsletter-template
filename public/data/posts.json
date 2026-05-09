@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778330931595",
+    "title": "🚨 Alerta Crítica: CVE-2026-3854 permite Ejecución Remota de Código (RCE) en GitHub",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "🚨 **Alerta de Seguridad Crítica: CVE-2026-3854 permite RCE en GitHub**\n\nSe ha revelado una vulnerabilidad de seguridad extremadamente grave que afecta la infraestructura central de Git de GitHub, impactando tanto a **GitHub.com** como a **GitHub Enterprise Server**. El fallo, identificado como **CVE-2026-3854**, fue descubierto por el equipo de investigación de **Wiz**, y permite la Ejecución Remota de Código (RCE) en los servidores que alojan los repositorios.\n\nTécnicamente, la vulnerabilidad reside en la forma en que la infraestructura interna de git de GitHub procesa ciertas solicitudes, lo que podría permitir que un atacante malintencionado ejecute comandos arbitrarios con privilegios del sistema. Dado que GitHub es la columna vertebral del suministro de software global, un fallo de este tipo representa un riesgo sistémico para millones de desarrolladores y organizaciones que dependen de su plataforma para el almacenamiento y despliegue de código.\n\nGitHub ya ha implementado parches para mitigar este riesgo, pero se recomienda a los administradores de GitHub Enterprise Server actualizar sus instancias inmediatamente.\n\n**Fuentes verificadas:**\n- Wiz Research Blog: [https://www.wiz.io/blog/github-rce-vulnerability-cve-2026-3854]\n- CVEFeed: [https://cvefeed.io/vuln/latest/]\n- GitHub Security Advisories: [https://github.com/advisories]",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778326593804",
     "title": "🤖 ACoT-VLA: Rompiendo la brecha semántica-cinemática en Robótica con Action Chain-of-Thought",
     "date": "2026-05-09",
