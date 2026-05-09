@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778312192492",
+    "title": "📟 MIPS S8200: La nueva NPU RISC-V que impulsa la \"IA Física\" en el Borde",
+    "date": "2026-05-09",
+    "categories": [
+      "hardware",
+      "risc-v",
+      "edge-ai",
+      "npu"
+    ],
+    "excerpt": "",
+    "content": "MIPS ha presentado el **S8200**, una NPU basada en la arquitectura abierta RISC-V diseñada específicamente para habilitar la \"IA Física\" en el borde autónomo. A diferencia de los procesadores convencionales, el S8200 optimiza la ejecución de modelos de lenguaje agenticos y transformers directamente en el dispositivo, reduciendo la latencia y la dependencia de la nube. \n\nEste hardware está orientado a sectores críticos como el transporte autónomo y la robótica avanzada, donde la eficiencia energética y la capacidad de procesamiento local son vitales para la seguridad y la respuesta en tiempo real. Con el apoyo de GlobalFoundries, MIPS busca estandarizar la computación neural en el edge, permitiendo que los robots operen con modelos fundacionales complejos sin comprometer la autonomía de la batería.\n\n**Fuentes:**\n- [MIPS Official: S8200 RISC-V NPU](https://mips.com/press-releases/mips-s8200-delivers-software-first-risc-v-npu-to-enable-physical-ai-at-the-autonomous-edge/)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778308583655",
     "title": "🤖 NVIDIA Cosmos & GR00T: El salto a la \"IA Física\" y la Robótica Generativa (2026)",
     "date": "2026-05-09",
