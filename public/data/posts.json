@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778308574621",
+    "title": "⚠️ Alerta Crítica: CVE-2026-5281, Zero-Day en WebGPU de Chrome (Dawn)",
+    "date": "2026-05-09",
+    "categories": [
+      "security",
+      "chrome",
+      "webgpu",
+      "vulnerability"
+    ],
+    "excerpt": "",
+    "content": "Se ha detectado una vulnerabilidad crítica de día cero (**CVE-2026-5281**) en **Dawn**, el componente de implementación de WebGPU en el navegador Google Chrome. El fallo está siendo explotado activamente en el entorno real, permitiendo la ejecución de código remoto o el escalado de privilegios mediante la manipulación de shaders de cómputo. \n\nGoogle ha lanzado una actualización urgente (versiones 146..7680.177/178) para mitigar el riesgo. Dado que Dawn es la base de WebGPU en casi todos los navegadores basados en Chromium (Edge, Brave, Opera), el impacto es masivo. Se recomienda a todos los usuarios y administradores de TI actualizar inmediatamente sus instalaciones para evitar ataques de ejecución remota.\n\n**Fuentes:**\n- [MundoBytes Security](https://mundobytes.com/en/Chrome-zero-day-vulnerability-in-WebGPU:-what-happens-and-how-to-protect-yourself/)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778308568062",
     "title": "🌐 WebGPU 2026: La era del GPGPU nativo en el navegador (Adiós WebGL)",
     "date": "2026-05-09",
