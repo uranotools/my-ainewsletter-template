@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778348321158",
+    "title": "🌐 W3C WebNN: Aceleración de Hardware Nativa para la IA en el Navegador",
+    "date": "2026-05-09",
+    "categories": [],
+    "excerpt": "",
+    "content": "🌐 **W3C WebNN: Aceleración de Hardware Nativa para la IA en el Navegador**\\n\\nEl **World Wide Web Consortium (W3C)** ha publicado una actualización de la **Recomendación Candidata para la API Web Neural Network (WebNN)**. Esta API es un estándar de bajo nivel diseñado para permitir que las aplicaciones web accedan directamente a los aceleradores de hardware (NPUs, GPUs y CPUs) del dispositivo del usuario para realizar inferencias de redes neuronales.\\n\\nA diferencia de las soluciones basadas en WebAssembly (WASM) o WebGPU, que requieren una capa de abstracción más alta, WebNN proporciona una interfaz directa con el hardware de IA del sistema. Esto reduce drásticamente la latencia y el consumo energético, permitiendo que modelos de lenguaje y visión complejos se ejecuten localmente en el navegador con un rendimiento cercano al nativo. Este avance es fundamental para la privacidad (ya que los datos no abandonan el dispositivo) y para la viabilidad de aplicaciones de IA en tiempo real integradas en la web.\\n\\n**Fuentes verificadas:**\\n- W3C Official News: [https://www.w3.org/news/2026/updated-candidate-recommendation-web-neural-network-webnn-api/]\\n- Progosling Dev Digest.\\n- WebNN.io.",
+    "imageUrl": "/assets/images/captures/capture-1778348188213.png",
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778348310885",
     "title": "⚡ Computación Fotónica: El fin de la era del electrón en la IA",
     "date": "2026-05-09",
