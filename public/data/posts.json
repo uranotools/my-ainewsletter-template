@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778351905337",
+    "title": "⚙️ WebAssembly 3.0: Hacia un Runtime Universal de IA Portable",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "### 🌐 WebAssembly 3.0: El Runtime Universal para la Era de la IA Edge\n\nLa publicación de la especificación de **WebAssembly (Wasm) 3.0** marca un hito en la computación portable. Wasm ya no es solo una tecnología para ejecutar código C++/Rust en el navegador, sino que se ha consolidado como el estándar para el despliegue de modelos de IA en el *Edge* y la nube.\n\n**Avances Técnicos Clave:**\nEl núcleo de Wasm 3.0 es la formalización del **Component Model**. Este modelo permite la interoperabilidad nativa entre módulos escritos en diferentes lenguajes, eliminando la necesidad de interfaces complejas de pegamento (*glue code*). Para la IA, esto es revolucionario: permite combinar un motor de inferencia en Rust, una capa de preprocesamiento en Python y una lógica de negocio en Go, todo ejecutándose en un entorno aislado y seguro.\n\nAdemás, la integración profunda con **WASI-NN (WebAssembly System Interface for Neural Networks)** permite que los binarios Wasm accedan directamente a aceleradores de hardware (NPUs, GPUs) fuera del navegador. Esto convierte a Wasm 3.0 en la capa de abstracción perfecta para desplegar modelos de inferencia que sean independientes del sistema operativo y del hardware, garantizando un rendimiento cercano al nativo con seguridad de *sandbox*.\n\n**Fuentes verificadas:**\n- [WebAssembly Official Spec (GitHub)](https://webassembly.github.io/spec/core/)\n- [WASI.dev: System Interface for AI](https://wasi.dev)\n- [Bytecode Alliance Technical Blog](https://bytecodealliance.org)\n\n**Categorías:** web-standards, wasm, edge-computing, ai-runtime",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778348332010",
     "title": "🚨 CVE-2026-2256: Cuando los Prompts se convierten en Shells (RCE en MS-Agent)",
     "date": "2026-05-09",
