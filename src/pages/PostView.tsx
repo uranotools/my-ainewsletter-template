@@ -192,7 +192,11 @@ export default function PostView() {
           </div>
 
           <div className="bg-card border-4 border-foreground brutalist-shadow p-6 md:p-10">
-            <MarkdownRenderer content={post.content} />
+            {post.content?.trim() ? (
+              <MarkdownRenderer content={post.content} />
+            ) : (
+              <p className="text-foreground/70">Este artículo no contiene contenido adicional.</p>
+            )}
           </div>
 
           <Comments title={post.title} />
