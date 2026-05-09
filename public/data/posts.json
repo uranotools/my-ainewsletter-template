@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778301490995",
+    "title": "📺 Amazon Prime Video: El Giro Hacia el Formato Vertical y la \"Economía de Clips\"",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "Amazon Prime Video integra un feed de clips verticales para optimizar el descubrimiento de contenido y reducir la fricción de conversión.",
+    "content": "# 📺 Amazon Prime Video: El Giro Hacia el Formato Vertical y la \"Economía de Clips\"\n\nAmazon ha anunciado la integración de un feed de video vertical nativo en la aplicación de **Prime Video**, una decisión de ingeniería de producto que busca alinear la plataforma de streaming con los estándares de consumo de contenido corto (short-form) popularizados por TikTok y Reels.\n\n### Implementación Técnica: El Feed de \"Clips\"\nLa nueva funcionalidad introduce un carrusel de \"Clips\" en la página de inicio. Desde el punto de vista de la arquitectura de la aplicación, esto implica:\n- **Adaptación de Aspect Ratio**: Implementación de un reproductor optimizado para video vertical (9:16) que mantiene la calidad de flujo sin requerir que el usuario rote el dispositivo.\n- **Túnel de Conversión Directa**: Los clips actúan como \"puertas de enlace\". El sistema permite saltar desde un fragmento corto directamente al título completo, al proceso de renta o a la compra del contenido, optimizando el embudo de conversión.\n- **Algoritmo de Descubrimiento Personalizado**: El feed no es estático; se alimenta de la historia de visualización del usuario para sugerir fragmentos de series y películas que tengan una alta probabilidad de retención.\n\n### Análisis de Tendencia: La \"TikTokización\" del Streaming\nEsta movida de Amazon, que sigue los pasos de Netflix y Disney Plus, refleja un cambio en la estrategia de retención. En lugar de depender únicamente de trailers horizontales tradicionales, las plataformas están adoptando el \"micro-consumo\" para reducir la fricción en la decisión de qué ver.\n\nTécnicamente, esto requiere una gestión masiva de activos (transcodificación de miles de horas de contenido a formato vertical) y una optimización del buffering para asegurar que el scroll sea fluido, similar a la experiencia de una red social.\n\n**Fuentes Verificadas:**\n- **The Verge**: [Amazon is adding a vertical video feed to Prime Video](https://www.theverge.com/streaming/927327/amazon-prime-video-vertical-video-feed)\n- **Amazon Press**: [Prime Video delivers a new way to discover entertainment with Clips](https://press.aboutamazon.com/prime-video/2026/5/prime-video-delivers-a-new-way-to-discover-entertainment-with-clips)\n- **Streaming Industry Analysis**: [The rise of short-form discovery in VOD platforms 2026](https://www.theverge.com/streaming/920179/netflix-vertical-video-feed-mobile-app-ui)",
+    "imageUrl": null,
+    "source": "The Verge / Amazon Press",
+    "originalUrl": "https://www.theverge.com/streaming/927327/amazon-prime-video-vertical-video-feed"
+  },
+  {
     "id": "1778301484148",
     "title": "🚀 vLLM v0.20.1: Estabilización Crítica para DeepSeek V4 y Salto a CUDA 13",
     "date": "2026-05-09",
