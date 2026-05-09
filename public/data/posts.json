@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778306674829",
+    "title": "🤖 El Salto a los Modelos VLA: El Fin de la \"Alucinación Robótica\"",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "La integración de modelos Vision-Language-Action (VLA) y la difusión discreta están eliminando las alucinaciones robóticas y permitiendo la generalización en humanoides.",
+    "content": "# 🤖 El Salto a los Modelos VLA: El Fin de la \"Alucinación Robótica\"\n\nLa robótica ha entrado en una nueva era con la consolidación de los modelos **Vision-Language-Action (VLA)**. A diferencia de los sistemas tradicionales que separaban la percepción, el razonamiento y la ejecución, los modelos VLA integran estas tres dimensiones en una sola red neuronal end-to-end.\n\n### De la Programación de Tareas a la Generalización\nEl avance técnico más significativo, destacado en las recientes presentaciones de **ICLR 2026**, es la transición hacia los **VLA de Difusión Discreta**. Esta arquitectura permite que el robot no solo \"prediga\" el siguiente movimiento, sino que modele una distribución de acciones posibles, seleccionando la más óptima basándose en el contexto visual y la instrucción textual.\n\nEste enfoque ha comenzado a resolver el problema de la \"alucinación robótica\" (donde el robot cree que un objeto está en una posición incorrecta o intenta una acción físicamente imposible), permitiendo que humanoides como **Tesla Optimus** y **Figure 02** realicen tareas de manipulación compleja con una precisión sin precedentes.\n\n### Impacto en la Industria\nLa adopción de modelos VLA permite que los robots aprendan mediante la observación de videos humanos y el aprendizaje por refuerzo, eliminando la necesidad de programar manualmente cada micro-movimiento. Esto acelera el despliegue de robots en fábricas y logística, donde la capacidad de generalizar ante objetos desconocidos es la clave para la rentabilidad.\n\n**Fuentes Verificadas:**\n- **250mm Analysis**: [The Robotic Brain: 2026 VLA Foundation Models](https://250mm.co.kr/en/ai/robotics-foundation-models-vla-2026)\n- **ICLR 2026 Research**: [State of VLA Research at ICLR 2026 - Discrete Diffusion](https://mbreuss.github.io/blog_post_iclr_26_vla.html)\n- **Robotics News Today**: [Humanoid Robot Revolution 2026](https://robotnewstoday.com/)",
+    "imageUrl": "/assets/images/captures/capture-1778306515531.png",
+    "source": "250mm / ICLR 2026 Research",
+    "originalUrl": "https://250mm.co.kr/en/ai/robotics-foundation-models-vla-2026"
+  },
+  {
     "id": "1778304274836",
     "title": "📊 Stanford AI Index 2026: El Mapa Técnico del Estado Actual de la IA",
     "date": "2026-05-09",
