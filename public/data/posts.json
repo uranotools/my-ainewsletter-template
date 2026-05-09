@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778366380032",
+    "title": "⚡ Gemini API: Webhooks para Flujos Agenticos de Larga Duración (2026)",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "Google ha actualizado la Gemini API introduciendo el soporte para Webhooks, una mejora fundamental para el desarrollo de aplicaciones agenticas complejas y de larga duración. Hasta ahora, los desarrolladores dependían del \"polling\" (consultas repetitivas) para verificar el estado de trabajos asíncronos, lo que generaba una latencia innecesaria y un consumo ineficiente de recursos de red.\n\nCon la implementación de Webhooks basados en eventos, el sistema ahora utiliza un modelo de \"push\", notificando automáticamente al servidor del desarrollador en cuanto un proceso largo ha finalizado. Esta transición reduce drásticamente la fricción operativa y la latencia, permitiendo que los agentes de IA respondan en tiempo real a la culminación de tareas complejas. Esta actualización es clave para escalar flujos de trabajo donde el agente debe ejecutar múltiples pasos de razonamiento o procesamiento de datos masivos antes de entregar una respuesta final.\n\nFuentes verificadas:\n- Google AI Blog: https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/\n- Google Developers / Gemini API Docs",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778362724475",
     "title": "🧬 Diseño de Proteínas *De Novo*: La nueva era de la biomanufactura sostenible",
     "date": "2026-05-09",
