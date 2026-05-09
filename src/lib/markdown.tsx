@@ -29,16 +29,18 @@ export const MarkdownRenderer: React.FC<MarkdownProps> = ({ content, className }
           blockquote: ({ node, ...props }) => (
             <blockquote className="border-l-4 border-primary/30 pl-4 italic my-6 text-foreground/70" {...props} />
           ),
-          code: ({ node, inline, className, children, ...props }) =>
-            inline ? (
-              <code className="bg-muted px-1.5 py-0.5 rounded text-sm font-mono" {...props}>
+          code: (props: any) => {
+            const { inline, className, children, ...rest } = props;
+            return inline ? (
+              <code className="bg-muted px-1.5 py-0.5 rounded text-sm font-mono" {...rest}>
                 {children}
               </code>
             ) : (
-              <pre className="bg-muted p-4 rounded-lg overflow-x-auto text-sm font-mono" {...props}>
+              <pre className="bg-muted p-4 rounded-lg overflow-x-auto text-sm font-mono" {...(rest as React.HTMLAttributes<HTMLPreElement>)}>
                 <code>{children}</code>
               </pre>
-            ),
+            );
+          },
           strong: ({ node, ...props }) => <strong className="font-bold text-foreground" {...props} />,
           img: ({ node, ...props }) => <img className="rounded-xl border border-border" {...props} alt={props.alt || ''} />,
         }}
