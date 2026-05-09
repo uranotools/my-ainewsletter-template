@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778366396905",
+    "title": "🤖 PRISM: Cerrando la brecha entre Percepción y Acción en Agentes Embodied (2026)",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "La robótica embodied enfrenta un desafío crítico: la brecha entre la percepción visual y la toma de decisiones secuenciales. Para resolverlo, se ha introducido PRISM, un framework que acopla estrechamente la percepción (vía Vision-Language Models - VLM) y la decisión (vía LLM) a través de un pipeline de Pregunta-Respuesta Dinámica (DQA).\n\nA diferencia de los agentes tradicionales que aceptan pasivamente la descripción de la escena proporcionada por el VLM, PRISM permite que el LLM critique y sondee activamente al sistema de percepción con preguntas orientadas a metas. Este proceso de interacción en bucle cerrado genera una comprensión mucho más nítida y orientada a la tarea del entorno. Los resultados en los benchmarks ALFWorld y Room-to-Room (R2R) demuestran que PRISM supera significativamente a los modelos basados únicamente en imágenes, eliminando la necesidad de preguntas diseñadas manualmente y automatizando la adquisición de información crítica para la acción.\n\nFuentes verificadas:\n- arXiv: https://arxiv.org/abs/2605.05407\n- Cornell University / arXiv cs.AI",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778366388564",
     "title": "🚀 ZAYA1-8B: Razonamiento MoE optimizado sobre Full-Stack AMD (2026)",
     "date": "2026-05-09",
