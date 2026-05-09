@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778312210835",
+    "title": "⚠️ Seguridad IoT: El hackeo masivo de los robots Yarbo expone datos críticos de usuarios",
+    "date": "2026-05-09",
+    "categories": [
+      "security",
+      "robotics",
+      "iot",
+      "privacy"
+    ],
+    "excerpt": "",
+    "content": "Un fallo de seguridad crítico en los robots cortacéspedes de la marca Yarbo ha dejado expuestos los datos privados de miles de usuarios. Según investigaciones recientes, atacantes pudieron secuestrar el control de los dispositivos, obteniendo acceso a coordenadas GPS, contraseñas de Wi-Fi y correos electrónicos. \n\nEl problema radica en la implementación insegura de los sistemas de diagnóstico remoto, que permitían el acceso no autorizado mediante protocolos MQTT sin la debida autenticación. Yarbo ha respondido emitiendo un plan de remediación que incluye el corte temporal de accesos remotos y la implementación de parches de seguridad urgentes. Este incidente resalta la fragilidad de la seguridad en el ecosistema de la robótica doméstica masiva y la necesidad de estándares de cifrado más robustos en dispositivos IoT.\n\n**Fuentes:**\n- [The Verge: Yarbo robot mower hack](https://www.theverge.com/tech/926989/yarbo-robot-lawn-mower-hack-company-update-security-promise)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778312201719",
     "title": "⚡ vLLM v0.20.1: Estabilización crítica para DeepSeek V4 y optimizaciones de rendimiento",
     "date": "2026-05-09",
