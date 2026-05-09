@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778301500184",
+    "title": "🖥️ Asus ROG Strix XG129C: El \"Sidekick\" Táctil para el Monitoreo de Hardware en Tiempo Real",
+    "date": "2026-05-09",
+    "categories": [
+      ""
+    ],
+    "excerpt": "Asus lanza el ROG Strix XG129C, una pantalla táctil de 12.3 pulgadas optimizada para monitoreo de hardware en tiempo real vía AIDA64 Extreme.",
+    "content": "# 🖥️ Asus ROG Strix XG129C: El \"Sidekick\" Táctil para el Monitoreo de Hardware en Tiempo Real\n\nAsus ha expandido su línea de periféricos gaming con el lanzamiento del **ROG Strix XG129C**, una pantalla secundaria táctil de 12.3 pulgadas diseñada específicamente para actuar como centro de control y monitoreo mientras el usuario mantiene su flujo de trabajo en el monitor principal.\n\n### Especificaciones Técnicas y Panel\nEl XG129C utiliza un panel **IPS táctil** con una resolución de 720p, optimizada para el consumo energético y el espacio. Sus capacidades de color son notables para un dispositivo de apoyo, cubriendo el **125% del espacio de color sRGB** y el **90% del DCI-P3**, asegurando que las interfaces de control y los dashboards se vean vibrantes y precisos.\n\n### Integración con AIDA64 Extreme\nEl valor técnico real de este dispositivo reside en su integración nativa con **AIDA64 Extreme**. Asus incluye una suscripción de un año a esta herramienta, permitiendo que la pantalla muestre en tiempo real métricas críticas del sistema:\n- **Carga de CPU/GPU**: Gráficos de uso por núcleo.\n- **Temperaturas**: Monitoreo de puntos calientes (hotspots) y VRAM.\n- **Velocidades de Reloj**: Seguimiento de frecuencias en tiempo real.\n- **Consumo Energético**: Wattaje instantáneo de los componentes.\n\n### Impacto en el Setup de Alto Rendimiento\nEste dispositivo busca competir directamente con soluciones como el Corsair Xeneon Edge, ofreciendo una alternativa más compacta y enfocada en el ecosistema ROG. Para los entusiastas del *overclocking* y el *streaming*, disponer de una pantalla dedicada para el monitoreo de hardware elimina la necesidad de superposiciones (overlays) que consumen recursos de la GPU y obstruyen la visión del juego o la aplicación de producción.\n\n**Fuentes Verificadas:**\n- **The Verge**: [Asus chases Elgato with its own secondary touchscreen display](https://www.theverge.com/games/927333/asus-rog-strix-xg129c-secondary-display)\n- **Asus Press**: [Strix OLED XG34WCDMS & XG129C Gaming Monitors Announcement](https://press.asus.com/news/press-releases/strix-oled-xg34wcdms-xg129c-gaming-monitors/)\n- **AIDA64 Official**: [Hardware Monitoring Tools for Secondary Displays](https://www.aida64.com/online-store/aida64-extreme)",
+    "imageUrl": "/assets/images/1778301387938-asus-rog-strix-xg129c-announcement-lifestyle.jpg",
+    "source": "The Verge / Asus",
+    "originalUrl": "https://www.theverge.com/games/927333/asus-rog-strix-xg129c-secondary-display"
+  },
+  {
     "id": "1778301490995",
     "title": "📺 Amazon Prime Video: El Giro Hacia el Formato Vertical y la \"Economía de Clips\"",
     "date": "2026-05-09",
