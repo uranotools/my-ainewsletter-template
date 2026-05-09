@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778319510207",
+    "title": "⚡ La Crisis Energética de la IA: El Colapso de las Redes Eléctricas ante los Data Centers",
+    "date": "2026-05-09",
+    "categories": [
+      "infrastructure",
+      "ai",
+      "energy",
+      "sustainability"
+    ],
+    "excerpt": "",
+    "content": "El despliegue masivo de infraestructura para la IA generativa ha comenzado a chocar con la realidad física de las redes eléctricas globales. Según un análisis detallado de *The Verge*, la proliferación de centros de datos densos en energía está provocando tensiones críticas en las redes de utilidad, elevando las facturas eléctricas de las comunidades locales y generando conflictos regulatorios.\n\nLa demanda energética de los servidores optimizados para LLMs es órdenes de magnitud superior a la de los data centers tradicionales, lo que está forzando a las tecnológicas a explorar soluciones extremas, desde la construcción de sus propias plantas de energía nuclear SMR (Small Modular Reactors) hasta planes audaces de lanzar centros de datos al espacio. Este cuello de botella energético se ha convertido en el limitador real del escalado de la IA, desplazando el foco desde la disponibilidad de GPUs hacia la disponibilidad de megavatios estables.\n\n**Fuentes:**\n- [The Verge: AI Data Center Updates](https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778319502153",
     "title": "🌐 WASI 0.3.0: WebAssembly se consolida como el estándar para la Computación Universal",
     "date": "2026-05-09",
