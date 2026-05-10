@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778420995328",
+    "title": "⚛️ El Costo Real de la Factorización: Más allá del Conteo de Compuertas Cuánticas",
+    "date": "2026-05-10",
+    "categories": [
+      "quantum",
+      "physics",
+      "research",
+      "arxiv"
+    ],
+    "excerpt": "Investigación en arXiv revela que el conteo de compuertas es insuficiente para medir el costo real de los algoritmos cuánticos.",
+    "content": "Un nuevo estudio publicado en arXiv (2605.05347) plantea un cambio de paradigma en la forma en que medimos la eficiencia de los algoritmos cuánticos. Tradicionalmente, el éxito de un algoritmo se mide mediante el conteo asintótico de compuertas y el tamaño del registro de qubits. Sin embargo, esta investigación demuestra que estas métricas son insuficientes para capturar los recursos de información teórica genuinamente cuánticos que deben crearse y mantenerse para que la computación tenga éxito. \\\\n\\\\nEl paper, titulado \\\"The true cost of factoring\\\", profundiza en la brecha entre la complejidad teórica y la implementación física, sugiriendo que la cuantificación sistemática de los requerimientos de entrelazamiento y coherencia es más crítica que el simple número de operaciones. Este avance es fundamental para aterrizar las expectativas sobre la \"ventaja cuántica\" y proporciona un marco más realista para el diseño de hardware cuántico capaz de ejecutar la factorización de números grandes de manera eficiente. \\\\n\\\\nFuente: https://arxiv.org/abs/2605.05347",
+    "imageUrl": "/assets/images/captures/capture-1778420620318.png",
+    "source": "arXiv cs.AI / Quantum Physics",
+    "originalUrl": "https://arxiv.org/abs/2605.05347"
+  },
+  {
     "id": "1778416909056",
     "title": "🤖 Google DeepMind lanza \"Gemini Robotics On-Device\": Inferencia VLA Local para Robótica Física",
     "date": "2026-05-10",
