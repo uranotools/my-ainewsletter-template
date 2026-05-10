@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778449788760",
+    "title": "💻 Guerra de NPUs 2026: Qualcomm, AMD, Intel y Apple en el Edge AI",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "Qualcomm lidera la carrera de NPUs con 85 TOPS, superando a AMD, Intel y Apple en potencia bruta para IA local.",
+    "content": "La competencia por la supremacía de la IA local (Edge AI) ha alcanzado un nuevo pico técnico con la comparativa de rendimiento de las NPUs (Neural Processing Units) de 2026. La métrica clave, los **TOPS (Tera Operations Per Second)**, revela una fragmentación significativa en la eficiencia de inferencia local.\n\n**Desglose de Rendimiento (NPU TOPS 2026):**\n1. **Qualcomm Snapdragon X2:** Lidera el sector con **85 TOPS**, optimizado para arquitecturas ARM, ofreciendo la mayor capacidad de procesamiento de tokens por segundo en dispositivos móviles.\n2. **AMD XDNA:** Se posiciona en el medio con **60 TOPS**, integrando una arquitectura de datos adaptable que optimiza la carga de trabajo entre CPU y GPU.\n3. **Intel Lunar Lake:** Ofrece **48 TOPS**, centrándose en la eficiencia energética y la integración nativa con el ecosistema Windows.\n4. **Apple M4:** Registra **38 TOPS**, priorizando la integración vertical y la latencia de memoria unificada sobre la potencia bruta de cómputo.\n\nEste despliegue técnico marca la transición de \"IA asistida en la nube\" a \"IA nativa en el dispositivo\", permitiendo la ejecución de LLMs de tamaño medio (7B-13B) sin dependencia de servidores externos.\n\n**Fuentes verificadas:**\n- LocalAI Master NPU Comparison: https://localaimaster.com/blog/npu-comparison-2026\n- Qualcomm Official Specs: https://www.qualcomm.com/laptops/products/snapdragon-x-elite\n- Beebom Technical Analysis: https://beebom.com/apple-m4-vs-snapdragon-x-elite/",
+    "imageUrl": "https://localaimaster.com/blog/npu-comparison-2026",
+    "source": "LocalAI Master / Qualcomm / Beebom",
+    "originalUrl": "https://localaimaster.com/blog/npu-comparison-2026"
+  },
+  {
     "id": "1778434621015",
     "title": "⚡ AMD MI350X vs NVIDIA B200: Guerra de HBM y Arquitecturas de Inferencia",
     "date": "2026-05-10",
