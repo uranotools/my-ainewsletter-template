@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778453238032",
+    "title": "🤖 Robotics AI: Microsoft Rho-alpha y la Nueva Era del Tacto Digital",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "Microsoft Rho-alpha introduce el modelo VLA+ que combina visión, lenguaje y tacto, permitiendo una destreza robótica humana en entornos no estructurados.",
+    "content": "Microsoft ha presentado **Rho-alpha**, un modelo fundacional de robótica basado en la arquitectura **VLA+ (Vision-Language-Action Plus)**, que introduce una capacidad disruptiva: la **integración nativa del sentido del tacto**.\n\n**El Avance Técnico: Más allá de la Visión**\nHasta ahora, la mayoría de los modelos VLA dependían exclusivamente de la visión para manipular objetos. Rho-alpha añade una capa de **percepción táctil multimodal**.\n\n1. **VLA+ Foundation Model:** El modelo no solo \"ve\" el objeto y \"entiende\" la instrucción, sino que procesa retroalimentación háptica en tiempo real para ajustar la fuerza y la posición de los dedos robóticos.\n2. **Destreza Bimanual:** Gracias a esta retroalimentación, los robots pueden realizar tareas de manipulación fina (como manipular cables o ensamblar piezas pequeñas) en entornos no estructurados (oficinas, hospitales) donde la visión puede ser obstruida.\n3. **Aprendizaje desde la Simulación:** Utiliza datos sintéticos masivos combinados con datos reales de sensores táctiles para generalizar la \"sensación\" de diferentes materiales (suavidad, rugosidad, fragilidad).\n\n**Impacto:** Este avance acerca la robótica comercial a la capacidad humana de \"sentir\" el entorno, reduciendo drásticamente los errores de manipulación y permitiendo la automatización de tareas delicadas.\n\n**Fuentes verificadas:**\n- AI Certs Technical News: https://www.aicerts.ai/news/microsoft-rho-alpha-unveils-tactile-robotics-foundation-model/\n- Humanoids Daily (VFA Models): https://www.humanoidsdaily.com/news/the-era-of-eka-new-startup-unveils-vision-force-action-model-to-crack-dexterity\n- Nature (Multimodal Tactile Sensing): https://www.nature.com/articles/s44460-025-00006-y",
+    "imageUrl": "/assets/images/captures/capture-1778453090166.png",
+    "source": "Microsoft / Nature / HumanoidsDaily",
+    "originalUrl": "https://www.aicerts.ai/news/microsoft-rho-alpha-unveils-tactile-robotics-foundation-model/"
+  },
+  {
     "id": "1778453228509",
     "title": "🚀 Hardware SOTA: AMD Confirma MI400 con HBM4 y 432GB de Memoria",
     "date": "2026-05-10",
