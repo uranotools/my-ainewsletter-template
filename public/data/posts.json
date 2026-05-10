@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778413407201",
+    "title": "🔐 Migración a Criptografía Post-Cuántica (PQC): El Camino hacia la Seguridad Quantum-Safe",
+    "date": "2026-05-10",
+    "categories": [],
+    "excerpt": "",
+    "content": "El NIST ha finalizado la primera fase de estandarización de la Criptografía Post-Cuántica (PQC), estableciendo los estándares FIPS 203 (ML-KEM), FIPS 204 (ML-DSA) y FIPS 205 (SLH-DSA). Estos estándares definen los esquemas de establecimiento de claves y firmas digitales diseñados para resistir ataques de computadoras cuánticas que podrían romper los algoritmos actuales basados en RSA y curvas elípticas. \\n\\nLa urgencia de esta migración se basa en la estrategia de \"harvest now, decrypt later\", donde actores maliciosos almacenan datos cifrados hoy para descifrarlos en el futuro una vez que la computación cuántica sea viable. La adopción de ML-KEM y ML-DSA en protocolos de comunicación como TLS es fundamental para asegurar la confidencialidad de los datos a largo plazo. Las organizaciones deben comenzar la transición hacia infraestructuras \"quantum-safe\" para cumplir con los plazos de cumplimiento normativo previstos para 2027. \\n\\nFuente: https://csrc.nist.gov/projects/post-quantum-cryptography",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778412694232",
     "title": "⚠️ Vulnerabilidad Crítica en LeRobot (CVE-2026-25874): RCE no autenticado via Pickle",
     "date": "2026-05-10",
