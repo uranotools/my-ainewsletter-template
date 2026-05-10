@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778391640191",
+    "title": "🚨 Vulnerabilidad Crítica 'Copy Fail' (CVE-2026-31431) en el Kernel de Linux",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "Se ha reportado la explotación activa de una vulnerabilidad de escalada de privilegios locales (LPE) en el núcleo de Linux denominada 'Copy Fail' (CVE-2026-31431). El fallo reside en la implementación de criptografía AEAD (`algif_aead`), específicamente en la gestión de listas scatter-gather, lo que permite a un usuario no privilegiado escribir más allá de los límites asignados en la caché de páginas de binarios `setuid` (como `/usr/bin/su`). \n\nEsto permite obtener acceso root completo al sistema sin necesidad de credenciales administrativas. CISA ha incluido ya esta vulnerabilidad en su catálogo de Vulnerabilidades Explotadas Conocidas (KEV), instando a una actualización inmediata antes del 15 de mayo de 2026.\n\nFuente: https://threatprotect.qualys.com/2026/05/04/linux-kernel-vulnerability-exploited-in-the-wild-copy-fail-cve-2026-31431/",
+    "imageUrl": null,
+    "source": "Qualys Threat Protection",
+    "originalUrl": "https://threatprotect.qualys.com/2026/05/04/linux-kernel-vulnerability-exploited-in-the-wild-copy-fail-cve-2026-31431/"
+  },
+  {
     "id": "1778391630855",
     "title": "🌐 W3C WebNN API: Hacia la Inferencia de IA Nativa en el Navegador",
     "date": "2026-05-10",
