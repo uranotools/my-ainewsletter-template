@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778381280968",
+    "title": "🤖 OpenVLA: Democratizando la Robótica con Modelos de Visión-Lenguaje-Acción (VLA)",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "OpenVLA representa un salto cualitativo en la robótica física al integrar la percepción visual y la comprensión semántica del lenguaje directamente en la generación de acciones motoras. A diferencia de los modelos cerrados, OpenVLA es un modelo de pesos abiertos basado en una arquitectura de Transformer que permite una generalización sin precedentes a través de diversos 'embodiments' (cuerpos robóticos). Su capacidad para procesar instrucciones complejas en lenguaje natural y traducirlas en trayectorias precisas de manipulación reduce la necesidad de entrenamiento específico para cada tarea, facilitando la creación de robots capaces de operar en entornos no estructurados. \n\nFuente: https://openvla.github.io/",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778377162762",
     "title": "⚡ NVIDIA Cosmos y GR00T: La Infraestructura Industrial para la IA Física",
     "date": "2026-05-10",
