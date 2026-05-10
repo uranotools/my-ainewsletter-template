@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778430811395",
+    "title": "⚛️ NVIDIA Ising: Modelos de IA Open-Source para Acelerar la Computación Cuántica",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "NVIDIA lanza \"Ising\", una familia de modelos de IA diseñados para la calibración y corrección de errores en procesadores cuánticos, superando los estándares actuales en velocidad y precisión.",
+    "content": "NVIDIA ha anunciado el lanzamiento de **Ising**, la primera familia de modelos de IA de código abierto destinados a optimizar el desarrollo de computadoras cuánticas útiles. El núcleo de este lanzamiento es la resolución de dos de los problemas más críticos en la computación cuántica tolerante a fallos: la calibración de qubits y la decodificación de errores.\n\nDestaca especialmente **Ising Decoding**, una red neuronal convolucional 3D (3D CNN) capaz de realizar la decodificación de corrección de errores en tiempo real. Según los benchmarks técnicos, este modelo es hasta **2.5 veces más rápido y 3 veces más preciso** que los estándares actuales de código abierto, como *pyMatching*.\n\nEsta iniciativa, cuyos pesos están disponibles en GitHub y HuggingFace, permite que los procesadores cuánticos se \"auto-calibren\", reduciendo drásticamente los días de ingeniería manual necesarios para mantener la coherencia de los qubits. Es un paso fundamental hacia la escalabilidad del hardware cuántico, integrando la potencia de la IA clásica para estabilizar la computación cuántica.\n\n**Fuentes verificadas:**\n- NVIDIA Official: https://www.nvidia.com/en-us/solutions/quantum-computing/ising/\n- Quantum Computing Report: https://quantumcomputingreport.com/nvidia-launches-ising-open-source-ai-models-to-accelerate-quantum-development/\n- GitHub NVIDIA/Ising: https://github.com/NVIDIA/ising",
+    "imageUrl": "/assets/images/captures/capture-1778430674321.png",
+    "source": "NVIDIA / Quantum Computing Report",
+    "originalUrl": "https://www.nvidia.com/en-us/solutions/quantum-computing/ising/"
+  },
+  {
     "id": "1778430802895",
     "title": "🚀 Google abre acceso temprano al procesador cuántico \"Willow\" de 105 Qubits",
     "date": "2026-05-10",
