@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778449952922",
+    "title": "🤖 Robótica SOTA: LaST$_0$ y el Razonamiento Latente en Modelos VLA",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "LaST_0 introduce el razonamiento en espacio latente para modelos VLA, reduciendo la latencia y aumentando la tasa de éxito robótico en un 14%.",
+    "content": "Un nuevo framework denominado **LaST$_0$ (Latent Spatio-Temporal Chain-of-Thought)** está redefiniendo la eficiencia de los modelos de Visión-Lenguaje-Acción (VLA) en la robótica, resolviendo el problema de la latencia en la razonamiento complejo.\n\n**Innovación Arquitectónica:**\nA diferencia de los modelos VLA tradicionales que generan trazas de razonamiento lingüístico explícito (lo que aumenta la latencia y crea cuellos de botella representacionales), LaST$_0$ introduce un **espacio de CoT latente eficiente en tokens**.\n\n1. **Razonamiento Latente:** El modelo captura dinámicas físicas y robóticas finas en un espacio latente, evitando la traducción a lenguaje natural antes de la acción.\n2. **Arquitectura Dual (Mixture-of-Transformers):**\n   * **Experto en Razonamiento:** Realiza inferencias latentes de baja frecuencia para planificar la tarea.\n   * **Experto en Acción:** Genera acciones de alta frecuencia condicionadas a las representaciones latentes, asegurando una ejecución fluida.\n3. **Resultados:** En tareas de manipulación dexterosa, móvil y de mesa, LaST$_0$ mejoró las tasas de éxito en un **13% a 14%** respecto a los modelos SOTA anteriores.\n\n**Conclusión:** Al mover el \"Chain-of-Thought\" del espacio textual al espacio latente, la robótica gana en tiempo real sin perder capacidad de planificación.\n\n**Fuentes verificadas:**\n- arXiv Robotics (2601.05248): https://arxiv.org/abs/2601.05248\n- VLA SOTA Leaderboard: https://sota.evomind-tech.com/\n- UniVLA Project: https://github.com/baaivision/UniVLA",
+    "imageUrl": "/assets/images/captures/capture-1778449728538.png",
+    "source": "arXiv / UniVLA / SOTA Leaderboard",
+    "originalUrl": "https://arxiv.org/abs/2601.05248"
+  },
+  {
     "id": "1778449939958",
     "title": "🧠 AI Eficiente: El Auge de las Liquid Neural Networks (LNN) y el Skip Mechanism",
     "date": "2026-05-10",
