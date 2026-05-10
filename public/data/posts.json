@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778456895279",
+    "title": "⚛️ Computación Cuántica: La Carrera Hacia la Ventaja Cuántica en 2026",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "Google Willow e IBM Nighthawk lideran la carrera hacia la ventaja cuántica en 2026, enfocándose en la corrección de errores y criogenia.",
+    "content": "El año 2026 se ha convertido en el campo de batalla definitivo para la **Ventaja Cuántica**, con IBM y Google liderando la carrera hacia la computación útil a gran escala.\n\n**Avances Técnicos Confirmados:**\n1. **Google Willow:** El lanzamiento del chip **Willow** representa un hito en la corrección de errores cuánticos, reduciendo drásticamente las tasas de fallo y permitiendo una escalabilidad real del hardware.\n2. **Sincronización Hardware-Clásica:** Se ha logrado la integración de decodificadores clásicos de alta velocidad con electrónica de control compatible con criogenia, mitigando el problema de la decoherencia térmica.\n3. **IBM Nighthawk:** El despliegue de procesadores optimizados para algoritmos de simulación de materiales y química cuántica, acercando la tecnología a aplicaciones industriales reales.\n\n**Sección de Datos Especulatorios / Metas:**\n- **Meta de Ventaja Cuántica:** IBM ha fijado el objetivo técnico de alcanzar la \"Ventaja Cuántica\" (superar a cualquier supercomputadora clásica en una tarea útil y práctica) para finales de 2026.\n\n**Conclusión:** La transición de la \"era del ruido\" (NISQ) a la computación cuántica corregida de errores ya no es teórica, sino un desafío de ingeniería en ejecución.\n\n**Fuentes verificadas:**\n- NeuralStackly (AI Stack Research): https://neuralstackly.com/blog/quantum-computing-breakthrough-2026-quantum-advantage\n- Entangled Future: https://entangledfuture.com/learn/quantum-error-correction-2026/\n- Technerdo: https://www.technerdo.com/blog/quantum-computing-milestones-2026",
+    "imageUrl": "/assets/images/captures/capture-1778456711727.png",
+    "source": "Google Quantum AI / IBM / NeuralStackly",
+    "originalUrl": "https://neuralstackly.com/blog/quantum-computing-breakthrough-2026-quantum-advantage"
+  },
+  {
     "id": "1778456885105",
     "title": "🦾 Robótica Industrial: Tesla Optimus Gen 3 y la Era de la Manipulación de Alta Fidelidad",
     "date": "2026-05-10",
