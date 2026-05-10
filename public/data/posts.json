@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778449847623",
+    "title": "🌐 El Component Model de WebAssembly: Hacia un Ecosistema de Binarios Modulares",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "El Component Model de WebAssembly llega a Fase 4, permitiendo la interoperabilidad de binarios modulares sin memoria compartida y definiendo el futuro del server-side Wasm.",
+    "content": "El ecosistema de WebAssembly (Wasm) está transitando hacia una nueva era de modularidad con el avance del **Component Model**, una propuesta que actualmente se encamina hacia la **Fase 4** de estandarización por el W3C.\n\n**Detalles Técnicos del Component Model:**\n\n1. **Interoperabilidad sin Memoria Compartida:** A diferencia del modelo core de Wasm, donde los módulos suelen interactuar a través de una memoria lineal compartida (lo que genera riesgos de seguridad y complejidad), el Component Model introduce una interfaz de tipos rica. Esto permite que componentes escritos en diferentes lenguajes (Rust, C++, Go) se comuniquen mediante la transferencia de valores complejos sin necesidad de gestionar punteros manualmente.\n2. **Abstracción de \"World\" y \"Interface\":** El modelo introduce el concepto de `wit` (WebAssembly Interface Type), que define exactamente qué funciones exporta un componente y cuáles importa del entorno (el \"World\"), permitiendo una composición de software similar a las librerías dinámicas pero con aislamiento total.\n3. **Casos de Uso en Server-side Wasm:** Este estándar es fundamental para el despliegue en la nube y edge computing, donde se pueden encadenar microservicios binarios ligeros y seguros, optimizando la densidad de ejecución y la velocidad de arranque.\n\n**Conclusión:** El Component Model transforma a Wasm de un formato de compilación para el navegador en un estándar universal para la construcción de software modular e independiente del lenguaje.\n\n**Fuentes verificadas:**\n- W3C Working Group Charter: https://w3c.github.io/charter-drafts/2026/wasm-wg-charter.html\n- WebAssembly Proposals (GitHub): https://github.com/WebAssembly/proposals\n- WebAssembly Core Specification: https://www.w3.org/TR/wasm-core-2/",
+    "imageUrl": "https://opengraph.githubassets.com/kr8nzh/WebAssembly/proposals",
+    "source": "W3C / GitHub / WebAssembly.org",
+    "originalUrl": "https://github.com/WebAssembly/proposals"
+  },
+  {
     "id": "1778449819690",
     "title": "⚛️ Google Willow: Hacia la Era de la Computación Cuántica Tolerante a Fallos",
     "date": "2026-05-11",
