@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778432994834",
+    "title": "🛠️ Transformers v5.8.0 y DeepSeek-V4: Redefiniendo la Arquitectura MoE",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "La versión v5.8.0 de Transformers introduce DeepSeek-V4, con innovaciones en atención híbrida y conexiones mHC para modelos MoE.",
+    "content": "Hugging Face ha lanzado la versión **v5.8.0 de la librería Transformers**, una actualización técnica masiva que incluye el soporte oficial para **DeepSeek-V4**, el nuevo modelo de Mixture of Experts (MoE) que introduce cambios arquitectónicos profundos.\n\nDeepSeek-V4 se aleja de las arquitecturas convencionales al implementar dos innovaciones clave:\n1. **Hybrid Attention Design:** Sustituye el Multi-head Latent Attention (MLA) por un diseño híbrido que combina atención local y de largo alcance, optimizando drásticamente el uso de memoria en contextos extensos.\n2. **Manifold-Constrained Hyper-Connections (mHC):** Reemplaza las conexiones residuales estándar por mHC, lo que estabiliza el entrenamiento de modelos MoE ultra-grandes y reduce el colapso de expertos.\n\nEsta versión de Transformers también consolida la transición hacia un backend optimizado en PyTorch y una arquitectura modular que permite a los desarrolladores implementar estas nuevas capas de atención y conexión sin reescribir la definición del modelo.\n\n**Fuentes verificadas:**\n- GitHub Hugging Face Releases: https://github.com/huggingface/transformers/releases\n- Hugging Face Blog: https://huggingface.co/blog/transformers-v5\n- MLHive Technical Analysis: https://mlhive.com/2026/04/inside-hugging-face-transformers-v5-modular-ai",
+    "imageUrl": "https://opengraph.githubassets.com/o8hu9p/huggingface/transformers/releases",
+    "source": "Hugging Face / GitHub",
+    "originalUrl": "https://github.com/huggingface/transformers/releases"
+  },
+  {
     "id": "1778430811395",
     "title": "⚛️ NVIDIA Ising: Modelos de IA Open-Source para Acelerar la Computación Cuántica",
     "date": "2026-05-10",
