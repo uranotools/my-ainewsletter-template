@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778377147467",
+    "title": "⚠️ \"Copy Fail\": La vulnerabilidad lógica que compromete la raíz de Linux desde 2017 (CVE-2026-31431)",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "Se ha divulgado una vulnerabilidad crítica denominada \"Copy Fail\" (CVE-2026-31431), que representa uno de los fallos de seguridad más severos en el kernel de Linux de los últimos años. Esta vulnerabilidad es un error de lógica profunda que afecta a prácticamente todas las distribuciones principales de Linux desde el año 2017, permitiendo que un usuario local sin privilegios logre la escalada total de privilegios (LPE) hasta obtener acceso de root.\n\nTécnicamente, el fallo reside en la gestión de la copia de datos y la validación de permisos en funciones críticas del núcleo, donde una inconsistencia en el flujo de control permite saltarse las restricciones de seguridad. A diferencia de los bugs de memoria comunes como el Buffer Overflow, \"Copy Fail\" es un error de diseño lógico, lo que hace que los parches sean más complejos de implementar sin afectar el rendimiento del sistema. La comunidad de seguridad insta a una actualización inmediata de los núcleos, ya que la superficie de ataque es masiva dada la longevidad y ubicuidad del error.\n\nFuentes verificadas:\n- Ostechnix: https://ostechnix.com/copy-fail-cve-2026-31431-linux-kernel-root-exploit/\n- Microsoft Security Advisory\n- CVE MITRE / NVD Database",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778373558073",
     "title": "🌐 WebNN 2026: Aceleración de Hardware Nativa para IA en el Navegador",
     "date": "2026-05-10",
