@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778412639815",
+    "title": "🌐 Inferencia de IA Nativa en el Navegador: El Impacto de WebGPU y WebNN",
+    "date": "2026-05-10",
+    "categories": [],
+    "excerpt": "",
+    "content": "La maduración de WebGPU y la reciente actualización de la Recomendación Candidata de la API Web Neural Network (WebNN) del W3C están transformando la capacidad de cómputo en el navegador. Estas tecnologías permiten que las aplicaciones web accedan directamente a la aceleración de hardware (NPU y GPU) del dispositivo, eliminando la dependencia de servidores externos para la inferencia de IA. \\n\\nGracias a esto, es posible ejecutar LLMs locales y modelos de difusión con una latencia mínima y un consumo energético optimizado, mejorando la privacidad del usuario al procesar los datos on-device. Con el soporte ya extendido en Chrome, Firefox y Safari, la web se posiciona como una plataforma de ejecución de IA de alto rendimiento, acercando la experiencia de las aplicaciones nativas al entorno del navegador. \\n\\nFuente: https://webgpu.org/ / https://www.w3.org/news/2026/updated-candidate-recommendation-web-neural-network-webnn-api/",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778412614609",
     "title": "📟 Allwinner T536: Hardware Híbrido Arm + RISC-V para Edge AI Industrial",
     "date": "2026-05-10",
