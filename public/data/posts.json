@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778434621015",
+    "title": "⚡ AMD MI350X vs NVIDIA B200: Guerra de HBM y Arquitecturas de Inferencia",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "AMD MI350X (CDNA 4) desafía al NVIDIA B200 (Blackwell) con 288GB de HBM3e y un rendimiento superior en inferencia de modelos masivos.",
+    "content": "La batalla por el hardware de inferencia de LLMs a gran escala ha dado un giro técnico significativo con la comparativa entre el **AMD Instinct MI350X** y el **NVIDIA Blackwell B200**. Mientras NVIDIA mantiene su dominio ecosistémico, AMD ha apostado por una arquitectura centrada en la capacidad de memoria bruta.\n\n**Análisis Técnico Comparativo:**\n\n1. **Capacidad de Memoria (HBM3e):** \n   El MI350X lidera con **288 GB de memoria HBM3e**, superando los **192 GB del B200**. Esta diferencia de 96 GB es crítica para la inferencia de modelos masivos, permitiendo cargar parámetros más grandes en un solo nodo y reduciendo la latencia de comunicación inter-GPU.\n\n2. **Arquitectura de Diseño:**\n   * **NVIDIA B200 (Blackwell):** Utiliza un diseño monolítico optimizado para un cómputo tensorial denso y una eficiencia energética superior en tareas de entrenamiento.\n   * **AMD MI350X (CDNA 4):** Implementa una arquitectura basada en **8 chiplets**, lo que le permite escalar la memoria y el ancho de banda de manera más agresiva, optimizándola específicamente para la inferencia de modelos de lenguaje extensos.\n\n3. **Rendimiento y Coste:** \n   Benchmarks recientes indican que el MI350X puede ser entre un **20% y 30% más rápido en la inferencia de modelos muy grandes** debido a su mayor capacidad de memoria, con un costo estimado hasta un **50% inferior** al de las soluciones de NVIDIA. Sin embargo, la ventaja de NVIDIA persiste en el software gracias a la madurez de CUDA frente a ROCm.\n\n**Veredicto Técnico:** \nSi la prioridad es el TCO (Costo Total de Propiedad) y la capacidad de manejar modelos gigantes con mínima fragmentación, el MI350X es la opción técnica superior. Si la prioridad es la estabilidad del software y el rendimiento en entrenamiento, el B200 sigue siendo el estándar.\n\n**Fuentes verificadas:**\n- GPU.fm Technical Guide: https://www.gpu.fm/blog/amd-mi350x-vs-nvidia-b200-comparison-2026\n- DeployBase AI Analysis: https://deploybase.ai/articles/amd-mi350x-vs-b200\n- SiliconAnalysts Market Report: https://siliconanalysts.com/analysis/amd-vs-nvidia-ai-gpu-market-share-2026",
+    "imageUrl": "/assets/images/captures/capture-1778434509345.png",
+    "source": "GPU.fm / DeployBase / SiliconAnalysts",
+    "originalUrl": "https://www.gpu.fm/blog/amd-mi350x-vs-nvidia-b200-comparison-2026"
+  },
+  {
     "id": "1778433002663",
     "title": "🤖 ROS-LLM: El Puente entre LLMs y Robótica Física en Tiempo Real",
     "date": "2026-05-10",
