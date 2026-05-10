@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778412614609",
+    "title": "📟 Allwinner T536: Hardware Híbrido Arm + RISC-V para Edge AI Industrial",
+    "date": "2026-05-10",
+    "categories": [],
+    "excerpt": "",
+    "content": "Boardcon ha lanzado la SoM PICOT536 y la SBC EMT536, integrando el procesador Edge AI Allwinner T536. Este SoC destaca por su arquitectura híbrida, combinando una CPU quad-core Arm Cortex-A55 con coprocesadores RISC-V XuanTie E907 y E902, además de una NPU dedicada de 2 TOPS para inteligencia artificial en el borde. \\n\\nEsta configuración permite una optimización granular de las cargas de trabajo: mientras que los núcleos Arm gestionan la capa de aplicación, los coprocesadores RISC-V se encargan de tareas de control deterministas y la NPU acelera la inferencia de modelos neuronales. Es una solución ideal para interfaces HMI industriales y robótica avanzada, donde la eficiencia energética y la baja latencia son críticas. \\n\\nFuente: https://www.cnx-software.com/2026/05/04/boardcon-picot536-som-and-emt536-sbc-feature-allwinner-t536-edge-ai-processor/",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778412603506",
     "title": "🤖 NVIDIA y la Revolución de la IA Física: De la Simulación al Mundo Real",
     "date": "2026-05-10",
