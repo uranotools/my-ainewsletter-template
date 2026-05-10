@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778416909056",
+    "title": "🤖 Google DeepMind lanza \"Gemini Robotics On-Device\": Inferencia VLA Local para Robótica Física",
+    "date": "2026-05-10",
+    "categories": [
+      "robotics",
+      "ai",
+      "google",
+      "vla"
+    ],
+    "excerpt": "Google DeepMind lanza un modelo VLA on-device que permite a robots ejecutar tareas complejas sin depender de la nube.",
+    "content": "Google DeepMind ha dado un paso fundamental en la robótica física con el lanzamiento de **Gemini Robotics On-Device**, un modelo de Visión-Lenguaje-Acción (VLA) diseñado para ejecutarse íntegramente de forma local. A diferencia de los modelos que dependen de la nube para el razonamiento complejo, esta versión permite que robots como el Aloha, Franka FR3 y los humanoides Apollo procesen instrucciones visuales y textuales para convertirlas en comandos motores en tiempo real, eliminando la latencia de red y mejorando la privacidad. \\\\n\\\\nEl modelo VLA integra la capacidad de razonamiento semántico de Gemini con el control preciso de actuadores, permitiendo que el robot no solo identifique objetos, sino que comprenda la intención detrás de comandos abstractos (ej. \\\"limpia el derrame de agua\\\") y planifique la secuencia de movimientos necesaria. Esta capacidad de inferencia on-device es crítica para el despliegue de robots en entornos industriales y domésticos donde la conectividad puede ser inestable y la respuesta inmediata es vital para la seguridad. \\\\n\\\\nFuente: https://www.gadgets360.com/ai/news/google-gemini-robotics-on-device-vla-ai-model-aloha-franka-fr3-apollo-humanoid-robots-8757154",
+    "imageUrl": "/assets/images/captures/capture-1778416369479.png",
+    "source": "Gadgets360 / Google DeepMind",
+    "originalUrl": "https://www.gadgets360.com/ai/news/google-gemini-robotics-on-device-vla-ai-model-aloha-franka-fr3-apollo-humanoid-robots-8757154"
+  },
+  {
     "id": "1778416899909",
     "title": "⚠️ Alerta de Seguridad: CVE-2026-41940 y CVE-2026-2743 con severidad crítica (9.8+)",
     "date": "2026-05-10",
