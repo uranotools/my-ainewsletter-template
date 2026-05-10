@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778413415027",
+    "title": "⚙️ FreeRTOS 202604 LTS: Estabilidad, Seguridad y Soporte MQTT v5.0 para IoT",
+    "date": "2026-05-10",
+    "categories": [],
+    "excerpt": "",
+    "content": "Se ha anunciado la disponibilidad de FreeRTOS 202604 LTS, una nueva versión de Soporte a Largo Plazo diseñada para proporcionar estabilidad y seguridad en dispositivos embebidos durante un periodo de dos años. Esta versión introduce el kernel v11.3.0, que incluye mejoras críticas en el endurecimiento de la seguridad y un soporte expandido para la Unidad de Protección de Memoria (MPU), permitiendo una segmentación más eficiente de las regiones de memoria para aplicaciones específicas. \\n\\nUn hito técnico clave es la integración de coreMQTT v5.0.2, que añade soporte completo para el protocolo MQTT v5.0. Esto permite la implementación de alias de temas para optimizar el ancho de banda en dispositivos con conectividad restringida y patrones de solicitud/respuesta para aplicaciones IoT interactivas. Además, la versión incluye actualizaciones de coreSNTP v2.0.0 para asegurar la preparación del año 2038, garantizando que los dispositivos desplegados hoy puedan validar certificados TLS y marcas de tiempo correctamente en el futuro. \\n\\nFuente: https://alpha.freertos.org/Community/Blogs/2026/freertos-202604-lts-now-available",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778413407201",
     "title": "🔐 Migración a Criptografía Post-Cuántica (PQC): El Camino hacia la Seguridad Quantum-Safe",
     "date": "2026-05-10",
