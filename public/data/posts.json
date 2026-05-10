@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778402514310",
+    "title": "🤖 ACoT-VLA: Razonamiento en Cadena de Acción para Robótica Física (CVPR 2026)",
+    "date": "2026-05-10",
+    "categories": [],
+    "excerpt": "",
+    "content": "En el marco de CVPR 2026, se ha presentado ACoT-VLA (Action Chain-of-Thought for Vision-Language-Action Models), un nuevo paradigma diseñado para cerrar la brecha semántica-cinemática en las políticas robóticas modernas. A diferencia de los modelos VLA tradicionales que pasan directamente de la percepción a la acción, ACoT-VLA introduce una \"cadena de pensamiento de acción\", permitiendo que el robot razone explícitamente sobre los pasos intermedios necesarios para ejecutar una tarea compleja. \\n\\nEsta arquitectura permite que el agente robótico \"piense\" en el lenguaje de las acciones, mejorando drásticamente la precisión en la manipulación de objetos y la capacidad de generalización en entornos no estructurados. La implementación oficial en GitHub demuestra que este enfoque reduce los errores de ejecución al descomponer instrucciones ambiguas de lenguaje natural en una secuencia lógica de primitivas motoras verificables. \\n\\nFuente: https://github.com/AgibotTech/ACoT-VLA",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778398823823",
     "title": "🤖 OpenVLA: El nuevo estándar en Modelos de Visión-Lenguaje-Acción para Robótica Generalista",
     "date": "2026-05-10",
