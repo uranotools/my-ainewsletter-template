@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778373549527",
+    "title": "⚡ MIPS S8200: La Nueva Frontera de la IA Física con NPU RISC-V (2026)",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "MIPS ha anunciado la llegada del S8200, una NPU basada en la arquitectura abierta RISC-V diseñada específicamente para habilitar la \"IA Física\" en el borde autónomo. A diferencia de los aceleradores genéricos, el S8200 implementa un enfoque \"software-first\", optimizando el soporte para modelos de lenguaje agenticos y arquitecturas Transformer directamente en el hardware.\n\nTécnicamente, el S8200 permite que los robots y sistemas autónomos ejecuten razonamientos complejos en tiempo real sin depender de la nube, reduciendo drásticamente la latencia y aumentando la seguridad operativa. Este lanzamiento consolida a RISC-V como la base fundamental para el hardware de IA abierto, permitiendo a los diseñadores escalar la computación multimodal en el borde sin quedar atrapados en ecosistemas propietarios.\n\nFuentes verificadas:\n- MIPS Official Press Release: https://mips.com/press-releases/mips-s8200-delivers-software-first-risc-v-npu-to-enable-physical-ai-at-the-autonomous-edge/\n- RISC-V International\n- MIPS Atlas Family Documentation",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778373540913",
     "title": "⚠️ Vulnerabilidad Crítica CVE-2026-1042: Use-After-Free en el Subsistema io_uring de Linux",
     "date": "2026-05-10",
