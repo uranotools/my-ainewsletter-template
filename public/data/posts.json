@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778453228509",
+    "title": "🚀 Hardware SOTA: AMD Confirma MI400 con HBM4 y 432GB de Memoria",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "AMD confirma la MI400 para 2026 con memoria HBM4 de 432GB y soporte FP4/FP6, desafiando la hegemonía de NVIDIA en IA.",
+    "content": "AMD ha sacudido el mercado de los aceleradores de IA con el lanzamiento de la serie **Instinct MI350** y la confirmación oficial de la arquitectura **MI400 para 2026**, que introducirá el estándar de memoria **HBM4**.\n\n**Especificaciones Técnicas y Avances:**\n1. **HBM4 (High Bandwidth Memory 4):** El salto más crítico es la implementación de HBM4, que permitirá capacidades masivas de hasta **432 GB de memoria** por GPU. Este estándar, definido por JEDEC, optimiza la densidad de apilamiento 3D y el ancho de banda, eliminando cuellos de botella en el entrenamiento de modelos con billones de parámetros.\n2. **Arquitectura CDNA4:** La nueva arquitectura introduce soporte nativo para tipos de datos **FP4 y FP6**, optimizando drásticamente la eficiencia de la inferencia de IA sin sacrificar la precisión necesaria para tareas complejas.\n3. **Rendimiento Energético:** Con la serie MI350, AMD ha priorizado la eficiencia por vatio, fundamental para la sostenibilidad de los centros de datos de escala \"Rack-scale\" (Helios architecture).\n\n**Impacto en la Industria:** Esta hoja de ruta pone presión directa sobre NVIDIA, ofreciendo una alternativa con mayor capacidad de memoria integrada, lo que permite cargar modelos LLM más grandes directamente en la VRAM, reduciendo la latencia de comunicación entre GPUs.\n\n**Fuentes verificadas:**\n- VideoCardz (Hardware Analysis): https://videocardz.com/newz/amd-launches-instinct-mi350-series-confirms-mi400-in-2026-with-432gb-hbm4-memory\n- Samsung News (Memory Collaboration): https://news.samsung.com/global/samsung-and-amd-expand-strategic-collaboration-on-next-generation-ai-memory-solutions\n- OSCOO (HBM4 Standard): https://www.oscoo.com/news/hbm4-the-memory-revolution-in-the-age-of-ai-computing/",
+    "imageUrl": "/assets/images/captures/capture-1778453096694.png",
+    "source": "AMD / VideoCardz / Samsung",
+    "originalUrl": "https://videocardz.com/newz/amd-launches-instinct-mi350-series-confirms-mi400-in-2026-with-432gb-hbm4-memory"
+  },
+  {
     "id": "1778449952922",
     "title": "🤖 Robótica SOTA: LaST$_0$ y el Razonamiento Latente en Modelos VLA",
     "date": "2026-05-10",
