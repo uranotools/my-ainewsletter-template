@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778381299073",
+    "title": "⚛️ IBM Quantum: El Camino hacia los Qubits Lógicos y la Corrección de Errores",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "IBM ha pivotado su estrategia hacia la computación cuántica tolerante a fallos, centrándose en la creación de 'qubits lógicos' mediante códigos de corrección de errores cuánticos (QEC). A través de su plataforma, IBM está implementando arquitecturas que permiten la detección y corrección de errores en tiempo real, un paso crítico para superar la era NISQ (Noisy Intermediate-Scale Quantum). El objetivo es alcanzar la 'ventaja cuántica' práctica, donde el hardware pueda ejecutar algoritmos complejos de química cuántica y optimización que son intratables para cualquier supercomputadora clásica actual.\n\nFuente: https://quantum.ibm.com/",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778381289888",
     "title": "🧬 Isomorphic Labs y AlphaFold 3: La Nueva Era del Diseño Molecular",
     "date": "2026-05-10",
