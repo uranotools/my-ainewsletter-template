@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778377154981",
+    "title": "🤖 UniVLA: Unificando Visión, Lenguaje y Acción para la IA Embodied Generalista",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "Ha sido presentado UniVLA, un modelo unificado de Visión-Lenguaje-Acción (VLA) diseñado para romper la fragmentación en la robótica y la conducción autónoma. Presentando sus avances en ICLR 2026, este modelo propone una arquitectura donde la percepción visual, la comprensión semántica del lenguaje y la generación de acciones motoras no son procesos independientes, sino que emergen de un único espacio latente multimodal.\n\nLa innovación técnica de UniVLA radica en su capacidad de generalización cross-embodiment; es decir, el modelo puede transferir el conocimiento adquirido en un tipo de robot (por ejemplo, un brazo manipulador) a otro con una morfología distinta, reduciendo drásticamente la necesidad de entrenamiento específico por dispositivo. Al unificar estos tres pilares en una sola red neuronal, UniVLA permite una respuesta mucho más fluida y coherente ante instrucciones complejas en entornos dinámimos, acercándonos al ideal de la \"IA Embodied\" generalista.\n\nFuentes verificadas:\n- GitHub (baaivision/UniVLA): https://github.com/baaivision/UniVLA\n- Technical Report ICLR 2026\n- BAAI Vision Research",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778377147467",
     "title": "⚠️ \"Copy Fail\": La vulnerabilidad lógica que compromete la raíz de Linux desde 2017 (CVE-2026-31431)",
     "date": "2026-05-10",
