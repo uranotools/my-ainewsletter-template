@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778406043032",
+    "title": "🛡️ Dirty Frag: Nueva Vulnerabilidad LPE en el Kernel de Linux (CVE-2026-43284)",
+    "date": "2026-05-10",
+    "categories": [],
+    "excerpt": "",
+    "content": "Se ha revelado una vulnerabilidad crítica de escalada de privilegios locales (LPE) en el kernel de Linux denominada \"Dirty Frag\" (CVE-2026-43284). Este fallo permite que un usuario con acceso limitado eleve sus privilegios hasta obtener acceso de superusuario (root) en múltiples distribuciones de Linux. \\n\\nSegún los reportes de Ubuntu y Tenable, la vulnerabilidad es una extensión de la clase de errores observada en \"Copy Fail\", afectando la gestión de memoria en el núcleo del sistema. Se recomienda encarecidamente a los administradores de sistemas aplicar los parches de seguridad disponibles inmediatamente para mitigar el riesgo de explotación en entornos de servidor y estaciones de trabajo. \\n\\nFuente: https://ubuntu.com/blog/dirty-frag-linux-vulnerability-fixes-available",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778403133210",
     "title": "📟 Allwinner T536: Hardware Híbrido Arm + RISC-V para Edge AI Industrial",
     "date": "2026-05-10",
