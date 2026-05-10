@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778449939958",
+    "title": "🧠 AI Eficiente: El Auge de las Liquid Neural Networks (LNN) y el Skip Mechanism",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "LNNs optimizan la inferencia de series temporales mediante mecanismos de \"salto condicional\", reduciendo costos computacionales en el Edge.",
+    "content": "Las **Liquid Neural Networks (LNN)** están emergiendo como la alternativa eficiente a los Transformers para el procesamiento de series temporales y datos dinámicos, gracias a su formulación de sistemas dinámicos de tiempo continuo.\n\n**El Problema Técnico:**\nAunque las LNN son extremadamente robustas y adaptables, su dependencia de solvers numéricos de Ecuaciones Diferenciales Ordinarias (ODE) hace que el costo de inferencia sea elevado para aplicaciones en el \"Edge\".\n\n**La Solución: Conditional Skip LNN:**\nInvestigaciones recientes han introducido un **mecanismo de salto condicional (conditional skip mechanism)** que optimiza la inferencia:\n1. **Explotación de Redundancia:** El sistema identifica segmentos de los datos de entrada donde la dinámica es estable y \"salta\" pasos de computación del solver ODE.\n2. **Eficiencia Adaptativa:** Solo activa el cómputo intensivo cuando detecta cambios bruscos o anómalos en la señal, reduciendo drásticamente el uso de CPU/GPU sin sacrificar la precisión.\n3. **Ventaja sobre RNN/LSTM:** A diferencia de las redes recurrentes tradicionales, las LNN mantienen una memoria compacta y una capacidad de generalización superior ante datos no estacionarios (ruido industrial, señales biomédicas).\n\n**Aplicación:** Esta optimización permite desplegar IA adaptable en dispositivos con recursos limitados, ideal para manufactura inteligente y drones autónomos.\n\n**Fuentes verificadas:**\n- Springer Nature (Computational Intelligence): https://link.springer.com/article/10.1007/s00521-026-11850-5\n- arXiv Review (2510.07578): https://arxiv.org/abs/2510.07578\n- Liquid AI Research: https://www.liquid.ai/research",
+    "imageUrl": "/assets/images/captures/capture-1778449728538.png",
+    "source": "Springer / Liquid AI / arXiv",
+    "originalUrl": "https://link.springer.com/article/10.1007/s00521-026-11850-5"
+  },
+  {
     "id": "1778449900432",
     "title": "⚛️ Quantum Leap: Microsoft y Quantinuum Rompen el Récord de Qubits Lógicos",
     "date": "2026-05-10",
