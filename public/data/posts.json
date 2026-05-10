@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778398823823",
+    "title": "🤖 OpenVLA: El nuevo estándar en Modelos de Visión-Lenguaje-Acción para Robótica Generalista",
+    "date": "2026-05-10",
+    "categories": [],
+    "excerpt": "",
+    "content": "OpenVLA emerge como el estado del arte en modelos de Visión-Lenguaje-Acción (VLA), proporcionando una arquitectura de pesos abiertos que permite a los robots generalizar tareas de manipulación en entornos no vistos previamente. A diferencia de los modelos cerrados, OpenVLA implementa una política de control basada en la escala de modelos de lenguaje (LLM) adaptados a la percepción visual, logrando una tasa de éxito significativamente superior en benchmarks de robótica física. \\n\\nSu arquitectura permite el ajuste fino (fine-tuning) eficiente para tareas específicas de industria, reduciendo la dependencia de datos masivos de teleoperación y democratizando el acceso a la \"IA Embodied\". Esto representa un salto cualitativo hacia la robótica generalista, donde el modelo puede razonar sobre la escena visual y traducir instrucciones en lenguaje natural directamente en acciones motoras precisas.\\n\\nFuente: https://openvla.github.io/",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778398780779",
     "title": "📟 MIPS S8200: La NPU basada en RISC-V que impulsa la \"IA Física\" en el Edge",
     "date": "2026-05-10",
