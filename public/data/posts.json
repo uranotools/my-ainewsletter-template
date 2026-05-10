@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778433002663",
+    "title": "🤖 ROS-LLM: El Puente entre LLMs y Robótica Física en Tiempo Real",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "ROS-LLM integra LLMs con el Robot Operating System (ROS) para permitir el control de robots mediante lenguaje natural, optimizando la IA encarnada.",
+    "content": "Se ha presentado **ROS-LLM**, un framework de código abierto diseñado para cerrar la brecha entre los Modelos de Lenguaje Extensos (LLMs) y la robótica física, integrándose directamente con el **Robot Operating System (ROS)**. \n\nPublicado en *Nature Machine Intelligence*, este sistema permite que personas sin conocimientos técnicos de programación controlen robots complejos mediante lenguaje natural. A diferencia de los comandos predefinidos, ROS-LLM actúa como una capa de razonamiento que traduce instrucciones abstractas en secuencias de nodos y servicios de ROS, permitiendo al robot aprender nuevas habilidades a través de demostraciones y retroalimentación en tiempo real.\n\nLa arquitectura de ROS-LLM es especialmente potente porque no solo genera código, sino que gestiona la retroalimentación del entorno (sensores y actuadores) para ajustar la ejecución de la tarea, lo que es crítico para la **IA Embobied (IA Encarnada)**. Este avance democratiza el control robótico y acelera el despliegue de agentes autónomos en entornos no estructurados.\n\n**Fuentes verificadas:**\n- Nature Machine Intelligence: https://www.nature.com/articles/s42256-026-01186-z\n- GitHub Auromix/ROS-LLM: https://github.com/Auromix/ROS-LLM\n- TechXplore: https://techxplore.com/news/2026-03-combining-robot-llms-natural-language.html",
+    "imageUrl": "/assets/images/captures/capture-1778432911207.png",
+    "source": "Nature / GitHub",
+    "originalUrl": "https://www.nature.com/articles/s42256-026-01186-z"
+  },
+  {
     "id": "1778432994834",
     "title": "🛠️ Transformers v5.8.0 y DeepSeek-V4: Redefiniendo la Arquitectura MoE",
     "date": "2026-05-10",
