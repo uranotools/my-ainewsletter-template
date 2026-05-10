@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778412603506",
+    "title": "🤖 NVIDIA y la Revolución de la IA Física: De la Simulación al Mundo Real",
+    "date": "2026-05-10",
+    "categories": [],
+    "excerpt": "",
+    "content": "NVIDIA ha presentado sus avances más recientes en \"IA Física\", enfocándose en la convergencia entre modelos fundacionales de robótica y simulaciones de alta fidelidad. El objetivo es acelerar la transición de los robots desde entornos de entrenamiento virtuales hacia despliegues reales en sectores críticos como la manufactura y la agricultura. \\n\\nMediante la integración de modelos de lenguaje y visión aplicados a la cinemática robótica, NVIDIA busca que los agentes físicos puedan generalizar tareas sin necesidad de programación rígida, utilizando la simulación para predecir interacciones físicas complejas y reducir el riesgo de fallos en el despliegue final. Este enfoque marca un cambio hacia una robótica más autónoma y adaptable, impulsada por la infraestructura de computación acelerada. \\n\\nFuente: https://blogs.nvidia.com/blog/national-robotics-week-2026/",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778412582630",
     "title": "🌐 WebGPU: El Estándar del W3C que Lleva la Inferencia de IA al Navegador",
     "date": "2026-05-10",
