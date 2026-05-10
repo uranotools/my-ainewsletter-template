@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778398772813",
+    "title": "🛡️ Alerta de Seguridad: Vulnerabilidad \"Copy-Fail\" (CVE-2026-31431) en Linux Kernel",
+    "date": "2026-05-10",
+    "categories": [],
+    "excerpt": "",
+    "content": "Se ha detectado una vulnerabilidad crítica de corrupción de memoria en el kernel de Linux, identificada como CVE-2026-31431 y denominada \"Copy-Fail\". Este fallo permite a un atacante local escalar privilegios (LPE) hasta obtener control total del sistema (root) mediante la manipulación de operaciones de copia de datos en el espacio del kernel. \\n\\nLa vulnerabilidad está siendo explotada activamente en entornos de producción, lo que urge a los administradores de sistemas a actualizar inmediatamente a las versiones parcheadas del kernel. El vector de ataque se centra en una condición de carrera durante la gestión de buffers, permitiendo la sobrescritura de estructuras críticas de memoria. Este tipo de fallos en la gestión de memoria del kernel representan uno de los riesgos más altos para la infraestructura de servidores Linux actuales.\\n\\nFuente: https://threatprotect.qualys.com/2026/05/04/linux-kernel-vulnerability-exploited-in-the-wild-copy-fail-cve-2026-31431/",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778398765678",
     "title": "🌐 W3C WebNN: Aceleración de IA Nativa en el Navegador llega a Recomendación Candidata",
     "date": "2026-05-10",
