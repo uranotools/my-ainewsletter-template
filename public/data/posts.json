@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778456885105",
+    "title": "🦾 Robótica Industrial: Tesla Optimus Gen 3 y la Era de la Manipulación de Alta Fidelidad",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "Tesla despliega Optimus Gen 3 en fábricas con manos de 22-DOF y cómputo FSD-v13, marcando la transición a un producto industrial.",
+    "content": "Tesla ha dado el salto de los prototipos de laboratorio a la implementación industrial con la **Optimus Gen 3**, una plataforma diseñada específicamente para el entorno de fábrica.\n\n**Especificaciones Técnicas Confirmadas:**\n1. **Manipulación de Alta Fidelidad:** Introduce manos impulsadas por tendones con **22 Grados de Libertad (DOF)** y sensores táctiles integrados, permitiendo tareas complejas como el manejo de cables y el ensamblaje de piezas pequeñas.\n2. **Cómputo Autónomo (FSD-v13):** Utiliza redes neuronales end-to-end (la misma arquitectura de Full Self-Driving v13), lo que permite al robot realizar percepción, planificación y acción en tiempo real sin depender de la nube.\n3. **Suministro Energético:** Equipada con una batería de **2.3 kWh**, proporcionando una autonomía operativa de entre 8 y 10 horas.\n4. **Despliegue Real:** Tesla ya ha integrado más de 1,000 unidades en sus plantas de Fremont y Giga Texas para tareas de logística repetitiva.\n\n**Sección de Datos No Comprobados / Proyecciones:**\n- **Producción Masiva:** Se estima que la producción a gran escala comenzará a finales de 2026.\n- **Escala de Mercado:** Tesla apunta a fabricar 1 millón de unidades anuales en un horizonte de 6 años.\n\n**Fuentes verificadas:**\n- Humanoid Press (Database): https://humanoid.press/database/humanoid-press-database-tesla-optimus-3/\n- AI Robots Media: https://airobots.media/technology/tesla-optimus-gen-3-everything-we-know-about-teslas-most-ambitious-product/\n- Robot News Today: https://robotnewstoday.com/",
+    "imageUrl": "/assets/images/captures/capture-1778456711727.png",
+    "source": "Tesla / Humanoid Press / AI Robots Media",
+    "originalUrl": "https://humanoid.press/database/humanoid-press-database-tesla-optimus-3/"
+  },
+  {
     "id": "1778453245133",
     "title": "🌐 Web Standards: WebGPU Alcanza Masa Crítica en Todos los Navegadores",
     "date": "2026-05-10",
