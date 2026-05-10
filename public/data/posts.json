@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778384417613",
+    "title": "📟 MIPS S8200: Impulsando la 'Physical AI' con NPU basada en RISC-V",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "MIPS ha anunciado el lanzamiento de la S8200, una NPU (Neural Processing Unit) diseñada bajo un enfoque 'software-first' y basada en la arquitectura abierta RISC-V. Este hardware está optimizado específicamente para habilitar la 'Physical AI' en el borde autónomo, proporcionando la capacidad de cómputo necesaria para transporte autónomo, robótica avanzada y plataformas embebidas de misión crítica. \n\nLa S8200 destaca por su eficiencia energética y su capacidad para ejecutar modelos de IA modernos directamente en el dispositivo, reduciendo la latencia y la dependencia de la nube. Este lanzamiento refuerza la tendencia de migración hacia ISAs abiertas para aceleradores de IA especializados en el Edge.\n\nFuente: https://mips.com/press-releases/mips-s8200-delivers-software-first-risc-v-npu-to-enable-physical-ai-at-the-autonomous-edge/",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778384408338",
     "title": "🤖 OpenVLA: El Nuevo Estándar en Modelos de Visión-Lenguaje-Acción Open-Source",
     "date": "2026-05-10",
