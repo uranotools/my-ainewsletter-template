@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778449900432",
+    "title": "⚛️ Quantum Leap: Microsoft y Quantinuum Rompen el Récord de Qubits Lógicos",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "Microsoft y Quantinuum logran qubits lógicos récord con más de 14,000 experimentos sin errores, acercando la computación cuántica tolerante a fallos.",
+    "content": "Microsoft y Quantinuum han logrado un avance histórico en la computación cuántica al crear los **qubits lógicos más fiables jamás registrados**, marcando la transición de la era NISQ (Noisy Intermediate-Scale Quantum) hacia la computación cuántica tolerante a fallos.\n\n**Detalles Técnicos del Avance:**\nEl hito se alcanzó combinando el software de **virtualización de qubits de Microsoft** con el hardware de **trampas de iones (ion-trap) del Sistema Model H2 de Quantinuum**. \n\n1. **Corrección de Errores (QEC):** El sistema logró codificar múltiples qubits físicos en un único qubit lógico, permitiendo la detección y corrección de errores en tiempo real mediante la extracción activa de síndromes.\n2. **Fiabilidad sin Precedentes:** Se realizaron más de **14,000 experimentos libres de errores**, una cifra que rompe los récords anteriores y demuestra que la virtualización puede reducir drásticamente la tasa de error física.\n3. **Escalabilidad:** Este enfoque permite generar qubits lógicos con una tasa de error significativamente menor que la de los qubits físicos subyacentes, un requisito indispensable para ejecutar algoritmos cuánticos complejos (como el de Shor o Grover) a escala industrial.\n\n**Impacto:** Este avance acelera la línea de tiempo para la computación cuántica útil, eliminando la barrera del ruido que hasta ahora limitaba la profundidad de los circuitos cuánticos.\n\n**Fuentes verificadas:**\n- Quantinuum Official Blog: https://www.quantinuum.com/blog/a-new-breakthrough-in-logical-quantum-computing-reveals-the-scale-of-our-industry-leadership\n- PostQuantum Research: https://postquantum.com/quantum-research/quantinuum-94-logical-qubits/\n- MSPowerUser Technical Report: https://mspoweruser.com/microsoft-and-quantinuum-shatter-quantum-computing-boundaries-with-record-breaking-error-correction/",
+    "imageUrl": "/assets/images/captures/capture-1778449729687.png",
+    "source": "Quantinuum / Microsoft / PostQuantum",
+    "originalUrl": "https://www.quantinuum.com/blog/a-new-breakthrough-in-logical-quantum-computing-reveals-the-scale-of-our-industry-leadership"
+  },
+  {
     "id": "1778449847623",
     "title": "🌐 El Component Model de WebAssembly: Hacia un Ecosistema de Binarios Modulares",
     "date": "2026-05-10",
