@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778384399446",
+    "title": "🌐 W3C WebNN API: Aceleración de Hardware para IA Nativa en el Navegador",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "El W3C ha avanzado en la estandarización de la Web Neural Network (WebNN) API, publicando un borrador de Recomendación Candidata el 27 de marzo de 2026. WebNN es una API de bajo nivel diseñada para proporcionar aceleración de hardware para la inferencia de redes neuronales directamente en el navegador, permitiendo el uso eficiente de NPUs y GPUs locales. \n\nA diferencia de WebGPU, que es más general, WebNN se enfoca en operaciones optimizadas de machine learning, facilitando la implementación de modelos de lenguaje (LLMs) y visión computacional con un consumo energético reducido y mayor privacidad, ya que el procesamiento ocurre localmente sin enviar datos al servidor.\n\nFuente: https://www.w3.org/TR/webnn/",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778381299073",
     "title": "⚛️ IBM Quantum: El Camino hacia los Qubits Lógicos y la Corrección de Errores",
     "date": "2026-05-10",
