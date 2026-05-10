@@ -1,5 +1,20 @@
 [
   {
+    "id": "1778416899909",
+    "title": "⚠️ Alerta de Seguridad: CVE-2026-41940 y CVE-2026-2743 con severidad crítica (9.8+)",
+    "date": "2026-05-10",
+    "categories": [
+      "security",
+      "cve",
+      "cybersecurity"
+    ],
+    "excerpt": "CVE-2026-41940 y CVE-2026-2743 presentan riesgos críticos de RCE no autenticado con scores de 9.8+.",
+    "content": "Se ha emitido una alerta de seguridad crítica tras el análisis de nuevos reportes de vulnerabilidades para mayo de 2026. Destacan especialmente dos fallos con puntuaciones CVSS extremadamente altas (9.8+), lo que indica un riesgo inminente de compromiso total del sistema. La vulnerabilidad **CVE-2026-41940**, que afecta a cPanel, y la **CVE-2026-2743**, que impacta a SEPPmail, permiten la ejecución remota de código (RCE) no autenticada, otorgando a los atacantes control total sobre los servidores afectados. \\\\n\\\\nLa gravedad de estos fallos reside en que no requieren credenciales previas para su explotación, lo que los convierte en objetivos primarios para campañas de ransomware y espionaje industrial. Los administradores de sistemas deben aplicar los parches de seguridad de inmediato y, como medida de mitigación temporal, se recomienda implementar un filtrado de egreso estricto y bloquear el tráfico IKE y RDP no esencial en el perímetro de la red. La monitorización de los logs de acceso es fundamental para detectar intentos de explotación activos. \\\\n\\\\nFuente: https://github.com/cyber-green/CVE_REPORT_2026",
+    "imageUrl": "https://opengraph.githubassets.com/e0b0pn/cyber-green/CVE_REPORT_2026",
+    "source": "Cyber Green CVE Report 2026",
+    "originalUrl": "https://github.com/cyber-green/CVE_REPORT_2026"
+  },
+  {
     "id": "1778416891082",
     "title": "📟 MIPS S8200: El nuevo NPU RISC-V para Modelos Agénticos en el Edge",
     "date": "2026-05-10",
