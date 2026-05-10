@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778403125342",
+    "title": "⚠️ Alerta de Seguridad: Escape de Sandbox en Claude Code (CVE-2026-39861)",
+    "date": "2026-05-10",
+    "categories": [],
+    "excerpt": "",
+    "content": "Se ha reportado una vulnerabilidad crítica en la herramienta de codificación autónoma de Anthropic, Claude Code, identificada como CVE-2026-39861. El fallo permite un escape del sandbox mediante la manipulación de enlaces simbólicos (symlinks), lo que podría facultar al agente para acceder a archivos sensibles del sistema host fuera de su directorio de trabajo restringido. \\n\\nEste incidente resalta los riesgos inherentes al despliegue de agentes de IA con capacidades de escritura y ejecución de código en el sistema de archivos. La comunidad de seguridad recomienda actualizar a la última versión del cliente y restringir los permisos del sistema operativo donde se ejecute la herramienta hasta que se implementen controles de aislamiento más robustos. \\n\\nFuente: https://af.net/ar/realtime/ai-news-digest-may-8-2026-agents-costs-and-security/",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778403117672",
     "title": "🤖 ACoT-VLA: El Salto al Razonamiento en Cadena para la Robótica Física",
     "date": "2026-05-10",
