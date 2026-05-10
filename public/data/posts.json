@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778384408338",
+    "title": "🤖 OpenVLA: El Nuevo Estándar en Modelos de Visión-Lenguaje-Acción Open-Source",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "El proyecto OpenVLA ha presentado un modelo de Visión-Lenguaje-Acción (VLA) de pesos abiertos que redefine la interacción entre la percepción visual y el control robótico. Mediante la integración de un LLM potente con datos de manipulación robótica, OpenVLA permite que los robots comprendan instrucciones complejas en lenguaje natural y las traduzcan en acciones físicas precisas en tiempo real. \n\nEste modelo destaca por su capacidad de generalización a través de diferentes tipos de hardware robótico, eliminando la necesidad de reentrenar el modelo desde cero para cada nueva plataforma. Es un paso fundamental hacia la IA encarnada (Embodied AI) accesible para la comunidad de investigación.\n\nFuente: https://openvla.github.io/",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778384399446",
     "title": "🌐 W3C WebNN API: Aceleración de Hardware para IA Nativa en el Navegador",
     "date": "2026-05-10",
