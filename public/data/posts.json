@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778430802895",
+    "title": "🚀 Google abre acceso temprano al procesador cuántico \"Willow\" de 105 Qubits",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "Google Quantum AI invita a investigadores a enviar propuestas para utilizar su procesador Willow, un sistema de 105 qubits diseñado para experimentos de alto impacto.",
+    "content": "Google Quantum AI ha abierto oficialmente el **Willow Early Access Program**, permitiendo que un grupo selecto de socios de investigación utilicen su procesador cuántico de última generación, **Willow**.\n\nEste procesador, basado en tecnología de superconductores y fabricado en Santa Barbara, cuenta con **105 qubits**. A diferencia de las demostraciones básicas de supremacía cuántica, el programa Willow busca proyectos de \"alto impacto\" que puedan empujar los límites de la ciencia aplicada y la resolución de problemas complejos.\n\nLos investigadores interesados deben presentar propuestas detalladas que incluyan los circuitos cuánticos propuestos y los observables esperados para la validación de resultados. La fecha límite para la recepción de propuestas es el **15 de mayo de 2026**, con las notificaciones de selección previstas para el 1 de julio. Este movimiento subraya la estrategia de Google de pasar de la prueba de concepto a la utilidad científica real en el hardware cuántico.\n\n**Fuentes verificadas:**\n- Google Quantum AI: https://quantumai.google/willowearlyaccess\n- SDxCentral: https://www.sdxcentral.com/news/googles-105-qubit-willow-quantum-processor-opens-for-early-access/\n- The Quantum Insider: https://thequantuminsider.com/2026/03/28/google-opens-early-access-to-willow-quantum-processor-invites-experimental-proposals/",
+    "imageUrl": "/assets/images/captures/capture-1778430677656.png",
+    "source": "Google Quantum AI / The Quantum Insider",
+    "originalUrl": "https://quantumai.google/willowearlyaccess"
+  },
+  {
     "id": "1778425399515",
     "title": "📟 MIPS S8200: El nuevo NPU RISC-V para Modelos Agénticos en el Edge",
     "date": "2026-05-10",
