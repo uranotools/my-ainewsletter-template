@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778449819690",
+    "title": "⚛️ Google Willow: Hacia la Era de la Computación Cuántica Tolerante a Fallos",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "El procesador Willow de Google optimiza la fidelidad de qubits superconductores, reduciendo errores y superando la capacidad de supercomputadores clásicos.",
+    "content": "Google Quantum AI ha desplegado el procesador **Willow**, un salto evolutivo sobre Sycamore diseñado para avanzar hacia la computación cuántica tolerante a fallos mediante la reducción drástica de errores en qubits superconductores.\n\n**Detalles Técnicos:**\nWillow implementa un control de fidelidad optimizado con un tiempo de coherencia ($T_1$) medio de **98 µs $\\pm$ 32 µs** y una capacidad de ejecutar hasta **63,000 repeticiones de circuito por segundo**. Su arquitectura permite realizar cálculos de XEB (Cross-Entropy Benchmarking) con una fidelidad del 0.1% en profundidad 40, logrando resolver en 5 minutos problemas que a un supercomputador clásico le tomarían $10^{25}$ años.\n\n**⚠️ Datos en fase de verificación / Especulativos:**\nExisten reportes en la industria sobre una hoja de ruta para escalar Willow hacia sistemas de **1,000 qubits lógicos**, así como la integración de computación de átomos neutros. Sin embargo, la especificación técnica actual confirmada se mantiene en el rango de los **105 qubits**.\n\n**Fuentes verificadas:**\n- Google Quantum AI Spec Sheet: https://quantumai.google/static/site-assets/downloads/willow-spec-sheet.pdf\n- HPCWire: https://www.hpcwire.com/2024/12/09/google-debuts-new-quantum-chip-error-correction-breakthrough-and-roadmap-details/\n- Bluequbit Analysis: https://www.bluequbit.io/blog/googles-quantum-computing-chip-willow",
+    "imageUrl": "https://quantumai.google/static/site-assets/downloads/willow-spec-sheet.pdf",
+    "source": "Google Quantum AI / HPCWire",
+    "originalUrl": "https://quantumai.google/static/site-assets/downloads/willow-spec-sheet.pdf"
+  },
+  {
     "id": "1778449810743",
     "title": "🤖 IVLR: Razonamiento Entrelazado para Robótica de Largo Horizonte",
     "date": "2026-05-11",
