@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778381289888",
+    "title": "🧬 Isomorphic Labs y AlphaFold 3: La Nueva Era del Diseño Molecular",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "La integración de AlphaFold 3 en el flujo de trabajo de Isomorphic Labs marca la transición de la simple predicción de estructuras proteicas al modelado preciso de interacciones moleculares complejas. Esta capacidad permite diseñar ligandos y fármacos con una afinidad y especificidad mucho mayores, reduciendo drásticamente la tasa de fracaso en las fases preclínicas. El enfoque se centra ahora en la optimización de la biodisponibilidad y la toxicidad mediante simulaciones de IA antes de entrar en ensayos humanos, acelerando el ciclo de descubrimiento de fármacos desde años a meses.\n\nFuente: https://isomorphic.labs/",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778381280968",
     "title": "🤖 OpenVLA: Democratizando la Robótica con Modelos de Visión-Lenguaje-Acción (VLA)",
     "date": "2026-05-10",
