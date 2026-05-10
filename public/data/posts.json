@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778398765678",
+    "title": "🌐 W3C WebNN: Aceleración de IA Nativa en el Navegador llega a Recomendación Candidata",
+    "date": "2026-05-10",
+    "categories": [],
+    "excerpt": "",
+    "content": "El W3C ha elevado la API Web Neural Network (WebNN) a la categoría de Recomendación Candidata, marcando un hito en la computación web. WebNN permite que las aplicaciones del navegador accedan directamente a las capacidades de aceleración de hardware (NPUs y GPUs) del sistema host, eliminando la dependencia exclusiva de WebAssembly (WASM) o JavaScript para la inferencia de redes neuronales. \\n\\nEsto reduce drásticamente la latencia de modelos de IA generativa ejecutados localmente en el cliente, mejorando la privacidad del usuario al evitar el envío de datos a la nube y optimizando el consumo energético mediante el uso de instrucciones nativas del silicio. Con WebNN, la web se convierte en una plataforma de ejecución de IA de alto rendimiento, permitiendo despliegues de LLMs y modelos de difusión con una eficiencia cercana a la de las aplicaciones nativas.\\n\\nFuente: https://www.w3.org/TR/webnn/",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778391640191",
     "title": "🚨 Vulnerabilidad Crítica 'Copy Fail' (CVE-2026-31431) en el Kernel de Linux",
     "date": "2026-05-10",
