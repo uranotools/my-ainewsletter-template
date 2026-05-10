@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778412582630",
+    "title": "🌐 WebGPU: El Estándar del W3C que Lleva la Inferencia de IA al Navegador",
+    "date": "2026-05-10",
+    "categories": [],
+    "excerpt": "",
+    "content": "WebGPU ha madurado hasta convertirse en una Recomendación oficial del W3C, marcando el inicio de una nueva era para el cómputo en el navegador. A diferencia de WebGL, WebGPU proporciona un acceso moderno y eficiente a la GPU, permitiendo la ejecución de shaders de cómputo y la gestión explícita de memoria mediante el lenguaje WGSL. \\n\\nEn 2026, con el soporte completo de Chrome, Firefox y Safari, WebGPU habilita la ejecución de inferencia de IA (como LLMs locales) y renderizado gráfico de alta fidelidad directamente en el cliente. Esto reduce la dependencia de servidores externos, mejora la privacidad del usuario y optimiza la latencia de las aplicaciones web de alto rendimiento. \\n\\nFuente: https://webgpu.org/",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778406043032",
     "title": "🛡️ Dirty Frag: Nueva Vulnerabilidad LPE en el Kernel de Linux (CVE-2026-43284)",
     "date": "2026-05-10",
