@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778373558073",
+    "title": "🌐 WebNN 2026: Aceleración de Hardware Nativa para IA en el Navegador",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "El W3C ha publicado una actualización de la Recomendación Candidata para la API Web Neural Network (WebNN), un estándar técnico diseñado para llevar la inferencia de IA al siguiente nivel de rendimiento dentro del navegador. Mientras que WebGPU ofrece computación general en la GPU, WebNN es una API de bajo nivel optimizada específicamente para redes neuronales, permitiendo que las aplicaciones web utilicen directamente aceleradores dedicados como NPUs y TPUs.\n\nLa implementación de WebNN permite ejecutar modelos de lenguaje (LLMs) y modelos generativos localmente con una eficiencia cercana a la nativa, eliminando la necesidad de enviar datos sensibles a servidores externos. Esta arquitectura de \"IA Nativa en el Navegador\" reduce la latencia de respuesta y democratiza el acceso a la IA de alta potencia, transformando el navegador de un simple visor de contenido en un entorno de ejecución de IA autónomo y privado.\n\nFuentes verificadas:\n- W3C WebNN Specification: https://www.w3.org/TR/webnn/\n- W3C GPU for the Web Community Group\n- Web Machine Learning Working Group",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778373549527",
     "title": "⚡ MIPS S8200: La Nueva Frontera de la IA Física con NPU RISC-V (2026)",
     "date": "2026-05-10",
