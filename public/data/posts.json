@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778391630855",
+    "title": "🌐 W3C WebNN API: Hacia la Inferencia de IA Nativa en el Navegador",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "El consorcio W3C ha publicado el borrador de Recomendación Candidata para la API de Redes Neuronales Web (WebNN), fechado el 27 de marzo de 2026. WebNN es una API de bajo nivel diseñada para exponer las capacidades de aceleración de hardware (como NPUs y GPUs) directamente a las aplicaciones web. \n\nA diferencia de WebGPU, que ofrece computación general, WebNN se especializa en operaciones de inferencia de redes neuronales, optimizando la ejecución de LLMs y modelos de visión localmente. Esto no solo reduce la carga en los servidores, sino que incrementa drásticamente la privacidad del usuario al evitar el envío de datos sensibles a la nube.\n\nFuente: https://www.w3.org/TR/webnn/",
+    "imageUrl": null,
+    "source": "W3C Specification",
+    "originalUrl": "https://www.w3.org/TR/webnn/"
+  },
+  {
     "id": "1778391623295",
     "title": "🤖 OpenVLA: El Modelo de Visión-Lenguaje-Acción de Pesos Abiertos",
     "date": "2026-05-10",
