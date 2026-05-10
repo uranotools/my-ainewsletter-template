@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778377162762",
+    "title": "⚡ NVIDIA Cosmos y GR00T: La Infraestructura Industrial para la IA Física",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "NVIDIA ha dado un paso decisivo hacia la \"IA Física\" con el lanzamiento de una infraestructura completa que incluye los modelos abiertos NVIDIA Cosmos y GR00T. Esta plataforma no se limita a la generación de software, sino que introduce el framework de computación OSMO, un sistema edge-to-cloud diseñado específicamente para simplificar el entrenamiento y despliegue de robots autónomos en el mundo real.\n\nEl núcleo técnico de este anuncio es la integración de modelos de aprendizaje por refuerzo y razonamiento espacial que permiten a los robots aprender tareas complejas mediante la observación y la simulación acelerada. Además, la colaboración con Hugging Face para integrar los modelos de NVIDIA Isaac en la librería LeRobot acelera la democratización de la robótica, permitiendo que desarrolladores externos utilicen estas arquitecturas de vanguardia para crear agentes físicos capaces de interactuar con precisión en entornos industriales y domésticos.\n\nFuentes verificadas:\n- NVIDIA Newsroom: https://nvidianews.nvidia.com/news/nvidia-releases-new-physical-ai-models-as-global-partners-unveil-next-generation-robots\n- NVIDIA Isaac / Cosmos Docs\n- Hugging Face LeRobot Integration",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778377154981",
     "title": "🤖 UniVLA: Unificando Visión, Lenguaje y Acción para la IA Embodied Generalista",
     "date": "2026-05-10",
