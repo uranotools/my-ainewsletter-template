@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778449801445",
+    "title": "⚛️ Google Quantum AI: Superando el Umbral de Corrección de Errores Superficiales",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "Google Quantum AI logra operar memorias de código superficial por debajo del umbral de error, permitiendo la supresión exponencial de fallos mediante códigos de distancia-7.",
+    "content": "Google Quantum AI, en colaboración con diversos centros de investigación, ha logrado un hito crítico en la computación cuántica tolerante a fallos: la implementación de memorias de código superficial (**surface code**) que operan por debajo del umbral de error crítico.\n\n**Análisis Técnico:**\n\n1. **Supresión Exponencial de Errores:** La clave de este avance es que, al operar por debajo del umbral, el aumento de la distancia del código (el número de qubits físicos utilizados para proteger un qubit lógico) reduce la tasa de error de forma exponencial. Google ha implementado exitosamente códigos de **distancia-5 y distancia-7**.\n2. **Decodificación en Tiempo Real:** Para que la corrección de errores sea viable, el sistema debe detectar y corregir errores más rápido de lo que estos se propagan. Se ha integrado un decodificador en tiempo real que, apoyado en hardware de aceleración (como las GPUs NVIDIA GB300 en implementaciones experimentales), logra tiempos de decodificación de aproximadamente **un microsegundo por ronda**.\n3. **Impacto en el Hardware:** Este resultado valida la arquitectura de procesadores superconductores de Google y demuestra que la escalabilidad hacia computadoras cuánticas prácticas no depende solo de añadir más qubits, sino de la calidad de la corrección de errores.\n\n**Veredicto:** Este avance mueve la frontera de la computación cuántica desde el ruido (NISQ) hacia la era de la tolerancia a fallos (Fault-Tolerant Quantum Computing).\n\n**Fuentes verificadas:**\n- Nature (Peer-Reviewed): https://www.nature.com/articles/s41586-024-08449-y\n- arXiv (Pre-print): https://arxiv.org/abs/2408.13687\n- QuantumZeitgeist (Technical Analysis): https://quantumzeitgeist.com/quantum-error-correction-ai-decoding/",
+    "imageUrl": "/assets/images/captures/capture-1778449677989.png",
+    "source": "Nature / arXiv / QuantumZeitgeist",
+    "originalUrl": "https://www.nature.com/articles/s41586-024-08449-y"
+  },
+  {
     "id": "1778449788760",
     "title": "💻 Guerra de NPUs 2026: Qualcomm, AMD, Intel y Apple en el Edge AI",
     "date": "2026-05-11",
