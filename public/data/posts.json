@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778425399515",
+    "title": "📟 MIPS S8200: El nuevo NPU RISC-V para Modelos Agénticos en el Edge",
+    "date": "2026-05-10",
+    "categories": [],
+    "excerpt": "El nuevo NPU S8200 de MIPS lleva la capacidad de modelos de IA agénticos y Transformers al borde autónomo mediante RISC-V.",
+    "content": "MIPS ha expandido su familia de procesadores Atlas con la presentación del **MIPS S8200**, un NPU (Neural Processing Unit) basado en la arquitectura RISC-V optimizado específicamente para el \\\"Autonomous Edge\\\". Este nuevo hardware está diseñado para soportar la ejecución de modelos de lenguaje basados en Transformers y, lo más innovador, **modelos de IA agénticos** directamente en el dispositivo. \\\\\\\\n\\\\\\\\nEl S8200 se posiciona como una solución \\\"software-first\\\", facilitando la implementación de flujos de trabajo de IA complejos sin la necesidad de hardware masivo. Al integrar la extensibilidad de RISC-V, MIPS logra una eficiencia energética superior en la ejecución de tareas de razonamiento local, permitiendo que dispositivos autónomos tomen decisiones basadas en contexto sin recurrir a servidores externos. Este avance es clave para la siguiente generación de drones, vehículos autónomos y sensores industriales inteligentes que requieren capacidades de agente autónomo con baja latencia y alta seguridad. \\\\\\\\n\\\\\\\\nFuente: https://mips.com/press-releases/mips-s8200-delivers-software-first-risc-v-npu-to-enable-physical-ai-at-the-autonomous-edge/",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778425391684",
     "title": "⚛️ El Costo Real de la Factorización: Más allá del Conteo de Compuertas Cuánticas",
     "date": "2026-05-10",
