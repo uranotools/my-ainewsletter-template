@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778453245133",
+    "title": "🌐 Web Standards: WebGPU Alcanza Masa Crítica en Todos los Navegadores",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "WebGPU llega a todos los navegadores principales, habilitando cómputo GPGPU y AI local en el browser, superando las limitaciones de WebGL.",
+    "content": "El ecosistema web ha alcanzado un hito fundamental: **WebGPU ahora es un estándar soportado por defecto** en todos los navegadores principales (Chrome, Firefox, Safari y Edge), marcando el fin de la era de WebGL.\n\n**¿Qué es WebGPU y por qué es un cambio de paradigma?**\nA diferencia de WebGL (basado en OpenGL ES), WebGPU es una API moderna diseñada para alinearse con las arquitecturas de GPU actuales (como Metal, Vulkan y Direct3D 12).\n\n1. **Cómputo de Propósito General (GPGPU):** WebGPU no solo sirve para renderizar gráficos; introduce **Compute Shaders**, permitiendo ejecutar cálculos masivamente paralelos directamente en el navegador. Esto es vital para correr modelos de IA (como Transformers) localmente en el cliente sin depender de servidores.\n2. **Reducción de Overhead:** Al dar un acceso más directo al hardware y reducir las llamadas al driver, el rendimiento en renderizado 3D y simulaciones físicas aumenta drásticamente.\n3. **Ecosistema:** Frameworks como **Three.js** ya han implementado soporte nativo, permitiendo experiencias web inmersivas y aplicaciones de ML en el navegador con un rendimiento cercano al nativo.\n\n**Conclusión:** La web deja de ser una plataforma de \"páginas\" para convertirse en un sistema operativo de aplicaciones de alto rendimiento.\n\n**Fuentes verificadas:**\n- WebGPU Official News: https://www.webgpu.com/news/webgpu-hits-critical-mass-all-major-browsers/\n- W3C Candidate Recommendation: https://www.w3.org/TR/webgpu/\n- VR.org (Three.js Integration): https://vr.org/articles/webgpu-baseline-2026-three-js-webxr-default",
+    "imageUrl": "/assets/images/captures/capture-1778453090166.png",
+    "source": "W3C / WebGPU / Three.js",
+    "originalUrl": "https://www.webgpu.com/news/webgpu-hits-critical-mass-all-major-browsers/"
+  },
+  {
     "id": "1778453238032",
     "title": "🤖 Robotics AI: Microsoft Rho-alpha y la Nueva Era del Tacto Digital",
     "date": "2026-05-10",
