@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778449810743",
+    "title": "🤖 IVLR: Razonamiento Entrelazado para Robótica de Largo Horizonte",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "El framework IVLR utiliza razonamiento entrelazado de texto e imagen para elevar el éxito en manipulación robótica de largo horizonte del 37.7% al 92.4%.",
+    "content": "Se ha presentado un avance crítico en la manipulación robótica de largo horizonte mediante el framework **IVLR (Interleaved Vision-Language Reasoning)**. Este sistema soluciona el problema de la \"pérdida de contexto\" en tareas complejas donde las políticas de Visión-Lenguaje-Acción (VLA) tradicionales fallan al no coordinar la lógica causal con las restricciones geométricas.\n\n**Análisis Técnico:**\nEl núcleo de IVLR es la creación de **trazas de razonamiento entrelazadas**, una representación intermedia que alterna submetas textuales (razonamiento lógico) con keyframes visuales (anclaje geométrico). En lugar de confiar en un estado latente oculto, el modelo genera una secuencia explícita de \"Pensamiento en Texto $\\rightarrow$ Verificación en Imagen $\\rightarrow$ Acción\".\n\n**Resultados en Benchmarks:**\nEn el benchmark de manipulación robótica **LIBERO-Long**, el uso de trazas IVLR elevó la tasa de éxito del **37.7% al 92.4%**. Los datos demuestran que tanto la modalidad textual como la visual son estrictamente necesarias; la eliminación de cualquiera de las dos degrada significativamente la capacidad del robot para ejecutar tareas de múltiples pasos sin desviarse del objetivo.\n\n**Fuentes verificadas:**\n- arXiv (Paper 2605.00438): https://arxiv.org/abs/2605.00438\n- AI Pulse Lab Analysis: https://aipulselab.tech/news/thinking-in-text-and-images-interleaved-vision-language-reasoning-traces-for-long-horizon-robot-manipulation-8c2b3f\n- Provide.ai Technical Review: https://provide.ai/thinking-in-text-and-images-interleaved-vision-language-reasoning-traces-for-long-horizon-robot-manipulation/",
+    "imageUrl": "https://arxiv.org/abs/2605.00438",
+    "source": "arXiv / AI Pulse Lab",
+    "originalUrl": "https://arxiv.org/abs/2605.00438"
+  },
+  {
     "id": "1778449801445",
     "title": "⚛️ Google Quantum AI: Superando el Umbral de Corrección de Errores Superficiales",
     "date": "2026-05-10",
