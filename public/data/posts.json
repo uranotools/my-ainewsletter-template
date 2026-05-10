@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778373540913",
+    "title": "⚠️ Vulnerabilidad Crítica CVE-2026-1042: Use-After-Free en el Subsistema io_uring de Linux",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "Se ha detallado el funcionamiento de la vulnerabilidad CVE-2026-1042, un fallo crítico de tipo Use-After-Free (UAF) localizado en el subsistema `io_uring` del kernel de Linux. El problema reside en una condición de carrera (race condition) compleja dentro de la lógica de registro de buffers, lo que permite a un atacante local escalar privilegios (LPE) y obtener control total sobre el sistema.\n\nEste hallazgo es particularmente alarmante dado que `io_uring` es una interfaz de alta eficiencia diseñada para optimizar el I/O asíncrono en servidores y aplicaciones modernas. La vulnerabilidad pone de relieve la persistencia de los errores de gestión de memoria en el código C del kernel y refuerza la urgencia de adoptar lenguajes con seguridad de memoria, como Rust, en los componentes críticos del núcleo de Linux para mitigar este tipo de vectores de ataque.\n\nFuentes verificadas:\n- TechBytes Deep Dive: https://techbytes.app/posts/dissecting-cve-2026-1042-linux-kernel-memory-safety/\n- NVD (National Vulnerability Database)\n- Linux Kernel Security Mailing List",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778370009466",
     "title": "⚠️ Alerta de Seguridad: CVE-2026-43172 expone riesgo de Out-of-Bounds en Driver iwlwifi de Intel",
     "date": "2026-05-09",
