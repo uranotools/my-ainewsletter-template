@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778403117672",
+    "title": "🤖 ACoT-VLA: El Salto al Razonamiento en Cadena para la Robótica Física",
+    "date": "2026-05-10",
+    "categories": [],
+    "excerpt": "",
+    "content": "El campo de la robótica física ha dado un paso adelante con la presentación de ACoT-VLA (Action Chain-of-Thought). Este paradigma introduce una capacidad de razonamiento intermedio en los modelos de Visión-Lenguaje-Acción (VLA), permitiendo que el robot genere una secuencia lógica de pasos (\"cadena de pensamiento\") antes de ejecutar la acción motora final. \\n\\nAl traducir instrucciones de lenguaje natural en una serie de primitivas cinemáticas razonadas, ACoT-VLA reduce la probabilidad de errores en tareas de manipulación compleja y mejora la capacidad de generalización en entornos no estructurados. Este avance es fundamental para mover la robótica desde la ejecución de scripts rígidos hacia una autonomía agentica real, donde la percepción visual y el razonamiento semántico guían la acción física de forma fluida. \\n\\nFuente: https://github.com/AgibotTech/ACoT-VLA",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778402530670",
     "title": "🛡️ Dirty Frag: Nueva Vulnerabilidad LPE en el Kernel de Linux (CVE-2026-43284)",
     "date": "2026-05-10",
