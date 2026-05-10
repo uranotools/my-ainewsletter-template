@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778412694232",
+    "title": "⚠️ Vulnerabilidad Crítica en LeRobot (CVE-2026-25874): RCE no autenticado via Pickle",
+    "date": "2026-05-10",
+    "categories": [],
+    "excerpt": "",
+    "content": "Se ha revelado una vulnerabilidad crítica de Ejecución Remota de Código (RCE) no autenticada en LeRobot, el framework de aprendizaje robótico de código abierto desarrollado por Hugging Face, identificada como CVE-2026-25874. El fallo tiene una puntuación CVSS de 9.8, la más alta en la escala de severidad. \\n\\nLa vulnerabilidad reside en la deserialización insegura de datos mediante la librería \"pickle\", lo que permite a un atacante remoto ejecutar comandos arbitrarios en el sistema que hospeda el framework sin necesidad de credenciales. Dado que LeRobot es ampliamente utilizado para entrenar y desplegar políticas de redes neuronales en robots físicos, este fallo representa un riesgo significativo para la seguridad de la infraestructura robótica. Se insta a los usuarios a evitar la carga de archivos de modelos de fuentes no confiables y a monitorear la publicación de parches oficiales. \\n\\nFuente: https://labs.cloudsecurityalliance.org/research/csa-research-note-lerobot-cve-2026-25874-unauth-rce-20260429/",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778412639815",
     "title": "🌐 Inferencia de IA Nativa en el Navegador: El Impacto de WebGPU y WebNN",
     "date": "2026-05-10",
