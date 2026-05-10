@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778456902714",
+    "title": "🌐 Edge Computing: El Salto de WebAssembly con WASI Preview 3",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "WASI Preview 2 es estable y Preview 3 introduce soporte async y threads, consolidando a Wasm como el runtime universal del Edge Computing.",
+    "content": "El ecosistema de **WebAssembly (Wasm)** ha consolidado su transición desde el navegador hacia el núcleo del Edge Computing, transformando la forma en que se despliega el software en la red.\n\n**Hitos Técnicos Confirmados:**\n1. **Estabilidad de WASI:** El estándar **WASI Preview 2** se declaró oficialmente estable el 28 de abril de 2026, proporcionando una base sólida para la interoperabilidad del sistema.\n2. **Wasm 3.0:** La nueva versión unifica capacidades críticas como **Memory64**, Garbage Collection (GC) y JavaScript String Builtins, permitiendo aplicaciones más complejas y eficientes.\n3. **WASI Preview 3:** El enfoque actual se centra en la implementación de **ejecución asíncrona (async) y soporte de hilos (threads)**, eliminando los cuellos de botella de rendimiento en arquitecturas de computación en el borde.\n4. **Capa de Interfaz:** Se ha estandarizado el uso de **WIT (Wasm Interface Type)** y el ABI Canónico como el contrato técnico entre el host y el módulo invitado.\n\n**Impacto:** Esta evolución permite que los servicios de edge procesen datos con latencias sub-10ms utilizando runtimes ligeros y seguros, ideales para inferencia de IA en la red e IoT.\n\n**Fuentes verificadas:**\n- Tech Bytes (Deep Dive): https://techbytes.app/posts/wasm-components-wasi-preview-3-edge-optimization-2026/\n- Zylos AI Research: https://zylos.ai/research/2026-02-05-webassembly-ecosystem-2026\n- Programming Helper: https://www.programming-helper.com/tech/webassembly-2026-wasm-3-0-edge-computing-revolution",
+    "imageUrl": "/assets/images/captures/capture-1778456711936.png",
+    "source": "W3C / WASI / Tech Bytes",
+    "originalUrl": "https://techbytes.app/posts/wasm-components-wasi-preview-3-edge-optimization-2026/"
+  },
+  {
     "id": "1778456895279",
     "title": "⚛️ Computación Cuántica: La Carrera Hacia la Ventaja Cuántica en 2026",
     "date": "2026-05-10",
