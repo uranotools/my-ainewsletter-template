@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778388017048",
+    "title": "🤖 OpenVLA: El Modelo de Visión-Lenguaje-Acción de Pesos Abiertos",
+    "date": "2026-05-10",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "El proyecto OpenVLA ha lanzado un modelo de Visión-Lenguaje-Acción (VLA) de código abierto que permite a los robots integrar la percepción visual y la comprensión semántica del lenguaje para generar acciones motoras precisas. Basado en una arquitectura de Transformer, OpenVLA es capaz de generalizar instrucciones complejas en lenguaje natural a través de diferentes tipos de hardware robótico (embodiments) sin requerir un entrenamiento exhaustivo para cada plataforma. \n\nEste avance es fundamental para la IA Encarnada (Embodied AI), permitiendo que la comunidad de investigación desarrolle agentes robóticos más versátiles y capaces de operar en entornos reales no estructurados.\n\nFuente: https://openvla.github.io/",
+    "imageUrl": null,
+    "source": "OpenVLA Project",
+    "originalUrl": "https://openvla.github.io/"
+  },
+  {
     "id": "1778384417613",
     "title": "📟 MIPS S8200: Impulsando la 'Physical AI' con NPU basada en RISC-V",
     "date": "2026-05-10",
