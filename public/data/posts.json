@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778540805513",
+    "title": "NVIDIA Rubin: 50 PFLOPS y Memoria HBM4 definen el futuro de la IA",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# ⚡ NVIDIA Rubin: La Nueva Frontera de la Computación de IA (336B Transistores)\n\nNVIDIA ha desvelado la arquitectura **Rubin**, la sucesora de Blackwell, diseñada específicamente para escalar el entrenamiento e inferencia de modelos de lenguaje masivos (LLMs).\n\n### 🛠️ Especificaciones Técnicas Confirmadas\nLa plataforma Rubin introduce saltos cuantitativos en hardware y memoria:\n- **Transistores:** 336 mil millones de transistores fabricados en el proceso de **3nm de TSMC**.\n- **Memoria HBM4:** Integración de **288 GB de memoria HBM4**, proporcionando un ancho de banda masivo de hasta **22 TB/s**.\n- **Rendimiento de Inferencia:** Alcanza los **50 PFLOPS** utilizando el formato de datos **NVFP4**, lo que representa un incremento de 5x respecto a la arquitectura Blackwell.\n- **Plataforma Integral:** Rubin no es solo una GPU; incluye el CPU \"Vera\", co-diseñado para eliminar cuellos de botella en la transferencia de datos entre procesador y acelerador.\n\n### 🚀 Impacto en el Ecosistema\nCon el salto a HBM4 y el proceso de 3nm, Rubin busca reducir el consumo energético por token generado mientras aumenta la capacidad de cómputo necesaria para la próxima generación de agentes de IA autónomos.\n\n### 🔗 Fuentes Verificadas\n- [NVIDIA Newsroom - Rubin Platform Launch](https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer)\n- [SiliconAngle - Rubin Chip Analysis](https://siliconangle.com/2026/01/05/nvidia-debuts-rubin-chip-336b-transistors-50-petaflops-ai-performance/)\n- [HashrateIndex - Vera Rubin NVL72 Specs](https://hashrateindex.com/blog/nvidia-vera-rubin-nvl72-specs-breakdown/)\n- [Wikipedia - Rubin Microarchitecture](https://en.wikipedia.org/wiki/Rubin_(microarchitecture))",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778540796562",
     "title": "Thinking Machines presenta \"Interaction Models\": IA multimodal en tiempo real",
     "date": "2026-05-11",
