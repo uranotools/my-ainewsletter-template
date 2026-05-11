@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778493092645",
+    "title": "Salto Cuántico: Microsoft y Quantinuum Logran Qubits Lógicos Fiables",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# ⚛️ Salto Cuántico: Microsoft y Quantinuum Logran Qubits Lógicos Fiables\n\nEn un hito para la computación cuántica, Microsoft y Quantinuum han anunciado la creación de los qubits lógicos más fiables hasta la fecha, marcando la transición de la era NISQ (Noisy Intermediate-Scale Quantum) hacia una computación cuántica resistente a errores.\n\n### 🛡️ Detalles Técnicos del Logro\n*   **Fiabilidad Récord:** El sistema logró ejecutar más de **14,000 experimentos libres de errores**, un salto masivo en estabilidad comparado con los qubits físicos tradicionales.\n*   **Sinergia Hardware-Software:** El avance se logró utilizando el software de **virtualización de qubits de Microsoft** ejecutándose sobre el hardware de trampa de iones de **Quantinuum**.\n*   **Nivel de Error:** Esta implementación permite la creación de qubits lógicos que corrigen sus propios errores, fundamental para ejecutar algoritmos cuánticos complejos que antes eran imposibles por el ruido ambiental.\n\n### 🔍 Fuentes Verificadas\n1. **MS PowerUser:** [mspoweruser.com/microsoft-and-quantinuum-shatter-quantum-computing-boundaries](https://mspoweruser.com/microsoft-and-quantinuum-shatter-quantum-computing-boundaries-with-record-breaking-error-correction/)\n2. **The Quantum Insider:** [thequantuminsider.com/2026/04/quera-led-study](https://thequantuminsider.com/2026/04/21/quera-led-study-points-to-ultra-high-rate-quantum-error-correction-moving-closer-to-practical-hardware/) (Contexto de corrección de errores)\n3. **NVIDIA CUDA-Q Blog:** [developer.nvidia.com/blog/nvidia-cuda-q-runs-breakthrough](https://developer.nvidia.com/blog/nvidia-cuda-q-runs-breakthrough-logical-qubit-application-on-infleqtion-qpu/) (Implementaciones de qubits lógicos)\n\n### ⚠️ Datos No Comprobados / Especulaciones\n*   **Comercialización:** No existe una fecha confirmada para la disponibilidad de un computador cuántico con corrección de errores total para uso empresarial general; se estima que faltan varios años de optimización de hardware.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778493083290",
     "title": "Geely Rompe la Barrera de los 1000 km con Baterías de Estado Sólido",
     "date": "2026-05-11",
