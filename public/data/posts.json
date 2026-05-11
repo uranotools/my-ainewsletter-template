@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778471271272",
+    "title": "Boston Dynamics Atlas: La Era de la Producción Industrial Humanoide",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🤖 Boston Dynamics Atlas: La Era de la Producción Industrial Humanoide\n\nBoston Dynamics ha dado el salto definitivo desde el laboratorio hacia el mercado con la versión comercial del **Atlas totalmente eléctrico**. Este robot no es solo una proeza de movilidad, sino una plataforma diseñada para la integración masiva en entornos industriales reales.\n\n### 🛠️ Especificaciones Técnicas Confirmadas\n*   **Arquitectura Eléctrica:** Transición completa de sistemas hidráulicos a actuadores eléctricos, optimizando la precisión y reduciendo el mantenimiento.\n*   **Capacidades Físicas:** El robot posee **56 grados de libertad (DoF)**, una altura de aproximadamente **1.9 metros**, un peso de **90 kg** y una capacidad de carga útil (*payload*) de **50 kg**.\n*   **Integración Cognitiva:** Alianza estratégica con **Google DeepMind** para integrar modelos fundacionales de IA, otorgando al Atlas capacidades de razonamiento y toma de decisiones autónomas superiores.\n*   **Despliegue Inicial:** Producción oficial iniciada en 2026, con implementaciones prioritarias en plantas de **Hyundai** y centros de investigación de Google DeepMind.\n\n### 🔍 Fuentes Verificadas\n1. **Boston Dynamics:** [Unveiling the New Atlas Robot](https://bostondynamics.com/blog/boston-dynamics-unveils-new-atlas-robot-to-revolutionize-industry/)\n2. **RoboZaps:** [Enterprise-Grade Humanoid Review 2026](https://blog.robozaps.com/b/boston-dynamics-atlas-review)\n3. **RoboSelect360:** [Atlas 2026 Specs & Production Analysis](https://roboselect360.com/en/robots/boston-dynamics-atlas.html)\n4. **Aparobot:** [Atlas 2026 Industrial Use Case](https://www.aparobot.com/robots/atlas-2026)\n\n### ⚠️ Datos No Comprobados / Especulaciones\n*   **Costo de Adquisición:** Fuentes externas estiman un precio entre **€350,000 y €420,000**, sin embargo, Boston Dynamics no ha publicado una lista de precios oficial abierta al público.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778467688983",
     "title": "NVIDIA B200 Blackwell: El Nuevo Estándar de Cómputo para IA",
     "date": "2026-05-11",
