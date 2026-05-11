@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778489381745",
+    "title": "NIST Finaliza Estándares de Criptografía Post-Cuántica (PQC)",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🔐 NIST Finaliza Estándares de Criptografía Post-Cuántica (PQC)\n\nPara mitigar la amenaza de los futuros ordenadores cuánticos capaces de romper RSA y ECC, el **NIST** ha publicado los estándares finales **FIPS 203, 204 y 205**, estableciendo el camino para la migración global de la seguridad digital.\n\n### 🛡️ Detalles Técnicos de los Estándares\n*   **Algoritmos Implementados:**\n    *   **ML-KEM (FIPS 203):** Mecanismo de encapsulamiento de claves para cifrado seguro.\n    *   **ML-DSA (FIPS 204):** Algoritmo de firma digital basado en redes (lattices).\n    *   **SLH-DSA (FIPS 205):** Firmas digitales basadas en hash, diseñadas como fallback robusto.\n*   **Obligatoriedad:** Estos estándares son **obligatorios para todos los sistemas federales de EE.UU.** y están siendo adoptados por organizaciones globales.\n*   **Implementación:** Bibliotecas como `liboqs` ya ofrecen implementaciones de referencia para C, Python, Go, Java y .NET.\n\n### 🔍 Fuentes Verificadas\n1. **NIST Official PQC Portal:** [nist.gov/pqc](https://www.nist.gov/pqc)\n2. **Quantum Security Defence:** [quantumsecuritydefence.com/insights/nist-pqc-enterprise-summary/](https://quantumsecuritydefence.com/insights/nist-pqc-enterprise-summary/)\n3. **Encryption Consulting:** [encryptionconsulting.com/decoding-nist-pqc-standards/](https://www.encryptionconsulting.com/decoding-nist-pqc-standards/)\n\n### ⚠️ Datos No Comprobados / Especulaciones\n*   **El \"Día Q\":** Existe un debate técnico sobre la fecha exacta en la que un ordenador cuántico tendrá suficientes qubits estables para ejecutar el algoritmo de Shor contra RSA-2048; las estimaciones varían entre 2028 y 2035.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778485774932",
     "title": "Micron inicia producción masiva de HBM4 para NVIDIA Vera Rubin",
     "date": "2026-05-11",
