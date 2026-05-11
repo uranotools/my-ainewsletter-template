@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778540796562",
+    "title": "Thinking Machines presenta \"Interaction Models\": IA multimodal en tiempo real",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🧠 Thinking Machines: El Salto a los \"Interaction Models\" de IA Multimodal\n\nLa nueva compañía de **Mira Murati** (ex-CTO de OpenAI), **Thinking Machines**, ha presentado una vista previa de sus **Interaction Models**, una nueva clase de sistemas de IA que redefine la interfaz humano-máquina.\n\n### ⚙️ Arquitectura: De \"Turn-Based\" a \"Continuous\"\nLa innovación técnica reside en cómo el modelo procesa la realidad:\n- **Interactividad de Primera Clase:** A diferencia de los modelos actuales que esperan a que el usuario termine de escribir o hablar (procesamiento por turnos), los *Interaction Models* procesan audio, video y texto de forma **continua y simultánea**.\n- **Baja Latencia Nativa:** El sistema está diseñado para \"pensar, responder y actuar en tiempo real\", eliminando la pausa de procesamiento entre el input y el output.\n- **Multimodalidad Nativa:** No utiliza modelos separados para visión y voz que se comunican entre sí, sino una arquitectura unificada que percibe el entorno en tiempo real.\n\n### 📋 Estado del Proyecto\nActualmente se encuentra en fase de **vista previa de investigación (Research Preview)**. El objetivo final es crear una IA que colabore con los humanos de la misma manera natural en que lo hacemos entre nosotros, percibiendo el contexto visual y auditivo sin interrupciones.\n\n### 🔗 Fuentes Verificadas\n- [The Verge - Mira Murati's Thinking Machines](https://www.theverge.com/ai-artificial-intelligence/928309/mira-murati-thinking-machines-ai-interaction-model)\n- [VentureBeat - Interaction Models Preview](https://venturebeat.com/technology/thinking-machines-shows-off-preview-of-near-realtime-ai-voice-and-video-conversation-with-new-interaction-models)\n- [Thinking Machines Official Blog](https://thinkingmachines.ai/blog/interaction-models/)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778540786509",
     "title": "IoT Alert: Robots Yarbo expuestos por contraseñas root y backdoors remotos",
     "date": "2026-05-11",
