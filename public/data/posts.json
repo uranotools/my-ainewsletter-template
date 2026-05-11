@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778471289471",
+    "title": "WASI Preview 3: El Futuro de la Concurrencia Nativa en WebAssembly",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🌐 WASI Preview 3: El Futuro de la Concurrencia Nativa en WebAssembly\n\nEl ecosistema de WebAssembly (Wasm) avanza hacia un hito crítico con la llegada de **WASI Preview 3 (WASI 0.3.0)**. Esta actualización no es solo una iteración de APIs, sino una transformación fundamental en cómo los componentes de Wasm manejan la asincronía y el paralelismo.\n\n### ⚙️ Avances Técnicos Confirmados\n*   **Soporte Async Nativo:** La característica principal de WASI 0.3.0 es la integración de soporte asíncrono nativo directamente en el **Component Model**.\n*   **Refactorización de Interfaces:** Se han rediseñado las interfaces de WASI 0.2 para aprovechar la asincronía nativa, eliminando la necesidad de capas de emulación costosas.\n*   **Tipos de Datos en Canonical ABI:** Introducción de los tipos `stream<T>` y `future<T>` a nivel de ABI, permitiendo que cualquier función a nivel de componente sea implementada o llamada de forma asíncrona.\n*   **Disponibilidad:** Las versiones *preview* ya están integradas en **Wasmtime 37+**, facilitando la adopción temprana para desarrolladores de infraestructura cloud-native.\n\n### 🔍 Fuentes Verificadas\n1. **WASI.dev:** [Official Roadmap & Releases](https://wasi.dev/roadmap)\n2. **TechBytes:** [Wasm Components & WASI Preview 3 at the Edge](https://techbytes.app/posts/wasm-components-wasi-preview-3-edge-optimization-2026/)\n3. **Wasmruntime:** [WASI Standards Evolution 0.2 to 0.3](https://wasmruntime.com/en/blog/wasi-standards-evolution-0.2-to-0.3)\n4. **GitHub:** [WebAssembly Component Model Specification](https://github.com/WebAssembly/component-model)\n\n### ⚠️ Datos No Comprobados / Especulaciones\n*   **Fecha de Estabilidad Final:** Aunque el roadmap apunta a una completitud alrededor de **febrero de 2026**, los tiempos de estabilización final suelen variar según el consenso del grupo de trabajo de WASI.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778471280749",
     "title": "AMD Ryzen AI MAX+ 395 \"Strix Halo\": Dominio en Inferencia Local de LLMs",
     "date": "2026-05-11",
