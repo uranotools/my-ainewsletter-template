@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778467688983",
+    "title": "NVIDIA B200 Blackwell: El Nuevo Estándar de Cómputo para IA",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🚀 NVIDIA B200 Blackwell: El Nuevo Estándar de Cómputo para IA\n\nNVIDIA ha desplegado la arquitectura **Blackwell** con la GPU **B200**, diseñada específicamente para escalar el entrenamiento e inferencia de modelos de lenguaje masivos (LLMs). Este hardware representa un salto generacional en ancho de banda y densidad de cómputo.\n\n### 🛠️ Especificaciones Técnicas Confirmadas\n*   **Memoria VRAM:** Entre **180 GB y 192 GB de HBM3e**, duplicando la capacidad del H100 original.\n*   **Ancho de Banda:** Alcanza los **8 TB/s**, eliminando cuellos de botella críticos en el movimiento de datos entre la memoria y los núcleos de cómputo.\n*   **Arquitectura:** Diseño de doble chip (*dual-die*) con un total de **208 mil millones de transistores**.\n*   **Rendimiento:** Gracias al *2nd-gen Transformer Engine* con soporte para **FP4**, ofrece aproximadamente **4 veces el throughput** de cómputo de IA para entrenamiento en comparación con la arquitectura Hopper (H100).\n*   **Eficiencia Energética:** Optimización masiva para inferencia cuantizada, permitiendo desplegar modelos más grandes en menos nodos.\n\n### 🔍 Fuentes Verificadas\n1. **RunPod:** [Nvidia B200 GPU Specs & Performance](https://www.runpod.io/articles/guides/nvidia-b200)\n2. **DeployBase:** [NVIDIA Blackwell B200 Overview](https://deploybase.ai/articles/nvidia-blackwell-b200)\n3. **JarvisLabs:** [NVIDIA B200 Specs and Price (2026)](https://jarvislabs.ai/ai-faqs/nvidia-b200-specs)\n4. **GPUAdvisor:** [B200 Benchmarks & Pricing](https://gpuadvisor.com/gpu/b200)\n\n### ⚠️ Datos No Comprobados / Especulaciones\n*   **Precio de Mercado:** Se estima un rango entre **$45,000 y $55,000 USD** por unidad, aunque los precios finales varían según el acuerdo de volumen con el fabricante.\n*   **Disponibilidad:** Aunque ya existen instancias en la nube (como RunPod), la disponibilidad masiva en centros de datos privados sigue sujeta a la cadena de suministro de HBM3e.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778467680827",
     "title": "OWASP LLM Top 10: Asegurando el Futuro de las Aplicaciones de IA",
     "date": "2026-05-11",
