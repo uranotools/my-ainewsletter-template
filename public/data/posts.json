@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778485765339",
+    "title": "OWASP lanza el Top 10 para Aplicaciones Agénticas 2026",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🛡️ OWASP lanza el Top 10 para Aplicaciones Agénticas 2026\n\nCon el giro de los LLM desde simples chatbots hacia **Sistemas Agénticos** (IA que planifica y ejecuta acciones autónomamente), OWASP ha publicado el marco de seguridad **\"Top 10 for Agentic Applications 2026\"**.\n\n### 🔐 Puntos Clave del Framework\n*   **Enfoque en Autonomía:** A diferencia del Top 10 de LLM tradicional, este se centra en riesgos de agentes que tienen acceso a herramientas (tools), pipelines de RAG y capacidad de toma de decisiones en flujos complejos.\n*   **Colaboración Global:** El estándar ha sido revisado por más de 100 expertos en la industria para proporcionar guías accionables sobre cómo mitigar el \"escalamiento de privilegios\" de un agente de IA.\n*   **Mitigación de Riesgos:** Incluye pautas específicas para el red-teaming de agentes autónomos y la implementación de \"guardrails\" en tiempo real.\n\n### 🔍 Fuentes Verificadas\n1. **OWASP GenAI Security Project:** [genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)\n2. **ElevateConsult Insights:** [OWASP LLM Top 10 Security Risks 2026](https://elevateconsult.com/insights/owasp-llm-top-10-security-vulnerabilities-every-ai-developer-must-know-in-2026/)\n3. **Repello.ai Guide:** [OWASP LLM Top 10 2026 Complete Guide](https://repello.ai/blog/owasp-llm-top-10-2026)\n\n### ⚠️ Datos No Comprobados / Especulaciones\n*   **Estandarización Legal:** Se especula que este Top 10 se convierta en la base para futuras regulaciones de cumplimiento (compliance) en la UE y EE.UU. para software agéntico, pero aún no hay una ley que lo exija formalmente.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778485756341",
     "title": "CSS Anchor Positioning: El fin de las librerías de tooltips en JS",
     "date": "2026-05-11",
