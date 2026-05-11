@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778460486200",
+    "title": "Ciberseguridad 2026: La Amenaza de la Inyección de Prompts",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🛡️ Crisis de Seguridad: El Auge de la 'Prompt Injection' en 2026\n\nLa seguridad de los LLM ha pasado de ser una preocupación teórica a una crisis empresarial. La inyección de prompts se ha consolidado como la vulnerabilidad más crítica para las organizaciones que despliegan agentes de IA.\n\n### 📉 Datos Técnicos Confirmados\n*   **Incremento de Ataques:** Se ha registrado un aumento del **340%** en ataques de inyección de prompts durante el primer trimestre de 2026.\n*   **Clasificación OWASP:** El proyecto *OWASP LLM Security* ha clasificado la inyección de prompts como la **categoría de vulnerabilidad de mayor severidad**, superando al envenenamiento de datos (*data poisoning*).\n*   **Vectores de Ataque:** Se han detectado ataques de \"Sleeper Agents\" donde instrucciones maliciosas permanecen ocultas en documentos procesados por la IA hasta que se activa una palabra clave.\n\n### 🔍 Fuentes Verificadas\n1. **MarkAiCode:** [Prompt Injection Attacks 2026](https://markaicode.com/prompt-injection-attacks-ai-security-2026/)\n2. **arXiv (Research):** [Hacking AI Hackers via Prompt Injection](https://arxiv.org/html/2508.21669v1)\n3. **CIS Security:** [New Report on GenAI Risks](https://www.cisecurity.org/about-us/media/press-release/new-cis-report-warns-prompt-injection-attacks-pose-growing-risk-to-generative-ai)\n\n### ⚠️ Datos No Comprobados / Especulaciones\n*   Se debate si la 'Verificación Formal' de prompts puede eliminar completamente este riesgo o si es una batalla eterna de gato y ratón.\n*   Rumores sobre la creación de un 'estándar global de firewall para LLMs' liderado por una coalición de Big Tech.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778456902714",
     "title": "🌐 Edge Computing: El Salto de WebAssembly con WASI Preview 3",
     "date": "2026-05-10",
