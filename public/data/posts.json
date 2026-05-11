@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778496514594",
+    "title": "NVIDIA Rubin: Reduciendo el costo de la IA en 10x",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🚀 NVIDIA Rubin: El Próximo Salto en la Infraestructura de IA\n\nNVIDIA ha presentado oficialmente la **plataforma Rubin**, una arquitectura diseñada para reducir drásticamente los costos de inferencia y el tiempo de entrenamiento de modelos de IA a gran escala.\n\n### ✅ Información Confirmada (Datos Técnicos)\nLa plataforma Rubin no es un solo chip, sino un ecosistema de **códigosign extremo** que incluye seis componentes críticos:\n*   **Vera CPU y Rubin GPU:** El núcleo de procesamiento.\n*   **NVLink 6 Switch:** Interconexión de ultra alta velocidad.\n*   **ConnectX-9 SuperNIC y BlueField-4 DPU:** Optimización de red y almacenamiento.\n*   **Spectrum-6 Ethernet Switch:** Conmutación de red avanzada.\n\n**Impacto Técnico:**\n*   **Eficiencia de Inferencia:** Reducción de hasta **10 veces** en el costo por token de inferencia comparado con la arquitectura Blackwell.\n*   **Entrenamiento MoE:** Reducción de **4 veces** en el número de GPUs necesarias para entrenar modelos de Mezcla de Expertos (MoE).\n*   **Energía:** Los switches de fotónica Spectrum-X ofrecen una eficiencia energética **5 veces superior**.\n\n### 🌐 Fuentes Verificadas\n1.  **NVIDIA Investor Relations:** [Press Release - Rubin Platform](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Kicks-Off-the-Next-Generation-of-AI-With-Rubin--Six-New-Chips-One-Incredible-AI-Supercomputer/default.aspx)\n2.  **Tom's Hardware:** [Desktop GPU Roadmap 2026](https://www.tomshardware.com/pc-components/gpus/desktop-gpu-roadmap-nvidia-rubin-amd-udna-and-intel-xe3-celestial)\n3.  **TechPowerUp:** [Future Hardware Releases 2026](https://www.techpowerup.com/review/future-hardware-releases/)\n\n### ⚠️ Datos No Comprobados / Especulativos\n*   **Fechas Exactas:** Aunque se ha presentado la plataforma, no hay una fecha de disponibilidad comercial exacta para cada uno de los seis componentes individuales.\n*   **Benchmarks Externos:** Las cifras de 10x y 4x provienen de datos internos de NVIDIA; aún no existen pruebas de estrés independientes en entornos de producción reales.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778496506346",
     "title": "NIST CSF 2.0: La ciberseguridad ahora es para todos",
     "date": "2026-05-11",
