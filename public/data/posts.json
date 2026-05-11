@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778508507829",
+    "title": "Intel Nova Lake: El salto arquitectónico de 2026",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# Intel Nova Lake: El salto arquitectónico de 2026\n\nIntel ha confirmado la llegada de la arquitectura **Nova Lake** para el segundo semestre de 2026, posicionándola como su respuesta técnica más agresiva para competir en el mercado de alto rendimiento.\n\n### 🛠️ Datos Confirmados\n- **Lanzamiento:** Programado para el segundo semestre de 2026.\n- **Plataforma:** Introducción del nuevo socket **LGA 1954** y chipsets serie 900.\n- **Gráficos:** Integración de GPUs basadas en la arquitectura **Xe3**.\n\n### 🔍 Datos Especulativos / Filtraciones\n- **Núcleos:** Se reporta que el modelo insignia (Core Ultra 9) podría alcanzar hasta **52 núcleos**.\n- **Rendimiento:** Filtraciones sugieren un incremento del 15% en IPC para los P-Cores y la inclusión de una caché bLLC masiva (hasta 288 MB) para competir con las versiones X3D de AMD.\n- **Consumo:** Se especula un TDP de hasta 150W para los modelos de gama alta.\n\n### 🔗 Fuentes Consultadas\n- [TechSpot - Confirmación de Intel Nova Lake](https://www.techspot.com/news/109998-intel-confirms-nova-lake-cpu-launch-2026-up.html)\n- [Tom's Hardware - Filtraciones de Nova Lake](https://www.tomshardware.com/pc-components/cpus/intel-nova-lake-specs-leaked-up-to-52-cores-and-150w-of-tdp-for-intels-amd-zen-6-rival)\n- [Wccftech - Roundup de Nova Lake-S](https://wccftech.com/roundup/intel-nova-lake-s/)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778508496719",
     "title": "Tesla Optimus Gen 3: El camino hacia la producción masiva de humanoides",
     "date": "2026-05-11",
