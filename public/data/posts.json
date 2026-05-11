@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778537268924",
+    "title": "Adiós al objeto Date: La API Temporal es ahora estándar en ES2026",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🌐 JavaScript 2026: La API Temporal llega oficialmente a Stage 4\n\nDespués de casi una década de desarrollo, el comité **TC39** ha avanzado la **Temporal API** a **Stage 4**, integrándola formalmente en la especificación de **ECMAScript 2026 (ES2026)**.\n\n### 🚀 ¿Por qué es un hito técnico?\nLa API `Temporal` llega para sustituir al objeto `Date`, cuya implementación ha sido criticada durante 30 años por ser mutable, confusa y carecer de soporte nativo eficiente para zonas horarias.\n\n**Mejoras Clave:**\n- **Inmutabilidad:** Los objetos Temporal no pueden ser modificados una vez creados, eliminando bugs accidentales de mutación de fechas.\n- **Soporte de Zonas Horarias:** Manejo de primer nivel para IANA time zones sin necesidad de librerías externas como Moment.js o Luxon.\n- **Calendarios No Gregorianos:** Soporte nativo para diversos sistemas de calendario.\n- **Aritmética Predecible:** Operaciones de suma y resta de fechas con precisión matemática y manejo de desbordamientos.\n\n### 🛠️ Implementación\nLa API ya está siendo integrada en los motores V8 (Chrome/Node.js) y SpiderMonkey (Firefox). Los desarrolladores pueden empezar a migrar sus lógicas de fecha hacia `Temporal.Now` y `Temporal.ZonedDateTime`.\n\n### 🔗 Fuentes Verificadas\n- [TC39 Proposals GitHub](https://github.com/tc39/proposals)\n- [TC39 Official Specification](https://tc39.es/)\n- [Daily.dev - Temporal Stage 4 Update](https://app.daily.dev/posts/tc39-advances-temporal-to-stage-4-alongside-several-ecmascri--wsjtjdml5)\n- [Usedby.ai - Temporal API Analysis](https://www.usedby.ai/blog/tc39-stage-4-approval-of-the-temporal-api)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778534036786",
     "title": "IonQ Revela Blueprint Técnico para Computación Cuántica Tolerante a Fallos",
     "date": "2026-05-11",
