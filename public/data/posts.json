@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778478496737",
+    "title": "Schaeffler Lanza Actuador \"All-in-One\" para Robots Humanoides",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🦾 Schaeffler Lanza Actuador \"All-in-One\" para Robots Humanoides\n\nLa compañía **Schaeffler** ha presentado un nuevo actuador de engranajes planetarios diseñado específicamente para resolver uno de los mayores cuellos de botella en la industria de la robótica humanoide: el suministro de hardware de alta precisión y torque.\n\n### ⚙️ Avances Técnicos Confirmados\n*   **Diseño Compacto de Alto Torque:** El actuador está optimizado para las articulaciones de robots humanoides, donde el espacio es limitado pero se requiere una fuerza considerable para el movimiento natural.\n*   **Solución de Cadena de Suministro:** Al ofrecer un módulo \"Todo en Uno\", Schaeffler busca estandarizar la producción de extremidades robóticas, reduciendo la dependencia de prototipos artesanales.\n*   **Enfoque Industrial:** A diferencia de los actuadores experimentales, este diseño está orientado a la producción a escala industrial.\n\n### 🔍 Fuentes Verificadas\n1. **Humanoids Daily:** [Schaeffler Unveils All-in-One Actuator for Humanoids](https://www.humanoidsdaily.com/news/schaeffler-unveils-all-in-one-actuator-for-humanoids-targeting-the-industry-s-supply-chain-bottleneck)\n2. **Nature:** [Flexible Six-Axis Force/Torque Sensor Research](https://www.nature.com/articles/s41467-025-60861-8)\n3. **PatSnap:** [Analysis of Humanoid Robot Actuator Patents](https://www.patsnap.com/resources/blog/articles/humanoid-robot-actuators-530554-patents-analysed/)\n\n### ⚠️ Datos No Comprobados / Especulaciones\n*   **Costo Final:** No se ha publicado el precio por unidad, aunque se especula que la producción masiva bajará el costo de ensamblaje de robots humanoides comerciales en un 15-20%.\n*   **Compatibilidad:** No se ha confirmado oficialmente para qué plataformas específicas (ej. Tesla Optimus, Figure 02) está optimizado el actuador.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778474897481",
     "title": "W3C publica el CSS Snapshot 2026: Unificando el Futuro del Diseño Web",
     "date": "2026-05-11",
