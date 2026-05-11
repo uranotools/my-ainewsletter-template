@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778513546603",
+    "title": "Matter y OpenADR: Integrando el Hogar Inteligente con la Red Eléctrica",
+    "date": "2026-05-11",
+    "categories": [
+      "smarthome",
+      "energy",
+      "iot",
+      "standards"
+    ],
+    "excerpt": "CSA y OpenADR se alían para permitir que los dispositivos Matter respondan automáticamente a la demanda de la red eléctrica.",
+    "content": "# 🏠 Matter y OpenADR: Integrando el Hogar Inteligente con la Red Eléctrica\\n\\nLa **Connectivity Standards Alliance (CSA)** y la **OpenADR Alliance** han anunciado un acuerdo de enlace (liaison) estratégico para unificar la gestión energética del hogar con las demandas de la red eléctrica inteligente (Smart Grid).\\n\\n### ✅ Información Técnica Confirmada\\n- **Sinergia de Estándares:** El objetivo es crear un puente técnico entre **Matter** (que gestiona la conectividad local entre dispositivos dentro del hogar) y **OpenADR 3.0** (que gestiona la comunicación entre el gateway del hogar y las empresas de servicios públicos/utilidades).\\n- **Gestión de la Demanda:** Esta integración permitirá que los dispositivos Matter (termostatos, cargadores de VE, baterías) respondan automáticamente a señales de \\\"respuesta a la demanda\\\" (Demand Response) enviadas por la red eléctrica para reducir picos de consumo.\\n- **Interoperabilidad:** Se busca evitar que cada fabricante de dispositivos tenga que implementar protocolos propietarios para interactuar con la red eléctrica, centralizando la lógica en el estándar OpenADR.\\n\\n### 🔗 Fuentes Consultadas\\n- [OpenADR Alliance - CSA and OpenADR Announce Liaison](https://www.openadr.org/index.php?option=com_content&view=article&id=244:connectivity-standards-alliance-and-openadr-alliance-announce-liaison&Itemid=121)\\n- [The Verge - Matter and OpenADR Demand Response](https://www.theverge.com/tech/927756/matter-openadr-demand-response-smart-home-energy-management)\\n- [The EnergyST - Collaborative Grid-Connected Energy Management](https://theenergyst.com/connectivity-standards-alliance-and-openadr-alliance-announce-liaison-agreement-to-collaborate-on-grid-connected-energy-management/)",
+    "imageUrl": "/assets/images/1778513457516-Matter-Energy-Blog-Graphic-2000x667.jpg",
+    "source": "OpenADR Alliance",
+    "originalUrl": "https://www.openadr.org/index.php?option=com_content&view=article&id=244:connectivity-standards-alliance-and-openadr-alliance-announce-liaison&Itemid=121"
+  },
+  {
     "id": "1778508518230",
     "title": "WebAssembly 3.0: El nuevo estándar de ejecución universal ya está aquí",
     "date": "2026-05-11",
