@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778496506346",
+    "title": "NIST CSF 2.0: La ciberseguridad ahora es para todos",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🛡️ NIST CSF 2.0: Un Nuevo Paradigma en Gestión de Riesgos\n\nEl Instituto Nacional de Estándares y Tecnología (NIST) ha finalizado la versión **2.0 de su Marco de Ciberseguridad (CSF)**, expandiendo su alcance más allá de la infraestructura crítica.\n\n### ✅ Información Confirmada (Datos Técnicos)\n*   **Nueva Función \"Govern\" (Gobernar):** Se añade una sexta función central al marco (Identificar, Proteger, Detectar, Responder, Recuperar + **Gobernar**), enfocada en la estrategia, gestión de riesgos y gobernanza organizacional.\n*   **Alcance Universal:** El CSF 2.0 ya no está limitado a \"infraestructura crítica\", sino que está diseñado para ser aplicado por **cualquier organización**, independientemente de su tamaño o sector.\n*   **Mapeos Mejorados:** Se han integrado referencias informativas más profundas con el estándar **SP 800-53** para facilitar la automatización de reportes y auditorías.\n\n### 🌐 Fuentes Verificadas\n1.  **NIST Official:** [Cybersecurity Framework (CSF) 2.0](https://www.nist.gov/cyberframework)\n2.  **Hyperproof:** [NIST CSF 2.0 Update Analysis](https://hyperproof.io/resource/nistcsf2-0-update/)\n3.  **Scrut.io:** [CSF 2.0 vs 1.1 Comparison](https://www.scrut.io/post/update-nist-csf-2-0-vs-1-1-whats-new-and-why-it-matters-for-your-cybersecurity-program)\n\n### ⚠️ Datos No Comprobados / Especulativos\n*   **Tasa de Adopción:** No hay datos sobre cuántas empresas han migrado ya oficialmente al 2.0.\n*   **Impacto en Seguros:** Se especula que las aseguradoras de ciberriesgo comenzarán a exigir la alineación con el CSF 2.0 para reducir primas, pero no hay una directriz global confirmada.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778496496258",
     "title": "AMD Venice: Confirmados CPUs de 2nm para 2026",
     "date": "2026-05-11",
