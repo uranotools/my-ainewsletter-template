@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778485774932",
+    "title": "Micron inicia producción masiva de HBM4 para NVIDIA Vera Rubin",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# ⚡ Micron inicia producción masiva de HBM4 para NVIDIA Vera Rubin\n\nLa carrera por eliminar el \"muro de la memoria\" en la IA ha dado un paso crítico. Micron ha anunciado el inicio de la producción a gran volumen de su memoria **HBM4 (High Bandwidth Memory 4)**, diseñada específicamente para la próxima arquitectura de NVIDIA, denominada **Vera Rubin**.\n\n### 🛠️ Especificaciones Técnicas Confirmadas\n*   **Rendimiento:** El módulo HBM4 36GB 12H alcanza un ancho de banda superior a los **2.8 TB/s**.\n*   **Eficiencia Energética:** Reporta una mejora del **20% en la eficiencia de potencia** comparado con la generación anterior.\n*   **Almacenamiento Complementario:** Paralelamente, Micron ha lanzado el **SSD de centro de datos Micron 9650 (PCIe Gen6)**, que duplica el rendimiento de lectura de Gen5 con un 100% más de rendimiento por vatio.\n\n### 🔍 Fuentes Verificadas\n1. **Micron Official Press Release:** [investors.micron.com/news-releases](https://investors.micron.com/news-releases/news-release-details/micron-high-volume-production-hbm4-designed-nvidia-vera-rubin)\n2. **EE Times Analysis:** [The State of HBM4 at CES 2026](https://www.eetimes.com/the-state-of-hbm4-chronicled-at-ces-2026/)\n3. **Bisinfotech Tech Report:** [HBM4 and 3D DRAM Powering 2026 AI](https://www.bisinfotech.com/breaking-the-memory-wall-how-hbm4-and-3d-dram-are-powering-the-2026-ai-revolution/)\n\n### ⚠️ Datos No Comprobados / Especulaciones\n*   **Impacto en el Precio:** Aunque se espera que la eficiencia energética reduzca los costos operativos (TCO) de los data centers, no hay datos confirmados sobre si el costo de adquisición de los módulos HBM4 será menor o mayor que el de HBM3e debido a la complejidad del apilado 12H.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778485765339",
     "title": "OWASP lanza el Top 10 para Aplicaciones Agénticas 2026",
     "date": "2026-05-11",
