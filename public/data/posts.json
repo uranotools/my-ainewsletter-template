@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778467672453",
+    "title": "Figure AI Helix 02: Autonomía de Cuerpo Completo en Humanoides",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🤖 Figure AI Helix 02: Autonomía de Cuerpo Completo en Humanoides\n\nFigure AI ha presentado **Helix 02**, un sistema neuronal avanzado que permite a sus robots humanoides (Serie Figure 02) operar con una autonomía coordinada sin precedentes, integrando la percepción visual directamente con el control motor.\n\n### ⚙️ Avances Técnicos Confirmados\n*   **Control End-to-End:** Helix 02 es una sola red neuronal que controla el **cuerpo completo directamente desde píxeles**, eliminando la necesidad de capas intermedias de planificación manual.\n*   **Sinergia Motriz:** Logra la integración fluida de tres capacidades críticas: **caminar, manipular y balancearse** como un único sistema continuo.\n*   **Autonomía a Escala de Habitación:** Capacidad de razonamiento semántico sobre tareas extendidas, permitiendo que el robot navegue y opere en entornos complejos (como cocinas industriales) de forma autónoma.\n*   **Hardware Integrado:** El robot cuenta con **6 cámaras RGB** para visión periférica y procesamiento mediante GPUs onboard de alto rendimiento.\n\n### 🔍 Fuentes Verificadas\n1. **Figure.ai:** [Introducing Helix 02: Full-Body Autonomy](https://www.figure.ai/news/helix-02)\n2. **RoboZaps:** [Figure 02 Technical Review](https://blog.robozaps.com/b/figure-02-review)\n3. **OriginofBots:** [Figure 02 Full Humanoid Specs](https://www.originofbots.com/robot/figure-02-by-figure-ai-inc-details-specifications-rating)\n\n### ⚠️ Datos No Comprobados / Especulaciones\n*   **Despliegue Comercial:** Se especula sobre la fecha exacta de lanzamiento masivo para el sector retail, aunque ya existen pruebas en plantas de BMW.\n*   **Autonomía Energética:** No se han publicado datos oficiales sobre la duración de la batería bajo carga de trabajo máxima de Helix 02 en entornos reales.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778464009773",
     "title": "WASI Preview 3: Concurrencia Nativa para WebAssembly",
     "date": "2026-05-11",
