@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778537289351",
+    "title": "HEIS 2026: El primer estándar global para Robots Humanoides e IA Encarnada",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🤖 China Establece el Primer Estándar Nacional para Robots Humanoides (HEIS 2026)\n\nEl Ministerio de Industria y Tecnología de la Información (MIIT) de China ha lanzado el **Humanoid Robot and Embodied AI Standard System (HEIS 2026)**, el primer marco regulatorio dedicado exclusivamente a la robótica humanoide y la IA encarnada.\n\n### 🔍 Análisis Técnico del Marco HEIS 2026\nMientras que Occidente sigue adaptando estándares de robots industriales (como ISO 10218), China ha creado un sistema desde cero basado en **6 Pilares Estratégicos**:\n\n1. **Commonality:** Establece una escala de inteligencia de 5 niveles (Lv1-Lv5), similar a los niveles SAE de los vehículos autónomos.\n2. **Brain-like Computing:** Regula los modelos de Acción-Lenguaje-Visión (VLA) y el ciclo de vida de los datos de entrenamiento.\n3. **Limbs & Components:** Estandariza actuadores, motores armónicos y, crucialmente, la **detección táctil**.\n4. **Complete Machines:** Define métricas de estabilidad de control de cuerpo completo (WBC) y MTBF (Tiempo Medio Entre Fallos).\n5. **Safety & Ethics:** Protocolos de interacción humano-robot y directivas de \"prioridad humana\".\n6. **Application & Services:** Métricas de éxito según el escenario (hospitales, fábricas, hogares).\n\n### ⚖️ Diferencia Filosófica\nEl HEIS 2026 marca un cambio de paradigma: mientras que los estándares de EE. UU. (ANSI/A3) tienden a certificar el **espacio de trabajo** (la aplicación), el estándar chino certifica la **inteligencia y capacidad del robot** como producto.\n\n### 🔗 Fuentes Verificadas\n- [RobotToday - Comparative Analysis HEIS 2026](https://robottoday.com/article/humanoid-robotics-standards-heis-2026-vs-the-international-landscape)\n- [MIIT China (Referenciado vía RobotToday)](https://robottoday.com/article/humanoid-robotics-standards-heis-2026-vs-the-international-landscape)\n- [Unitree Robotics / AgiBot Technical Contributions](https://robottoday.com/article/humanoid-robotics-standards-heis-2026-vs-the-international-landscape)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778537278278",
     "title": "CRÍTICO: Vulnerabilidad Dirty Frag permite acceso Root en Linux (CVE-2026-43284)",
     "date": "2026-05-11",
