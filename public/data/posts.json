@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778485756341",
+    "title": "CSS Anchor Positioning: El fin de las librerías de tooltips en JS",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🎨 CSS Anchor Positioning: El fin de las librerías de tooltips en JS\n\nEl **CSS Anchor Positioning Module Level 1** ha alcanzado un estado de madurez técnica (Working Draft Marzo 2026) que permite a los desarrolladores posicionar elementos relativos a otros (\"anclas\") directamente desde el CSS, eliminando la necesidad de dependencias pesadas de JavaScript.\n\n### ⚙️ Avances Técnicos Confirmados\n*   **Adiós a Popper.js y Floating UI:** La capacidad nativa de definir un `anchor-name` y usar la función `anchor()` para offsets permite crear menús desplegables y tooltips sin cálculos manuales de coordenadas en JS.\n*   **Gestión de Desbordamiento:** Implementa la regla `@position-try`, que permite al navegador intentar posiciones alternativas automáticamente si la posición original queda fuera del viewport.\n*   **Soporte Nativo:** La especificación define la interoperabilidad entre el Popover API y el posicionamiento de anclajes para una experiencia de usuario fluida y accesible.\n\n### 🔍 Fuentes Verificadas\n1. **W3C Official Specification:** [w3.org/TR/css-anchor-position-1/](https://www.w3.org/TR/css-anchor-position-1/)\n2. **Pockit Tools Guide:** [CSS Anchor Positioning API Complete Guide](https://pockit.tools/blog/css-anchor-positioning-api-complete-guide/)\n3. **Nick Paolini Technical Blog:** [CSS Anchor Positioning is Here (2026)](https://www.nickpaolini.com/blog/css-anchor-positioning-2026)\n\n### ⚠️ Datos No Comprobados / Especulaciones\n*   **Adopción en Safari:** Aunque hay señales de soporte en WebKit, el despliegue total y sin bugs en todas las versiones de Safari sigue siendo el punto crítico para que los desarrolladores eliminen completamente los polyfills de JS.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778482146522",
     "title": "NIST Establece la Base de la Seguridad Post-Cuántica (PQC)",
     "date": "2026-05-11",
