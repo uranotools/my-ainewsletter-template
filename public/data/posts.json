@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778464009773",
+    "title": "WASI Preview 3: Concurrencia Nativa para WebAssembly",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🌐 WASI Preview 3: Concurrencia Nativa en WebAssembly\n\nEl estándar de la Interfaz de Sistema de WebAssembly (**WASI**) ha avanzado hacia su versión **Preview 3 (0.3.0)**, resolviendo uno de los mayores cuellos de botella para el despliegue de Wasm en el Edge: el soporte nativo para asincronía.\n\n### ⚙️ Detalles Técnicos del Estándar\n*   **Soporte Async Nativo:** Se introduce el soporte para funciones asíncronas dentro del *Component Model*, permitiendo que los componentes se llamen entre sí sin bloquear el hilo de ejecución.\n*   **Canonical ABI:** Implementación de tipos explícitos `stream<T>` y `future<T>`, permitiendo que la asincronía sea manejable y portable entre diferentes runtimes.\n*   **Implementación:** Las previsualizaciones ya están disponibles en **Wasmtime 37+**, con una meta de completitud establecida para febrero de 2026.\n*   **Interoperabilidad:** Mantiene compatibilidad con la versión 0.2 mediante virtualización (polyfilling).\n\n### 🔍 Fuentes Verificadas\n1. **WASI.dev:** [Official Roadmap](https://wasi.dev/roadmap)\n2. **TechBytes:** [Wasm Components & WASI P3](https://techbytes.app/posts/wasm-components-wasi-preview-3-edge-optimization-2026/)\n3. **Dev.to (Fermyon):** [Looking Ahead to WASIp3](https://dev.to/fermyon/looking-ahead-to-wasip3-5aem)\n\n### ⚠️ Datos No Comprobados / Especulaciones\n*   Existe un debate técnico sobre si la implementación de `futures` en el ABI será suficiente para competir en rendimiento con los hilos nativos de Rust/C++ en entornos de altísima carga.\n*   Especulaciones sobre una adopción masiva en AWS Lambda y Azure Functions para finales de 2026.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778464001520",
     "title": "GPT-5.5: La Nueva Era del Razonamiento Agéntico",
     "date": "2026-05-11",
