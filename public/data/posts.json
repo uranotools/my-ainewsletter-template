@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778478514403",
+    "title": "NIST Finaliza Estándares de Criptografía Post-Cuántica (PQC)",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🛡️ NIST Finaliza Estándares de Criptografía Post-Cuántica (PQC)\n\nEl Instituto Nacional de Estándares y Tecnología (**NIST**) ha oficializado los primeros estándares globales de criptografía resistente a computadoras cuánticas, obligando a una migración masiva en la infraestructura de seguridad digital.\n\n### 🔐 Estándares Técnicos Confirmados (FIPS)\n*   **ML-KEM:** Algoritmo diseñado para el establecimiento de claves seguras.\n*   **ML-DSA:** Estándar para firmas digitales basadas en retículos.\n*   **SLH-DSA:** Firma digital basada en hashes, proporcionando una capa de seguridad alternativa y robusta.\n*   **Mandato Federal:** Estos estándares (FIPS 203, 204 y 205) son ahora obligatorios para los sistemas federales de EE.UU. y sirven como guía para organizaciones globales.\n\n### 🔍 Fuentes Verificadas\n1. **NIST Official:** [Post-Quantum Cryptography Portal](https://www.nist.gov/pqc)\n2. **CUILabs:** [PQC 2026 Guide: Enterprise Adoption](https://www.cuilabs.io/articles/pqc-2026-guide)\n3. **Programming-Helper:** [Analysis of NIST PQC FIPS Standards](https://www.programming-helper.com/tech/post-quantum-cryptography-2026-nist-standards-migration)\n\n### ⚠️ Datos No Comprobados / Especulaciones\n*   **Tiempo de Quiebre:** Existe consenso en que RSA y ECC serán vulnerables, pero la fecha exacta en la que un computador cuántico tenga la capacidad de romperlos en tiempo real (el \"Q-Day\") sigue siendo una estimación basada en modelos teóricos.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778478506028",
     "title": "SK hynix Lidera la Era de la IA con el Desarrollo Mundial de HBM4",
     "date": "2026-05-11",
