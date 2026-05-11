@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778508518230",
+    "title": "WebAssembly 3.0: El nuevo estándar de ejecución universal ya está aquí",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# WebAssembly 3.0: El nuevo estándar de ejecución universal ya está aquí\n\nSe ha formalizado la actualización de la especificación core de **WebAssembly (Wasm) a la versión 3.0** (actualizada al 8 de mayo de 2026). Este estándar continúa consolidando su objetivo de proporcionar una semántica rápida, segura y portable, independiente del hardware y del lenguaje de programación.\n\n### 🚀 Datos Confirmados\n- **Versión Actual:** 3.0 (Estándar vivo).\n- **Objetivos de Diseño:** Ejecución con rendimiento cercano al código nativo, entorno sandboxed para seguridad de memoria y compatibilidad total con arquitecturas modernas (escritorio, móvil y sistemas embebidos).\n- **Ecosistema:** Implementación del Component Model y WASIp3 para unir navegadores, edge computing y nube en un único runtime universal.\n\n### 🔗 Fuentes Consultadas\n- [Especificación Oficial de WebAssembly (GitHub)](https://webassembly.github.io/spec/core/intro/introduction.html)\n- [WebAssembly.org - Anuncio de Wasm 3.0](https://webassembly.org/news/2025-09-17-wasm-3.0/)\n- [Platform.uno - Estado de WebAssembly 2025-2026](https://platform.uno/blog/the-state-of-webassembly-2025-2026/)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778508507829",
     "title": "Intel Nova Lake: El salto arquitectónico de 2026",
     "date": "2026-05-11",
