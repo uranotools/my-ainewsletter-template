@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778540786509",
+    "title": "IoT Alert: Robots Yarbo expuestos por contraseñas root y backdoors remotos",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# ⚠️ Vulnerabilidad Crítica en Robots Yarbo: Backdoors y Contraseñas Root Hard-coded\n\nSe ha revelado un fallo de seguridad masivo en los cortacéspedes autónomos de la empresa **Yarbo**, afectando a aproximadamente 11,000 dispositivos en más de 30 países.\n\n### 🔍 Detalles Técnicos del Exploit\nEl investigador de seguridad **Andreas Makris** demostró que los dispositivos eran vulnerables debido a una serie de decisiones de diseño \"legadas\" y fallos graves de IoT:\n- **Contraseñas Root Hard-coded:** Todos los robots compartían la misma contraseña de root predefinida, permitiendo el acceso total al sistema operativo.\n- **Backdoor Intencional:** Existía un acceso remoto diseñado por el fabricante que podía ser interceptado y utilizado por terceros.\n- **Exposición de Datos vía MQTT:** El protocolo de comunicación permitía a un atacante recolectar direcciones de correo electrónico, coordenadas GPS exactas de los hogares y contraseñas de Wi-Fi de los usuarios.\n\n### 🛠️ Respuesta del Fabricante\nTras la divulgación, Yarbo ha anunciado que **eliminará completamente el acceso backdoor remoto** y permitirá que los clientes decidan si desean instalar ciertas funciones de conectividad. Se han distribuido parches OTA (Over-The-Air) para cerrar los agujeros de seguridad más críticos.\n\n### 🔗 Fuentes Verificadas\n- [The Verge - Yarbo Backdoor Removal](https://www.theverge.com/tech/928289/yarbo-remove-robot-lawn-mower-backdoor)\n- [TechSpot - Yarbo Wi-Fi Backdoor Analysis](https://www.techspot.com/news/112350-hacker-gains-access-11000-yarbo-lawn-robots-exposing.html)\n- [Cybernews - Yarbo Fixes Hacking Flaw](https://cybernews.com/security/yarbo-china-robot-mower-backdoor-security-flaw/)\n- [Malwarebytes - Yarbo Robot Flaws Report](https://www.malwarebytes.com/blog/news/2026/05/yarbo-responds-to-robot-flaws-that-could-mow-down-their-owners)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778537289351",
     "title": "HEIS 2026: El primer estándar global para Robots Humanoides e IA Encarnada",
     "date": "2026-05-11",
