@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778513564641",
+    "title": "NVIDIA Rubin: La Nueva Era de la Computación AI con HBM4",
+    "date": "2026-05-11",
+    "categories": [
+      "gpu",
+      "nvidia",
+      "hardware",
+      "ai"
+    ],
+    "excerpt": "NVIDIA presenta la arquitectura Rubin con memoria HBM4 y GPUs optimizadas para inferencia de contextos masivos.",
+    "content": "# 🚀 NVIDIA Rubin: La Nueva Era de la Computación AI con HBM4\\n\\nNVIDIA ha desvelado oficialmente la arquitectura **Rubin**, su sucesora de la plataforma Blackwell, diseñada específicamente para escalar el entrenamiento e inferencia de modelos de lenguaje masivos (LLMs) y agentes de IA autónomos.\\n\\n### ✅ Datos Técnicos Confirmados\\n- **Memoria de Vanguardia:** Implementación de **HBM4**, permitiendo un ancho de banda masivo de hasta **22 TB/s** y una capacidad de hasta **288 GB por GPU**.\\n- **Densidad de Transistores:** Se estima una arquitectura basada en un proceso de fabricación avanzado que integra hasta **336 mil millones de transistores**.\\n- **Rubin CPX:** Lanzamiento de una nueva clase de GPU optimizada para **inferencia de contextos masivos**, permitiendo procesar ventanas de contexto significativamente más grandes sin degradación de rendimiento.\\n- **Interconectividad:** Evolución del NVLink para soportar el flujo de datos entre miles de GPUs en un único clúster coherente.\\n\\n### ⚠️ Datos Especulativos / No Comprobados\\n- **Eficiencia de Costos:** Algunas fuentes sugieren que la arquitectura Rubin podría reducir el costo operativo de la inferencia en hasta **10 veces** en comparación con H100, aunque NVIDIA no ha proporcionado cifras exactas de TCO (Total Cost of Ownership).\\n- **Fecha de Disponibilidad:** Se espera el despliegue masivo en centros de datos para el segundo semestre de 2026.\\n\\n### 🔗 Fuentes Consultadas\\n- [NVIDIA Newsroom - Rubin Architecture Unveiled](https://nvidianews.nvidia.com/news/nvidia-unveils-rubin-cpx-a-new-class-of-gpu-designed-for-massive-context-inference)\\n- [TechCrunch - NVIDIA Launches Powerful New Rubin Chip](https://techcrunch.com/2026/01/05/nvidia-launches-powerful-new-rubin-chip-architecture/)\\n- [Barrack AI - Rubin Specs & Architecture 2026](https://blog.barrack.ai/nvidia-rubin-specs-architecture-2026/)",
+    "imageUrl": "/assets/images/1778513301796-nvidia-unveils-rubin-cpx-a-new-class-of-gpu-designed-for-massive-context-inference",
+    "source": "NVIDIA Newsroom",
+    "originalUrl": "https://nvidianews.nvidia.com/news/nvidia-unveils-rubin-cpx-a-new-class-of-gpu-designed-for-massive-context-inference"
+  },
+  {
     "id": "1778513556455",
     "title": "Alerta de Seguridad: Vulnerabilidad Zero-Day \\\"Dirty Frag\\\" en el Kernel de Linux",
     "date": "2026-05-11",
