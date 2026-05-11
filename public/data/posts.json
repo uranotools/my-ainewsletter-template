@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778467680827",
+    "title": "OWASP LLM Top 10: Asegurando el Futuro de las Aplicaciones de IA",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🛡️ OWASP LLM Top 10: Asegurando el Futuro de las Aplicaciones de IA\n\nLa fundación OWASP ha evolucionado su marco de seguridad para IA, transitando del \"Top 10 for LLM Applications\" hacia el proyecto más amplio **OWASP GenAI Security Project**, respondiendo a la rápida adopción de agentes autónomos.\n\n### 🔐 Puntos Críticos de Seguridad Confirmados\n*   **Enfoque en Agentes:** Lanzamiento del **Top 10 for Agentic Applications 2026**, que aborda riesgos específicos de la IA agéntica, como la ejecución de código no supervisada y la escalada de privilegios.\n*   **Vulnerabilidades Clave:** Mapeo detallado de riesgos como **Prompt Injection**, fuga de prompts del sistema (*System Prompt Leakage*) y debilidades en la recuperación de datos (RAG).\n*   **Interoperabilidad:** Alineación de los riesgos con las técnicas de **MITRE ATLAS**, permitiendo a los equipos de Red Team simular ataques reales basados en incidentes documentados (ej. CVE-2025-54135).\n*   **Mitigación:** Implementación de \"Constitutional Classifiers\" y jerarquías de instrucciones para prevenir que el modelo ignore sus reglas de seguridad.\n\n### 🔍 Fuentes Verificadas\n1. **OWASP:** [Top 10 for Large Language Model Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)\n2. **Repello.ai:** [OWASP LLM Top 10 2026 Guide](https://repello.ai/blog/owasp-llm-top-10-2026)\n3. **GLACIS:** [LLM Security Guide & OWASP 2026 Playbook](https://www.glacis.io/guide-llm-security)\n\n### ⚠️ Datos No Comprobados / Especulaciones\n*   **Efectividad de Defensas:** Existe un debate técnico sobre si los clasificadores constitucionales son suficientes para detener ataques de \"jailbreak\" multi-paso altamente sofisticados.\n*   **Estandarización:** Se especula que OWASP buscará crear una certificación oficial de \"IA Segura\" para empresas hacia finales de 2026.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778467672453",
     "title": "Figure AI Helix 02: Autonomía de Cuerpo Completo en Humanoides",
     "date": "2026-05-11",
