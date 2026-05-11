@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778500164653",
+    "title": "GAAFET y CFET: La nueva física detrás de los chips de 2nm",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🔬 De FinFET a GAAFET: El fin de una era en los transistores de 2nm\n\nLa industria de semiconductores ha alcanzado un punto de inflexión arquitectónico crítico: la transición masiva de la arquitectura FinFET hacia los **GAAFET (Gate-All-Around Field-Effect Transistors)** y los futuros **CFET**.\n\n### ✅ Información Confirmada (Datos Técnicos)\nEl límite físico de los transistores FinFET (donde el canal es una \"aleta\" rodeada por la puerta en tres lados) ha sido superado por el diseño de nanosheets:\n*   **GAAFET (Nanosheets):** En esta arquitectura, la puerta rodea el canal por los **cuatro lados**, permitiendo un control mucho más preciso del flujo de electrones y reduciendo drásticamente las corrientes de fuga (leakage).\n*   **Implementaciones Actuales:** TSMC (nodo N2), Samsung (3nm GAA) e Intel (RibbonFET en el nodo 18A) ya están desplegando estas tecnologías.\n*   **Siguiente Paso (CFET):** Ya se están demostrando los **Complementary FET**, que apilan transistores nMOS y pMOS verticalmente, reduciendo el área del chip en un 50% adicional.\n\n### 🌐 Fuentes Verificadas\n1.  **XDA-Developers:** [GAAFET and BPD making CPUs exciting](https://www.xda-developers.com/gaafet-and-bpd-making-cpus-exciting/)\n2.  **TechPowerUp:** [Analysis of GAAFET and CFET architectures](https://www.techpowerup.com/news-tags/GAAFET)\n3.  **Yantragyan:** [TSMC's N2 Node and NanoFlex technology](https://yantragyan.com/tsmcs-n2-node-2nm-update-nanoflex-powering-next-gen-gaafet-chips-faster-speed-lower-power/)\n\n### ⚠️ Datos No Comprobados / Especulativos\n*   **Rendimiento Real en Consumo:** Aunque la teoría indica una reducción masiva de fugas, los datos de benchmarks reales en dispositivos comerciales de 2nm aún son limitados.\n*   **Coste de Fabricación:** Se especula que la complejidad de las máquinas de litografía EUV necesarias para CFET podría elevar el precio de los chips de gama alta en el corto plazo.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778496514594",
     "title": "NVIDIA Rubin: Reduciendo el costo de la IA en 10x",
     "date": "2026-05-11",
