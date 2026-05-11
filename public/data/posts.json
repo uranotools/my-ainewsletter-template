@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778482137610",
+    "title": "Nueva Generación de Actuadores: El Motor de los Humanoides 2026",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🦾 Nueva Generación de Actuadores: El Motor de los Humanoides 2026\n\nLa industria de la robótica humanoide ha dado un salto cualitativo con la introducción de actuadores rotativos de alta densidad de torque, permitiendo que los robots pasen de prototipos de laboratorio a aplicaciones reales en logística y manufactura.\n\n### ⚙️ Especificaciones Técnicas Confirmadas\n*   **Densidad de Torque:** Nuevos actuadores (como el de Sonceboz) capaces de entregar hasta **100 Nm de torque** en un factor de forma compacto de aproximadamente **1600 g**.\n*   **Inteligencia Integrada:** Incorporación de electrónica de control directamente en el módulo del actuador, reduciendo la latencia de respuesta y el cableado complejo.\n*   **Sensing Adaptativo:** Uso de actuadores eléctricos \"backdrivable\" que permiten sentir fuerzas de contacto midiendo la corriente del motor, eliminando la necesidad de costosos sensores de fuerza externos en cada articulación.\n\n### 🔍 Fuentes Verificadas\n1. **Swiss Robotics Association:** [High Torque, Compact Actuation for Humanoids](https://swiss-robotics.org/news/high-torque-compact-actuation-to-power-the-next-generation-of-humanoid-robots/)\n2. **PatSnap Analysis:** [Humanoid Robot Actuators: Patent Trends](https://www.patsnap.com/resources/blog/articles/humanoid-robot-actuators-530554-patents-analysed/)\n3. **Robotics Tomorrow:** [The Engineering Behind Humanoid Joints 2026](https://www.roboticstomorrow.com/article/2026/02/what-it-takes-to-make-humanoid-robots-move-like-humans-the-engineering-behind-joints-hands-and-precision-control/26152)\n\n### ⚠️ Datos No Comprobados / Especulaciones\n*   **Costo de Producción:** Se estima que la estandarización de estos actuadores podría reducir el costo de ensamblaje de un humanoide comercial en un 20%, aunque los fabricantes aún no han publicado listas de precios oficiales para volumen industrial.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778482127572",
     "title": "WASI 0.3.0: WebAssembly alcanza la madurez en el Edge Computing",
     "date": "2026-05-11",
