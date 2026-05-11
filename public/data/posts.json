@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778464001520",
+    "title": "GPT-5.5: La Nueva Era del Razonamiento Agéntico",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🧠 GPT-5.5: El Salto hacia el Razonamiento Agéntico Real\n\nOpenAI ha lanzado oficialmente **GPT-5.5** (codenombre *\"Spud\"*), marcando la primera vez que el modelo base ha sido completamente reentrenado desde la era de GPT-4.5. Este lanzamiento no es una iteración incremental, sino un cambio en la arquitectura de razonamiento.\n\n### 🛠️ Especificaciones Técnicas Confirmadas\n*   **Ventana de Contexto:** Soporte masivo de **1 millón de tokens en la API** y 400k en la interfaz de usuario.\n*   **Benchmarks:** Resultados state-of-the-art en **Terminal-Bench 2.0**, OSWorld y GDPval, optimizando la capacidad del modelo para interactuar con sistemas operativos y ejecutar código complejo.\n*   **Eficiencia:** Logra una inteligencia superior utilizando significativamente menos tokens para completar tareas complejas en comparación con GPT-5.4.\n*   **Seguridad:** Implementación de la primera **política de acceso jerarquizada para ciberseguridad**, limitando capacidades peligrosas basándose en el perfil del usuario.\n\n### 🔍 Fuentes Verificadas\n1. **OpenAI Blog:** [Introducing GPT-5.5](https://openai.com/index/introducing-gpt-5-5/)\n2. **DataCamp:** [GPT-5.5 Benchmarks & Availability](https://www.datacamp.com/blog/gpt-5-5)\n3. **LLM-Stats:** [GPT-5.5 Model Analysis](https://llm-stats.com/models/gpt-5.5)\n\n### ⚠️ Datos No Comprobados / Especulaciones\n*   Se especula que el costo por millón de tokens podría variar drásticamente según la modalidad de razonamiento activada.\n*   Rumores indican que GPT-5.5 es la base para un futuro sistema de \"memoria persistente a largo plazo\" que OpenAI planea integrar en el segundo semestre de 2026.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778463993478",
     "title": "Google Willow: Rompiendo la Barrera del Error Cuántico",
     "date": "2026-05-11",
