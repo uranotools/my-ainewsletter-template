@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778534017829",
+    "title": "La Carrera de los Humanoides 2026: Optimus Gen 3 vs Figure 03 vs Unitree G1",
+    "date": "2026-05-11",
+    "categories": [
+      "robotics",
+      "humanoid",
+      "ai",
+      "hardware"
+    ],
+    "excerpt": "Análisis comparativo de los robots humanoides que han pasado de prototipos a productos comerciales en 2026.",
+    "content": "# 🤖 La Carrera de los Humanoides 2026: Optimus Gen 3 vs Figure 03 vs Unitree G1\n\nEl año 2026 marca la transición de los robots humanoides de la ciencia ficción a la producción en masa. Tres competidores dominan el panorama actual.\n\n### ✅ Datos Técnicos y Comerciales Confirmados\n- **Tesla Optimus Gen 3:** Entró en producción masiva en enero de 2026. Precio objetivo entre **$20,000 y $30,000**.\n- **Unitree G1:** El modelo más accesible, con un precio de **$13,500**. Ya ha sido enviado a miles de compradores.\n- **Figure 03:** Enfocado en el sector industrial; ya opera en la planta de BMW en Spartanburg realizando tareas de línea de ensamblaje.\n- **Boston Dynamics Atlas:** Versión totalmente eléctrica orientada a empresas con un costo de **$140,000 - $150,000**.\n\n### ⚠️ Datos Especulativos / Análisis\n- **Impacto Laboral:** Se debate la velocidad de desplazamiento de trabajadores humanos en líneas de ensamblaje, aunque Figure 03 ya muestra viabilidad operativa.\n\n### 🔗 Fuentes Consultadas\n- [LumiChats - Humanoid Robots 2026 Guide](https://lumichats.com/blog/humanoid-robots-2026-tesla-optimus-figure-ai-unitree-complete-guide)\n- [Botinfo.ai - Robot Hardware Specs 2026](https://botinfo.ai)\n- [Youngju.dev - Robotics Industry Analysis](https://youngju.dev)",
+    "imageUrl": "/assets/images/captures/capture-1778533818481.png",
+    "source": "LumiChats",
+    "originalUrl": "https://lumichats.com/blog/humanoid-robots-2026-tesla-optimus-figure-ai-unitree-complete-guide"
+  },
+  {
     "id": "1778513564641",
     "title": "NVIDIA Rubin: La Nueva Era de la Computación AI con HBM4",
     "date": "2026-05-11",
