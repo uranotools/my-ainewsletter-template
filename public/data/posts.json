@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778463993478",
+    "title": "Google Willow: Rompiendo la Barrera del Error Cuántico",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# ⚛️ Google Willow: Rompiendo la Barrera del Error Cuántico\n\nGoogle ha presentado **Willow**, su procesador cuántico de última generación que marca un hito crítico: la capacidad de ejecutar la corrección de errores por debajo del umbral del código de superficie (*surface code threshold*).\n\n### 🔬 Logros Técnicos Confirmados\n*   **Corrección de Errores:** A diferencia de procesadores anteriores, Willow puede eliminar más errores de los que introduce al escalar el número de qubits lógicos.\n*   **Ventaja Cuántica Verificable:** Ejecutó el algoritmo *Quantum Echoes OTOC*, produciendo valores de expectativa verificables **13,000 veces más rápido** que el mejor algoritmo clásico conocido.\n*   **Aplicaciones Reales:** Capacidad demostrada para inferir geometrías de moléculas de hasta 28 átomos, un paso fundamental para la química computacional.\n*   **Arquitectura:** Sucesor directo de Sycamore, optimizado para la reducción de ruido térmico y coherencia extendida.\n\n### 🔍 Fuentes Verificadas\n1. **Google The Keyword:** [Meet Willow Quantum Chip](https://blog.google/innovation-and-ai/technology/research/google-willow-quantum-chip/)\n2. **Cell (Research Paper):** [Google's Willow Processor PDF](https://www.cell.com/the-innovation/pdf/S2666-6758(25)00145-6.pdf)\n3. **HPCwire:** [Google Error Correction Breakthrough](https://www.hpcwire.com/2024/12/09/google-debuts-new-quantum-chip-error-correction-breakthrough-and-roadmap-details/)\n\n### ⚠️ Datos No Comprobados / Especulaciones\n*   Se rumorea que Google planea integrar Willow en una nube híbrida de computación cuántica-clásica accesible para partners seleccionados en 2027.\n*   Especulaciones sobre la posibilidad de alcanzar la \"tolerancia a fallos\" total antes de 2030.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778460502150",
     "title": "NVIDIA Blackwell Ultra: Hardware para la Era de las AI Factories",
     "date": "2026-05-11",
