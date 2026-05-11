@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778534036786",
+    "title": "IonQ Revela Blueprint Técnico para Computación Cuántica Tolerante a Fallos",
+    "date": "2026-05-11",
+    "categories": [
+      "quantum",
+      "ionq",
+      "hardware",
+      "computing"
+    ],
+    "excerpt": "IonQ publica un informe técnico detallado trazando el camino hacia los 10,000 qubits físicos con arquitectura tolerante a fallos.",
+    "content": "# ⚛️ IonQ Revela Blueprint Técnico para Computación Cuántica Tolerante a Fallos\n\nIonQ ha publicado un informe técnico definitivo que establece la trayectoria para escalar sus computadoras cuánticas hacia la tolerancia a fallos, un paso crítico para la utilidad comercial a gran escala.\n\n### ✅ Especificaciones Técnicas Confirmadas\n- **Objetivo de Escalamiento:** Camino trazado hacia los **10,000 qubits físicos**.\n- **Fidelidad:** Demostración de fidelidad de dos qubits del **99.99%**.\n- **Arquitectura:** Enfoque en el transporte fiable de iones y un diseño de hardware modular.\n- **Alcance:** El blueprint cubre desde el diseño del compilador y la corrección de errores hasta el control físico del hardware.\n\n### ⚠️ Datos No Comprobados / Especulativos\n- **Plazos de Implementación:** Aunque el blueprint es detallado, la fecha exacta en la que se alcanzarán los 10,000 qubits operativos sigue siendo un objetivo a medio plazo sin fecha de entrega final garantizada.\n\n### 🔗 Fuentes Consultadas\n- [IonQ Investors - Definitive Technical Report](https://investors.ionq.com/news/news-details/2026/IonQ-Publishes-Definitive-Technical-Report-Establishing-Its-Fault-Tolerant-Quantum-Computing-Trajectory--Setting-a-New-Standard-for-Technical-Specificity-and-Transparency/default.aspx)\n- [BusinessWire - IonQ Quantum Trajectory](https://www.businesswire.com)\n- [Technerdo - Analysis of IonQ Blueprint](https://technerdo.com)",
+    "imageUrl": "/assets/images/captures/capture-1778533822091.png",
+    "source": "IonQ Investors",
+    "originalUrl": "https://investors.ionq.com/news/news-details/2026/IonQ-Publishes-Definitive-Technical-Report-Establishing-Its-Fault-Tolerant-Quantum-Computing-Trajectory--Setting-a-New-Standard-for-Technical-Specificity-and-Transparency/default.aspx"
+  },
+  {
     "id": "1778534027315",
     "title": "Apple lanza RCS con Cifrado de Extremo a Extremo en iOS 26.5",
     "date": "2026-05-11",
