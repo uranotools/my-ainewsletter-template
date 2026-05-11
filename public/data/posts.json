@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778489401785",
+    "title": "Tesla Optimus Gen 3: De prototipo ambicioso a producto industrial",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🤖 Tesla Optimus Gen 3: De prototipo ambicioso a producto industrial\n\nTesla ha desplegado internamente el **Optimus Gen 3 (Optimus 3)** en sus fábricas de Fremont y Giga Texas, marcando la transición de una demostración de investigación a una plataforma de trabajo real.\n\n### 🛠️ Especificaciones Técnicas Confirmadas\n*   **Hardware y Movilidad:** Peso de **57 kg** y manos impulsadas por tendones con **22 grados de libertad (DOF)** y sensores táctiles de alta fidelidad.\n*   **Cerebro y Control:** Utiliza redes neuronales end-to-end basadas en la arquitectura de **FSD-v13**, permitiendo percepción, planificación y acción en tiempo real sin dependencia de la nube.\n*   **Autonomía:** Batería de **2.3 kWh** que proporciona una autonomía de **8 a 10 horas** de operación continua.\n*   **Despliegue:** Más de 1,000 unidades ya operan internamente en tareas de logística repetitiva, con producción masiva prevista para **finales de 2026**.\n\n### 🔍 Fuentes Verificadas\n1. **Humanoid Press Database:** [humanoid.press/database/tesla-optimus-3/](https://humanoid.press/database/humanoid-press-database-tesla-optimus-3/)\n2. **Humanoid Guide:** [humanoid.guide/product/optimus-gen-3/](https://humanoid.guide/product/optimus-gen-3/)\n3. **RoboZaps Tech Blog:** [blog.robozaps.com/b/tesla-optimus-gen-3](https://blog.robozaps.com/b/tesla-optimus-gen-3)\n\n### ⚠️ Datos No Comprobados / Especulaciones\n*   **Escalabilidad:** Tesla tiene como objetivo alcanzar la producción de **1 millón de unidades anuales** en un plazo de 6 años, aunque la viabilidad de esta cifra depende de la optimización de la cadena de suministro de actuadores personalizados.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778489392279",
     "title": "WASI 0.3.0: El Component Model llega a producción",
     "date": "2026-05-11",
