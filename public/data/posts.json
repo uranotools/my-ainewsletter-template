@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778500183476",
+    "title": "Windows 11 LLP: Acelerando la respuesta del sistema con CPU Bursts",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# ⚡ Windows 11: Low Latency Profile y la lucha contra la latencia de apps\n\nMicrosoft está implementando una nueva funcionalidad técnica denominada **Low Latency Profile (LLP)** en Windows 11, diseñada para emular la sensación de respuesta instantánea característica de macOS.\n\n### ✅ Información Confirmada (Datos Técnicos)\nEl sistema LLP no aumenta la potencia bruta del CPU de forma permanente, sino que gestiona la frecuencia de manera agresiva en ráfagas cortas:\n*   **Mecanismo de Burst:** El kernel de Windows instruye al procesador para que alcance su **frecuencia máxima de boost** durante un periodo breve (aproximadamente de 1 a 3 segundos) inmediatamente después de una acción del usuario.\n*   **Disparadores (Triggers):** Se activa específicamente al abrir el menú de Inicio, menús contextuales (flyouts), el Explorador de Archivos y el lanzamiento de aplicaciones.\n*   **Objetivo:** Reducir la \"vacilación\" inicial del sistema, optimizando el tiempo de respuesta percibido en lugar de la capacidad de cómputo sostenido.\n\n### 🌐 Fuentes Verificadas\n1.  **The Verge:** [Windows 11 is getting a macOS-like speed boost](https://www.theverge.com/news/927736/windows-11-is-getting-a-macos-like-speed-boost)\n2.  **Windows Latest:** [Testing Windows 11's hidden Low Latency Profile](https://www.windowslatest.com/2026/05/08/i-tested-windows-11s-hidden-low-latency-profile-and-budget-pcs-are-about-to-feel-premium/)\n3.  **TechPowerUp:** [Microsoft testing CPU max speed for app launches](https://www.techpowerup.com/348861/microsoft-is-testing-a-windows-11-feature-that-maxes-out-cpu-speed-for-faster-app-launches)\n\n### ⚠️ Datos No Comprobados / Especulativos\n*   **Impacto Térmico:** No hay datos oficiales sobre si este comportamiento de \"bursts\" frecuentes aumentará la temperatura en laptops ultra-delgadas o reducirá la vida útil de la batería en porcentajes significativos.\n*   **Compatibilidad de Hardware:** Se especula que podría requerir soporte específico de drivers de energía en procesadores más antiguos, aunque las pruebas en Insiders sugieren una implementación amplia.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778500173898",
     "title": "CSS Snapshot 2026: La hoja de ruta de la estabilidad Web",
     "date": "2026-05-11",
