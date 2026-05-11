@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778474878443",
+    "title": "NVIDIA Blackwell B200: El Nuevo Titán de la Inferencia y Entrenamiento de IA",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🚀 NVIDIA Blackwell B200: El Nuevo Titán de la Inferencia y Entrenamiento de IA\n\nNVIDIA ha consolidado su dominio en la infraestructura de IA con la arquitectura **Blackwell**, específicamente el modelo **B200**, diseñado para manejar modelos de lenguaje masivos con una eficiencia energética y de cómputo sin precedentes.\n\n### ⚙️ Especificaciones Técnicas Confirmadas\n*   **Memoria de Ultra Alta Velocidad:** Equipado con **192 GB de HBM3e**, permitiendo la carga de modelos más grandes en una sola GPU y reduciendo la latencia de comunicación.\n*   **Ancho de Banda Masivo:** Alcanza un ancho de banda de memoria de hasta **8 TB/s**, eliminando cuellos de botella críticos en el entrenamiento de LLMs.\n*   **Rendimiento de Cómputo:** Implementa la **2ª Generación del Transformer Engine** con soporte nativo para **FP4**, logrando hasta **20 PFLOPS** de rendimiento en operaciones de precisión reducida.\n*   **Escalabilidad:** Diseñado para integrarse en sistemas NVLink de quinta generación, optimizando la comunicación entre múltiples GPUs en clusters de datacenters.\n\n### 🔍 Fuentes Verificadas\n1. **DeployBase:** [NVIDIA Blackwell B200: Specs & Cloud Availability](https://deploybase.ai/articles/nvidia-blackwell-b200)\n2. **RunPod:** [Nvidia B200 GPU: Complete Guide](https://www.runpod.io/articles/guides/nvidia-b200)\n3. **Jarvis Labs:** [B200 Specs and Price Analysis](https://jarvislabs.ai/ai-faqs/nvidia-b200-specs)\n4. **AI Tool Discovery:** [Blackwell Architecture Technical Review](https://www.aitooldiscovery.com/ai-infra/nvidia-blackwell-architecture)\n\n### ⚠️ Datos No Comprobados / Especulaciones\n*   **Costo Unitario Final:** Aunque se estiman precios entre **$30,000 y $40,000 USD** por GPU, NVIDIA no ha publicado una lista de precios oficial para el mercado retail, ya que el despliegue es primariamente vía partners de nube y OEMs.\n*   **Rendimiento en Producción Real:** Los benchmarks publicados son sintéticos o controlados; el rendimiento real en clusters de 10,000+ GPUs aún está en fase de despliegue temprano.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778471289471",
     "title": "WASI Preview 3: El Futuro de la Concurrencia Nativa en WebAssembly",
     "date": "2026-05-11",
