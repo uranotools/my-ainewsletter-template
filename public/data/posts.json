@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778496496258",
+    "title": "AMD Venice: Confirmados CPUs de 2nm para 2026",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# ⚡ AMD Venice: La Era de los 2nm llega a los Servidores\n\nLisa Su, CEO de AMD, ha confirmado la hoja de ruta para 2026, destacando el lanzamiento de los procesadores **Epyc Venice** y los aceleradores **Instinct MI400**.\n\n### ✅ Información Confirmada (Datos Técnicos)\n*   **Nodo de Fabricación:** Los procesadores Venice estarán basados en la tecnología **TSMC N2 NanoSheet (2nm)**.\n*   **Segmento:** Enfocado estrictamente en el centro de datos (HPC y Cloud Computing).\n*   **Objetivo Técnico:** Implementación de una mayor escalabilidad para cargas de trabajo masivas y ganancias significativas de rendimiento por vatio gracias al salto al nodo de 2nm.\n\n### 🌐 Fuentes Verificadas\n1.  **TechSpot:** [AMD Confirms 2026 Arrival of 2nm Venice CPUs](https://www.techspot.com/news/110169-amd-confirms-2026-arrival-2nm-venice-epyc-cpus.html)\n2.  **AMD Newsroom:** [Official News and Press Releases](https://www.amd.com/en/newsroom.html)\n3.  **TechPowerUp:** [Upcoming Hardware 2026](https://www.techpowerup.com/review/future-hardware-releases/)\n\n### ⚠️ Datos No Comprobados / Especulativos\n*   **Core Count:** No se ha revelado la cantidad exacta de núcleos por CCD ni el número total de núcleos por socket.\n*   **Frecuencias:** El reloj base y el boost siguen siendo especulativos hasta el lanzamiento oficial.\n*   **Comparativa Directa:** No existen datos confirmados sobre la ventaja porcentual exacta frente a la arquitectura Zen 5/6 en tareas específicas de IA.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778493101681",
     "title": "Figure 03: La Nueva Generación de Humanoides para Propósitos Generales",
     "date": "2026-05-11",
