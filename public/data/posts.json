@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778537278278",
+    "title": "CRÍTICO: Vulnerabilidad Dirty Frag permite acceso Root en Linux (CVE-2026-43284)",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🚨 Alerta Crítica: Vulnerabilidad \"Dirty Frag\" en el Kernel de Linux (LPE to Root)\n\nSe ha confirmado la existencia de una cadena de vulnerabilidades de alta severidad denominada **\"Dirty Frag\"**, que permite a un usuario sin privilegios escalar sus permisos hasta obtener acceso de **root** en sistemas Linux.\n\n### 🛠️ Detalles Técnicos\nLa vulnerabilidad no es un único fallo, sino una cadena de dos CVEs que afectan el manejo de fragmentos de memoria y componentes de red del kernel:\n- **CVE-2026-43284**: Afecta a los módulos de red `esp4` y `esp6`.\n- **CVE-2026-43500**: Afecta al módulo `rxrpc`.\n\nEsta combinación permite el bypass de protecciones de memoria, facilitando una **Escalación de Privilegios Locales (LPE)**. A diferencia de fallos aislados, \"Dirty Frag\" es notablemente más estable y fiable para los atacantes, siguiendo la estela de bugs previos como *Copy Fail*.\n\n### 🛡️ Estado de Mitigación\n- **Estado:** Confirmado y explotado en entornos controlados.\n- **Acción inmediata:** Actualizar el kernel a las versiones parcheadas distribuidas por Ubuntu, Debian y Red Hat.\n- **Riesgo:** Muy Alto (si el atacante ya tiene acceso inicial al sistema).\n\n### 🔗 Fuentes Verificadas\n- [Tenable - Dirty Frag FAQ](https://www.tenable.com/blog/dirty-frag-cve-2026-43284-cve-2026-43500-frequently-asked-questions-linux-kernel-lpe)\n- [Microsoft Security Blog - Active Attack Report](https://www.microsoft.com/en-us/security/blog/2026/05/08/active-attack-dirty-frag-linux-vulnerability-expands-post-compromise-risk/)\n- [Ubuntu Blog - Fixes Available](https://ubuntu.com/blog/dirty-frag-linux-vulnerability-fixes-available)\n- [Orca Security - Vulnerability Chain Analysis](https://orca.security/resources/blog/dirty-frag-linux-kernel-vulnerability/)\n- [SecurityWeek - Exploit Disclosure](https://www.securityweek.com/new-dirty-frag-linux-vulnerability-possibly-exploited-in-attacks/)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778537268924",
     "title": "Adiós al objeto Date: La API Temporal es ahora estándar en ES2026",
     "date": "2026-05-11",
