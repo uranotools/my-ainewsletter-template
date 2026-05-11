@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778513556455",
+    "title": "Alerta de Seguridad: Vulnerabilidad Zero-Day \\\"Dirty Frag\\\" en el Kernel de Linux",
+    "date": "2026-05-11",
+    "categories": [
+      "security",
+      "linux",
+      "kernel",
+      "vulnerability"
+    ],
+    "excerpt": "Nueva vulnerabilidad crítica en el kernel de Linux permite escalada de privilegios a root sin parche oficial disponible.",
+    "content": "# 🚨 Alerta de Seguridad: Vulnerabilidad Zero-Day \\\"Dirty Frag\\\" en el Kernel de Linux\\n\\nSe ha confirmado la existencia de una vulnerabilidad crítica de día cero, denominada provisionalmente **\\\"Dirty Frag\\\"**, que afecta a múltiples versiones recientes del kernel de Linux, permitiendo la escalada de privilegios completa.\\n\\n### ✅ Datos Confirmados (Técnicos)\\n- **Impacto:** La vulnerabilidad permite que un usuario con privilegios mínimos pueda ejecutar código arbitrario con permisos de **root** (superusuario).\\n- **Vector de Ataque:** Se basa en una condición de carrera (race condition) en la gestión de fragmentos de memoria durante la paginación, lo que permite la corrupción de punteros del kernel.\\n- **Estado del Parche:** A fecha de hoy, **no existe un parche oficial** distribuido por los mantenedores principales del kernel, aunque se están trabajando en mitigaciones urgentes.\\n- **Fecha de Detección:** Confirmada y reportada el 10 de mayo de 2026.\\n\\n### ⚠️ Datos No Comprobados / Especulativos\\n- **Explotación Activa:** Existen reportes no confirmados de que grupos de APT (Advanced Persistent Threats) ya estén utilizando esta vulnerabilidad en ataques dirigidos a infraestructura de nube.\\n- **Mitigaciones Temporales:** Se especula que la desactivación de ciertas funciones de optimización de memoria (KSM) podría mitigar el riesgo, pero no ha sido validado oficialmente para todas las distribuciones.\\n\\n### 🔗 Fuentes Consultadas\\n- [Forbes - Critical New Linux Zero-Day Confirmed](https://www.forbes.com/sites/daveywinder/2026/05/10/critical-new-linux-zero-day-confirmed-hackers-get-root-no-patch-yet/)\\n- [Carthage Electronics - Zero-Day Threat Report May 2026](https://carthageelectronics.com/zero-day-threat-report-may-2026/)\\n- [Tenable Research - Linux Kernel Security Analysis](https://www.tenable.com/research)",
+    "imageUrl": "/assets/images/1778513338048-Linux-Kernel-Security.jpg",
+    "source": "Forbes / Tenable",
+    "originalUrl": "https://www.forbes.com/sites/daveywinder/2026/05/10/critical-new-linux-zero-day-confirmed-hackers-get-root-no-patch-yet/"
+  },
+  {
     "id": "1778513546603",
     "title": "Matter y OpenADR: Integrando el Hogar Inteligente con la Red Eléctrica",
     "date": "2026-05-11",
