@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778460502150",
+    "title": "NVIDIA Blackwell Ultra: Hardware para la Era de las AI Factories",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# ⚡ NVIDIA Blackwell Ultra: El Motor de las 'AI Factories'\n\nNVIDIA ha consolidado la era de la computación a escala industrial con el lanzamiento del **Blackwell Ultra**, una evolución técnica diseñada específicamente para el entrenamiento de LLMs de próxima generación y razonamiento complejo.\n\n### 🛠️ Especificaciones Técnicas Confirmadas\n*   **Memoria:** Implementación de **192GB de HBM3e**, permitiendo cargar modelos masivos con menor latencia.\n*   **Ancho de Banda:** Alcanza los **8 TB/s**, eliminando cuellos de botella en la transferencia de datos entre núcleos.\n*   **Precisión FP4:** Introducción del segundo motor Transformer con soporte nativo para **FP4**, duplicando la eficiencia de inferencia comparado con FP8.\n*   **Arquitectura:** Diseño de *dual-reticle* optimizado para reducir el consumo energético por token generado.\n\n### 🔍 Fuentes Verificadas\n1. **NVIDIA Developer Blog:** [Inside NVIDIA Blackwell Ultra](https://developer.nvidia.com/blog/inside-nvidia-blackwell-ultra-the-chip-powering-the-ai-factory-era/)\n2. **Tech-Insider:** [Blackwell Ultra Specs & Pricing](https://tech-insider.org/nvidias-next-gen-blackwell-ultra-gpus-what-we-know-so-far/)\n3. **Spheron Network:** [NVIDIA B200 Complete Guide](https://www.spheron.network/blog/nvidia-b200-complete-guide/)\n\n### ⚠️ Datos No Comprobados / Especulaciones\n*   Se rumorea que la disponibilidad masiva para proveedores de nube de segundo nivel comenzará en Q4 2026.\n*   Especulaciones sobre un precio unitario que podría oscilar entre los $30k y $40k USD dependiendo del volumen de compra.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778460494324",
     "title": "Humanoides 2026: De la Demo a la Fábrica",
     "date": "2026-05-11",
