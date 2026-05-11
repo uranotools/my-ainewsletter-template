@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778474887731",
+    "title": "Figure AI presenta Helix 02: Autonomía Total del Cuerpo Basada en Píxeles",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🤖 Figure AI presenta Helix 02: Autonomía Total del Cuerpo Basada en Píxeles\n\nFigure AI ha dado un salto evolutivo en la robótica humanoide con el lanzamiento de **Helix 02**, un sistema de control neural que redefine la interacción entre la visión y el movimiento físico.\n\n### ⚡ Avances Técnicos Confirmados\n*   **Control End-to-End (Pixels to Action):** A diferencia de los sistemas tradicionales que separan la percepción de la planificación, Helix 02 utiliza una **única red neural** que controla todo el cuerpo directamente desde la entrada de píxeles de las cámaras.\n*   **Autonomía de Cuerpo Completo:** El sistema integra el caminar, la manipulación de objetos y el equilibrio como un solo flujo continuo, eliminando la necesidad de coordinar múltiples controladores independientes.\n*   **Autonomía de Largo Horizonte:** El robot es capaz de ejecutar tareas complejas en habitaciones completas, razonando sobre el entorno y ajustando su trayectoria y agarre en tiempo real basándose en el feedback visual.\n*   **Hardware Optimizado:** El Figure 02 integra cableado interno y baterías a bordo, eliminando la dependencia de cables externos presentes en la generación 01.\n\n### 🔍 Fuentes Verificadas\n1. **Figure AI Official:** [Introducing Helix 02: Full-Body Autonomy](https://www.figure.ai/news/helix-02)\n2. **RoboZaps:** [Figure 02 Technical Review 2026](https://blog.robozaps.com/b/figure-02-review)\n3. **Origin Of Bots:** [Figure 02 Specifications & Performance](https://www.originofbots.com/robot/figure-02-by-figure-ai-inc-details-specifications-rating)\n4. **HumanoidHub:** [Figure 02 Capability Benchmarks](https://www.humanoidhub.ai/robots/f3ae40c3-317e-4939-a77b-291fc7c8e507/figure-02)\n\n### ⚠️ Datos No Comprobados / Especulaciones\n*   **Costo de Adquisición Comercial:** No existe un precio público oficial; se especula que el despliegue inicial será mediante contratos de \"Robotics-as-a-Service\" (RaaS) para empresas industriales.\n*   **Tasa de Error en Entornos No Estructurados:** Aunque los demos muestran éxito, la tasa de fallo en entornos domésticos altamente impredecibles aún no ha sido auditada por terceros independientes.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778474878443",
     "title": "NVIDIA Blackwell B200: El Nuevo Titán de la Inferencia y Entrenamiento de IA",
     "date": "2026-05-11",
