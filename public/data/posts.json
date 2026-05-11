@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778534027315",
+    "title": "Apple lanza RCS con Cifrado de Extremo a Extremo en iOS 26.5",
+    "date": "2026-05-11",
+    "categories": [
+      "ios",
+      "apple",
+      "messaging",
+      "security"
+    ],
+    "excerpt": "Apple comienza el despliegue de RCS cifrado de extremo a extremo en la beta de iOS 26.5, cerrando la brecha de seguridad con Android.",
+    "content": "# 🔐 Apple lanza RCS con Cifrado de Extremo a Extremo en iOS 26.5\n\nApple ha anunciado oficialmente que los usuarios de iPhone con **iOS 26.5** comenzarán a ver un nuevo icono de candado en los chats RCS, indicando que los mensajes están cifrados de extremo a extremo (E2EE).\n\n### ✅ Datos Técnicos Confirmados\n- **Implementación:** Despliegue inicial en versión Beta.\n- **Seguridad:** Cifrado de extremo a extremo, asegurando que solo el emisor y el receptor puedan leer el contenido.\n- **Interfaz:** Incorporación de un icono de candado visual para confirmar la seguridad de la sesión.\n- **Interoperabilidad:** Mejora drástica en la comunicación segura entre ecosistemas iOS y Android.\n\n### 🔗 Fuentes Consultadas\n- [Apple Newsroom - End-to-end encrypted RCS messaging](https://www.apple.com/newsroom/2026/05/end-to-end-encrypted-rcs-messaging-begins-rolling-out-today-in-beta/)\n- [MacRumors - iOS 26.5 Beta Updates](https://www.macrumors.com)\n- [Ars Technica - Apple's RCS Security Push](https://www.arstechnica.com)",
+    "imageUrl": "/assets/images/captures/capture-1778533817314.png",
+    "source": "Apple Newsroom",
+    "originalUrl": "https://www.apple.com/newsroom/2026/05/end-to-end-encrypted-rcs-messaging-begins-rolling-out-today-in-beta/"
+  },
+  {
     "id": "1778534017829",
     "title": "La Carrera de los Humanoides 2026: Optimus Gen 3 vs Figure 03 vs Unitree G1",
     "date": "2026-05-11",
