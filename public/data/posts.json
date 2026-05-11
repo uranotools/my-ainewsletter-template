@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778489392279",
+    "title": "WASI 0.3.0: El Component Model llega a producción",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 📦 WASI 0.3.0: El Component Model llega a producción\n\nWebAssembly (WASM) ha cruzado el umbral de producción con el lanzamiento de **WASI 0.3.0** en febrero de 2026, transformando la tecnología de una herramienta de optimización de navegador a una alternativa real a los contenedores Docker para el edge computing.\n\n### ⚙️ Avances Técnicos Confirmados\n*   **Async I/O Nativo:** Introducción de los tipos `stream<T>` y `future<T>`, permitiendo que los runtimes suspendan componentes en espera sin bloquear el hilo de ejecución.\n*   **Component Model:** Madurez total del modelo de componentes, facilitando la creación de sistemas políglotas donde módulos en diferentes lenguajes interactúan nativamente.\n*   **Adopción Industrial:** Implementaciones activas en plataformas de escala global como **Cloudflare, Fastly y Akamai**, optimizando la ejecución de serverless functions.\n*   **Rendimiento:** Runtimes como Wasmer 6.0 reportan alcanzar hasta el **95% de la velocidad nativa**.\n\n### 🔍 Fuentes Verificadas\n1. **Byteiota Dev Blog:** [byteiota.com/wasi-0-3-0-webassembly-component-model-goes-production/](https://byteiota.com/wasi-0-3-0-webassembly-component-model-goes-production/)\n2. **Platform.uno State of WASM:** [platform.uno/blog/the-state-of-webassembly-2025-2026/](https://platform.uno/blog/the-state-of-webassembly-2025-2026/)\n3. **W3C WebAssembly Working Group:** [www.w3.org/TR/webgpu/](https://www.w3.org/TR/webgpu/) (Contexto de interoperabilidad)\n\n### ⚠️ Datos No Comprobados / Especulaciones\n*   **Sustitución de Docker:** Aunque se posiciona como una alternativa superior en velocidad y tamaño para el edge, no se prevé que sustituya a Docker en entornos de orquestación de aplicaciones monolíticas complejas a corto plazo.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778489381745",
     "title": "NIST Finaliza Estándares de Criptografía Post-Cuántica (PQC)",
     "date": "2026-05-11",
