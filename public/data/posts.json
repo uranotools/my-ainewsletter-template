@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778482146522",
+    "title": "NIST Establece la Base de la Seguridad Post-Cuántica (PQC)",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🛡️ NIST Establece la Base de la Seguridad Post-Cuántica (PQC)\n\nEl Instituto Nacional de Estándares y Tecnología (**NIST**) ha oficializado los estándares criptográficos diseñados para resistir ataques de computadoras cuánticas, marcando el inicio de una migración global obligatoria para la infraestructura digital crítica.\n\n### 🔐 Estándares Técnicos Confirmados (FIPS)\n*   **ML-KEM (FIPS 203):** Estándar para el establecimiento de claves seguras.\n*   **ML-DSA (FIPS 204):** Algoritmo estándar para firmas digitales basadas en retículos.\n*   **SLH-DSA (FIPS 205):** Firma digital basada en hashes, diseñada como alternativa robusta.\n*   **Plazo Crítico:** Los Sistemas de Seguridad Nacional (NSS) de EE.UU. tienen como fecha límite enero de 2027 para iniciar la transición completa según la directriz CNSA 2.0.\n\n### 🔍 Fuentes Verificadas\n1. **NIST Official Portal:** [nist.gov/pqc](https://www.nist.gov/pqc)\n2. **CUILabs Guide:** [PQC 2026: Enterprise Adoption Guide](https://www.cuilabs.io/articles/pqc-2026-guide)\n3. **Programming-Helper:** [NIST PQC Enterprise Readiness Analysis](https://www.programming-helper.com/tech/post-quantum-cryptography-migration-2026-enterprise-readiness-nist-standards)\n\n### ⚠️ Datos No Comprobados / Especulaciones\n*   **\"Harvest Now, Decrypt Later\":** Se especula que actores estatales ya están almacenando datos cifrados hoy para descifrarlos en el futuro; sin embargo, la capacidad real de los computadores cuánticos actuales para realizar este proceso a escala sigue siendo secreta o teórica.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778482137610",
     "title": "Nueva Generación de Actuadores: El Motor de los Humanoides 2026",
     "date": "2026-05-11",
