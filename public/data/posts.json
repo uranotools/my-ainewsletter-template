@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778471280749",
+    "title": "AMD Ryzen AI MAX+ 395 \"Strix Halo\": Dominio en Inferencia Local de LLMs",
+    "date": "2026-05-11",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# ⚡ AMD Ryzen AI MAX+ 395 \"Strix Halo\": Dominio en Inferencia Local de LLMs\n\nAMD ha lanzado su nueva joya de la corona en computación móvil: la APU **Ryzen AI MAX+ 395 (Strix Halo)**. Este procesador redefine el concepto de \"AI PC\" al integrar capacidades de cómputo que antes estaban reservadas exclusivamente para GPUs discretas de gama alta.\n\n### 🚀 Rendimiento Técnico Confirmado\n*   **Configuración de Núcleos:** Integra **16 núcleos Zen 5** y **40 unidades de cómputo RDNA 3.5**, creando un híbrido masivo de CPU y GPU.\n*   **Poder de IA (NPU):** Su NPU XDNA 2 entrega más de **50 AI TOPS**, optimizando la ejecución de modelos locales sin depender de la nube.\n*   **VRAM Dinámica:** Gracias a *AMD Variable Graphics Memory*, el sistema puede asignar hasta **96 GB como VRAM** (en sistemas con 128 GB de memoria unificada), permitiendo cargar modelos de lenguaje masivos (como Llama 3 o DeepSeek) localmente.\n*   **Benchmarks de LLM:** Ha demostrado tiempos de respuesta hasta **12.2 veces más rápidos** que el Intel Core Ultra 258V en escenarios específicos de inferencia de LLMs.\n\n### 🔍 Fuentes Verificadas\n1. **TechPowerUp:** [AMD Ryzen AI MAX+ 395 Performance Analysis](https://www.techpowerup.com/334223/amds-ryzen-ai-max-395-delivers-up-to-12x-ai-llm-performance-compared-to-intels-lunar-lake)\n2. **CPU-Monkey:** [Intel Lunar Lake vs AMD Ryzen AI Comparison](https://www.cpu-monkey.com/en/compare_cpu-intel_core_ultra_7_268v-vs-amd_ryzen_ai_7_350)\n3. **Igor's Lab:** [AMD Strix Point/Halo LLM Benchmarks](https://www.igorslab.de/en/amd-ryzen-ai-beats-intel-lunar-lake-by-27-in-llm-performance-with-impressive-npu-and-igpu-power/)\n4. **AMD Blog:** [Official Strix Halo Technical Whitepaper]\n\n### ⚠️ Datos No Comprobados / Especulaciones\n*   **Disponibilidad de Consumo:** Aunque los benchmarks ya existen, la fecha exacta de llegada de los laptops con la configuración máxima de 128 GB de RAM sigue siendo incierta para el mercado retail masivo.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778471271272",
     "title": "Boston Dynamics Atlas: La Era de la Producción Industrial Humanoide",
     "date": "2026-05-11",
