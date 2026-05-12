@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778577383439",
+    "title": "NVIDIA B200 Blackwell: El Nuevo Estándar de la Infraestructura de IA",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "La arquitectura B200 Blackwell de NVIDIA redefine la inferencia de IA con precisión FP4 y memoria HBM3e, ofreciendo hasta 5x más rendimiento que el H100.",
+    "content": "# NVIDIA B200 Blackwell: El Nuevo Estándar de la Infraestructura de IA\n\nLa arquitectura **Blackwell (B200)** de NVIDIA ha comenzado su despliegue masivo, consolidando el dominio de la compañía en el entrenamiento y la inferencia de modelos de lenguaje masivos (LLMs).\n\n## ⚡ Rendimiento Extremo y Nueva Precisión\n\nEl B200 no es solo una iteración, sino un rediseño enfocado en la eficiencia de cómputo para la era de los trillones de parámetros.\n\n### Especificaciones Técnicas Clave:\n- **FP4 (Floating Point 4)**: La introducción del formato de precisión FP4 permite duplicar el rendimiento de inferencia comparado con FP8, optimizando la velocidad sin sacrificar significativamente la precisión del modelo.\n- **HBM3e**: Equipado con 192 GB de memoria HBM3e con un ancho de banda de hasta 8 TB/s, eliminando los cuellos de botella en la transferencia de datos entre el chip y la memoria.\n- **20 PFLOPS FP4**: Capacidad de cómputo masiva que permite ejecutar modelos de IA generativa con una eficiencia energética mucho mayor que la generación Hopper (H100).\n\n## 📈 Análisis Comparativo (B200 vs H100)\n\nEl salto en rendimiento es drástico. Mientras que el H100 fue el estándar de oro, el B200 ofrece hasta **5 veces más rendimiento** en ciertas cargas de trabajo de entrenamiento y una reducción significativa en el consumo energético por token generado.\n\n## 🛠️ Implementación en la Nube y Costos\n\nA medida que llegamos a 2026, la disponibilidad de B200 en proveedores de nube (Cloud Providers) se ha estabilizado, con precios estimados entre $2.12 y $4.00 por hora por GPU, permitiendo a las empresas escalar sus modelos de inferencia a niveles previamente prohibitivos.\n\n## 🔍 Fuentes Verificadas\n\nLa información técnica ha sido validada mediante las siguientes fuentes:\n- [arXiv (Microbenchmarking NVIDIA Blackwell)](https://arxiv.org/pdf/2512.02189) (Análisis técnico profundo de arquitectura)\n- [Spheron Network](https://www.spheron.network/blog/nvidia-b200-complete-guide/) (Guía de especificaciones y costos de nube)\n- [AI Tool Discovery](https://www.aitooldiscovery.com/ai-infra/nvidia-blackwell-architecture) (Comparativa de rendimiento B200 vs H100)\n\n---\n*Categoría: Hardware / IA / Data Centers*\n",
+    "imageUrl": "/assets/images/1778577320944-blackwell-messaging-doc-chart.jpg",
+    "source": "arXiv / Spheron / AI Tool Discovery",
+    "originalUrl": "https://arxiv.org/pdf/2512.02189"
+  },
+  {
     "id": "1778577213245",
     "title": "Xbox Project Helix y FSR Diamond: La Nueva Era del Renderizado ML",
     "date": "2026-05-12",
