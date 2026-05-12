@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778578661812",
+    "title": "El Estado del Video Generativo en 2026: Sora 2.0, Runway Gen-4.5 y Google Veo",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "De clips experimentales a cine 4K: Sora 2.0, Runway Gen-4.5 y Google Veo redefinen la producción visual en 2026.",
+    "content": "# El Estado del Video Generativo en 2026: Sora 2.0, Runway Gen-4.5 y Google Veo\n\nEl video generado por IA ha dejado de ser una serie de clips surrealistas de 5 segundos para convertirse en una herramienta de producción cinematográfica real. En 2026, la industria se ha estabilizado en torno a tres pilares: la calidad cinematográfica, el control temporal y la coherencia espacial.\n\n## 🎬 La Batalla de los Modelos: ¿Quién Domina el Frame?\n\nLa competencia entre OpenAI, Runway y Google ha impulsado la resolución hacia el 4K nativo y la generación de clips extendidos (hasta 2 minutos) con coherencia total de personajes y fondos.\n\n### Avances Técnicos Confirmados:\n- **Sora 2.0**: Lanzado a finales de 2025, OpenAI ha optimizado la física de los fluidos y las interacciones complejas, reduciendo los \"glitches\" visuales que plagaban la primera versión.\n- **Runway Gen-4.5**: Se ha posicionado como la herramienta preferida para profesionales gracias a sus herramientas de control granular (Camera Control y Motion Brush avanzado), permitiendo dirigir la escena con precisión técnica.\n- **Google Veo 3**: Ha integrado una capacidad de comprensión semántica superior, permitiendo prompts extremadamente largos y detallados que se traducen fielmente en la pantalla.\n\n## ⚙️ El Salto Técnico: Del Difusión al Mundo Simulado\n\nEl gran cambio en 2026 no es solo la resolución, sino el **World Model**. Los modelos ya no solo \"predicen el siguiente píxel\", sino que crean una representación interna simplificada de la física del mundo (gravedad, colisiones, luz), lo que evita que los objetos desaparezcan o se fusionen aleatoriamente.\n\n## ⚠️ Datos No Comprobados / Especulativos\n\nA pesar del avance, existen tensiones en la industria:\n- **Sora's Lifecycle**: Existen reportes contradictorios sobre la viabilidad económica de Sora debido a sus altísimos costos de computación por frame, con algunos sugiriendo pivotes en su modelo de negocio.\n- **Copyright y Ética**: La lucha legal por los datos de entrenamiento sigue abierta, y se especula que pronto veremos \"marcas de agua cuánticas\" imposibles de eliminar para identificar contenido IA.\n\n## 🔍 Fuentes Verificadas\n\nInformación basada en:\n- [NullZen (Sora 2.0 vs Kling vs Runway)](https://www.nullzen.dev/blog/sora-vs-kling-vs-runway-2026/) (Análisis comparativo)\n- [Magic Hour (AI Video Tracker 2026)](https://magichour.ai/blog/ai-video-model-release-tracker-2026) (Calendario de lanzamientos)\n- [Pinggy.io (Best Video AI 2026)](https://pinggy.io/blog/best_video_generation_ai_models/) (Comparativa técnica)\n\n---\n*Categoría: Generative AI / Video Synthesis / World Models / Digital Production*\n",
+    "imageUrl": "/assets/images/1778578603107-Sora-vs.-Kling-vs.-Runway-Gen-4.5-2026-Guide-1024x576.webp",
+    "source": "NullZen / Magic Hour / Pinggy.io",
+    "originalUrl": "https://www.nullzen.dev/blog/sora-vs-kling-vs-runway-2026/"
+  },
+  {
     "id": "1778578535455",
     "title": "Computación Cuántica 2026: El Salto a los Qubits Lógicos y la Corrección de Errores",
     "date": "2026-05-12",
