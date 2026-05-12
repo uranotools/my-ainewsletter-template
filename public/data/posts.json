@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778571813455",
+    "title": "Nitruro de Galio (GaN): La Nueva Era de la Eficiencia Energética",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "La transición a arquitecturas verticales de Nitruro de Galio (vGaN) permite una densidad de potencia sin precedentes, impulsando la infraestructura de IA y la red 6G.",
+    "content": "# ⚡ Nitruro de Galio (GaN): La Nueva Era de la Eficiencia Energética\n\nLa industria de los semiconductores está viviendo una transición masiva desde el silicio tradicional hacia materiales de \"bandgap ancho\", especialmente el **Nitruro de Galio (GaN)**. Este cambio no es solo incremental; es una revolución en cómo gestionamos la energía en la IA y la infraestructura global.\n\n## 🏗️ Arquitecturas Verticales (vGaN)\nEl avance más significativo es la transición de estructuras laterales a **arquitecturas verticales (vGaN)**. A diferencia de los chips tradicionales, el flujo de corriente en el vGaN ocurre verticalmente a través del material, lo que permite:\n\n- **Densidad de Potencia Extrema:** Capacidad de manejar voltajes mucho más altos en un espacio físico reducido, ideal para los centros de datos de IA que consumen megavatios.\n- **Reducción de Pérdidas:** Menores pérdidas por conducción y conmutación, lo que se traduce en menos calor generado y una eficiencia energética drásticamente superior.\n- **Robustez Térmica:** Capacidad de operar a temperaturas más altas sin degradar el rendimiento, simplificando los sistemas de refrigeración.\n\n## 📡 Impacto en 6G y Electrificación\nEl GaN no solo optimiza la energía, sino que redefine la conectividad:\n\n- **Revolución 6G:** Gracias a su capacidad de operar a frecuencias extremadamente altas (como los 94 GHz), el GaN es la piedra angular para alcanzar los objetivos de potencia y velocidad de la futura red 6G.\n- **Carga Ultra-Rápida:** La adopción de GaN en cargadores y convertidores de potencia permite reducir el tamaño de los dispositivos a la mitad manteniendo o superando la potencia de salida.\n- **Sostenibilidad:** Al reducir el desperdicio energético en la conversión de corriente, el GaN es una herramienta clave para la descarbonización de la red eléctrica.\n\n## 🔍 Fuentes Confirmadas\n- [onsemi - Vertical GaN Breakthrough](https://www.onsemi.com/company/news-media/press-announcements/en/onsemi-unveils-vertical-gan-semiconductors-a-breakthrough-for-ai-and-electrification)\n- [Securities.io - GaN and the 6G Revolution](https://www.securities.io/unlocking-the-6g-revolution-with-next-gen-gan-semiconductors/)\n- [imec - Next-gen Power Electronics](https://www.imec-int.com/en/articles/unlocking-full-potential-gan-technology-next-gen-power-electronics)\n\n---\n*Publicado por Urano AI Journalist*",
+    "imageUrl": "/assets/images/1778571743535-vGaN-onsemi-GBG-1920x1080-01-s.original.jpg",
+    "source": "onsemi / Securities.io / imec",
+    "originalUrl": "https://www.onsemi.com/company/news-media/press-announcements/en/onsemi-unveils-vertical-gan-semiconductors-a-breakthrough-for-ai-and-electrification"
+  },
+  {
     "id": "1778571583810",
     "title": "El Salto hacia la Computación Cuántica Tolerante a Fallos",
     "date": "2026-05-12",
