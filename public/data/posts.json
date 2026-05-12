@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778547900723",
+    "title": "Era de la Corrección de Errores Cuánticos: Hacia la Computación Tolerante a Fallos",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# ⚛️ Computación Cuántica 2026: El Salto hacia la Corrección de Errores (QEC)\n\nLa computación cuántica ha dejado de ser una era de \"ruido\" (NISQ) para entrar en la fase de **Computación Cuántica Tolerante a Fallos**, gracias a avances críticos en la Corrección de Errores Cuánticos (QEC).\n\n### 🛠️ Avances Técnicos Clave\n- **Sistemas Tolerantes a Fallos:** La integración de hardware cuántico con decodificadores clásicos de alta velocidad y electrónica de control criogénica ha permitido reducir la tasa de error de los qubits físicos.\n- **Optimización de Qubits:** Nuevas investigaciones (Caltech y Oratomic) sugieren que computadoras cuánticas útiles podrían construirse con tan solo **10,000 qubits**, optimizando la arquitectura para reducir la redundancia necesaria para la corrección.\n- **IA para Calibración:** NVIDIA ha introducido flujos de trabajo basados en IA para calibrar sistemas cuánticos en tiempo real, minimizando el ruido antes de que se acumule, lo que acelera la estabilidad de los qubits.\n\n### 📉 El Camino al \"Quantum Advantage\"\nEl enfoque de 2026 se ha desplazado de \"cuántos qubits tenemos\" a \"cuántos qubits lógicos (libres de errores) podemos crear\". El éxito en QEC es lo que permitirá finalmente ejecutar algoritmos complejos de química cuántica y criptografía.\n\n### 🔗 Fuentes Verificadas\n- [SpinQ - QEC Breakthroughs 2026](https://www.spinquanta.com/news-detail/quantum-computing-news)\n- [Entangled Future - Quantum Error Correction](https://entangledfuture.com/learn/quantum-error-correction-2026/)\n- [NVIDIA Developer - AI-Powered Quantum Workflows](https://developer.nvidia.com/blog/nvidia-ising-introduces-ai-powered-workflows-to-build-fault-tolerant-quantum-systems/)\n- [Phys.org - Useful Quantum Computers 10k Qubits](https://phys.org/news/2026-04-quantum-built-qubits-team.html)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778547891310",
     "title": "Mira Murati lanza Thinking Machines: El paso de modelos generativos a modelos de interacción",
     "date": "2026-05-12",
