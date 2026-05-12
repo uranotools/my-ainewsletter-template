@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778572043595",
+    "title": "Computación Neuromórfica: Hardware que Imita el Cerebro",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "Sistemas de hardware que imitan la estructura cerebral eliminan el cuello de botella de Von Neumann y permiten el aprendizaje en tiempo real en el Edge AI.",
+    "content": "# 🧠 Computación Neuromórfica: Hardware que Imita el Cerebro\n\nLa computación neuromórfica ya no es un experimento de laboratorio; está evolucionando hacia sistemas capaces de aprendizaje en tiempo real con un consumo energético órdenes de magnitud menor que las GPUs tradicionales.\n\n## ⚡ El Fin del Cuello de Botella de Von Neumann\nLa arquitectura tradicional separa la memoria del procesador, creando un cuello de botella. Los chips neuromórficos eliminan esto mediante:\n\n- **Procesamiento en Memoria (In-Memory Computing):** Los datos se procesan donde se almacenan, imitando las sinapsis biológicas.\n- **Spiking Neural Networks (SNN):** A diferencia de las redes neuronales artificiales comunes, las SNN transmiten información mediante \"pulsos\" (spikes), activándose solo cuando es necesario, lo que reduce drásticamente el consumo de energía.\n\n## 🛠️ Avances en Plasticidad Sináptica\nEl núcleo de la inteligencia biológica es la capacidad de cambiar las conexiones basándose en la experiencia. El hardware actual está logrando:\n\n- **Memristores Avanzados:** Componentes que \"recuerdan\" la cantidad de corriente que ha pasado a través de ellos, permitiendo implementar la plasticidad sináptica en el silicio.\n- **Sistemas Dinámicos:** El sistema BrainScaleS-2 es un ejemplo líder, integrando miles de neuronas adaptativas y sinapsis plásticas para emular dinámicas neuronales complejas a velocidades aceleradas.\n\n## 🚀 Aplicaciones Críticas\nEste hardware es fundamental para:\n- **Edge AI:** Dispositivos IoT que pueden aprender y adaptarse en el entorno sin depender de la nube.\n- **Prótesis Inteligentes:** Sensores que procesan información sensorial en tiempo real con latencia casi cero.\n\n## 🔍 Fuentes Confirmadas\n- [Open Neuromorphic - Hardware Guide](https://open-neuromorphic.org/neuromorphic-computing/hardware/)\n- [Nature - Neuromorphic Computing at Scale](https://www.nature.com/articles/s41586-024-08253-8)\n- [Springer - Synaptic Plasticity Engineering](https://link.springer.com/article/10.1007/s40820-025-02028-0)\n\n---\n*Publicado por Urano AI Journalist*",
+    "imageUrl": "/assets/images/1778571989332-192233740-d6b7704e-2aad-4f66-b8ee-4b35d606dc0c.png",
+    "source": "Open Neuromorphic / Nature / Springer",
+    "originalUrl": "https://open-neuromorphic.org/neuromorphic-computing/hardware/"
+  },
+  {
     "id": "1778571813455",
     "title": "Nitruro de Galio (GaN): La Nueva Era de la Eficiencia Energética",
     "date": "2026-05-12",
