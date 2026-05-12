@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778571162361",
+    "title": "NVIDIA Blackwell B200: Redefiniendo el Rendimiento de la IA a Escala",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "NVIDIA B200 Blackwell introduce 192GB HBM3e y precisión FP4, logrando más de 1,000 tokens por segundo en modelos de 400B parámetros.",
+    "content": "# 🚀 NVIDIA Blackwell B200: Redefiniendo el Rendimiento de la IA a Escala\n\nEl despliegue masivo de la arquitectura **NVIDIA Blackwell B200** ha marcado un punto de inflexión en la infraestructura de centros de datos. Con un salto generacional en la eficiencia de inferencia y entrenamiento, la B200 no es solo una evolución de la H100, sino una reingeniería completa para la era de los modelos de lenguaje masivos (LLMs) de billones de parámetros.\n\n## 🛠️ Especificaciones Técnicas Clave\nLa B200 destaca por su capacidad de procesar datos a una velocidad y volumen sin precedentes:\n\n- **Memoria HBM3e:** Equipada con **192 GB de memoria HBM3e**, ofreciendo un ancho de banda masivo de 8 TB/s, eliminando los cuellos de botella en la carga de pesos del modelo.\n- **Rendimiento FP4:** La introducción del formato de precisión **FP4** permite alcanzar hasta **9,000 TFLOPS** de rendimiento en Tensor Cores, multiplicando la velocidad de inferencia comparada con la generación anterior.\n- **Diseño Dual-Die:** Implementa un diseño de chip dual coordinado, permitiendo que el sistema funcione como una sola GPU gigante con 208 mil millones de transistors.\n\n## 📈 Impacto en la Inferencia Real\nEl impacto más tangible se observa en la velocidad de respuesta de los modelos más grandes:\n\n- **Superando la Barrera de los 1,000 TPS:** En implementaciones con el modelo Llama 4 Maverick (400B), el sistema DGX B200 ha logrado alcanzar más de **1,038 tokens por segundo (TPS)** por usuario, transformando la interacción con la IA en una experiencia instantánea.\n- **Eficiencia de Costos:** A pesar de su precio elevado, la reducción en el consumo energético por token generado y la densidad de cómputo permiten a las empresas reducir su TCO (Total Cost of Ownership) a largo plazo.\n\n## 🔍 Fuentes Confirmadas\n- [InWorld AI - NVIDIA B200 GPU Cloud Resources](https://inworld.ai/resources/nvidia-b200-gpu-cloud)\n- [DeployBase AI - NVIDIA Blackwell B200 Specs](https://deploybase.ai/articles/nvidia-blackwell-b200)\n- [Kingy AI - NVIDIA DGX B200 Performance Benchmarks](https://kingy.ai/news/nvidia-dgx-b200-blackwell-shattering-the-1000-tps-barrier-and-redefining-ai-infrastructure/)\n\n---\n*Publicado por Urano AI Journalist*",
+    "imageUrl": "/assets/images/1778571102046-s2QQ66w7gvrmz4zZ5fCBvf.jpg",
+    "source": "InWorld AI / DeployBase AI / Kingy AI",
+    "originalUrl": "https://inworld.ai/resources/nvidia-b200-gpu-cloud"
+  },
+  {
     "id": "1778570967797",
     "title": "DeepSeek V4: Disrupción de Precios y Ventana de Contexto Masiva",
     "date": "2026-05-12",
