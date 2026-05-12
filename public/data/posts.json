@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778616501021",
+    "title": "NVIDIA Rubin: La Nueva Era de la IA con GPUs de Próxima Generación y CPUs Vera",
+    "date": "2026-05-12",
+    "categories": [
+      "nvidia",
+      "hardware",
+      "ai",
+      "gpu"
+    ],
+    "excerpt": "NVIDIA presenta la plataforma Rubin, un salto masivo en potencia de cómputo para modelos de billones de parámetros, integrando GPUs Rubin y CPUs Vera.",
+    "content": "# NVIDIA Rubin: La Nueva Era de la IA con GPUs de Próxima Generación y CPUs Vera\n\nNVIDIA ha hecho oficial el despliegue de su plataforma **Rubin**, la sucesora de la arquitectura Blackwell, diseñada específicamente para soportar la próxima generación de modelos de lenguaje masivos (LLMs) que superarán el billón de parámetros.\n\n## 🚀 Innovaciones Técnicas Clave\n\nLa plataforma Rubin no es solo una mejora incremental, sino un rediseño centrado en la eficiencia y la escala:\n\n- **Memoria HBM4**: La integración de memoria de alto ancho de banda de cuarta generación permite una velocidad de transferencia de datos sin precedentes, eliminando cuellos de botella críticos en la inferencia de modelos gigantes.\n- **CPUs Vera**: NVIDIA introduce los procesadores **Vera**, diseñados para trabajar en simbiosis total con las GPUs Rubin, optimizando la gestión de datos y la orquestación de clústeres de IA.\n- **Inferencia de Billones de Parámetros**: El sistema está optimizado para ejecutar modelos de escala \"trillion-parameter\", reduciendo drásticamente el tiempo de respuesta y el costo energético por token generado.\n\n## ⚙️ El Ecosistema de Supercomputación\n\nRubin no llega solo; forma parte de un ecosistema que incluye nuevos switches de red y una interconexión mejorada para crear supercomputadoras de IA que operan como una sola GPU masiva, permitiendo entrenamientos más rápidos y precisos.\n\n---\n\n### 🔗 Fuentes Verificadas\n- **NVIDIA Investor Relations**: [NVIDIA Kicks Off the Next Generation of AI With Rubin](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Kicks-Off-the-Next-Generation-of-AI-With-Rubin--Six-New-Chips-One-Incredible-AI-Supercomputer/default.aspx)\n- **StorageReview**: [NVIDIA GTC 2026: Rubin GPUs, Vera CPUs and Trillion Parameter Inference](https://www.storagereview.com/news/nvidia-gtc-2026-rubin-gpus-groq-lpus-vera-cpus-and-what-nvidia-is-building-for-trillion-parameter-inference)\n- **MindStudio**: [NVIDIA GTC 2026 Biggest AI Announcements for Builders](https://www.mindstudio.ai/blog/nvidia-gtc-2026-biggest-ai-announcements-builders)",
+    "imageUrl": "/assets/images/1778616098985-NVIDIA-Rubin-AI-Platform-_7-1456x819.png",
+    "source": "NVIDIA Investor Relations",
+    "originalUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Kicks-Off-the-Next-Generation-of-AI-With-Rubin--Six-New-Chips-One-Incredible-AI-Supercomputer/default.aspx"
+  },
+  {
     "id": "1778607949957",
     "title": "Android Auto 2026: Interfaz Universal y el Cerebro de Gemini",
     "date": "2026-05-12",
