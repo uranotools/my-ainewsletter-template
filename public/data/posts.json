@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778578535455",
+    "title": "Computación Cuántica 2026: El Salto a los Qubits Lógicos y la Corrección de Errores",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "Adiós al ruido: la computación cuántica entra en la era de los qubits lógicos y la corrección de errores masiva en 2026.",
+    "content": "# Computación Cuántica 2026: El Salto a los Qubits Lógicos y la Corrección de Errores\n\nDurante años, la computación cuántica estuvo atrapada en la era del \"ruido\" (NISQ). Sin embargo, 2026 marca la transición hacia la computación cuántica tolerante a fallos, donde el enfoque ha dejado de ser la cantidad de qubits físicos para centrarse en la calidad de los **Qubits Lógicos**.\n\n## 📉 El Problema del Ruido y la Solución de la Corrección (QEC)\n\nUn qubit físico es extremadamente frágil y propenso a errores por interferencia ambiental (decoherencia). La **Corrección de Errores Cuánticos (QEC)** agrupa múltiples qubits físicos para crear un único \"qubit lógico\" que puede mantener la información sin errores durante periodos prolongados.\n\n### Avances Técnicos Confirmados:\n- **Umbral de los 1,000 Qubits Lógicos**: Diversas fuentes indican que el hardware ha comenzado a cruzar el umbral de los 1,000 qubits lógicos en 2026, permitiendo ejecutar algoritmos complejos que antes eran imposibles.\n- **Códigos Geométricos 4D de Microsoft**: Microsoft ha implementado códigos de corrección de errores cuatro dimensionales que reducen drásticamente el número de qubits físicos necesarios para crear un qubit lógico estable.\n- **Procesadores de Google Willow**: Google ha optimizado la supresión de errores escalando el código de superficie, demostrando que a mayor número de qubits, menor es la tasa de error.\n\n## 🧪 Aplicaciones Industriales Inmediatas\n\nGracias a la estabilidad de los qubits lógicos, estamos viendo los primeros resultados reales en:\n- **Simulación de Materiales**: Diseño de catalizadores más eficientes para la captura de carbono.\n- **Criptografía Post-Cuántica**: Aceleración de la migración a estándares resistentes a ataques cuánticos debido a la viabilidad de los algoritmos de Shor.\n\n## ⚠️ Datos No Comprobados / Especulativos\n\nA pesar del optimismo, el camino al \"Quantum Supremacy\" comercial sigue teniendo dudas:\n- **Escalado Térmico**: Mantener miles de qubits lógicos a temperaturas cercanas al cero absoluto sigue siendo un desafío de ingeniería masivo y costoso.\n- **Algoritmos Comerciales**: Se especula que el primer \"caso de uso millonario\" ocurrirá en la industria farmacéutica, pero aún no hay un medicamento diseñado 100% por computación cuántica en fase clínica.\n\n## 🔍 Fuentes Verificadas\n\nAnálisis basado en:\n- [Microsoft Azure Quantum (Error Correction)](https://azure.microsoft.com/en-us/blog/quantum/2025/06/19/microsoft-advances-quantum-error-correction-with-a-family-of-novel-four-dimensional-codes/) (Códigos 4D)\n- [TechNerdo (Quantum Milestones 2026)](https://www.technerdo.com/blog/quantum-computing-milestones-2026) (Hitos de IBM y Google)\n- [IBUIDL (Quantum Progress 2026)](https://ibuidl.org/blog/quantum-computing-progress-2026-20260310) (Umbral de qubits lógicos)\n\n---\n*Categoría: Quantum Computing / QEC / Physics / Future Tech*\n",
+    "imageUrl": "/assets/images/1778578482950-ms1-1024x634.webp",
+    "source": "Microsoft Azure / TechNerdo / IBUIDL",
+    "originalUrl": "https://azure.microsoft.com/en-us/blog/quantum/2025/06/19/microsoft-advances-quantum-error-correction-with-a-family-of-novel-four-dimensional-codes/"
+  },
+  {
     "id": "1778578417229",
     "title": "La Revolución de la IA Física: Humanoides en Producción Comercial (2026)",
     "date": "2026-05-12",
