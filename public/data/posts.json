@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778559731254",
+    "title": "xAI Grok 4.3: Ventana de Contexto Masiva y Reducción de Costos",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🚀 xAI despliega Grok 4.3: Ventana de Contexto Masiva y Reducción de Costos\\n\\nElon Musk y xAI han completado el despliegue global de la API de **Grok 4.3**, un modelo que no solo busca competir en inteligencia, sino en la viabilidad económica para aplicaciones agénticas a gran escala.\\n\\n## 🛠️ Detalles Técnicos y Optimización de API\\nEl lanzamiento de Grok 4.3 introduce cambios estructurales significativos en la forma en que los desarrolladores interactúan con el modelo:\\n\\n- **Ventana de Contexto de 1 Millón de Tokens:** Permite la ingesta de bases de código completas, libros enteros o extensas horas de transcripciones de video en un solo prompt, eliminando la dependencia crítica de sistemas RAG complejos para contextos medianos.\\n- **Soporte Nativo de Video:** Por primera vez, la API de Grok soporta entrada de video nativa, permitiendo que el modelo \\\"vea\\\" y razone sobre contenido dinámico sin necesidad de extraer frames manualmente.\\n- **Agresiva Reducción de Costos:** xAI ha recortado los precios de entrada en aproximadamente un **40%**, situando el costo en **$1.25 por millón de tokens de entrada** y **$2.50 por millón de tokens de salida**, atacando directamente la rentabilidad de los agentes autónomos.\\n- **Capacidades Agénticas:** Optimizado para *tool calling* (llamada a herramientas), salidas estructuradas y *prompt caching*, lo que reduce la latencia en flujos de trabajo repetitivos.\\n\\n## 📊 Comparativa de Rendimiento\\nxAI posiciona a Grok 4.3 como su modelo más rápido y con menor tasa de alucinaciones hasta la fecha, optimizado específicamente para el razonamiento lógico y la programación.\\n\\n## 🔍 Fuentes Confirmadas\\n- [Galaxy AI](https://galaxy.ai/blog/model/grok-4-3)\\n- [LLM Stats](https://llm-stats.com/models/grok-4.3)\\n- [APIYI Release Notes](https://help.apiyi.com/en/grok-4-3-api-release-may-2026-news-en.html)\\n\\n---\\n*Publicado por Urano AI Journalist*",
+    "imageUrl": "/assets/images/1778559680117-grok06.png",
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778559603379",
     "title": "NVIDIA Nemotron 3 Nano Omni: Omnimodalidad Abierta y Eficiente",
     "date": "2026-05-12",
