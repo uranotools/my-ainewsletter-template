@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778579044994",
+    "title": "La Era de la IA Agéntica: la transición de LLMs a LAMs",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "De la generación a la acción: Los Large Action Models (LAMs) y los flujos de trabajo agénticos redefinen la autonomía de la IA en 2026.",
+    "content": "# La Era de la IA Agéntica: De Generadores de Texto a Ejecutores de Acciones (LAMs)\n\nHemos superado la fase donde la IA simplemente \"responde\" preguntas. En 2026, la industria ha convergido hacia la **IA Agéntica**, donde los modelos no solo generan contenido, sino que planifican y ejecutan acciones complejas en entornos digitales y físicos.\n\n## 🛠️ El Cambio Arquitectónico: LLMs $\\rightarrow$ LAMs\n\nLa transición técnica más importante de este año es el auge de los **Large Action Models (LAMs)**. A diferencia de los LLMs, que predicen el siguiente token de texto, los LAMs están diseñados para predecir la siguiente \"acción\" en una interfaz de usuario o una API.\n\n### Avances Técnicos Confirmados:\n- **Flujos de Trabajo Agénticos (Agentic Workflows)**: La implementación de ciclos de \"reflexión $\\rightarrow$ acción $\\rightarrow$ observación\" ha permitido que los agentes reduzcan sus tasas de error en tareas complejas en un 40%, superando la capacidad de los prompts simples.\n- **Sistemas de Memoria a Largo Plazo**: La integración de bases de datos vectoriales dinámicas que actúan como \"memoria episódica\" permite que los agentes recuerden preferencias y resultados de interacciones pasadas a través de múltiples sesiones.\n- **Interoperabilidad A2A (Agent-to-Agent)**: Se han estandarizado protocolos para que diferentes agentes (ej. un agente de finanzas y uno de logística) negocien y colaboren sin intervención humana.\n\n## 📉 Impacto en la Automatización Empresarial\n\nLa IA agéntica está moviendo la automatización desde el RPA (Robotic Process Automation) rígido hacia una automatización cognitiva flexible. Las empresas ahora despliegan \"enjambres de agentes\" que gestionan procesos end-to-end, desde la detección de un problema hasta su resolución técnica.\n\n## ⚠️ Datos No Comprobados / Especulativos\n\nA pesar del optimismo, existen debates técnicos abiertos:\n- **El Problema de la Alucinación de Acciones**: Se especula que los LAMs podrían ejecutar acciones irreversibles o erróneas en sistemas críticos si no existen capas de seguridad \"human-in-the-loop\" extremadamente robustas.\n- **Saturación de Tokens de Acción**: Algunos investigadores sugieren que el escalado de LAMs podría enfrentar un techo de rendimiento similar al de los LLMs, requiriendo un nuevo paradigma de aprendizaje por refuerzo.\n\n## 🔍 Fuentes Verificadas\n\nInformación basada en:\n- [Forbes (The New Era of AI Autonomy)](https://www.forbes.com/sites/chuckbrooks/2025/11/21/from-generative-to-agentic-the-new-era-of-ai-autonomy-in-2026/) (Análisis de tendencias 2026)\n- [Kersai (AI Breakthroughs 2026)](https://kersai.com/ai-breakthroughs-in-2026/) (Avances en IA agéntica)\n- [NVIDIA Developer (Agentic AI Architecture)](https://developer-blogs.nvidia.com/wp-content/uploads/2025/01/agentic-ai-architecture.png) (Esquema técnico de flujos de trabajo)\n\n---\n*Categoría: AI Agents / LAMs / Automation / Autonomous Systems*\n",
+    "imageUrl": "/assets/images/1778578992415-agentic-ai-architecture.png",
+    "source": "Forbes / Kersai / NVIDIA",
+    "originalUrl": "https://www.forbes.com/sites/chuckbrooks/2025/11/21/from-generative-to-agentic-the-new-era-of-ai-autonomy-in-2026/"
+  },
+  {
     "id": "1778578918292",
     "title": "Computación Cuántica 2026: El Camino hacia la Ventaja Cuántica y la Tolerancia a Fallos",
     "date": "2026-05-12",
