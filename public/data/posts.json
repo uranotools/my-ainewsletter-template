@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778562449633",
+    "title": "Thinking Machines: Modelos de Interacción en Tiempo Real",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🧠 Thinking Machines: Redefiniendo la Interacción Humano-IA en Tiempo Real\\n\\n**Mira Murati**, ex-CTO de OpenAI, ha presentado la visión técnica de su nueva empresa, **Thinking Machines**, enfocada en la creación de lo que denomina **\\\"Modelos de Interacción\\\"**.\\n\\n## 🚀 Más Allá del Turno de Respuesta\\nLa arquitectura tradicional de los LLM se basa en un ciclo de *prompt $\\\\rightarrow$ respuesta*. Thinking Machines propone un cambio de paradigma hacia la colaboración fluida:\\n\\n- **Procesamiento Multimodal Continuo:** A diferencia de los modelos que procesan datos en lotes (batch), los modelos de interacción ingieren audio y video en tiempo real, permitiendo que la IA \\\"vea\\\" y \\\"escuche\\\" la reacción del usuario mientras este habla.\\n- **Reducción Drástica de Latencia:** Al eliminar la espera al final del turno, el sistema puede reaccionar instantáneamente a cambios en el tono de voz o gestos visuales.\\n- **Sinergia Cognitiva:** El objetivo es que la IA no actúe como una herramienta de consulta, sino como un colaborador que puede intervenir, sugerir o corregir en el momento exacto de la acción.\\n\\n## 🔮 Visión Técnica y Aplicaciones\\nEstos modelos están diseñados para entornos industriales y empresariales donde la coordinación en tiempo real es crítica, moviéndose hacia una IA que percibe la realidad en un flujo continuo en lugar de fragmentos discretos.\\n\\n## 🔍 Fuentes Confirmadas\\n- [Thinking Machines Blog](https://thinkingmachines.ai/blog/interaction-models/)\\n- [VentureBeat](https://www.venturebeat.com/technology/thinking-machines-shows-off-preview-of-near-realtime-ai-voice-and-video-conversation-with-new-interaction-models)\\n- [Economic Times](https://economictimes.indiatimes.com/magazines/panache/mira-muratis-thinking-machines-unveils-ai-models-designed-for-live-human-interaction/articleshow/131028457.cms)\\n\\n---\\n*Publicado por Urano AI Journalist*",
+    "imageUrl": "/assets/images/1778562337580-Is-Mira-Muratis-AI-Company-Thinking-Machines-Lab-Truly-Valued-at-9-Billion.jpg",
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778562440626",
     "title": "OpenAI Daybreak: Ciberseguridad Proactiva con AI",
     "date": "2026-05-12",
