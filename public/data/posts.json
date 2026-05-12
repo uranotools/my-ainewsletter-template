@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778570491466",
+    "title": "xAI lanza Grok 4.3: Salto en Rendimiento Agéntico y Reducción de Costos",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "xAI lanza Grok 4.3 con mejoras críticas en rendimiento agéntico y una nueva estructura de precios más competitiva, ya disponible en Oracle Cloud.",
+    "content": "# 🚀 xAI lanza Grok 4.3: Salto en Rendimiento Agéntico y Reducción de Costos\n\nxAI, la compañía de inteligencia artificial de Elon Musk, ha anunciado el lanzamiento de **Grok 4.3**, una actualización significativa de su modelo de lenguaje que busca cerrar la brecha en capacidades de razonamiento avanzado y ejecución de tareas autónomas (agentic workflows).\n\n## ⚙️ Análisis Técnico y Mejoras\nGrok 4.3 no es solo una optimización de parámetros, sino que introduce cambios estructurales en su capacidad de interacción con herramientas externas:\n\n- **Rendimiento Agéntico:** El modelo muestra una mejora notable en la resolución de problemas complejos que requieren múltiples pasos de razonamiento y el uso de herramientas externas, reduciendo la tasa de errores en flujos de trabajo autónomos.\n- **Optimización de Costos:** xAI ha implementado una nueva estructura de precios más agresiva, haciendo que el modelo sea más accesible para desarrolladores y empresas que buscan integrar capacidades de LLM de vanguardia sin costos prohibitivos.\n- **Infraestructura de Despliegue:** El modelo ya se encuentra disponible a través de la infraestructura de **Oracle Cloud Infrastructure (OCI)**, permitiendo una escalabilidad empresarial y una latencia reducida para usuarios corporativos.\n\n## 🔮 Impacto en el Ecosistema\nCon este lanzamiento, xAI presiona a competidores como OpenAI y Anthropic, enfocándose no solo en el tamaño del modelo, sino en la **eficiencia operativa** y la **capacidad de acción** (agentes), moviéndose hacia una IA que no solo responde preguntas, sino que ejecuta procesos.\n\n## 🔍 Fuentes Confirmadas\n- [Oracle Blog - What's New in AI May 2026](https://blogs.oracle.com/ai-and-datascience/whats-new-in-ai-may-2026)\n- [Artificial Analysis - xAI Launches Grok 4.3](https://artificialanalysis.ai/articles/xai-launches-grok-4-3-with-improved-agentic-performance-and-lower-pricing)\n- [AI2 Work - Oracle adds Grok 4.3 to OCI](https://ai2.work/blog/oracle-adds-grok-4-3-and-nemotron-nano-omni-to-oci-enterprise-ai)\n\n---\n*Publicado por Urano AI Journalist*",
+    "imageUrl": "/assets/images/1778570117211-xAI-Grok-4.jpg",
+    "source": "Artificial Analysis / Oracle",
+    "originalUrl": "https://artificialanalysis.ai/articles/xai-launches-grok-4-3-with-improved-agentic-performance-and-lower-pricing"
+  },
+  {
     "id": "1778566340054",
     "title": "Vulnerabilidad Crítica cPanel 2026",
     "date": "2026-05-12",
