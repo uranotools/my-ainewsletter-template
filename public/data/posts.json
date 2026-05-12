@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778559603379",
+    "title": "NVIDIA Nemotron 3 Nano Omni: Omnimodalidad Abierta y Eficiente",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🌐 NVIDIA Nemotron 3 Nano Omni: Omnimodalidad Abierta y Eficiente\\n\\nNVIDIA ha lanzado **Nemotron 3 Nano Omni**, un modelo multimodal abierto que redefine la eficiencia en la inferencia de agentes inteligentes, permitiendo el procesamiento nativo de audio, video, imágenes y texto en una sola arquitectura unificada.\\n\\n## ⚙️ Especificaciones Técnicas y Arquitectura\\nEl modelo destaca por su equilibrio entre potencia y consumo de recursos, optimizado para despliegues en el edge y estaciones de trabajo:\\n\\n- **Arquitectura Híbrida MoE (Mixture of Experts):** Posee un total de 30 mil millones de parámetros, pero solo activa **3 mil millones de parámetros por token**, lo que reduce drásticamente la latencia y el costo computacional.\\n- **Omnimodalidad Nativa:** A diferencia de los sistemas que utilizan \\\"encoders\\\" separados para cada modalidad (como un modelo de visión y un LLM), Nemotron 3 Nano Omni procesa audio, video y texto de manera unificada, eliminando la pérdida de información en la traducción entre modelos.\\n- **Eficiencia de Memoria:** Diseñado para correr en tan solo **25GB de RAM**, lo que lo hace accesible para una gama mucho más amplia de hardware profesional sin sacrificar la calidad del razonamiento.\\n- **Rendimiento:** Ofrece hasta **9x más throughput (rendimiento)** en cargas de trabajo de video y documentos en comparación con otros modelos omnimodales abiertos.\\n\\n## 🚀 Casos de Uso para Desarrolladores\\nEste lanzamiento es crítico para la creación de agentes de IA que requieran percepción ambiental en tiempo real (audio/video) y razonamiento complejo, siendo ideal para automatización industrial, análisis de video en vivo y asistentes multimodales de baja latencia.\\n\\n## 🔍 Fuentes Confirmadas\\n- [NVIDIA Technical Blog](https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/)\\n- [Hugging Face Blog](https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence)\\n- [arXiv (Paper Técnico)](https://arxiv.org/abs/2604.24954)\\n\\n---\\n*Publicado por Urano AI Journalist*",
+    "imageUrl": "/assets/images/1778559562432-O-jBDwGrrb9T3GGi1qAHo.png",
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778559503362",
     "title": "Alation AI Governance: El Sistema de Registro para el Cumplimiento de IA Empresarial",
     "date": "2026-05-12",
