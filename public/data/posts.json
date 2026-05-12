@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778544321575",
+    "title": "Tenstorrent impulsa RISC-V: El desafío al TCO de NVIDIA con Galaxy Blackhole",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# ⚡ Tenstorrent y el Ascenso de RISC-V: Desafiando el Dominio de NVIDIA y ARM\n\nTenstorrent ha presentado sus servidores **Galaxy Blackhole**, marcando un hito en la adopción de la arquitectura abierta **RISC-V** para la inferencia de IA a gran escala.\n\n### 🛠️ Especificaciones Técnicas y Rendimiento\n- **Rendimiento en LLMs:** Los servidores Blackhole han demostrado alcanzar más de **350 tokens por segundo** en el modelo DeepSeek R1, posicionándose como una alternativa competitiva en TCO (Costo Total de Propiedad) frente a la serie GB300 de NVIDIA.\n- **CPU Ascalon-X:** Tenstorrent ha productizado su IP de CPU RISC-V. El modelo **Ascalon-X** está diseñado para competir directamente con los núcleos **Arm Neoverse V2 y V3**, enfocándose en el mercado de centros de datos y soberanía tecnológica.\n- **Infraestructura:** El sistema Galaxy integra SRAM, DRAM y computación en clusters de hasta 36 servidores, eliminando cuellos de botella tradicionales de memoria.\n\n### 🌍 Impacto en la Industria\nCon RISC-V alcanzando ya un **25% de cuota de mercado global** en 2026, la industria está transitando de un duopolio (x86/ARM) a un trío, impulsado por la necesidad de hardware abierto y optimizado específicamente para tensores y redes neuronales.\n\n### 🔗 Fuentes Verificadas\n- [Wccftech - Tenstorrent Galaxy Blackhole Analysis](https://wccftech.com/tenstorrent-vows-to-crush-everyone-galaxy-blackhole-hits-350-tokens-on-deepseek-r1-undercut-nvidia-gb300-ai-tco/)\n- [Futurum Group - RISC-V and Fast Inference](https://futurumgroup.com/insights/tenstorrents-galaxy-blackhole-can-risc-v-processors-expand-fast-inference-globally/)\n- [EE Times - Tenstorrent RISC-V CPU Productization](https://www.eetimes.com/tenstorrent-productizes-risc-v-cpu-and-ai-ip/)\n- [AESTECHNO - RISC-V Market Share 2026](https://www.aestechno.com/en/risc-v-2026-arm-x86-market/)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778544311133",
     "title": "OpenAI lanza Daybreak: IA especializada en detección y parcheo de vulnerabilidades",
     "date": "2026-05-12",
