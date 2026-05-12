@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778551656034",
+    "title": "NVIDIA Blackwell: B200 y GB200 y el Futuro de la Infraestructura de IA",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# Análisis Técnico de NVIDIA Blackwell: B200 y GB200 redefinen el cómputo de IA\n\nLa arquitectura **Blackwell** de NVIDIA ha establecido nuevos hitos en el rendimiento de inferencia y entrenamiento para modelos de lenguaje masivos.\n\n### Especificaciones y Rendimiento:\n- **NVIDIA B200:** Destaca con un rendimiento de **20 PFLOPS en precisión FP4** y una memoria HBM3e de **192GB** con un ancho de banda masivo de **8TB/s**.\n- **GB200 Superchip:** Optimiza la interconectividad y la eficiencia energética, logrando una velocidad de inferencia hasta **30 veces superior** a la generación H100.\n- **Innovaciones Arquitectónicas:** Implementación de **Tensor Cores de 5ª generación** y la introducción de **Tensor Memory (TMEM)**, que optimiza el flujo de datos interno.\n\nSegún los benchmarks de *InferenceMAX v1*, esta arquitectura reduce el costo por millón de tokens en un factor de **15x** comparado con la generación anterior.\n\n**Fuentes:**\n- NVIDIA Blog: https://blogs.nvidia.com/blog/blackwell-inferencemax-benchmark-results/\n- arXiv (Análisis de Micro-benchmarking): https://arxiv.org/html/2512.02189v1\n- Introl Blog: https://introl.com/blog/nvidia-b200-vs-gb200-deployment-guide\n- AIToolDiscovery: https://www.aitooldiscovery.com/ai-infra/nvidia-blackwell-architecture",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778547909432",
     "title": "Vulnerabilidad Crítica en Robots Yarbo: De Backdoors a Control Remoto Total",
     "date": "2026-05-12",
