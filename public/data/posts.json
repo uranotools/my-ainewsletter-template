@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778616663976",
+    "title": "Cadonix AI: Transformando el Diseño de Cableado Industrial con Inteligencia Artificial",
+    "date": "2026-05-12",
+    "categories": [
+      "ai",
+      "industrial",
+      "design",
+      "manufacturing"
+    ],
+    "excerpt": "Cadonix AI automatiza el diseño y la fabricación de mazos de cables industriales, unificando el diseño y la producción mediante un hilo digital basado en IA.",
+    "content": "# Cadonix AI: Transformando el Diseño de Cableado Industrial con Inteligencia Artificial\n\nEl diseño y fabricación de mazos de cables (wire harnesses) es uno de los procesos más críticos y propensos a errores en la industria automotriz y aeroespacial. **Cadonix** ha lanzado **Cadonix AI**, una suite de capacidades potenciadas por IA para automatizar y optimizar este flujo de trabajo.\n\n## 🛠️ ¿Qué es Cadonix AI?\n\nCadonix AI no es solo una herramienta de dibujo, sino un sistema inteligente que unifica el diseño y la producción en un hilo digital único.\n\n### 🔑 Capacidades Técnicas:\n- **Automatización de Datos**: Extracción automática de datos de diseño para eliminar la entrada manual de información, reduciendo drásticamente el riesgo de errores humanos.\n- **Integración Arcadia y smartBuild**: El sistema utiliza un modelo de datos estructurado compartido entre sus productos core (**Arcadia** para diseño y **smartBuild** para ejecución de construcción), asegurando que lo que se diseña es exactamente lo que se fabrica.\n- **Validación Inteligente**: Detección temprana de problemas de diseño antes de que lleguen a la planta de producción, acelerando la preparación para la fabricación.\n\n## 🏭 Impacto en la Manufactura\n\nAl eliminar los flujos de trabajo desconectados, Cadonix AI permite a las empresas reducir el tiempo de ciclo de diseño y llevar productos al mercado más rápidamente, asegurando una calidad superior en sistemas eléctricos complejos.\n\n---\n\n### 🔗 Fuentes Verificadas\n- **PR Newswire**: [Cadonix Launches Cadonix AI to Transform Wire Harness Design-to-Manufacturing Workflows](https://www.prnewswire.com/news-releases/cadonix-launches-cadonix-ai-to-transform-wire-harness-design-to-manufacturing-workflows-302762368.html)\n- **Cadonix Official**: [Cadonix AI | AI-Powered Wire Harness Design & Manufacturing](https://www.cadonix.com/cadonix-ai/)\n- **Yahoo Finance**: [Cadonix Launches Cadonix AI to Transform Wire Harness Design-to-Manufacturing Workflows](https://finance.yahoo.com/sectors/technology/articles/cadonix-launches-cadonix-ai-transform-120300341.html)",
+    "imageUrl": "/assets/images/1778616610366-cadonix-screen-hero.png",
+    "source": "PR Newswire",
+    "originalUrl": "https://www.prnewswire.com/news-releases/cadonix-launches-cadonix-ai-to-transform-wire-harness-design-to-manufacturing-workflows-302762368.html"
+  },
+  {
     "id": "1778616501021",
     "title": "NVIDIA Rubin: La Nueva Era de la IA con GPUs de Próxima Generación y CPUs Vera",
     "date": "2026-05-12",
