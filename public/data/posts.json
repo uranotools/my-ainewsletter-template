@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778544311133",
+    "title": "OpenAI lanza Daybreak: IA especializada en detección y parcheo de vulnerabilidades",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🛡️ OpenAI Daybreak: La Respuesta de OpenAI a Claude Mythos en Seguridad de Software\n\nOpenAI ha lanzado oficialmente **Daybreak**, una iniciativa de seguridad impulsada por IA diseñada para detectar y parchear vulnerabilidades de código antes de que sean explotadas por atacantes.\n\n### ⚙️ Funcionamiento Técnico\nDaybreak no es un simple chatbot, sino un ecosistema de agentes especializados:\n- **Codex Security AI Agent:** Utiliza una versión optimizada de Codex para analizar el repositorio de código de una organización y generar un **modelo de amenazas (Threat Model)** dinámico.\n- **Flujo de Trabajo:** El sistema identifica rutas de ataque probables, valida la vulnerabilidad mediante simulaciones y automatiza la detección de los fallos de mayor riesgo.\n- **Modelos Subyacentes:** Se apoya en las capacidades de **GPT-5.5-Cyber**, un modelo especializado en ciberseguridad con un entrenamiento profundo en patrones de exploits y mitigaciones.\n\n### 📊 Comparativa: Daybreak vs. Claude Mythos\nMientras que Anthropic mantiene **Claude Mythos** bajo un acceso restringido (Project Glasswing) para un grupo selecto de partners debido a su potencial peligrosidad, OpenAI ha optado por un despliegue más amplio para \"empoderar a los defensores\", permitiendo que miles de equipos de seguridad utilicen estas herramientas.\n\n### 🔗 Fuentes Verificadas\n- [The Verge - OpenAI Daybreak Launch](https://www.theverge.com/ai-artificial-intelligence/928342/openai-daybreak-security-ai)\n- [LetsDataScience - Daybreak Security Platform](https://letsdatascience.com/news/openai-launches-daybreak-security-ai-platform-20fd5db2)\n- [Fluid Attacks - GPT-5.5 for Cybersecurity](https://fluidattacks.com/blog/gpt-5-4-cyber-gpt-5-5-ai-cybersecurity-future)\n- [FindSkill - Comparison: GPT-5.4-Cyber vs Claude Mythos](https://findskill.ai/blog/gpt-54-cyber-vs-claude-mythos/)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778540805513",
     "title": "NVIDIA Rubin: 50 PFLOPS y Memoria HBM4 definen el futuro de la IA",
     "date": "2026-05-11",
