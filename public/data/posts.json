@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778547891310",
+    "title": "Mira Murati lanza Thinking Machines: El paso de modelos generativos a modelos de interacción",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🧠 Thinking Machines: Redefiniendo la IA con \"Modelos de Interacción\"\n\nMira Murati, ex-CTO de OpenAI, ha presentado su nueva compañía, **Thinking Machines**, proponiendo un cambio de paradigma: pasar de los modelos generativos tradicionales a los **Modelos de Interacción**.\n\n### ⚙️ El Concepto Técnico: Generación vs. Interacción\nLa tesis de Thinking Machines sostiene que la IA actual es \"estática\" en su proceso de entrada: espera a que el usuario termine de hablar o escribir para procesar la respuesta.\n- **Interacción Nativa:** Los nuevos modelos están diseñados para procesar audio, video y texto de forma **continua y simultánea**.\n- **Colaboración en Tiempo Real:** El objetivo es que la IA perciba el contexto del usuario (gestos, tono de voz, cambios en la pantalla) mientras ocurre la interacción, eliminando el ciclo de \"entrada $\\rightarrow$ procesamiento $\\rightarrow$ salida\".\n- **Sinergia Humano-IA:** Al hacer que la interactividad sea nativa al modelo (y no una capa de software superior), la escalabilidad del modelo se traduce directamente en una mejor capacidad de colaboración.\n\n### 📈 Impacto en la Industria\nEste enfoque busca superar las limitaciones de los modelos de voz en tiempo real actuales (como los de OpenAI y Google), moviendo la IA hacia un agente que \"vive\" y \"reacciona\" en el flujo del tiempo real.\n\n### 🔗 Fuentes Verificadas\n- [The Verge - Mira Murati's Thinking Machines](https://www.theverge.com/ai-artificial-intelligence/928309/mira-murati-thinking-machines-ai-interaction-model)\n- [Creati AI - Real-Time Interaction Models](https://creati.ai/ai-news/2026-05-12/thinking-machines-previews-real-time-ai-interaction-models/)\n- [StartupHub AI - Thinking Machines vs OpenAI](https://www.startuphub.ai/ai-news/artificial-intelligence/2026/thinking-machines-lab-interaction-models-mira-murati-2026)\n- [VentureBeat - Near-Realtime AI Voice and Video](https://venturebeat.com/technology/thinking-machines-shows-off-preview-of-near-realtime-ai-voice-and-video-conversation-with-new-interaction-models)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778544330517",
     "title": "JavaScript 2026: Reactividad nativa (Signals) y Temporal llegan a Stage 4",
     "date": "2026-05-12",
