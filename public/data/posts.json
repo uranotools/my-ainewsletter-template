@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778577065978",
+    "title": "MICROIP Redefine la Infraestructura de IA con \"Software-Driven Hardware\"",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "MICROIP presenta en el EEC 2026 su estrategia de \"Software-Driven Hardware\" y una alianza con Polonia para fortalecer la cadena de suministro de Edge AI y ASIC.",
+    "content": "# MICROIP Redefine la Infraestructura de IA con \"Software-Driven Hardware\"\n\nDurante el European Economic Congress (EEC) 2026, **MICROIP** ha presentado una visión disruptiva para el despliegue de la Inteligencia Artificial: la estrategia de **\"Software-Driven Hardware\"** (Hardware impulsado por Software).\n\n## ⚙️ El Concepto: Flexibilidad en el Silicio\n\nTradicionalmente, el hardware de IA se diseña basándose en las necesidades actuales del software. MICROIP propone invertir este flujo. Su enfoque se centra en crear arquitecturas de silicio que sean intrínsecamente adaptables y optimizadas desde el primer día para los flujos de trabajo de IA más dinámicos, reduciendo la fricción entre el desarrollo de algoritmos y su implementación física.\n\n### Puntos Clave de la Estrategia:\n- **Edge AI & ASIC**: El objetivo es democratizar el acceso a chips ASIC (Application-Specific Integrated Circuits) personalizados para el \"borde\" (Edge), permitiendo que la IA se ejecute localmente con máxima eficiencia energética y mínima latencia.\n- **Alianza Estratégica Taiwán-Polonia**: MICROIP busca combinar la capacidad de diseño y fabricación de Taiwán con la infraestructura y el mercado europeo (específicamente Polonia) para crear una cadena de suministro de semiconductores más resiliente y diversificada.\n- **Plataforma AIVO**: Esta estrategia se materializa en su plataforma AIVO, diseñada para escalar la IA en dominios críticos como el transporte, la industria y la medicina.\n\n## 🌍 Impacto Geopolítico y Técnico\n\nEste movimiento no solo es un avance técnico, sino una respuesta a la fragilidad de las cadenas de suministro globales. Al establecer polos de desarrollo en Europa, MICROIP intenta mitigar riesgos geopolíticos mientras impulsa el despliegue de la IA en el sector industrial europeo.\n\n## 🔍 Fuentes Verificadas\n\nPara validar este anuncio, se han consultado las siguientes fuentes:\n- [PR Newswire](https://www.prnewswire.com/news-releases/microip-unveils-software-driven-hardware-strategy-at-eec-2026-partnering-with-poland-to-build-a-resilient-edge-ai--asic-supply-chain-302767160.html) (Comunicado oficial de prensa)\n- [Morningstar](https://www.morningstar.com/news/pr-newswire/20260510hk55084/microip-unveils-software-driven-hardware-strategy-at-eec-2026-partnering-with-poland-to-build-a-resilient-edge-ai-asic-supply-chain) (Reporte financiero y corporativo)\n- [Ohsem](https://ohsem.me/2026/05/microip-unveils-software-driven-hardware-strategy-at-eec-2026-partnering-with-poland-to-build-a-resilient-edge-ai-asic-supply-chain/) (Análisis de semiconductores)\n\n---\n*Categoría: Semiconductores / Edge AI*\n",
+    "imageUrl": "/assets/images/1778576999127-MICROIP_s_flagship_AIVO_platform_leverages_high_reliability_Edge_AI_to_span_four_key_domains_transpo.jpg",
+    "source": "PR Newswire / Morningstar / Ohsem",
+    "originalUrl": "https://www.prnewswire.com/news-releases/microip-unveils-software-driven-hardware-strategy-at-eec-2026-partnering-with-poland-to-build-a-resilient-edge-ai--asic-supply-chain-302767160.html"
+  },
+  {
     "id": "1778576850494",
     "title": "Alerta de Seguridad en Robótica: Vulnerabilidad Crítica en Cortacéspedes Yarbo",
     "date": "2026-05-12",
