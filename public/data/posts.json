@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778566321910",
+    "title": "Tesla Optimus Gen 3: Producción Masiva",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "🤖 **Tesla Optimus Gen 3: El Salto a la Producción Masiva**\n\nTesla ha presentado oficialmente el **Optimus Gen 3** en el evento AWE 2026 en Shanghai, marcando un hito crítico: la transición de un prototipo de laboratorio a una plataforma de producción masiva.\n\n**Análisis Técnico:**\n- **Capacidad Industrial:** Esta versión está optimizada para la integración en líneas de ensamblaje, con mejoras significativas en la precisión de los actuadores y la gestión térmica de sus motores.\n- **Cerebro AI:** Utiliza una evolución de las redes neuronales de FSD v14, permitiendo una navegación autónoma en entornos dinámicos de fábrica sin intervención humana.\n- **Escalabilidad:** Tesla proyecta una capacidad de producción de hasta 1 millón de unidades anuales para finales de 2026.\n\n**Fuentes Confirmadas:**\n- Neware: https://www.neware.net/news/tesla-optimus-gen-3-the-new-era-of-humanoid-robots/230/191.html\n- The Mimic: https://themimic.io/blog/tesla-optimus-gen-3-march-2026\n- Humanoid Guide: https://humanoid.guide/product/optimus/",
+    "imageUrl": "https://www.teslarati.com/wp-content/uploads/2026/03/tesla-optimus-gen3-diner-1000x600.jpg",
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778562449633",
     "title": "Thinking Machines: Modelos de Interacción en Tiempo Real",
     "date": "2026-05-12",
