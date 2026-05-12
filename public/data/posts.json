@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778578789039",
+    "title": "Hardware de IA 2026: El Ascenso de la Arquitectura NVIDIA Rubin y HBM4",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "HBM4 y eficiencia energética: NVIDIA Rubin redefine la infraestructura de cómputo para modelos de billones de parámetros en 2026.",
+    "content": "# Hardware de IA 2026: El Ascenso de la Arquitectura NVIDIA Rubin y HBM4\n\nMientras la arquitectura Blackwell (B200) alcanza su despliegue masivo, NVIDIA ha movido el tablero hacia el futuro con la arquitectura **Rubin**, diseñada específicamente para la era de los modelos de lenguaje de billones de parámetros.\n\n## 🚀 De Blackwell a Rubin: El Salto en el Rendimiento\n\nLa transición de B200 a la serie Rubin no es solo un incremento de velocidad, sino un cambio fundamental en la gestión de la memoria y la energía.\n\n### Avances Técnicos Confirmados:\n- **Integración de HBM4**: La arquitectura Rubin marca el salto a la memoria **HBM4 (High Bandwidth Memory 4)**, que ofrece una integridad de señal y un ancho de banda muy superior a HBM3e, eliminando cuellos de botella críticos en el entrenamiento de LLMs.\n- **Eficiencia Energética**: Rubin ha sido optimizado para reducir el consumo por token generado, permitiendo que los centros de datos escalen sin colapsar la infraestructura eléctrica regional.\n- **Ciclo de Lanzamiento Acelerado**: NVIDIA ha pasado de ciclos de 2 años a ciclos anuales, asegurando que el hardware no quede obsoleto ante la rapidez de los avances en software de IA.\n\n## 📉 El Impacto en el Ecosistema de Cómputo\n\nEl despliegue de Rubin en el segundo semestre de 2026 permitirá:\n- **Entrenamiento Local de Modelos Gigantes**: Mayor capacidad de memoria por GPU, reduciendo la necesidad de fragmentar modelos en cientos de nodos.\n- **Inferencia Ultra-Rápida**: Reducción drástica de la latencia en agentes de IA en tiempo real.\n\n## ⚠️ Datos No Comprobados / Especulativos\n\nA pesar de los anuncios oficiales, el mercado sigue especulando sobre:\n- **El Factor \"Feynman\"**: Se rumorea que tras Rubin, la arquitectura \"Feynman\" introducirá cambios radicales en el diseño del chip, posiblemente integrando computación óptica para reducir aún más la energía.\n- **Guerra de Precios**: Se especula que la llegada de chips alternativos (como los de Tesla Dojo) podría obligar a NVIDIA a ajustar sus márgenes de beneficio por primera vez en años.\n\n## 🔍 Fuentes Verificadas\n\nInformación basada en:\n- [Tom's Hardware (Nvidia Rubin GPUs 2026)](https://www.tomshardware.com/pc-components/gpus/nvidia-announces-rubin-gpus-in-2026-rubin-ultra-in-2027-feynam-after) (Hoja de ruta oficial)\n- [TechRadar Info (Blackwell to Rubin Shift)](https://techradar.info/what-is-after-the-nvidia-h200-the-blackwell-b200-power-shift/) (Análisis de HBM4)\n- [Barrack.ai (Nvidia Rubin Specs)](https://blog.barrack.ai/nvidia-rubin-specs-architecture-2026/) (Detalles técnicos para ML)\n\n---\n*Categoría: Hardware / GPU / AI Infrastructure / Semi-conductors*\n",
+    "imageUrl": "/assets/images/1778578726032-GTC-2025-ROADMAP-FEYMAN-RUBIN-BLACKWELL.jpg",
+    "source": "Tom's Hardware / TechRadar / Barrack.ai",
+    "originalUrl": "https://www.tomshardware.com/pc-components/gpus/nvidia-announces-rubin-gpus-in-2026-rubin-ultra-in-2027-feynam-after"
+  },
+  {
     "id": "1778578661812",
     "title": "El Estado del Video Generativo en 2026: Sora 2.0, Runway Gen-4.5 y Google Veo",
     "date": "2026-05-12",
