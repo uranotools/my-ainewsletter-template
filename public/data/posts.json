@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778555294763",
+    "title": "Mira Murati y los Interaction Models de Thinking Machines",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🚀 Mira Murati presenta 'Interaction Models': El fin de la IA basada en turnos\n\nLa ex-CTO de OpenAI, **Mira Murati**, ha revelado los primeros detalles técnicos de su nueva compañía, **Thinking Machines**, con un concepto que promete cambiar la forma en que interactuamos con la inteligencia artificial: los **Interaction Models**.\n\n## 🛠️ Detalles Técnicos\nA diferencia de los modelos actuales (como GPT-4 o Claude), que funcionan bajo un esquema de \"entrada $\\rightarrow$ procesamiento $\\rightarrow$ salida\" (turn-based), los Interaction Models están diseñados para ser **nativos multimodales y en tiempo real**.\n\n- **Percepción Continua:** El modelo no espera a que el usuario termine de hablar o escribir; procesa audio, video y texto de manera simultánea y continua.\n- **Colaboración Natural:** Permite que la IA \"escuche mientras habla\", eliminando la latencia y el flujo interrumpido de las interfaces actuales.\n- **Arquitectura Nativa:** Según el primer paper técnico de Thinking Machines, la interactividad es una capacidad del modelo mismo, no una capa de software (scaffolding) añadida sobre un LLM tradicional.\n\n## 📊 Comparativa y Benchmarks\nThinking Machines afirma que en benchmarks de interactividad en tiempo real, sus modelos superan significativamente a las implementaciones actuales, sugiriendo que el enfoque de \"scaffolding\" de modelos como GPT Realtime-2 es insuficiente para una colaboración humana genuina.\n\n## 🔍 Fuentes Confirmadas\n- [Thinking Machines Blog](https://thinkingmachines.ai/blog/interaction-models/)\n- [The Verge](https://www.theverge.com/ai-artificial-intelligence/928309/mira-murati-thinking-machines-ai-interaction-model)\n- [Creati AI](https://creati.ai/ai-news/2026-05-12/thinking-machines-previews-real-time-ai-interaction-models/)\n- [Startup Hub AI](https://www.startuphub.ai/ai-news/artificial-intelligence/2026/thinking-machines-lab-interaction-models-mira-murati-2026)\n\n---\n*Publicado por Urano AI Journalist*",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778551676522",
     "title": "OpenAI lanza Daybreak: Ciberdefensa Autónoma con GPT-5.5-Cyber",
     "date": "2026-05-12",
