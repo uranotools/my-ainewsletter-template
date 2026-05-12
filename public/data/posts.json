@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778581110798",
+    "title": "El Horizonte de los 2nm: La Guerra de los Semiconductores en 2026",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "TSMC, Intel y Samsung luchan por el dominio de los 2nm utilizando litografía High-NA EUV y arquitectura GAA.",
+    "content": "# El Horizonte de los 2nm: La Guerra de los Semiconductores en 2026\n\nLa industria de los semiconductores ha llegado a un punto crítico. El paso a los **2 nanómetros (2nm)** no es solo una reducción de tamaño, sino un cambio fundamental en la arquitectura de los transistores para sostener la demanda insaciable de potencia de cómputo para la IA.\n\n## 🛠️ La Revolución Técnica: GAA y High-NA EUV\n\nPara romper la barrera física de los 2nm, las fundiciones han implementado dos tecnologías clave:\n\n### 1. Gate-All-Around (GAA)\nA diferencia de los FinFET tradicionales, el **GAA** envuelve el canal del transistor completamente, permitiendo un control mucho más preciso de la corriente y reduciendo drásticamente las fugas de energía. Esto se traduce en chips más rápidos que consumen menos batería.\n\n### 2. Litografía High-NA EUV (Alta Apertura Numérica)\nEl despliegue de las máquinas **High-NA EUV de ASML** es el hito técnico más importante de 2026. Estas máquinas permiten imprimir patrones mucho más densos y precisos en la oblea de silicio, eliminando la necesidad de \"doble patrón\" y reduciendo la complejidad de fabricación.\n\n## 🚀 El Mapa de Poder en 2026\n\n- **TSMC**: Sigue liderando en volumen y rendimiento con su nodo A14, optimizando la eficiencia energética para los procesadores de IA de nueva generación.\n- **Intel**: Ha ejecutado un regreso técnico agresivo, siendo el primero en adoptar masivamente el High-NA EUV y combinándolo con su tecnología PowerVia (entrega de energía por la parte posterior del chip).\n- **Samsung**: Apuesta fuerte por la vanguardia de GAA, posicionándose como el socio ideal para diseños personalizados de alta eficiencia.\n\n## ⚠️ Datos No Comprobados / Especulativos\n\n- **Rendimiento Real (Yields)**: Aunque las máquinas están instaladas, el porcentaje de chips funcionales por oblea (*yield*) en los nodos de 2nm sigue siendo un secreto industrial. No se ha confirmado si el rendimiento es lo suficientemente alto para una producción masiva económica.\n- **Costo por Transistor**: Se especula que el costo de implementar High-NA EUV es tan elevado que podría detener la tendencia histórica de la Ley de Moore, haciendo que los chips de vanguardia sean prohibitivamente caros para todo excepto los servidores de IA.\n\n## 🔍 Fuentes Verificadas\n\nInformación basada en:\n- [TSMC (2nm Technology)](https://www.tsmc.com/english/dedicatedFoundry/technology/logic/l_2nm) (Especificaciones oficiales del nodo A14)\n- [Samsung Mobile (High-NA EUV Deployment)](https://www.sammobile.com/news/samsung-hwaseong-campus-now-rocks-2nm-high-na-euv-equipment/) (Confirmación de equipamiento en Hwaseong)\n- [Financial Content (The 2nm Dawn)](https://www.financialcontent.com/article/tokenring-2026-1-28-the-2nm-dawn-tsmc-samsung-and-intel-collide-in-the-battle-for-ai-supremacy) (Análisis de la competencia entre fundiciones)\n\n---\n*Categoría: Hardware / Semiconductors / Nanotechnology / Lithography*\n",
+    "imageUrl": "/assets/images/1778581050006-newsroom-intel-high-na-euv-2.jpg.rendition.intel_.web_.1648.927-1456x819.jpg",
+    "source": "TSMC / Samsung / Financial Content",
+    "originalUrl": "https://www.tsmc.com/english/dedicatedFoundry/technology/logic/l_2nm"
+  },
+  {
     "id": "1778580982406",
     "title": "De Copilotos a Ingenieros: El Auge de los Agentes de Software Autónomos",
     "date": "2026-05-12",
