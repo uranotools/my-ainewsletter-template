@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778595031465",
+    "title": "Yarbo: Robots cortacéspedes convertidos en \"puertas traseras\" de red",
+    "date": "2026-05-12",
+    "categories": [
+      "robotics",
+      "cybersecurity",
+      "iot",
+      "hardware"
+    ],
+    "excerpt": "El investigador Andreas Makris reveló vulnerabilidades críticas en los robots Yarbo que permiten el control remoto total y el acceso a contraseñas de Wi-Fi y coordenadas GPS de los usuarios.",
+    "content": "# Alerta de Seguridad: Vulnerabilidad Crítica en Robots Cortacéspedes Yarbo\n\nUn fallo de seguridad masivo ha sido descubierto en los robots cortacéspedes de la empresa **Yarbo**, exponiendo a miles de usuarios en más de 30 países a riesgos de privacidad y seguridad física.\n\n## El Hallazgo: Control Remoto Total\nEl investigador de seguridad **Andreas Makris** demostró que era posible tomar el control total y remoto de los dispositivos Yarbo. En una prueba coordinada con un periodista, Makris logró controlar un robot en Estados Unidos desde Alemania, demostrando que la máquina podía ser manipulada maliciosamente para causar daños físicos o entrar en zonas restringidas.\n\n## Datos Expuestos y Riesgos de Red\nLa vulnerabilidad no solo permitía el movimiento del robot, sino que convertía al dispositivo en una \"puerta trasera\" (backdoor) hacia la red local del usuario:\n- **Acceso a Datos Sensibles**: Se filtraron coordenadas GPS exactas de los hogares, direcciones de correo electrónico y contraseñas de Wi-Fi.\n- **Intrusión en la Red**: Una vez comprometido el robot, un atacante podría potencialmente saltar desde el dispositivo IoT hacia otros equipos conectados a la misma red doméstica.\n\n## Respuesta de la Empresa\nYarbo ha emitido un comunicado asegurando que han implementado parches de seguridad para corregir el fallo principal. Sin embargo, el incidente subraya la fragilidad de la seguridad en los dispositivos de robótica doméstica y la importancia de mantener el firmware actualizado.\n\n---\n### 🔗 Fuentes Verificadas\n- **MSN News**: [Yarbo pledges fixes after robot mower hacking](https://www.msn.com/en-us/news/other/yarbo-pledges-fixes-after-robot-mower-hacking-exposes-global-risks/gm-GM0B85F09A)\n- **TechSpot**: [Your Yarbo lawnmower is a backdoor into your Wi-Fi network](https://www.techspot.com/news/112350-hacker-gains-access-11000-yarbo-lawn-robots-exposing.html)\n- **OECD.ai**: [Hacker Exploits Security Flaws in Yarbo Robot Lawnmowers](https://oecd.ai/en/incidents/2026-05-07-dbfc)\n- **Cybernews**: [China-linked Yarbo fixes robot mower hacking flaw](https://cybernews.com/security/yarbo-china-robot-mower-backdoor-security-flaw/)",
+    "imageUrl": "/assets/images/1778594969988-product-4-1024x577.png",
+    "source": "MSN / TechSpot / OECD.ai / Cybernews",
+    "originalUrl": "https://www.msn.com/en-us/news/other/yarbo-pledges-fixes-after-robot-mower-hacking-exposes-global-risks/gm-GM0B85F09A"
+  },
+  {
     "id": "1778594902443",
     "title": "OpenAI lanza \"Daybreak\": La nueva frontera de la ciberdefensa autónoma con GPT-5.5",
     "date": "2026-05-12",
