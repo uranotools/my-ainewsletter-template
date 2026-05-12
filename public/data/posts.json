@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778566340054",
+    "title": "Vulnerabilidad Crítica cPanel 2026",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "🛡️ **Alerta Crítica: Bypass de Autenticación en cPanel afecta a 1.5M de Servidores**\n\nSe ha detectado una vulnerabilidad de día cero crítica en **cPanel**, una de las herramientas de gestión de hosting más utilizadas del mundo, que permite a atacantes saltarse los mecanismos de seguridad.\n\n**Análisis Técnico:**\n- **Vector de Ataque:** La vulnerabilidad reside en rutas de autenticación específicas que pueden ser manipuladas para obtener acceso no autorizado.\n- **Impacto:** El exploit permite el acceso total al software de control (WHM y cPanel), comprometiendo la confidencialidad y disponibilidad de millones de sitios web alojados.\n- **Estado:** WebPros ya ha emitido parches de seguridad urgentes para todas las versiones soportadas.\n\n**Fuentes Confirmadas:**\n- Carthage Electronics: https://carthageelectronics.com/zero-day-threat-report-may-2026/\n- HelpNet Security: https://img.helpnetsecurity.com/wp-content/uploads/2026/04/30141938/cpanel-1500-2.webp\n- Newsbreak/WebPros: https://www.newsbreak.com/news/4508231344197-apt28-targeted-european-entities-using-webhook-based-macro-malware",
+    "imageUrl": "https://img.helpnetsecurity.com/wp-content/uploads/2026/04/30141938/cpanel-1500-2.webp",
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778566331097",
     "title": "Nueva Era de Accesibilidad: WCAG 3.0",
     "date": "2026-05-12",
