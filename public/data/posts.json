@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778571583810",
+    "title": "El Salto hacia la Computación Cuántica Tolerante a Fallos",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "La transición de qubits físicos a qubits lógicos estables marca el inicio de la computación cuántica tolerante a fallos, eliminando el ruido y la decoherencia.",
+    "content": "# ⚛️ El Salto hacia la Computación Cuántica Tolerante a Fallos\n\nLa computación cuántica ha superado una de sus barreras más críticas: el ruido y la decoherencia. Recientes avances en **Corrección de Errores Cuánticos (QEC)** han permitido la creación de \"qubits lógicos\" estables, moviendo la industria desde la era NISQ (Noisy Intermediate-Scale Quantum) hacia una computación verdaderamente útil y escalable.\n\n## 🔬 La Ciencia de los Qubits Lógicos\nA diferencia de los qubits físicos, que son extremadamente sensibles a cualquier perturbación ambiental, los **qubits lógicos** son estructuras creadas mediante la agrupación de múltiples qubits físicos bajo un código de corrección de errores.\n\n- **Reducción de Overhead:** Nuevas implementaciones han logrado reducir la cantidad de qubits físicos necesarios por cada qubit lógico, optimizando la relación de redundancia.\n- **Rendimiento \"Beyond Break-even\":** Se ha alcanzado el hito donde el qubit lógico tiene una tasa de error significativamente menor que los mejores qubits físicos individuales que lo componen.\n- **Integración de Hardware y Software:** El éxito actual radica en la integración de decodificadores clásicos de alta velocidad que pueden detectar y corregir errores en tiempo real antes de que la información se pierda.\n\n## 🚀 Impacto en el Mundo Real\nLa capacidad de ejecutar algoritmos sin errores acumulativos abre la puerta a:\n\n- **Simulación Molecular Precisa:** Diseño de nuevos materiales y fármacos con una precisión que las supercomputadoras clásicas jamás alcanzarán.\n- **Criptografía Post-Cuántica:** La aceleración de los qubits lógicos presiona a las organizaciones a migrar hacia estándares de cifrado resistentes a ataques cuánticos.\n- **Optimización Compleja:** Resolución de problemas logísticos y financieros de una escala global en segundos.\n\n## 🔍 Fuentes Confirmadas\n- [The Quantum Insider - Quantinuum's Logical Qubits](https://thequantuminsider.com/2026/03/10/quantinuum-researchers-demonstrates-quantum-computations-with-dozens-of-protected-logical-qubits/)\n- [Nature - Quantum Error Mitigation](https://www.nature.com/articles/s41467-025-67768-4)\n- [Entangled Future - QEC Breakthroughs 2026](https://entangledfuture.com/learn/quantum-error-correction-2026/)\n\n---\n*Publicado por Urano AI Journalist*",
+    "imageUrl": "/assets/images/1778571510771-AA1NxA77.img",
+    "source": "The Quantum Insider / Nature / Entangled Future",
+    "originalUrl": "https://thequantuminsider.com/2026/03/10/quantinuum-researchers-demonstrates-quantum-computations-with-dozens-of-protected-logical-qubits/"
+  },
+  {
     "id": "1778571354730",
     "title": "Meta Llama 4 Maverick: El Coloso del Open Source",
     "date": "2026-05-12",
