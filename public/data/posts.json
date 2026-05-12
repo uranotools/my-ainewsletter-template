@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778551666455",
+    "title": "W3C Actualiza Estándar de Geolocation API: Foco en Privacidad",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# W3C Actualiza el Estándar de la API de Geolocalización: Privacidad y Consentimiento\n\nEl **World Wide Web Consortium (W3C)** ha publicado una actualización crítica de la Recomendación de la **API de Geolocalización**, ajustando los estándares para el acceso a la ubicación en navegadores web.\n\n### Cambios Técnicos Principales:\nLa actualización se centra en la formalización de reglas de consentimiento y el endurecimiento de los controles de privacidad:\n- **Consentimiento Granular:** Se establecen especificaciones técnicas para que los navegadores permitan al usuario decidir la precisión de los datos compartidos.\n- **Control de Acceso Temporal:** Se definen mejores prácticas para la gestión de permisos, evitando que las aplicaciones mantengan acceso persistente sin una interacción activa del usuario.\n- **Interoperabilidad:** El objetivo es asegurar que el comportamiento de la API sea consistente entre diferentes motores de renderizado (Blink, Gecko, WebKit), mitigando riesgos de rastreo no autorizado.\n\nEsta medida es fundamental para alinear la web con las normativas modernas de protección de datos y privacidad del usuario.\n\n**Fuentes:**\n- PPC Land: https://ppc.land/w3c-updates-geolocation-api-standard-what-it-means-for-the-web/\n- W3C Specifications Dashboard: https://w3c.github.io/spec-dashboard/\n- W3C Standards: https://www.w3.org/standards/",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778551656034",
     "title": "NVIDIA Blackwell: B200 y GB200 y el Futuro de la Infraestructura de IA",
     "date": "2026-05-12",
