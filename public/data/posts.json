@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778547909432",
+    "title": "Vulnerabilidad Crítica en Robots Yarbo: De Backdoors a Control Remoto Total",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# ⚠️ Alerta de Seguridad: El Caso Yarbo y la Vulnerabilidad de los Robots de Jardinería Conectados\n\nUn fallo crítico de seguridad ha dejado expuestas a miles de unidades del robot cortacésped Yarbo, permitiendo que atacantes remotos tomen el control total de la máquina, accedan a datos privados y vean feeds de cámara en tiempo real.\n\n### 🛠️ Análisis Técnico del Exploit\nEl investigador de seguridad Andreas Makris descubrió que el sistema presentaba dos fallos fundamentales:\n- **Credenciales Compartidas:** El uso de una contraseña de root compartida en miles de dispositivos facilitó el acceso inicial.\n- **Backdoor Intencional:** Se detectó un acceso remoto persistente (backdoor) que permitía la reprogramación del robot a través de internet, omitiendo los controles de seguridad del usuario.\n- **Exposición de Datos:** La vulnerabilidad permitía extraer credenciales de Wi-Fi, coordenadas GPS exactas y acceso a la cámara integrada del robot.\n\n### 🛡️ Respuesta de la Empresa\nTras la demostración pública donde el robot fue controlado a 6,000 millas de distancia, Yarbo ha anunciado que:\n1. **Eliminación del Backdoor:** Se eliminará el acceso remoto intencional en futuras actualizaciones.\n2. **Control del Usuario:** Los clientes podrán decidir si instalan funciones de acceso remoto o no.\n3. **Parcheo:** Se han desplegado actualizaciones para cerrar los agujeros de seguridad reportados por Makris.\n\n### 🔗 Fuentes Verificadas\n- [The Verge - Yarbo Backdoor Removal](https://www.theverge.com/tech/928289/yarbo-remove-robot-lawn-mower-backdoor)\n- [Cybernews - Yarbo Fixes Flaw](https://cybernews.com/security/yarbo-china-robot-mower-backdoor-security-flaw/)\n- [TechSpot - Yarbo Wi-Fi Backdoor](https://www.techspot.com/news/112350-hacker-gains-access-11000-yarbo-lawn-robots-exposing.html)\n- [MWM AI - Remote Hijacking Analysis](https://mwm.ai/articles/yarbo-robot-mowers-exposed-with-critical-flaws-allowing-remote-hijacking-in-may-2026)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778547900723",
     "title": "Era de la Corrección de Errores Cuánticos: Hacia la Computación Tolerante a Fallos",
     "date": "2026-05-12",
