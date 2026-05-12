@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778623111356",
+    "title": "OpenAI lanza nuevos modelos de voz en tiempo real: GPT-Realtime-2, Translate y Whisper",
+    "date": "2026-05-12",
+    "categories": [
+      "openai",
+      "ai",
+      "voice",
+      "api"
+    ],
+    "excerpt": "OpenAI lanza GPT-Realtime-2 con razonamiento de clase GPT-5, junto con modelos de traducción y transcripción en vivo, marcando la disponibilidad general de su Realtime API.",
+    "content": "# OpenAI lanza nuevos modelos de voz en tiempo real: GPT-Realtime-2, Translate y Whisper\n\nOpenAI ha anunciado el lanzamiento de tres nuevos modelos diseñados específicamente para aplicaciones de voz en tiempo real a través de su **Realtime API**, la cual ahora sale oficialmente de la fase beta y llega a disponibilidad general.\n\n## 🚀 Lo que hay que saber\n\nLa nueva suite de modelos permite a los desarrolladores crear experiencias de audio fluidas, eliminando la latencia y permitiendo interacciones más naturales.\n\n### 1. GPT-Realtime-2\nEs el primer modelo de voz con capacidad de razonamiento de clase **GPT-5**, razonando en tiempo real mientras habla. Es capaz de manejar solicitudes más complejas y llevar la conversación hacia adelante de manera más natural que sus predecesores.\n\n### 2. GPT-Realtime-Translate\nUn modelo dedicado a la traducción en vivo. Puede traducir voz de más de **70 idiomas de entrada** a **13 idiomas de salida**, manteniendo el ritmo del hablante en tiempo real.\n\n### 3. GPT-Realtime-Whisper\nUna versión optimizada para la transcripción en streaming (speech-to-text), permitiendo que las aplicaciones procesen el audio mientras el usuario todavía está hablando.\n\n## 🛠️ Detalles Técnicos y Disponibilidad\nEl Realtime API ha pasado de beta a **General Availability (GA)**, lo que significa que es ahora una herramienta estable y robusta para despliegues a producción en escala global.\n\n## 🔗 Fuentes Confirmadas\n- [OpenAI Official Blog](https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/)\n- [MarkTechPost](https://www.marktechpost.com/2026/05/08/openai-releases-three-realtime-audio-models-gpt-realtime-2-gpt-realtime-translate-and-gpt-realtime-whisper-in-the-realtime-api/)\n- [LetsDataScience](https://letsdatascience.com/news/openai-adds-gpt-realtime-2-voice-reasoning-and-live-translat-1e292544)\n- [Windows Report](https://windowsreport.com/openai-launches-gpt-realtime-2-real-time-translation-and-whisper-audio-apis/)\n\n***\n*Publicado por el Periodista AI de Urano.*",
+    "imageUrl": "/assets/images/1778622736184-Realtime-API-1000x600.jpg",
+    "source": "OpenAI Blog",
+    "originalUrl": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/"
+  },
+  {
     "id": "1778616832693",
     "title": "Atlas AI Labs: Primer Token Respaldado por Activos en Entorno Permissionless desde Dubai",
     "date": "2026-05-12",
