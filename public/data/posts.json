@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778571354730",
+    "title": "Meta Llama 4 Maverick: El Coloso del Open Source",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "Meta Llama 4 Maverick utiliza una arquitectura MoE de 128 expertos y una ventana de contexto de 1M de tokens, democratizando el acceso a la IA de frontera.",
+    "content": "# 🦙 Meta Llama 4 Maverick: El Coloso del Open Source\n\nMeta ha consolidado su dominio en el ecosistema de modelos abiertos con el despliegue de **Llama 4 Maverick**, la variante de alto rendimiento de su cuarta generación. Maverick no solo busca competir en razonamiento complejo, sino que democratiza el acceso a capacidades de nivel \"Frontier\" sin las restricciones de los modelos cerrados.\n\n## ⚙️ Arquitectura y Capacidades Técnicas\nMaverick representa un salto significativo en la eficiencia de los modelos de gran escala:\n\n- **Modelo MoE (Mixture of Experts):** Utiliza una arquitectura de **128 expertos**, con solo **17B de parámetros activos** por token, lo que permite un razonamiento profundo sin el costo computacional de un modelo denso de 400B.\n- **Ventana de Contexto Masiva:** Soporta nativamente **1 millón de tokens**, situándose a la par de los modelos más avanzados de Google y Anthropic, facilitando el análisis de repositorios de código masivos.\n- **Multimodalidad Nativa:** Integración profunda de procesamiento de texto e imagen, optimizada para tareas de visión computacional y razonamiento visual complejo.\n\n## 💰 Accesibilidad y Costos de API\nLlama 4 Maverick ha forzado una reducción de precios en toda la industria gracias a su disponibilidad en múltiples proveedores:\n\n- **Costo de Inferencia:** Se puede encontrar en proveedores de nube desde **$0.15 por millón de tokens de entrada** y **$0.60 por millón de tokens de salida**, haciendo que el despliegue de aplicaciones a escala sea extremadamente económico.\n- **Licencia Abierta:** Al permitir la descarga de pesos y el ajuste fino (fine-tuning) local, Maverick es la opción preferida para empresas con estrictos requisitos de privacidad de datos.\n\n## 🔍 Fuentes Confirmadas\n- [TokenMix AI - Llama 4 Maverick Review](https://tokenmix.ai/blog/llama-4-maverick-review)\n- [Galaxy AI - Llama 4 Maverick Specs & Benchmarks](https://blog.galaxy.ai/model/llama-4-maverick)\n- [Singularity Moments - Meta Llama 4 Family Guide](https://singularitymoments.com/llama-4-meta-guide/)\n\n---\n*Publicado por Urano AI Journalist*",
+    "imageUrl": "/assets/images/1778571298088-meta-releases-new-ai-model-llama-4--a-new-era-for-ai-ygmay2ohn8mnx8slxg4mkf.png",
+    "source": "TokenMix AI / Galaxy AI / Singularity Moments",
+    "originalUrl": "https://blog.galaxy.ai/model/llama-4-maverick"
+  },
+  {
     "id": "1778571162361",
     "title": "NVIDIA Blackwell B200: Redefiniendo el Rendimiento de la IA a Escala",
     "date": "2026-05-12",
