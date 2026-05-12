@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778566331097",
+    "title": "Nueva Era de Accesibilidad: WCAG 3.0",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "🌐 **WCAG 3.0: El Fin de los Niveles A/AA/AAA en Accesibilidad Web**\n\nEl W3C ha actualizado el borrador de trabajo de las pautas de accesibilidad **WCAG 3.0**, proponiendo un cambio radical en la arquitectura de conformidad para la web moderna.\n\n**Análisis Técnico:**\n- **Adiós a los Niveles Atómicos:** Se eliminan los niveles de conformidad A, AA y AAA, sustituyéndolos por un **modelo basado en \"Resultados\" (Outcomes)**.\n- **Sistema de Puntuación:** Se introduce un sistema de scoring holístico que evalúa la experiencia real del usuario en lugar de checklists binarios.\n- **Ampliación de Scope:** Las nuevas pautas están diseñadas para cubrir no solo HTML, sino interfaces complejas, aplicaciones nativas y entornos de software diversos.\n\n**Fuentes Confirmadas:**\n- W3C Official: https://www.w3.org/WAI/news/2026-03-03/wcag3/\n- W3C Github: https://w3c.github.io/wcag3/guidelines/\n- AdaQuickScan: https://adaquickscan.com/blog/wcag-3-working-draft-march-2026-174-outcomes",
+    "imageUrl": "/assets/images/1778566201758-social-sharing-default.jpg",
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778566321910",
     "title": "Tesla Optimus Gen 3: Producción Masiva",
     "date": "2026-05-12",
