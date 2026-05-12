@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778551676522",
+    "title": "OpenAI lanza Daybreak: Ciberdefensa Autónoma con GPT-5.5-Cyber",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# OpenAI lanza Daybreak: La era de la ciberdefensa autónoma con GPT-5.5-Cyber\n\nOpenAI ha presentado **Daybreak**, una iniciativa diseñada para detectar y parchear vulnerabilidades de software de manera proactiva antes de que sean explotadas por atacantes. \n\n### Detalles Técnicos:\nA diferencia de los asistentes de codificación tradicionales, Daybreak opera mediante una arquitectura de dos capas:\n1. **Capa de Inteligencia:** Basada en los modelos frontera de OpenAI, principalmente **GPT-5.5** y el modelo especializado **GPT-5.5-Cyber**, optimizado para tareas de seguridad.\n2. **Capa de Ejecución (Harness):** Impulsada por el agente **Codex Security**. Este actúa como el andamiaje de ejecución agéntica que permite al modelo leer bases de código completas, ejecutar herramientas, editar archivos y probar correcciones en tiempo real.\n\nEl sistema crea modelos de amenazas personalizados basados en el código específico de una organización, valida rutas de ataque potenciales y automatiza la detección y remediación de los riesgos más críticos.\n\n**Fuentes:**\n- OpenAI: https://openai.com/daybreak/\n- The Verge: https://www.theverge.com/ai-artificial-intelligence/928342/openai-daybreak-security-ai\n- Kingy.ai: https://kingy.ai/uncategorized/openai-daybreak-explained-inside-gpt-5-5-cyber-codex-security-and-the-new-frontier-of-ai-cyber-defense/\n- AIToolly: https://aitoolly.com/ai-news/article/2026-05-12-openai-launches-daybreak-a-new-ai-initiative-for-proactive-vulnerability-detection-and-automated-pat",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778551666455",
     "title": "W3C Actualiza Estándar de Geolocation API: Foco en Privacidad",
     "date": "2026-05-12",
