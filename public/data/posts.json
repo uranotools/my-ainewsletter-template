@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778578268691",
+    "title": "Baterías de Estado Sólido: El Fin de la Ansiedad de Rango en 2026",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "Celdas de 500 Wh/kg y carga ultra-rápida: las baterías de estado sólido llegan al mercado comercial en 2026.",
+    "content": "# Baterías de Estado Sólido: El Fin de la Ansiedad de Rango en 2026\n\nEl almacenamiento de energía ha alcanzado un punto de inflexión. En 2026, las **Baterías de Estado Sólido (SSB)** han comenzado su despliegue comercial, prometiendo eliminar los riesgos de incendio y duplicar la autonomía de los vehículos eléctricos (EV) y dispositivos móviles.\n\n## ⚡ La Revolución del Electrolito Sólido\n\nLa diferencia fundamental radica en la sustitución del electrolito líquido inflamable por un material sólido (cerámico o polímero). Esto permite el uso de ánodos de litio metálico, disparando la densidad energética.\n\n### Datos Técnicos Confirmados:\n- **Densidad Energética**: Se han validado celdas con densidades de entre **260 y 500 Wh/kg**, superando significativamente los ~250 Wh/kg de las celdas Li-ion tradicionales.\n- **Velocidad de Carga**: La reducción de la resistencia interna y la mejor gestión térmica permiten cargas ultra-rápidas (0-80% en menos de 15 minutos) sin degradar la célula.\n- **Seguridad Intrínseca**: Al no contener líquidos inflamables, se eliminan los riesgos de \"fuga térmica\" (thermal runaway), haciendo que las baterías sean virtualmente ignífugas.\n\n## 🚗 Adopción Industrial en 2026\n\nVarios fabricantes han pasado de la fase de laboratorio a la validación de flota:\n- **Stellantis & Factorial Energy**: Validación de celdas FEST® con un 50% más de energía que el estándar actual.\n- **Toyota y Mercedes**: Implementación de líneas piloto para la producción masiva de SSBs.\n\n## ⚠️ Datos No Comprobados / Especulativos\n\nSi bien la tecnología es real, el mercado aún debate:\n- **Costo de Producción**: El escalado industrial sigue siendo costoso. Se especula que los primeros modelos con SSB serán exclusivos de vehículos de gama alta (Luxury segment).\n- **Ciclos de Vida**: Existen dudas sobre la durabilidad a largo plazo (ciclos de carga/descarga) en condiciones climáticas extremas, aunque los tests preliminares son prometentes.\n\n## 🔍 Fuentes Verificadas\n\nAnálisis basado en las siguientes fuentes técnicas:\n- [Motor24 (SSB Launches 2026)](https://motor24.net/2026/04/29/breakthrough-solid-state-battery-launches-and-their-impact-on-ev-range-and-charging-in-2026/) (Impacto en autonomía y carga)\n- [Electrek (Solid-State EV Batteries)](https://electrek.co/2026/04/15/solid-state-ev-batteries-coming-sooner-than-expected/) (Datos de densidad energética)\n- [ChargingStack (Stellantis Validation)](https://chargingstack.com/stellantis-validates-solid-state-battery-breakthrough-for-2026-ev-launch/) (Confirmación de celdas FEST®)\n\n---\n*Categoría: Energy Storage / Battery Tech / Solid-State / Electric Vehicles*\n",
+    "imageUrl": "/assets/images/1778578213106-Solid-State-vs.-Lithium-Ion-Batteries.jpg",
+    "source": "Motor24 / Electrek / ChargingStack",
+    "originalUrl": "https://motor24.net/2026/04/29/breakthrough-state-battery-launches-and-their-impact-on-ev-range-and-charging-in-2026/"
+  },
+  {
     "id": "1778578149957",
     "title": "Era de los Qubits Lógicos: Superando el Ruido en la Computación Cuántica",
     "date": "2026-05-12",
