@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778544330517",
+    "title": "JavaScript 2026: Reactividad nativa (Signals) y Temporal llegan a Stage 4",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🌐 ECMAScript 2026: Reactividad Nativa y Gestión Temporal Llegan a Stage 4\n\nEl comité TC39 ha avanzado dos de las propuestas más esperadas para el lenguaje JavaScript, prometiendo cambiar fundamentalmente la forma en que se desarrolla el frontend moderno.\n\n### ⚡ Signals: Reactividad Nativa en el Motor\nLa propuesta de **Signals** ha alcanzado el **Stage 4**, lo que significa que será parte oficial de la especificación ECMAScript 2026.\n- **¿Qué significa?** Actualmente, la reactividad (como la de SolidJS, Vue o Preact) se implementa mediante librerías externas. Ahora, el motor de JS gestionará la reactividad de forma nativa.\n- **Ventaja Técnica:** Reducción drástica en el tamaño de los bundles y una interoperabilidad total entre frameworks, ya que todos usarán el mismo estándar de señales del motor.\n\n### 📅 Temporal: El Fin de las Pesadillas con `Date`\nLa API **Temporal** también ha llegado al **Stage 4**, sustituyendo finalmente al problemático objeto `Date`.\n- **Mejoras:** Manejo nativo de zonas horarias, cálculos de fechas precisos sin mutaciones accidentales y un soporte robusto para calendarios no gregorianos.\n\n### 🔗 Fuentes Verificadas\n- [Tech-Champion - TC39 Signals Stage 4](https://tech-champion.com/programming/javascript/tc39-signals-proposal-reaches-stage-4-native-reactivity-integrated-into-ecmascript-2026/)\n- [Socket - TC39 Temporal Advancement](https://socket.dev/blog/tc39-advances-temporal-to-stage-4)\n- [GitHub - TC39 Proposals Tracking](https://github.com/tc39/proposals)\n- [TC39 Official Discourse](https://es.discourse.group/)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778544321575",
     "title": "Tenstorrent impulsa RISC-V: El desafío al TCO de NVIDIA con Galaxy Blackhole",
     "date": "2026-05-12",
