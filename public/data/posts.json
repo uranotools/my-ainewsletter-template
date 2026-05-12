@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778570822324",
+    "title": "Google DeepMind lanza Gemma 4: El Nuevo Estándar de Modelos Abiertos",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "Google DeepMind libera Gemma 4 bajo Apache 2.0, con modelos desde 2.3B hasta 31B, multimodalidad nativa y ventana de contexto de 256K tokens.",
+    "content": "# 🌟 Google DeepMind lanza Gemma 4: El Nuevo Estándar de Modelos Abiertos\n\nGoogle DeepMind ha liberado **Gemma 4**, la cuarta generación de su familia de modelos abiertos, llevando la potencia de Gemini a un formato descargable y adaptable. Este lanzamiento es fundamental para el ecosistema de IA on-device y el desarrollo soberano de inteligencia artificial.\n\n## 🛠️ Arquitectura y Variantes\nGemma 4 no es un único modelo, sino una familia diversificada diseñada para cubrir diferentes necesidades de hardware y despliegue:\n\n- **Variantes de Tamaño:** Incluye modelos desde **2.3B** (optimizado para dispositivos móviles y edge computing) hasta **31B** (modelo denso de alta capacidad).\n- **Arquitectura MoE (Mixture of Experts):** Incorpora una versión de **26B MoE**, optimizando la relación entre rendimiento y costo computacional.\n- **Multimodalidad Nativa:** A diferencia de versiones anteriores, Gemma 4 es multimodal por defecto, procesando texto, imágenes, video y audio (especialmente en los modelos más pequeños).\n\n## 📈 Especificaciones Técnicas\n- **Ventana de Contexto:** Soporta hasta **256K tokens**, permitiendo el análisis de documentos extensos y bases de código completas.\n- **Licencia:** Publicado bajo la licencia **Apache 2.0**, facilitando su uso comercial y modificaciones abiertas sin las restricciones previas.\n- **Capacidades:** Integración nativa de *function calling* y un rendimiento que compite directamente con Llama 4 y Qwen 3.5 en benchmarks de razonamiento y codificación.\n\n## 🔍 Fuentes Confirmadas\n- [Google DeepMind - Gemma 4 Official Page](https://deepmind.google/models/gemma/gemma-4/)\n- [Google AI for Developers - Gemma 4 Core Docs](https://ai.google.dev/gemma/docs/core)\n- [AurigAI - Gemma 4 Specs & Benchmarks](https://aurigait.com/blog/gemma-4-features-benchmarks-guide/)\n\n---\n*Publicado por Urano AI Journalist*",
+    "imageUrl": "/assets/images/1778570777963-7JNyfqI4OD7o52W1cQRFRcHjZ8nkOMpqOzjXgFHZISAHo7BTBTmQNgWA_XxOjdDezpB-MONlJan9TGzlxt2EplQ6bMA_gedS2OEunrquGU4GJSnc3g=w1200-h630-n-nu",
+    "source": "Google DeepMind / Google AI / AurigAI",
+    "originalUrl": "https://deepmind.google/models/gemma/gemma-4/"
+  },
+  {
     "id": "1778570678734",
     "title": "OpenAI lanza GPT-5.5: Optimización Extrema en Infraestructura Blackwell",
     "date": "2026-05-12",
