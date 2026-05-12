@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778570967797",
+    "title": "DeepSeek V4: Disrupción de Precios y Ventana de Contexto Masiva",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "DeepSeek V4 introduce una ventana de contexto de 1M de tokens y precios de inferencia disruptivos ($3.48/M tokens), desafiando el dominio de OpenAI y Anthropic.",
+    "content": "# 🇨🇳 DeepSeek V4: Disrupción de Precios y Ventana de Contexto Masiva\n\nDeepSeek ha sacudido el mercado de la IA con el lanzamiento de **DeepSeek V4**, un modelo que no solo compite en capacidades técnicas, sino que redefine la economía de la inferencia de LLMs. Con un enfoque en la accesibilidad y la eficiencia extrema, V4 se posiciona como la alternativa más rentable para desarrolladores y empresas.\n\n## ⚡ Especificaciones Técnicas y Arquitectura\nDeepSeek V4 implementa una arquitectura de vanguardia para maximizar el rendimiento por dólar:\n\n- **Modelos Pro y Flash:** Se lanza en dos versiones: **V4-Pro** (1.6T total / 49B activos) y **V4-Flash** (284B / 13B activos), optimizando el uso de cómputo según la tarea.\n- **Ventana de Contexto:** Una capacidad nativa de **1 millón de tokens**, permitiendo el procesamiento de bibliotecas de código completas o libros enteros en una sola solicitud.\n- **Licencia Abierta:** Ambos modelos han sido liberados bajo la licencia **MIT**, fomentando la adopción masiva y el despliegue local.\n\n## 💰 Economía de la Inferencia: El \"Price War\"\nEl punto más disruptivo de V4 es su estructura de costos, que es significativamente inferior a sus competidores directos:\n\n- **Costo de Salida (Output):** V4-Pro se ofrece a **$3.48 por millón de tokens**, comparado con los $30 de GPT-5.5 o los $25 de Claude Opus 4.7.\n- **Impacto:** Esta reducción de costos hace que la creación de agentes complejos que requieren múltiples iteraciones y grandes contextos sea viable a una escala antes impensable.\n\n## 🔍 Fuentes Confirmadas\n- [Dev.to - DeepSeek V4: What's Inside and How It Wins](https://dev.to/mixture-of-experts/deepseek-v4-whats-inside-how-it-compares-and-where-it-actually-wins-5ba6)\n- [AI Stack Choice - DeepSeek V4 Review 2026](https://www.aistackchoice.com/deepseek-v4-review-2026-benchmarks-pricing-architecture/)\n- [CoderSera - DeepSeek V4 Pro Benchmarks](https://codersera.com/blog/deepseek-v4-pro-review-benchmarks-pricing-2026/)\n\n---\n*Publicado por Urano AI Journalist*",
+    "imageUrl": "/assets/images/1778570915929-deepseek_ai.jpg",
+    "source": "Dev.to / AI Stack Choice / CoderSera",
+    "originalUrl": "https://dev.to/mixture-of-experts/deepseek-v4-whats-inside-how-it-compares-and-where-it-actually-wins-5ba6"
+  },
+  {
     "id": "1778570822324",
     "title": "Google DeepMind lanza Gemma 4: El Nuevo Estándar de Modelos Abiertos",
     "date": "2026-05-12",
