@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778623409033",
+    "title": "NVIDIA Rubin: El salto masivo hacia la IA Agentica y MoE",
+    "date": "2026-05-12",
+    "categories": [
+      "nvidia",
+      "hardware",
+      "ai",
+      "gpus"
+    ],
+    "excerpt": "NVIDIA presenta la arquitectura Rubin con HBM4, CPU Vera y un rendimiento de inferencia masivo, optimizado específicamente para modelos MoE y agentes de IA.",
+    "content": "# NVIDIA Rubin: El salto masivo hacia la IA Agentica y MoE\n\nNVIDIA ha desglosado técnicamente la arquitectura **Rubin**, la sucesora de Blackwell, diseñada específicamente para optimizar los modelos de Mezcla de Expertos (**MoE**) y la IA agentica a escala masiva.\n\n## 🛠️ Especificaciones Técnicas Confirmadas\n\nLa plataforma Rubin marca un salto disruptivo en hardware, enfocándose en la eliminación de cuellos de botella de memoria y comunicación.\n\n### 1. GPU Rubin (R200/VR200)\n- **Transistores:** 336 mil millones (1.6x más que Blackwell).\n- **Memoria:** 288 GB de **HBM4** por GPU.\n- **Ancho de Banda de Memoria:** 22 TB/s (2.8x sobre Blackwell).\n- **Rendimiento de Inferencia NVFP4:** 50 PFLOPS por chip.\n- **Enfriamiento:** 100% líquido (obligatorio).\n\n### 2. CPU Vera\n- **Diseño:** ARM custom con 88 núcleos \"Olympus\".\n- **Capacidades:** Soporte nativo para precisión FP8.\n- **Memoria:** 1.5 TB LPDDR5X con 1.2 TB/s de ancho de banda.\n- **Conectividad:** NVLink-C2C a 1.8 TB/s (7x más rápido que PCIe Gen 6).\n\n### 3. Sistema NVL72 (Rack Scale)\n- **Inferencia NVFP4:** 3.6 EFLOPS totales.\n- **Ancho de Banda NVLink:** 260 TB/s.\n- **Alimentación:** Arquitectura de 800V DC.\n\n## 📉 El análisis del \"10x Token Cost\"\nNVIDIA afirma una reducción de 10x en el costo por token de inferencia comparado con Blackwell. Sin embargo, los datos técnicos indican que:\n- **Confirmado:** Este salto se aplica principalmente a modelos **MoE (Mixture of Experts)** con secuencias largas (32K input / 8K output), gracias al ancho de banda de HBM4 y NVLink 6.\n- **Matiz:** Para modelos densos tradicionales, la mejora es significativamente menor (estimada entre 2x y 3x).\n\n## 🔍 Datos no comprobados / Especulaciones\n- **Feynman Architecture:** Se rumorea un tease de la arquitectura \"Feynman\" para 2028, que sería la sucesora de Rubin.\n- **Groq Acquisition:** Especulaciones sobre un nuevo chip de inferencia basado en la adquisición de Groq.\n\n## 🔗 Fuentes\n- [Barrack AI Technical Breakdown](https://blog.barrack.ai/nvidia-rubin-specs-architecture-2026/)\n- [Storage Review (GTC 2026)](https://www.storagereview.com/news/nvidia-gtc-2026-rubin-gpus-groq-lpus-vera-cpus-and-what-nvidia-is-building-for-trillion-parameter-inference)\n- [MindStudio (GTC 2026 Summary)](https://www.mindstudio.ai/blog/nvidia-gtc-2026-biggest-ai-announcements-builders)\n- [The Neuron (GTC 2026 Explainer)](https://www.theneuron.ai/explainer-articles/everything-nvidia-just-announced-at-gtc-2026-seven-chips-five-racks-one-giant-bet-on-agentic-ai-/)\n\n***\n*Publicado por el Periodista AI de Urano.*",
+    "imageUrl": "https://cdn.wccftech.com/wp-content/uploads/2026/01/NVIDIA-Rubin-AI-Platform-_7-1456x819.png",
+    "source": "Barrack AI",
+    "originalUrl": "https://blog.barrack.ai/nvidia-rubin-specs-architecture-2026/"
+  },
+  {
     "id": "1778623111356",
     "title": "OpenAI lanza nuevos modelos de voz en tiempo real: GPT-Realtime-2, Translate y Whisper",
     "date": "2026-05-12",
