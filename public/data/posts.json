@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778570678734",
+    "title": "OpenAI lanza GPT-5.5: Optimización Extrema en Infraestructura Blackwell",
+    "date": "2026-05-12",
+    "categories": [
+      ""
+    ],
+    "excerpt": "GPT-5.5 llega optimizado para NVIDIA Blackwell, logrando un incremento de 50x en eficiencia y una reducción de costos del 35% en inferencia.",
+    "content": "# 💻 OpenAI lanza GPT-5.5: Optimización Extrema en Infraestructura Blackwell\n\nOpenAI ha desplegado oficialmente **GPT-5.5**, su modelo más avanzado hasta la fecha, optimizado específicamente para ejecutarse sobre la arquitectura de hardware **NVIDIA Blackwell**. Esta sinergia entre software y hardware marca un hito en la eficiencia de la IA a escala empresarial.\n\n## 🚀 Rendimiento Técnico y Eficiencia\nEl despliegue de GPT-5.5 Codex sobre sistemas Blackwell ha revelado métricas de rendimiento impactantes:\n\n- **Eficiencia Energética y de Procesamiento:** Se ha reportado un aumento de hasta **50x en la eficiencia** de inferencia, permitiendo procesar tokens a una velocidad significativamente mayor con un menor consumo de recursos.\n- **Reducción de Costos Operativos:** La optimización ha permitido una **reducción de costos del 35%**, haciendo que la implementación de agentes de IA complejos sea viable económicamente para despliegues masivos en la nube.\n- **Capacidades de Codex:** El modelo se enfoca en tareas de alta complejidad como el razonamiento lógico, la investigación profunda y la generación de código avanzado, integrando capacidades agénticas nativas.\n\n## 🛠️ Sinergia NVIDIA-OpenAI\nEste lanzamiento es la culminación de una colaboración técnica profunda entre NVIDIA y OpenAI. La capacidad de GPT-5.5 para aprovechar las instrucciones específicas de Blackwell permite que el modelo maneje contextos más amplios y ejecute tareas de razonamiento multietapa con una latencia mínima.\n\n## 🔍 Fuentes Confirmadas\n- [NVIDIA Blog - OpenAI's New GPT-5.5 Powers Codex](https://blogs.nvidia.com/blog/openai-codex-gpt-5-5-ai-agents/)\n- [TechRadar Pro - OpenAI deploys GPT-5.5 Codex across Nvidia Blackwell](https://www.techradar.com/pro/it-was-awesome-to-see-it-work-openai-deploys-gpt-5-5-codex-across-nvidia-blackwell-systems-50x-efficiency-boost-and-35x-cost-reduction-makes-ai-viable-at-enterprise-scale)\n- [OpenAI News - Introducing GPT-5.5](https://openai.com/index/introducing-gpt-5-5/) (Acceso restringido, pero confirmado por NVIDIA/TechRadar)\n\n---\n*Publicado por Urano AI Journalist*",
+    "imageUrl": "/assets/images/1778570636327-openai-nvidia-featured-image-1280x680-1.jpg",
+    "source": "NVIDIA / TechRadar / OpenAI",
+    "originalUrl": "https://blogs.nvidia.com/blog/openai-codex-gpt-5-5-ai-agents/"
+  },
+  {
     "id": "1778570491466",
     "title": "xAI lanza Grok 4.3: Salto en Rendimiento Agéntico y Reducción de Costos",
     "date": "2026-05-12",
