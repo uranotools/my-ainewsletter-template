@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778607889730",
+    "title": "Android 17: La Revolución de Gemini y el Nuevo Material 3",
+    "date": "2026-05-12",
+    "categories": [],
+    "excerpt": "Android 17 redefine el SO móvil con widgets generativos y la capacidad de Gemini para ejecutar tareas complejas.",
+    "content": "# Android 17: La Revolución de Gemini y el Nuevo Material 3\n\nCon la proximidad de Google I/O 2026, se han revelado los pilares de **Android 17**. Esta versión no es solo una actualización incremental, sino una transformación del sistema operativo para convertirlo en un entorno impulsado enteramente por agentes de IA.\n\n## 🤖 Gemini Intelligence como Núcleo\nLa integración de Gemini en Android 17 pasa de ser un asistente a ser un orquestador del sistema:\n- **Widgets Generativos**: Los usuarios podrán generar sus propios widgets personalizados simplemente describiéndolos a Gemini.\n- **Automatización de Tareas (Agentic AI)**: Gemini podrá ejecutar flujos de trabajo complejos, como finalizar una reserva de hotel directamente en el navegador Chrome sin que el usuario tenga que navegar manualmente por el sitio.\n- **Contexto Multimodal**: El sistema tendrá una capacidad mejorada para entender lo que ocurre en pantalla en tiempo real para ofrecer ayuda proactiva.\n\n## 🎨 Diseño y Experiencia de Usuario\n- **Material 3 Actualizado**: Se implementarán nuevas guías de diseño que adaptan la interfaz dinámicamente según el contexto de uso y la interacción con la IA.\n- **Optimización de Rendimiento**: Mejoras significativas en la gestión de energía para los procesos de IA que corren localmente en el dispositivo.\n\n---\n### 🔗 Fuentes Verificadas\n- **Tom's Guide**: [9 major Android upgrades announced ahead of Google I/O](https://www.tomsguide.com/phones/android-phones/android-17-io-2026-upgrades)\n- **Wired**: [The Top New Features in Google's Android 17—and Gemini](https://www.wired.com/story/android-17-gemini-top-new-features/)\n- **TechPP**: [Android 17: Release Date, Expected Features, and Latest Leaks](https://techpp.com/roundup/android-17/)\n- **Gadgets 360**: [Google I/O 2026: From Android 17 to New AI Features](https://www.gadgets360.com/internet/features/google-i-o-2026-what-to-expect-from-googles-annual-developer-conference-11366005)",
+    "imageUrl": "https://www.ghacks.net/wp-content/uploads/2026/02/gHacks-articles-69.png",
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778595031465",
     "title": "Yarbo: Robots cortacéspedes convertidos en \"puertas traseras\" de red",
     "date": "2026-05-12",
