@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778715090482",
+    "title": "Microsoft Edge Copilot: Razonamiento Multitarea y Análisis de Pestañas",
+    "date": "2026-05-13",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# Microsoft Edge Copilot evoluciona: Razonamiento multiplataforma y análisis de pestañas abiertas\n\nMicrosoft ha anunciado una actualización significativa para la integración de Copilot en el navegador Edge, moviendo la herramienta de un modelo de resumen de página única hacia un **asistente de investigación mult pestaña**.\n\n### 🛠️ Detalles Técnicos y Funcionalidades\nLa nueva capacidad de **\"razonamiento a través de pestañas abiertas\"** permite que la IA procese y sintetice información de múltiples fuentes activas simultáneamente. Esto permite ejecutar tareas complejas como:\n- **Comparativa de productos:** Analizar especificaciones de diferentes artículos abiertos en pestañas separadas para generar una tabla comparativa.\n- **Síntesis de investigación:** Resumir múltiples artículos sobre un mismo tema sin necesidad de copiar y pegar el texto en el chat.\n- **Sincronización Móvil:** Por primera vez, estas capacidades de razonamiento avanzado están disponibles en la aplicación móvil de Edge, no solo en la versión de escritorio.\n\nAdemás, se introduce la función **\"Journeys\"**, diseñada para proporcionar resúmenes de navegación y sugerir los siguientes pasos lógicos en un flujo de trabajo de investigación.\n\n### ✅ Información Confirmada\n- **Fecha de anuncio:** 13 de mayo de 2026.\n- **Disponibilidad:** Despliegue en versiones de escritorio y aplicación móvil.\n- **Control de usuario:** Microsoft indica que los usuarios pueden seleccionar qué experiencias activar o desactivar.\n\n### ⚠️ Datos no Comprobados / Especulativos\n- **Latencia de procesamiento:** No se han publicado datos sobre el tiempo de respuesta cuando se procesan más de 10 pestañas simultáneamente.\n- **Privacidad de datos:** Aunque se menciona el control del usuario, no hay detalles técnicos sobre si el indexado de pestañas ocurre localmente o si los metadatos de todas las pestañas abiertas se envían al servidor en cada consulta.\n\n### 🔗 Fuentes Consultadas\n1. **Microsoft Edge Blog (Oficial):** [New updates to Edge across desktop and mobile](https://blogs.windows.com/msedgedev/2026/05/13/new-updates-to-edge-across-desktop-and-mobile/)\n2. **The Verge:** [Microsoft’s Edge Copilot update uses AI to pull information from across your tabs](https://www.theverge.com/tech/930188/microsoft-edge-copilot-ai-tabs)\n3. **Let's Data Science:** [Edge Copilot reasons across users' open tabs](https://letsdatascience.com/news/edge-copilot-reasons-across-users-open-tabs-a701b704)\n4. **Windows Report:** [Multi Tab Summarization with Copilot Comes to Microsoft Edge](https://windowsreport.com/microsoft-edge-tests-copilots-ability-to-summarize-open-tabs/)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778714701172",
     "title": "💻 AMD Lleva el 3D V-Cache a las Workstations: Lanzamiento de la Serie Ryzen PRO 9000",
     "date": "2026-05-13",
