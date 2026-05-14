@@ -1,5 +1,22 @@
 [
   {
+    "id": "1778733299143",
+    "title": "DeepSeek V4: El nuevo titán Open-Source de 1.6 Trillones de Parámetros",
+    "date": "2026-05-14",
+    "categories": [
+      "ia",
+      "open-source",
+      "deepseek",
+      "llm",
+      "desarrollo"
+    ],
+    "excerpt": "DeepSeek V4 llega con 1.6 trillones de parámetros, licencia MIT y una ventana de contexto de 1M de tokens, desafiando la hegemonía de los modelos cerrados.",
+    "content": "# DeepSeek V4: El nuevo titán Open-Source de 1.6 Trillones de Parámetros\n\nEl ecosistema de modelos de pesos abiertos ha dado un salto cuántico con el lanzamiento de **DeepSeek V4**. Este modelo no solo compite en escala, sino que redefine la accesibilidad de la IA de frontera al combinar un rendimiento masivo con una licencia extremadamente permisiva.\n\n## 🛠️ Especificaciones Técnicas Confirmadas\n\nEl despliegue de DeepSeek V4 se divide principalmente en dos variantes: **V4-Pro** y **V4-Flash**, con las siguientes características técnicas validadas:\n\n*   **Escala Masiva**: La versión V4-Pro cuenta con un total de **1.6 trillones de parámetros**, utilizando una arquitectura Mixture-of-Experts (MoE) para optimizar la inferencia.\n*   **Licencia MIT**: A diferencia de otros modelos \"abiertos\" con restricciones comerciales, DeepSeek V4 se distribuye bajo **licencia MIT**, permitiendo su uso, modificación y distribución comercial sin restricciones significativas.\n*   **Ventana de Contexto**: Soporta un estándar de **1 millón de tokens**, permitiendo el análisis de bases de código enteras o libros completos en una sola sesión.\n*   **Coste de Operación**: Se reportan precios de API agresivos, situándose entre **10 y 35 veces por debajo** de las alternativas de código cerrado (como GPT o Claude).\n\n## 📊 Benchmarks y Comparativas (Sección de Datos No Comprobados)\n\nAunque DeepSeek afirma que V4-Pro alcanza niveles de \"frontera\", los datos de benchmarks externos muestran matices:\n\n*   **Rendimiento en Coding**: Se sitúa como uno de los modelos MIT con el puntaje más alto en **SWE-bench Pro**, superando a la mayoría de los modelos open-weights anteriores.\n*   **Competencia Directa**: En comparativas de razonamiento complejo, se enfrenta directamente a **GPT-5.5** y **Claude Opus 4.7**, aunque algunos análisis sugieren que su ventaja es más pronunciada en tareas de codificación y matemáticas que en razonamiento creativo general.\n*   **Modos de Razonamiento**: Incluye tres modos de razonamiento especializados para ajustar la velocidad frente a la precisión.\n\n## 🔗 Fuentes Consultadas\n\nLa información ha sido contrastada a través de las siguientes fuentes técnicas:\n1. [DataCamp - Análisis de DeepSeek V4](https://www.datacamp.com/blog/deepseek-v4)\n2. [Codersera - Guía de Specs y API de DeepSeek V4](https://codersera.com/blog/is-deepseek-v4-released-official-status-specs-alternatives/)\n3. [AI Stack Choice - Review de Arquitectura y Pricing](https://www.aistackchoice.com/deepseek-v4-review-2026-benchmarks-pricing-architecture/)\n4. [AgentRQ - Análisis de DeepSeek-V4-Pro](https://agentrq.com/blog/deepseek-v4-pro)\n",
+    "imageUrl": "https://images.seeklogo.com/logo-png/61/1/deepseek-ai-logo-png_seeklogo-611415.png",
+    "source": "DeepSeek Technical Documentation & Community Reviews",
+    "originalUrl": "https://www.datacamp.com/blog/deepseek-v4"
+  },
+  {
     "id": "1778733140819",
     "title": "xAI lanza Grok 4.3 en Oracle Cloud Infrastructure (OCI): Ventana de contexto de 1M de tokens",
     "date": "2026-05-14",
