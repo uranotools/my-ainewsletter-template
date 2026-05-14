@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778719807229",
+    "title": "Claude Platform en AWS: La infraestructura para agentes de IA a escala empresarial",
+    "date": "2026-05-14",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# Claude Platform llega a AWS: Disponibilidad General y Orquestación de Agentes a Escala\n\nAnthropic ha anunciado la **disponibilidad general (GA)** de la Claude Platform en AWS, permitiendo a las empresas desplegar y gestionar agentes de IA generativa a escala industrial utilizando la infraestructura de Amazon Web Services. Esta integración no es simplemente un despliegue de modelos, sino una migración de todo el ecosistema de desarrollo de Anthropic hacia el entorno de AWS.\n\n### 🛠️ Capacidades Técnicas y Nuevas Herramientas\nEl despliegue en AWS introduce una suite de herramientas avanzadas para el ciclo de vida de los agentes:\n- **Claude Managed Agents (Beta):** Permite el despliegue de agentes autónomos que pueden ejecutar tareas complejas y orquestar flujos de trabajo sin intervención manual constante.\n- **MCP Connector (Beta):** El Model Context Protocol (MCP) permite que los modelos de Claude tengan una conexión estandarizada con datos externos y herramientas, facilitando la interoperabilidadabilidad.\n- **Ejecución de Código y Prompt Caching:** Se integra la capacidad de ejecutar código en entornos aislados y el almacenamiento en caché de prompts para reducir la latencia y los costos de tokens.\n- **Seguridad y Auditoría Empresarial:** Toda la actividad de la plataforma se integra con **AWS CloudTrail** y **AWS IAM**, permitiendo un control de acceso granular y auditorías de seguridad detalladas en tiempo real.\n\n### ✅ Información Confirmada\n- **Estado de Disponibilidad:** Generalmente Disponible (GA) en la mayoría de las regiones comerciales de AWS.\n- **Paridad de Funciones:** Paridad total con la API nativa de Anthropic desde el primer día.\n- **Facturación:** Integración total con el sistema de billing de AWS.\n\n### ⚠️ Datos no Comprobados / Especulativos\n- **Costos de Managed Agents:** No se han publicado tarifas específicas para el servicio de \"Managed Agents\", aunque se presume que habrá un costo adicional por hora de ejecución o por token de orquestación.\n- **Impacto en Bedrock:** Aunque Claude ya estaba disponible en Bedrock, la Claude Platform on AWS es un servicio distinto que ofrece el ecosistema de desarrollo completo (Console, Beta features), lo que podría generar confusión en la arquitectura de despliegue para algunos usuarios.\n\n### 🔗 Fuentes Consultadas\n1. **AWS Official Blog:** [Claude Platform on AWS is now generally available](https://aws.amazon.com/about-aws/whats-new/2026/05/claude-platform-aws/)\n2. **Claude API Docs:** [Build with Claude on AWS](https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws)\n3. **C# Corner:** [Claude Platform on AWS GA](https://www.c-sharpcorner.com/news/claude-platform-on-aws-is-now-generally-available)\n4. **TLDL AI News:** [AI News & Updates May 2026](https://www.tldl.io/blog/ai-news-updates-2026)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778719619882",
     "title": "TSMC: El salto masivo a los 2nm y la nueva era de la densidad de transistores",
     "date": "2026-05-14",
