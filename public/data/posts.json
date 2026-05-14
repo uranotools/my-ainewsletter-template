@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778754945663",
+    "title": "NVIDIA lanza Plataforma Rubin: 10x menos coste de inferencia y memoria HBM4",
+    "date": "2026-05-14",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🚀 NVIDIA presenta la plataforma Rubin: La nueva era de la computación acelerada\n\nNVIDIA ha dado el salto generacional en hardware de IA con el lanzamiento de la plataforma **Rubin**, diseñada para reducir drásticamente los costes de inferencia y escalar la capacidad de entrenamiento de modelos masivos.\n\n### 🛠️ Especificaciones Técnicas Confirmadas\nLa arquitectura Rubin introduce mejoras críticas en el flujo de datos y la eficiencia energética:\n\n*   **Capacidad de Cómputo:** El GPU Vera Rubin ofrece hasta **35 Petaflops (PF) de entrenamiento** y **50 Petaflops (PF) de inferencia**, marcando un salto significativo sobre la generación Blackwell.\n*   **Memoria de Nueva Generación:** Implementación de memoria **HBM4** con una capacidad de **288 GB por GPU**, optimizando la carga de modelos de lenguaje extensos (LLMs).\n*   **Ancho de Banda:** Un ancho de banda de memoria masivo de **22 TB/s**, eliminando cuellos de botella en el procesamiento de tensores.\n*   **Eficiencia de Costes:** NVIDIA afirma una reducción de hasta **10 veces en los costes de inferencia**, permitiendo despliegues de IA a escala empresarial mucho más sostenibles.\n\n### 📈 Disponibilidad y Ecosistema\nLa plataforma Rubin se compone de seis chips co-diseñados que forman un supercomputador de IA integrado. Se espera su disponibilidad general en la segunda mitad de 2026 (**H2 2026**) a través de los principales proveedores de nube (AWS, Microsoft Azure y Google Cloud).\n\n### 🔗 Fuentes Verificadas\n*   [NVIDIA Newsroom - NVIDIA Kicks Off the Next Generation of AI With Rubin](https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer)\n*   [Barrack AI - NVIDIA Rubin at GTC 2026: Full Technical Breakdown](https://blog.barrack.ai/nvidia-rubin-specs-architecture-2026/)\n*   [Geeky Gadgets - NVIDIA Vera Rubin GPU at CES 2026 Overview](https://www.geeky-gadgets.com/nvidia-rubin-platform-overview-ces-2026/)\n*   [AI2 Work - NVIDIA Rubin Platform: Six Chips, One AI Supercomputer Revolution](https://ai2.work/blog/nvidia-rubin-platform-six-chips-one-ai-supercomputer-revolution)\n",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778754851621",
     "title": "Microsoft Edge integra Copilot Multi-Tab: Análisis de datos cruzado entre pestañas",
     "date": "2026-05-14",
