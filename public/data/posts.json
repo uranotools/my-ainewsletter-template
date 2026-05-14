@@ -1,5 +1,22 @@
 [
   {
+    "id": "1778733685178",
+    "title": "Rust vs Python: La Batalla por la Eficiencia de Inferencia de LLMs",
+    "date": "2026-05-14",
+    "categories": [
+      "performance",
+      "rust",
+      "python",
+      "ml-infrastructure",
+      "inference"
+    ],
+    "excerpt": "",
+    "content": "# Rust vs Python: La Batalla por la Eficiencia de Inferencia de LLMs\n\nEn el ecosistema de IA, Python ha sido la lengua franca debido a su flexibilidad y el ecosistema de PyTorch/HuggingFace. Sin embargo, a medida que pasamos de la experimentación a la industrialización, el \"impuesto de Python\" está empezando a pesar en la infraestructura de inferencia.\n\n## ⚡ El \"Impuesto de Python\" y vLLM\n\nvLLM se ha consolidado como el estándar de oro para el despliegue de alta disponibilidad debido a su innovadora arquitectura de **PagedAttention**. Esta técnica reduce la fragmentación de la memoria KV Cache, permitiendo manejar cientos de usuarios concurrentes con una eficiencia asombrosa.\n\nSin embargo, vLLM sigue siendo un orquestador escrito en Python. En hardware de última generación (H100), el programador (scheduler) de Python puede llegar a consumir hasta el **60% del tiempo de ejecución** en ciertos escenarios, creando un cuello de botella mientras la GPU espera instrucciones.\n\n## 🦀 Rust y la Revolución de Candle\n\nFrente a esto surge **Candle**, el framework de ML minimalistamente implementado en Rust. Candle no busca reemplazar a PyTorch en el entrenamiento, sino dominar la inferencia eficiente.\n\n### ¿Por qué Rust?\n*   **Sin Garbage Collection:** Eliminación de picos de latencia impredecibles.\n*   **Concurrencia Segura:** Manejo de múltiples solicitudes sin el bloqueo del Global Interpreter Lock (GIL).\n*   **Binarios Estáticos:** Mientras que una imagen de Docker de vLLM puede pesar 12GB, una aplicación de Candle puede pesar menos de **500MB**, reduciendo drásticamente los *cold starts* en entornos serverless.\n\n## 📊 Comparativa Técnica de Rendimiento\n\nBasado en benchmarks de 2026 para modelos Llama-3 (8B y 70B):\n\n| Métrica | vLLM (Python) | Candle (Rust) | Ganador |\n| :--- | :--- | :--- | :--- |\n| **Throughput (Tokens/seg)** | ~793 (Batch 64+) | ~553 (Batch 16) | **vLLM** (Para alta carga) |\n| **TTFT (Time to First Token)** | Moderado | Ultra Bajo | **Candle** |\n| **Cold Start Latency** | Segundos (5-10s) | Milisegundos | **Candle** |\n| **Tamaño de Imagen Docker** | 5GB - 12GB | < 500MB | **Candle** |\n\n## 💡 Conclusión: ¿Cuál elegir?\n\n*   **Elige vLLM** si tu prioridad es la capacidad de procesamiento masivo y tienes una infraestructura de servidores persistentes.\n*   **Elige Candle (Rust)** si estás construyendo aplicaciones serverless, necesitas una respuesta instantánea (baja latencia) o despliegas en hardware diverso (incluyendo Apple Silicon vía Metal).\n\n## 🔗 Fuentes Consultadas\n\n1. [PenChef - Deploying LLMs: Python vLLM vs Rust Candle Benchmarks](https://www.penchef.com/machine-learning-infrastructure/deploying-llms-python-vllm-vs-rust-candle-benchmarks)\n2. [Tech-Insider - Python vs Rust 2026: 10 Benchmarks](https://tech-insider.org/python-vs-rust-2026/)\n3. [Rustify - Rust vs Python Performance 2026](https://rustify.rs/articles/rust-vs-python-performance-2026)\n",
+    "imageUrl": "https://github.com/chenxuniu/LLM-Inference-Engine-Benchmark/raw/main/figures/Throughput_and_energy_per_token.png",
+    "source": "ML Infra Analysis 2026",
+    "originalUrl": "https://www.penchef.com/machine-learning-infrastructure/deploying-llms-python-vllm-vs-rust-candle-benchmarks"
+  },
+  {
     "id": "1778733581935",
     "title": "Guerra de Frameworks: Orquestación de Agentes IA en 2026",
     "date": "2026-05-14",
