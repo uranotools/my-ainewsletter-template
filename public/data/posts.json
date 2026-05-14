@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778754792427",
+    "title": "Microsoft implementa Cloud-Initiated Driver Recovery: Rollbacks automáticos para drivers fallidos",
+    "date": "2026-05-14",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🛠️ Microsoft despliega \"Cloud-Initiated Driver Recovery\" para Windows Update\n\nMicrosoft ha anunciado el lanzamiento de una funcionalidad técnica crítica denominada **Cloud-Initiated Driver Recovery**, diseñada para mitigar el impacto de controladores (drivers) defectuosos distribuidos a través de Windows Update.\n\n### ⚙️ Detalles Técnicos de la Implementación\nA diferencia del proceso tradicional donde el usuario debe realizar el rollback manualmente desde el Administrador de Dispositivos o esperar a que el fabricante (OEM) lance una corrección, este nuevo sistema opera de la siguiente manera:\n\n*   **Control Centralizado:** Microsoft puede activar remotamente una instrucción de reversión desde su infraestructura de nube.\n*   **Rollback Automático:** El sistema identifica los equipos afectados por un driver específico y lo revierte automáticamente a una versión previamente validada como **\"known-good\"**.\n*   **Integración con el Pipeline de Update:** La recuperación se ejecuta a través del canal estándar de Windows Update, asegurando que el proceso sea transparente y no requiera intervención manual.\n\nEsta medida reduce drásticamente el *Mean Time to Recovery* (MTTR) ante despliegues fallidos de drivers que podrían causar pantallas azules (BSOD) o inestabilidad en el hardware.\n\n### 🔗 Fuentes Verificadas\n*   [Windows Forum - Cloud-Initiated Driver Recovery Analysis](https://windowsforum.com/threads/microsoft-cloud-initiated-driver-recovery-roll-back-bad-windows-update-drivers.418119/)\n*   [PCWorld - Automatic Rollbacks for Faulty Drivers](https://www.pcworld.com/article/3139150/windows-update-is-getting-automatic-rollbacks-for-faulty-drivers.html)\n*   [TechSpot - Microsoft's New Cloud Driver Fix](https://www.techspot.com/news/112395-microsoft-new-cloud-initiated-driver-recovery-automatically-rolls.html)\n*   [Neowin - Remote Driver Rollback Capability](https://www.neowin.net/news/microsoft-can-now-remotely-roll-back-problematic-windows-drivers/)\n*   [4sysops - Technical Breakdown of Driver Recovery](https://4sysops.com/archives/cloud-initiated-driver-recovery-automatic-windows-update-rollback/)\n",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778751618734",
     "title": "Edge evoluciona: Copilot ahora es el núcleo del navegador",
     "date": "2026-05-14",
