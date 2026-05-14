@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778719298771",
+    "title": "NVIDIA Vera Rubin: La Infraestructura para la Era de la IA Agéntica",
+    "date": "2026-05-14",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# NVIDIA presenta la plataforma Vera Rubin: El futuro de la IA Agéntica\n\nDurante el GTC 2026, NVIDIA ha revelado los detalles de su nueva plataforma **Vera Rubin**, diseñada específicamente para escalar la próxima generación de inteligencia artificial: la **IA Agéntica**. Esta arquitectura no solo busca aumentar el rendimiento bruto, sino optimizar el razonamiento complejo y la autonomía de los agentes de IA.\n\n### 🛠️ Especificaciones Técnicas y Ecosistema\n- **Arquitectura Rubin:** El núcleo es la GPU Rubin, que introduce mejoras masivas en el ancho de banda de memoria y la interconectividad entre chips.\n- **Soporte para IA Agéntica:** Optimización de hardware para flujos de trabajo donde la IA debe planificar, ejecutar y corregir tareas de forma autónoma sin intervención humana constante.\n- **Interconexión NVLink 6:** Nueva generación de interconexión que permite que miles de GPUs operen como un único procesador gigante, reduciendo los cuellos de botella en el entrenamiento de modelos frontera.\n- **Sinergia con CPU Vera:** La plataforma integra CPUs Vera diseñadas para manejar el preprocesamiento de datos a velocidades compatibles con la GPU Rubin.\n\n### ✅ Información Confirmada\n- **Anuncio Oficial:** Presentación detallada en el GTC 2026.\n- **Enfoque:** Prioridad absoluta en la IA Agéntica y el razonamiento avanzado.\n- **Hardware:** Lanzamiento de la GPU Rubin y CPU Vera como componentes centrales de la plataforma.\n\n### ⚠️ Datos no Comprobados / Especulativos\n- **Fecha de disponibilidad comercial:** Se menciona una ventana de despliegue para mediados de 2026, pero no hay fechas exactas de envío para clientes externos fuera de los partners prioritarios.\n- **Consumo Energético:** No se han publicado cifras oficiales sobre el TDP (Thermal Design Power) total de un nodo Rubin, aunque se especula con un incremento significativo respecto a Blackwell.\n\n### 🔗 Fuentes Consultadas\n1. **NVIDIA Developer Blog:** [GTC 2026 Keynote Recap](https://developer.nvidia.com/blog/)\n2. **TechSpot:** [NVIDIA Vera Rubin Architecture Analysis](https://www.techspot.com/)\n3. **The Neuron:** [The Age of Agentic AI and Rubin](https://www.theneuron.ai/)\n4. **Oplexa:** [GPU Roadmap 2026](https://oplexa.com/)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778719201108",
     "title": "AMD Ryzen PRO 9000: El poder del 3D V-Cache llega al sector Profesional",
     "date": "2026-05-14",
