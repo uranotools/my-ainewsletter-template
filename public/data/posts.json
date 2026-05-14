@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778754851621",
+    "title": "Microsoft Edge integra Copilot Multi-Tab: Análisis de datos cruzado entre pestañas",
+    "date": "2026-05-14",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🌐 Microsoft Edge: Copilot ahora analiza información a través de múltiples pestañas\n\nMicrosoft ha implementado una actualización significativa en el navegador Edge, expandiendo las capacidades de su chatbot de IA, **Copilot**, para que pueda procesar y sintetizar información proveniente de todas las pestañas abiertas simultáneamente.\n\n### 🧠 Capacidades de Análisis Multi-Tab\nEsta funcionalidad rompe la limitación de interacción página por página, permitiendo que la IA realice las siguientes tareas técnicas:\n\n*   **Sintetización Cruzada:** El usuario puede solicitar resúmenes que consoliden datos de múltiples artículos o fuentes abiertas en el navegador.\n*   **Comparativa de Datos:** Capacidad para comparar especificaciones técnicas, precios o características de productos entre diferentes sitios web sin necesidad de copiar y pegar texto manualmente.\n*   **Recuperación de Información Contextual:** Copilot puede responder preguntas basadas en el conjunto de datos activo de la sesión de navegación actual, mejorando la eficiencia en flujos de trabajo de investigación.\n\n### 🛡️ Privacidad y Control\nMicrosoft ha indicado que los usuarios pueden seleccionar específicamente qué experiencias desean activar o desactivar, manteniendo el control sobre el acceso de la IA a sus pestañas abiertas.\n\n### 🔗 Fuentes Verificadas\n*   [The Verge - Microsoft's Edge Copilot update uses AI to pull information from across your tabs](https://www.theverge.com/tech/930188/microsoft-edge-copilot-ai-tabs)\n*   [ZDNET - I let Microsoft Edge's new AI feature read all my open tabs](https://www.zdnet.com/article/ecap-browser-pages-microsoft-edge-copilot/)\n*   [Windows Forum - Microsoft Edge Copilot reads open tabs to compare info](https://windowsforum.com/threads/microsoft-edge-copilot-reads-open-tabs-to-compare-info-and-summarize-sessions.418218/)\n*   [AI Toolly - Microsoft Edge Copilot Update: Data Retrieval and Comparison](https://aitoolly.com/ai-news/article/2026-05-14-microsoft-edge-copilot-update-new-ai-feature-enables-data-retrieval-and-comparison-across-multiple-o)\n",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778754792427",
     "title": "Microsoft implementa Cloud-Initiated Driver Recovery: Rollbacks automáticos para drivers fallidos",
     "date": "2026-05-14",
