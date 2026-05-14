@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778743235496",
+    "title": "Grave Ataque a la Cadena de Suministro: Worm Mini Shai-Hulud golpea TanStack y Mistral AI",
+    "date": "2026-05-14",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# ⚠️ Alerta Crítica: Worm 'Mini Shai-Hulud' Compromete Ecosistemas npm y PyPI\n\nSe ha detectado una campaña de ataque de cadena de suministro extremadamente sofisticada denominada **\"Mini Shai-Hulud\"**, ejecutada por el actor de amenazas **TeamPCP**. El ataque ha impactado a paquetes ampliamente utilizados en la industria, incluyendo aquellos de **TanStack, Mistral AI, UiPath y OpenSearch**.\n\n### 🔍 Detalles Técnicos del Ataque\nEste ataque es particularmente peligroso debido a su método de propagación y validación:\n*   **Vectores de Entrada:** El worm utilizó un commit huérfano en un flujo de trabajo de CI de TanStack que mantenía una federación de confianza OIDC.\n*   **Técnica:** Encadenó un \"Pwn Request\" de GitHub Actions, envenenamiento de caché y extracción de tokens OIDC directamente de la memoria del runner.\n*   **Impacto en la Confianza:** Es el primer ataque de cadena de suministro en npm que logra producir artefactos con **atestaciones SLSA Build Level 3 válidas**, lo que significa que los paquetes parecían legítimos y verificados incluso bajo estándares de seguridad estrictos.\n*   **Alcance:** Más de 169 nombres de paquetes comprometidos y más de 400 versiones maliciosas. El paquete `@tanstack/react-router`, con más de 12 millones de descargas semanales, fue uno de los objetivos principales.\n\n### 🛡️ Recomendaciones Inmediatas\nSe insta a todos los desarrolladores a revisar sus dependencias y actualizar a las versiones corregidas inmediatamente.\n\n### 🔗 Fuentes Verificadas:\n1.  [Snyk - Technical Breakdown of TanStack Compromise](https://snyk.io/blog/tanstack-npm-packages-compromised/)\n2.  [Socket.dev - Ongoing Tracking of Mini Shai-Hulud](https://socket.dev/blog/tanstack-npm-packages-compromised-mini-shai-hulud-supply-chain-attack)\n3.  [The Hacker News - TeamPCP and PyPI/npm Impact](https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html)\n4.  [Phoenix Security - Analysis of the OIDC Breach](https://phoenix.security/mini-shai-hulud-teampcp-tanstack/)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778743216163",
     "title": "Salesforce Summer '26: De Asistentes de IA a Agentes Autónomos Empresariales",
     "date": "2026-05-14",
