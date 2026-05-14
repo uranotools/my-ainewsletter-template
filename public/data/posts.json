@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778741209814",
+    "title": "DeepSeek V4: El Gigante Open-Source de 1 Trillón de Parámetros",
+    "date": "2026-05-14",
+    "categories": [],
+    "excerpt": "DeepSeek V4 llega con 1T de parámetros, ventana de 1M de tokens y entrenamiento en hardware Huawei Ascend.",
+    "content": "# DeepSeek V4: El Gigante Open-Source de 1 Trillón de Parámetros\n\nDeepSeek ha sacudido el panorama de la IA abierta con la presentación de **DeepSeek V4**, un modelo de frontera que desafía la hegemonía de los sistemas cerrados en tareas de codificación y razonamiento matemático.\n\n### ⚙️ Arquitectura y Detalles Técnicos\n- **Modelo MoE (Mixture-of-Experts)**: Cuenta con aproximadamente **1 trillón de parámetros totales**, pero optimiza la inferencia activando solo **~37 mil millones de parámetros por token**, lo que permite una eficiencia sorprendente.\n- **Ventana de Contexto Masiva**: Implementa una ventana de **1 millón de tokens**, impulsada por una memoria condicional denominada *Engram*, permitiendo procesar bases de código completas o documentos extensos.\n- **Soberanía de Hardware**: A diferencia de versiones anteriores, V4 fue entrenado principalmente en clusters de chips **Huawei Ascend 950** y Cambricon, demostrando que es posible alcanzar el nivel de frontera utilizando silicio chino doméstico.\n- **Licencia**: Distribuido bajo la licencia **Apache 2.0**, facilitando su adopción empresarial y académica.\n\n### 📊 Rendimiento Comparativo\nEn benchmarks head-to-head, DeepSeek V4 ha mostrado una competitividad extrema frente a modelos como Claude Opus 4.7 y GPT-5.5, especialmente en el **SWE-bench** donde alcanza un 81% de éxito en la resolución de problemas de software reales.\n\n### 🔗 Fuentes Verificadas\n- [DeepSeek V4 Technical Documentation (PDF)](https://fe-static.deepseek.com/chat/transparency/deepseek-V4-model-card-EN.pdf)\n- [Nxcode - DeepSeek V4 Specs & Benchmarks](https://www.nxcode.io/resources/news/deepseek-v4-release-specs-benchmarks-2026)\n- [Ofox AI - DeepSeek V4 Release Guide](https://ofox.ai/blog/deepseek-v4-release-guide-2026/)\n- [CoderSera - DeepSeek V4 Complete Guide](https://codersera.com/blog/deepseek-v4-complete-guide-2026/)\n- [AI Central - The AI Landscape: May 2026](https://aicentral.substack.com/p/the-ai-landscape-may-2026)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778741191856",
     "title": "NVIDIA Nemotron 3 Nano Omni: Multimodalidad Nativa en el Edge",
     "date": "2026-05-14",
