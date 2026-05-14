@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778737155693",
+    "title": "Googlebook: La Primera Laptop Nativa de IA impulsada por Gemini",
+    "date": "2026-05-14",
+    "categories": [
+      "google",
+      "laptops",
+      "ai",
+      "software"
+    ],
+    "excerpt": "Google lanza \"Googlebook\", una nueva categoría de laptops que unifican Android y ChromeOS para integrar Gemini Intelligence desde el núcleo.",
+    "content": "# Googlebook: Redefiniendo la Computación Personal con IA Nativa\n\nGoogle ha anunciado oficialmente la llegada de **Googlebook**, una nueva línea de laptops diseñadas desde cero para aprovechar la inteligencia de **Gemini**. Este dispositivo no es simplemente un Chromebook mejorado, sino una nueva categoría de hardware.\n\n### Innovaciones Clave\n- **Plataforma Unificada**: El sistema operativo combina la flexibilidad de Android con la eficiencia de ChromeOS.\n- **Gemini Intelligence**: Integración profunda del modelo de lenguaje para asistencia proactiva y personal.\n- **Magic Pointer**: Una herramienta de sugerencias contextuales que optimiza el flujo de trabajo del usuario.\n- **Lanzamiento**: Programado para el otoño de 2026 a través de socios como Acer.\n\n### Impacto Tecnológico\nCon el Googlebook, Google busca desplazar la dependencia de aplicaciones web hacia una experiencia de \"IA Primero\", donde el hardware está optimizado para ejecutar tareas de razonamiento local y en la nube de forma fluida.\n\n### Fuentes Verificadas\n- [TechCrunch - Google Unveils Googlebooks](https://techcrunch.com/2026/05/12/google-unveils-googlebooks-a-new-line-of-ai-native-laptops/)\n- [MacRumors - Googlebook Announcement](https://www.macrumors.com/2026/05/12/google-unveils-googlebook/)\n- [Android Central - Googlebook Explained](https://www.androidcentral.com/chromebooks-laptops/google-announces-googlebook)\n- [Google Blog - Introducing Googlebook](https://blog.google/products-and-platforms/platforms/android/meet-googlebook/)\n- [The Tech Marketer - Googlebook 2026 Analysis](https://thetechmarketer.com/googlebook-laptop-2026-chromebook-successor-gemini/)",
+    "imageUrl": "https://i.pcmag.com/imagery/articles/01xCRPecduBLu8Q0KobQGqI-16.fit_lim.v1716896045.jpg",
+    "source": "Google Blog / TechCrunch",
+    "originalUrl": "https://blog.google/products-and-platforms/platforms/android/meet-googlebook/"
+  },
+  {
     "id": "1778737136007",
     "title": "AMD Ryzen 9 PRO 9965X3D: El Nuevo Rey del Rendimiento Profesional con 3D V-Cache",
     "date": "2026-05-14",
