@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778733581935",
+    "title": "Guerra de Frameworks: Orquestación de Agentes IA en 2026",
+    "date": "2026-05-14",
+    "categories": [
+      "agentes-ia",
+      "mlopps",
+      "software-architecture",
+      "orchestrators"
+    ],
+    "excerpt": "",
+    "content": "# Guerra de Frameworks: Orquestación de Agentes IA en 2026\n\nLa fragmentación experimental de 2024 y 2025 ha terminado. En 2026, el desarrollo de sistemas multi-agente (MAS) ha convergido en cuatro filosofías arquitectónicas distintas, impulsadas por los principales laboratorios de IA y proveedores de nube.\n\n## 🏗️ Los Cuatro Pilares de la Orquestación\n\n### 1. LangGraph (LangChain): El Motor de Grafos Detallados\nLangGraph ha dejado de ser una librería para convertirse en un motor de ejecución durable. Su enfoque es el **Estado Explícito**. \n*   **Filosofía:** El desarrollador diseña el grafo de flujo (nodos y aristas) y define exactamente cómo se transforma el estado en cada paso.\n*   **Punto Fuerte:** Control total, persistencia nativa (checkpointing) y soporte robusto para *Human-in-the-Loop*.\n*   **Uso Ideal:** Flujos de trabajo críticos donde el error no es opción y el camino debe ser auditado.\n\n### 2. Claude Agent SDK (Anthropic): El Agente como Runtime\nAnthropic ha transformado su tooling en un runtime completo. Aquí, el agente no es una función, sino un **Entorno Sandboxed**.\n*   **Filosofía:** Cada agente vive en un contenedor con su propio sistema de archivos, herramientas y estado persistente.\n*   **Punto Fuerte:** Capacidad superior para tareas de codificación y análisis de datos complejo gracias a su aislamiento y persistencia de sesión.\n*   **Uso Ideal:** Agentes de ingeniería de software y analistas de datos autónomos.\n\n### 3. OpenAI Agents SDK: El Modelo de Handoffs\nOpenAI ha simplificado la orquestación basándose en la **Transferencia de Control**.\n*   **Filosofía:** Agentes especializados que se \"pasan la bola\" (handoff) basándose en la intención del usuario.\n*   **Punto Fuerte:** Simplicidad extrema en el despliegue de sistemas de soporte tiered y triage de solicitudes.\n*   **Uso Ideal:** Atención al cliente avanzada y sistemas de routing de tareas.\n\n### 4. Strands Agents (AWS): El Minimalismo Model-Driven\nAWS propone que la inteligencia del flujo resida en el modelo, no en el código del framework.\n*   **Filosofía:** Proporciona las primitivas (Herramientas, Modelo), pero deja que el LLM decida el orden de ejecución y la ruta.\n*   **Punto Fuerte:** Agnosticismo de proveedor y despliegue ultrarrápido en AWS Bedrock.\n*   **Uso Ideal:** Prototipado rápido y aplicaciones donde la flexibilidad del modelo es preferible a la rigidez del grafo.\n\n## 📊 Comparativa Técnica Rápidamente\n\n| Característica | LangGraph | Claude Agent SDK | OpenAI SDK | Strands |\n| :--- | :--- | :--- | :--- | :--- |\n| **Gestión de Estado** | Grafo Detallado | Runtime/Sesión | Contexto compartido | Model-driven |\n| **Aislamiento** | Lógica de App | Contenedor/Sandbox | Sandbox (Harness) | Bedrock/Managed |\n| **Control del Flujo** | Programático | Basado en Eventos | Handoffs | Autónomo |\n| **Portabilidad** | Muy Alta | Solo Claude | Solo OpenAI/Azure | Muy Alta |\n\n## 🔗 Fuentes Consultadas\n\nEste análisis se basa en la comparativa técnica de 2026:\n1. [QubitTool - AI Agent Framework Showdown 2026](https://qubittool.com/blog/ai-agent-framework-comparison-2026)\n2. [is4.ai - Top Multi-Agent AI Frameworks 2026](https://is4.ai/blog/our-blog-1/top-12-multi-agent-ai-frameworks-2026-335)\n3. [Redwerk - Best Multi-Agent AI Frameworks & Orchestration](https://redwerk.com/blog/best-multi-agent-ai-frameworks/)\n",
+    "imageUrl": "https://miro.medium.com/v2/resize:fit:1358/1*3jp9spzVMxxed9XE90T0sA.png",
+    "source": "Agentic AI Research 2026",
+    "originalUrl": "https://qubittool.com/blog/ai-agent-framework-comparison-2026"
+  },
+  {
     "id": "1778733469873",
     "title": "Guía de Inferencia LLM 2026: vLLM, TensorRT-LLM y SGLang",
     "date": "2026-05-14",
