@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778751618734",
+    "title": "Edge evoluciona: Copilot ahora es el núcleo del navegador",
+    "date": "2026-05-14",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# 🌐 Microsoft Edge integra Copilot profundamente en Móvil y Escritorio\n\nMicrosoft ha desplegado una de las actualizaciones más ambiciosas de **Microsoft Edge**, transformando la manera en que Copilot interactúa con la navegación web, eliminando el \"Modo Copilot\" aislado para integrarlo como una función nativa del navegador.\n\n### 🧠 Nuevas Capacidades de IA\nLa actualización introduce funciones avanzadas que convierten al navegador en un agente de razonamiento activo:\n\n*   **Razonamiento Multi-Pestaña:** Copilot ahora puede analizar, comparar y extraer información de múltiples pestañas abiertas simultáneamente, evitando que el usuario tenga que saltar manualmente entre ellas.\n*   **Expansión a Móvil:** Por primera vez, las capacidades de **Journeys**, **Vision** y **Voice** están disponibles en la aplicación móvil de Edge, unificando la experiencia de IA en todos los dispositivos.\n*   **Memoria a Largo Plazo:** El sistema mejora su capacidad de recordar contextos de interacciones previas para ofrecer respuestas más precisas y personalizadas.\n\nEsta transición marca la jubilación del Copilot como una \"barra lateral\" para convertirlo en el núcleo operativo de la navegación de Microsoft.\n\n### 🔗 Fuentes Verificadas\n*   [Windows Blog (Microsoft Edge Dev)](https://blogs.windows.com/msedgedev/2026/05/13/new-updates-to-edge-across-desktop-and-mobile/)\n*   [Windows Report](https://windowsreport.com/microsoft-retires-copilot-mode-in-edge-but-ai-is-everywhere-now/)\n*   [Gadgets360](https://www.gadgets360.com/ai/news/microsoft-edge-copilot-ai-update-mobile-desktop-app-features-11493714)\n*   [MSFT News Now](https://msftnewsnow.com/microsoft-edge-copilot-across-desktop-mobile/)\n",
+    "imageUrl": "https://www.windowslatest.com/wp-content/uploads/2025/11/Journeys-in-Edge.jpg",
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778751600626",
     "title": "KAYTUS All-QLC: Almacenamiento masivo para la era de la IA",
     "date": "2026-05-14",
