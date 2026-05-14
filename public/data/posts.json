@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778737116773",
+    "title": "NVIDIA Rubin: La Nueva Era de la IA con 336 Mil Millones de Transistores",
+    "date": "2026-05-14",
+    "categories": [
+      "nvidia",
+      "hardware",
+      "ai",
+      "gpu"
+    ],
+    "excerpt": "NVIDIA presenta la plataforma Rubin, prometiendo una reducción de hasta 10 veces en los costes de inferencia frente a Blackwell.",
+    "content": "# NVIDIA Rubin: El Salto Cuántico en Hardware de IA\n\nNVIDIA ha revelado los detalles técnicos de su próxima arquitectura, la plataforma **Rubin**, diseñada para dominar la era de la IA generativa a gran escala. Esta nueva GPU marca un hito en la densidad de transistores y el ancho de banda de memoria.\n\n### Especificaciones Técnicas Confirmadas\n- **Transistores**: 336 mil millones.\n- **Memoria**: 288 GB de HBM4 por GPU.\n- **Ancho de Banda**: 22 TB/s.\n- **Rendimiento de Cómputo**: 50 PFLOPS en precisión FP4.\n- **Eficiencia**: Reducción estimada de hasta 10x en el coste por token de inferencia en comparación con la arquitectura Blackwell.\n\n### Configuración de Sistema (NVL72)\nEl rack insignia NVL72 integrará 72 GPUs Rubin y 36 CPUs Vera, utilizando un sistema de refrigeración líquida completa para gestionar una carga térmica que supera los 200 kW por rack.\n\n### Fuentes Verificadas\n- [Barrack AI - NVIDIA Rubin Technical Breakdown](https://blog.barrack.ai/nvidia-rubin-specs-architecture-2026/)\n- [Tech-Insider - Rubin GPU Analysis](https://tech-insider.org/nvidia-gtc-2026-rubin-gpu-analysis/)\n- [Spheron Network - Rubin R100 Guide](https://www.spheron.network/blog/nvidia-rubin-r100-guide/)\n- [Introl Blog - NVIDIA Rubin Production](https://introl.com/blog/nvidia-rubin-full-production-ces-2026-ai-infrastructure)\n- [Wccftech - NVIDIA Vera Rubin Analysis](https://wccftech.com/nvidia-vera-rubin-achieves-40-million-times-more-compute-in-10-years/)",
+    "imageUrl": "https://cdn.videocardz.com/1/2025/03/RUBIN-ULTRA-2000x1125.jpg",
+    "source": "Barrack AI / Tech-Insider",
+    "originalUrl": "https://blog.barrack.ai/nvidia-rubin-specs-architecture-2026/"
+  },
+  {
     "id": "1778733932606",
     "title": "Rust 2026: El Punto de Inflexión en la Programación de Sistemas",
     "date": "2026-05-14",
