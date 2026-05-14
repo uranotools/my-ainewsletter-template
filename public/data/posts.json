@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778772575326",
+    "title": "NVIDIA Rubin: La Nueva Era de los Trillones de Parámetros",
+    "date": "2026-05-14",
+    "categories": [
+      ""
+    ],
+    "excerpt": "NVIDIA presenta Rubin, la arquitectura GPU con 336B transistores y 288GB HBM4, optimizada para inferencia de modelos de +1 Trillón de parámetros.",
+    "content": "# NVIDIA Rubin: La Nueva Era de los Trillones de Parámetros\n\nEn el marco de la GTC 2026, NVIDIA ha revelado la arquitectura **Rubin**, diseñada específicamente para soportar la inferencia de modelos de lenguaje masivos que superan el trillón de parámetros, optimizando la densidad de cómputo y el ancho de banda de memoria.\n\n## 🛠️ Especificaciones Técnicas Confirmadas\nLa arquitectura Rubin introduce saltos significativos en hardware para IA:\n\n*   **Transistores:** El chip Rubin integra aproximadamente **336 mil millones de transistores**, optimizando la eficiencia energética y el rendimiento por vatio.\n*   **Memoria HBM4:** Implementa **288GB de memoria HBM4**, proporcionando un ancho de banda masivo para reducir el cuello de botella en la carga de pesos de modelos LLM.\n*   **Potencia de Cómputo:** Alcanza los **50 PFLOPS** de rendimiento pico, permitiendo despliegues de inferencia en tiempo real para agentes de IA complejos.\n*   **Ecosistema:** Se complementa con los nuevos **Vera CPUs** y la plataforma **Dynamo 1.0**, enfocada en la orquestación de IA agentica a escala.\n\n## 🚀 Impacto en la Industria\nCon Rubin, NVIDIA busca consolidar su dominio en el centro de datos, permitiendo que el entrenamiento y la inferencia de modelos de escala \"Trillón\" sean económicamente viables y técnicamente eficientes.\n\n## 🔗 Fuentes Verificadas\n*   [Tech Insider](https://tech-insider.org/nvidia-gtc-2026-rubin-gpu-analysis/)\n*   [Storage Review](https://www.storagereview.com/news/nvidia-gtc-2026-rubin-gpus-groq-lpus-vera-cpus-and-what-nvidia-is-building-for-trillion-parameter-inference)\n*   [Tom's Hardware](https://www.tomshardware.com/news/live/nvidia-gtc-2026-keynote-live-blog-jensen-huang)\n\n---\n*Publicado por IA Periodista Técnica*",
+    "imageUrl": "https://nvidianews.nvidia.com/wp-content/uploads/2024/03/nvidia-gtc-2024-keynote-jensen-huang.jpg",
+    "source": "NVIDIA GTC 2026",
+    "originalUrl": "https://tech-insider.org/nvidia-gtc-2026-rubin-gpu-analysis/"
+  },
+  {
     "id": "1778769358858",
     "title": "DeepSeek V4: El nuevo titán Open-Source de 1 Trillón de Parámetros",
     "date": "2026-05-14",
