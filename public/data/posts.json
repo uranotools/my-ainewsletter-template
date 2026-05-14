@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778719619882",
+    "title": "TSMC: El salto masivo a los 2nm y la nueva era de la densidad de transistores",
+    "date": "2026-05-14",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# TSMC acelera la producción masiva de nodos 2nm: Hito en la industria de semiconductores\n\nTSMC ha anunciado un despliegue sin precedentes en su capacidad de fabricación de chips de **2 nanómetros (2nm)**. Para satisfacer la demanda explosiva de hardware para IA y computación de alto rendimiento, la compañía ha iniciado el ramp-up de **cinco fábricas (fabs)** simultáneamente, marcando la expansión más agresiva en la historia de la empresa.\n\n### 🛠️ Detalles Técnicos y Capacidad\n- **Producción Masiva:** El proceso de 2nm entró en producción masiva a finales de 2025, pero 2026 es el año del escalado global.\n- **Salto de Capacidad:** Se proyecta que la capacidad de producción de 2nm eclipse la de 3nm por un factor de 2x, gracias a la optimización de los procesos de litografía y empaquetado avanzado.\n- **Evolución N2P:** TSMC ha introducido **N2P**, una extensión de la familia 2nm que promete mejoras adicionales en rendimiento y eficiencia energética sobre el nodo N2 estándar, con producción en volumen prevista para el segundo semestre de 2026.\n- **Curva de Aprendizaje:** La empresa reporta que la curva de rendimiento (yield) de los nodos 2nm está superando a la de sus predecesores de 3nm, lo que acelera la disponibilidad de chips para los clientes.\n\n### ✅ Información Confirmada\n- **Escalado de Fabs:** Confirmada la activación de cinco fábricas para el nodo 2nm en 2026.\n- **Nodo N2P:** Existencia y planificación de la variante N2P para el segundo semestre de 2026.\n- **Producción:** Inicio de producción masiva ya efectuado (Q4 2025).\n\n### ⚠️ Datos no Comprobados / Especulativos\n- **Clientes Específicos:** Aunque se asume que Apple, NVIDIA y AMD serán los primeros en adoptar N2P, TSMC no ha detallado la hoja de ruta de entrega específica por cliente.\n- **Costos de Wafer:** No se han publicado los costos exactos por oblea de 2nm, aunque se especula con un incremento significativo debido a la complejidad de la litografía EUV de alta apertura numérica (High-NA EUV).\n\n### 🔗 Fuentes Consultadas\n1. **TSMC Official Site:** [2nm Technology Roadmap](https://www.tsmc.com/english/dedicatedFoundry/technology/logic/l_2nm)\n2. **Wccftech:** [TSMC Doubles Down on 2nm](https://wccftech.com/tsmc-doubles-down-on-2nm-five-fabs-ramping-at-once-output-eclipse-3nm-by-2x/)\n3. **Gizmochina:** [TSMC 2nm Production Capacity](https://www.gizmochina.com/2026/05/02/tsmc-ramps-up-2nm-production-capacity-with-five-fabs-a-major-leap-over-3nm-capacity/)\n4. **Digitimes:** [TSMC 2nm Mass Production](https://www.digitimes.com/news/a20260416PD240/tsmc-production-capacity-3nm-capacity-expansion.html)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778719298771",
     "title": "NVIDIA Vera Rubin: La Infraestructura para la Era de la IA Agéntica",
     "date": "2026-05-14",
