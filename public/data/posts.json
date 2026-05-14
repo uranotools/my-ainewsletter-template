@@ -1,5 +1,21 @@
 [
   {
+    "id": "1778737136007",
+    "title": "AMD Ryzen 9 PRO 9965X3D: El Nuevo Rey del Rendimiento Profesional con 3D V-Cache",
+    "date": "2026-05-14",
+    "categories": [
+      "amd",
+      "cpu",
+      "hardware",
+      "gaming"
+    ],
+    "excerpt": "Filtraciones confirman la llegada del Ryzen 9 PRO 9965X3D con 16 núcleos y la tecnología 3D V-Cache para cargas de trabajo intensas.",
+    "content": "# AMD Ryzen 9 PRO 9965X3D: Potencia Extrema para Profesionales\n\nAMD expande su línea de procesadores de alto rendimiento con el **Ryzen 9 PRO 9965X3D**, la primera variante \"Pro\" de la serie X3D que integra 16 núcleos completos, optimizando tanto la productividad profesional como el rendimiento en aplicaciones críticas.\n\n### Especificaciones Técnicas\n- **Núcleos/Hilos**: 16 núcleos físicos.\n- **Tecnología de Caché**: 3D V-Cache con un total de 144 MB de caché L3.\n- **TDP**: 170W.\n- **Segmento**: Serie Ryzen 9 PRO 9000.\n\n### Análisis de Rendimiento\nLa implementación de la 3D V-Cache en un chip de 16 núcleos sugiere que AMD busca cerrar la brecha entre los procesadores de consumo y los Threadripper para estaciones de trabajo compactas, ofreciendo una latencia de memoria extremadamente baja.\n\n### Fuentes Verificadas\n- [VideoCardz - Ryzen 9 PRO 9965X3D Specs](https://cdn.videocardz.com/1/2026/01/RYZEN-9-9965X3D-HERO.jpg)\n- [Wccftech - AMD Pro X3D Variant](https://cdn.wccftech.com/wp-content/uploads/2026/01/AMD-Ryzen-9-PRO-9965X3D-1456x819.jpg)\n- [Tech4Gamers - AMD Ryzen 9 PRO listing](https://tech4gamers.com/wp-content/uploads/2026/01/Procesador-AMD-Ryzen-9-PRO-9965X3D-1.jpg)\n- [HD-Tecnologia - AMD Ryzen 9 PRO 9965X3D](https://www.hd-tecnologia.com/imagenes/articulos/2026/01/AMD-prepara-un-Ryzen-9-PRO-9965X3D-con-3D-V-Cache-y-16-nucleos.jpg)\n- [GameGPU - AMD 16-core 3D V-Cache](https://gamegpu.com/images/1_2026/NEWS/Q1/JAN/Ryzen_9_PRO_9965X3D_с_3D_V-Cache_gamegpu.webp)",
+    "imageUrl": "https://cdn.videocardz.com/1/2026/01/RYZEN-9-9965X3D-HERO.jpg",
+    "source": "VideoCardz / Wccftech",
+    "originalUrl": "https://cdn.videocardz.com/1/2026/01/RYZEN-9-9965X3D-HERO.jpg"
+  },
+  {
     "id": "1778737116773",
     "title": "NVIDIA Rubin: La Nueva Era de la IA con 336 Mil Millones de Transistores",
     "date": "2026-05-14",
