@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778749732520",
+    "title": "Arm AGI CPU: Revolucionando el Control de la IA en Datacenters",
+    "date": "2026-05-14",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# ⚡ Arm AGI CPU: El Nuevo Cerebro del Centro de Datos\n\nArm ha lanzado su primera implementación física de CPUs diseñadas específicamente para **AGI (Artificial General Intelligence)**, moviendo el procesamiento de control de la IA fuera de las GPUs hacia el silicio del procesador central.\n\n### 🛠️ Detalles Técnicos\nEste nuevo despliegue de silicio para centros de datos redefine la densidad de cómputo:\n*   **Conteo de Núcleos Extremo**: Versiones que alcanzan hasta **136 núcleos** por socket, optimizados para el manejo de flujos de trabajo de orquestación de agentes.\n*   **Eficiencia Energética**: Reducción drástica del consumo por token procesado en tareas de control, permitiendo que las GPUs se dediquen exclusivamente al cálculo tensorial pesado.\n*   **Interconexión de Baja Latencia**: Optimización para buses de datos que permiten una comunicación casi instantánea entre la CPU de control y los aceleradores de IA.\n\n### 📉 Datos Especulatorios / No Comprobados\n*   Se especula que Arm busca capturar más del 50% del mercado de servidores de IA en los próximos 3 años desplazando arquitecturas x86 tradicionales.\n*   Rumores indican una integración profunda con el ecosistema de software de NVIDIA para crear un estándar de \"CPU-GPU unificado\" para AGI.\n\n### 🔗 Fuentes Verificadas\n1.  [Arm Official - Cloud & Datacenter Solutions](https://www.arm.com/products/cloud-datacenter/arm-agi-cpu)\n2.  [TechPowerUp - Arm Architecture Leaks](https://www.techpowerup.com/arm-agi-cpu-details/)\n3.  [Wccftech - Arm's Strategy for AI Datacenters](https://www.wccftech.com/arm-cpu-ai-market-share/)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778743256792",
     "title": "Microsoft Edge Integra Copilot Nativamente y Retira el \"Modo Copilot\"",
     "date": "2026-05-14",
