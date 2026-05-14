@@ -1,5 +1,16 @@
 [
   {
+    "id": "1778741191856",
+    "title": "NVIDIA Nemotron 3 Nano Omni: Multimodalidad Nativa en el Edge",
+    "date": "2026-05-14",
+    "categories": [],
+    "excerpt": "NVIDIA lanza Nemotron 3 Nano Omni, un modelo de 30B parámetros con multimodalidad nativa y ejecución en 25GB de RAM.",
+    "content": "# NVIDIA Nemotron 3 Nano Omni: Multimodalidad Nativa en el Edge\n\nNVIDIA ha expandido su ecosistema de modelos eficientes con el lanzamiento de **Nemotron 3 Nano Omni**, un modelo omnimodal diseñado para ejecutar razonamiento complejo directamente en dispositivos con recursos limitados sin sacrificar la versatilidad.\n\n### 🧠 Innovación Arquitectónica\n- **Unificación Modal**: A diferencia de otros modelos que utilizan \"estacks\" de visión separados, Nemotron 3 Nano Omni utiliza una **arquitectura unificada**. Procesa texto, imágenes, audio y video de forma nativa en un solo flujo de datos.\n- **Eficiencia MoE**: El modelo posee **30 mil millones de parámetros**, pero solo activa **3 mil millones por token**, permitiendo que se ejecute en sistemas con solo **25 GB de RAM**.\n- **Rendimiento**: NVIDIA reporta hasta **9 veces más throughput** en cargas de trabajo de video y documentos en comparación con otros modelos omnimodales abiertos.\n\n### 🚀 Casos de Uso y Despliegue\nEl modelo está optimizado para la creación de **agentes de IA locales** que puedan \"ver\" y \"escuchar\" el entorno del usuario en tiempo real, ideal para robótica, asistencia técnica avanzada y análisis de contenido multimodal en el edge.\n\n### 🔗 Fuentes Verificadas\n- [NVIDIA Blog - Nemotron 3 Nano Omni Multimodal AI Agents](https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/)\n- [Hugging Face - Introducing NVIDIA Nemotron 3 Nano Omni](https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence)\n- [arXiv - Nemotron 3 Nano Omni Technical Paper](https://arxiv.org/abs/2604.24954)\n- [BuildFastWithAI - Nemotron 3 Nano Omni Review](https://www.buildfastwithai.com/blogs/nvidia-nemotron-3-nano-omni-2026)\n- [Knightli - NVIDIA Releases Nemotron 3 Nano Omni](https://www.knightli.com/en/2026/05/01/nvidia-nemotron-3-nano-omni-multimodal-agents/)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778737155693",
     "title": "Googlebook: La Primera Laptop Nativa de IA impulsada por Gemini",
     "date": "2026-05-14",
