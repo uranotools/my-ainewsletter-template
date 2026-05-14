@@ -1,5 +1,22 @@
 [
   {
+    "id": "1778733786159",
+    "title": "Mamba y SSM: El Fin de la Tiranía del O(n²)",
+    "date": "2026-05-14",
+    "categories": [
+      "architecture",
+      "ai-models",
+      "ssm",
+      "mamba",
+      "transformers"
+    ],
+    "excerpt": "",
+    "content": "# Mamba y SSM: El Fin de la Tiranía del O(n²)\n\nDurante años, la arquitectura Transformer ha sido el motor indiscutible de la IA. Sin embargo, su talón de Aquiles es la **complejidad cuadrática O(n²)** de su mecanismo de atención: si duplicas el contexto, el costo computacional se cuadruplica.\n\n## 🚀 El Ascenso de los State Space Models (SSM)\n\nLos State Space Models (SSM) proponen un cambio de paradigma. En lugar de mirar hacia atrás a cada token anterior, los SSM comprimen la historia de la secuencia en un **estado oculto (hidden state)** de tamaño fijo.\n\n### La Revolución de Mamba\nMamba ha perfeccionado esta idea introduciendo la **Selectividad**. Mientras que los SSM tradicionales eran \"estáticos\", Mamba permite que los parámetros del modelo cambien dinámicamente según el contenido del token actual. Esto le otorga la capacidad de \"decidir\" qué olvidar y qué recordar, acercándose a la calidad de razonamiento de los Transformers pero con una eficiencia radical.\n\n## 📉 Comparativa: Cuadrático vs Lineal\n\n| Característica | Transformer (Attention) | Mamba / SSM (Selective) | Impacto Real |\n| :--- | :--- | :--- | :--- |\n| **Complejidad Computacional** | O(n²) - Cuadrática | O(n) - Lineal | Inferencia masivamente más rápida en contextos largos |\n| **Memoria de Inferencia** | Crece con el contexto (KV Cache) | Constante (Estado Fijo) | Menos VRAM requerida para millones de tokens |\n| **Entrenamiento** | Altamente Paralelizable | Paralelizable (vía Convolución/Scan) | Entrenamiento eficiente en GPUs modernas |\n| **Capacidad de Recall** | Excelente (Acceso directo) | Muy Alta (Compresión eficiente) | Mamba es competitivo en tareas de \"aguja en pajar\" |\n\n## 🏗️ La Tendencia: Modelos Híbridos\n\nLa industria ya no busca el \"ganador único\", sino la simbiosis. Estamos viendo el nacimiento de modelos híbridos donde capas de Attention y capas de SSM se alternan:\n\n*   **IBM Granite 4.0:** Utiliza una arquitectura híbrida 9:1 (Mamba:Attention) para maximizar la eficiencia sin perder la precisión del razonamiento profundo.\n*   **NVIDIA Nemotron 3:** Implementa SSMs para manejar contextos de millones de tokens con un costo operativo sostenible.\n\n## 💡 Conclusión\n\nSi el Transformer fue la herramienta que permitió la explosión de los LLMs, los SSMs y Mamba son las herramientas que permitirán que la IA sea **ubicua y escalable**, procesando libros enteros o bases de código completas en milisegundos sin colapsar la memoria de la GPU.\n\n## 🔗 Fuentes Consultadas\n\n1. [QubitTool - Mamba and State Space Models (SSM): The Next-Generation Architecture](https://qubittool.com/blog/mamba-ssm-beyond-transformer-architecture)\n2. [ML Journey - Mamba and State Space Models: How They Work](https://mljourney.com/mamba-and-state-space-models-how-they-work-and-how-they-compare-to-transformers/)\n3. [Best AI Web - Transformers vs Mamba: How SSMs and Hybrids Are Reshaping AI](https://www.bestaiweb.ai/transformers-vs-mamba-how-ssms-and-hybrids-are-reshaping-ai-architecture-in-2026/)\n",
+    "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*tdpBfc75fX6LRJkF5qGyRg.png",
+    "source": "AI Architecture Analysis 2026",
+    "originalUrl": "https://qubittool.com/blog/mamba-ssm-beyond-transformer-architecture"
+  },
+  {
     "id": "1778733685178",
     "title": "Rust vs Python: La Batalla por la Eficiencia de Inferencia de LLMs",
     "date": "2026-05-14",
