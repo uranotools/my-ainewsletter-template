@@ -1,5 +1,22 @@
 [
   {
+    "id": "1778733140819",
+    "title": "xAI lanza Grok 4.3 en Oracle Cloud Infrastructure (OCI): Ventana de contexto de 1M de tokens",
+    "date": "2026-05-14",
+    "categories": [
+      "ia",
+      "oci",
+      "xai",
+      "llm",
+      "infraestructura"
+    ],
+    "excerpt": "El nuevo modelo Grok 4.3 de xAI llega a OCI Generative AI, destacando por su arquitectura optimizada y una capacidad de procesamiento de un millón de tokens.",
+    "content": "# xAI lanza Grok 4.3 en Oracle Cloud Infrastructure (OCI): Ventana de contexto de 1M de tokens\n\nEn un movimiento estratégico para fortalecer el despliegue empresarial de modelos de lenguaje a gran escala, **xAI ha integrado oficialmente Grok 4.3 dentro de los servicios de OCI Generative AI**. Esta actualización no solo expande la disponibilidad del modelo, sino que introduce mejoras arquitectónicas críticas para el manejo de datos masivos.\n\n## 🛠️ Detalles Técnicos Confirmados\n\nEl despliegue de **Grok 4.3** (`xai.grok-4.3`) en la infraestructura de Oracle destaca por los siguientes parámetros técnicos:\n\n*   **Ventana de Contexto Masiva**: El modelo ahora soporta hasta **1 millón de tokens**, lo que permite el procesamiento de documentos extensos, bases de código completas y análisis de datos complejos en una sola solicitud sin pérdida de coherencia.\n*   **Corte de Conocimiento**: La base de datos del modelo ha sido actualizada con un *knowledge cutoff* de **diciembre de 2025**.\n*   **Optimización de Arquitectura**: Se reporta una arquitectura mejorada respecto a la versión 4.20, optimizando la eficiencia en el razonamiento y la velocidad de respuesta.\n*   **Ecosistema Expandido**: Junto con el modelo base, se han habilitado la **Voice API** (para interacciones de voz en tiempo real) y la **Imagine API** (especializada en generación de imagen y video).\n\n## 📊 Datos de Rendimiento y Comparativas (Sección de Datos No Comprobados/Benchmarks)\n\nSegún datos reportados por índices de análisis externos (Artificial Analysis Intelligence Index), el rendimiento de Grok 4.3 se sitúa en los siguientes niveles, aunque estos valores pueden variar según el *benchmark* y la implementación:\n\n*   **Puntaje de Inteligencia**: Grok 4.3 ha obtenido una calificación de **53**.\n*   **Comparativa Directa**: Se sitúa por debajo de competidores como **GPT-5.5 (60)**, **Claude Opus 4.7 (57)** y **Gemini 3.1 Pro (57)**. \n*   **Especialización**: A pesar de los puntajes globales, se destaca su superioridad en tareas de **llamada a herramientas agenticas (agentic tool calling)**.\n\n## 🔗 Fuentes Consultadas\n\nPara garantizar la veracidad de esta información, se han validado los siguientes recursos:\n1. [Documentación Oficial de Oracle Cloud Infrastructure (Release Notes)](https://docs.oracle.com/en-us/iaas/releasenotes/generative-ai/xAI-grok-4-3.htm)\n2. [OCI AI Engineering Roundup - Vinish.dev](https://vinish.dev/new-in-oci-ai-may-2026)\n3. [AI Bars - Análisis de Grok 4.3 API](https://www.aibars.net/en/library/ai-news/details/839794306796621824)\n",
+    "imageUrl": "https://blogs.oracle.com/ai-and-datascience/wp-content/uploads/sites/13/2025/10/Oracle-and-xAI.png",
+    "source": "Oracle & xAI Documentation",
+    "originalUrl": "https://docs.oracle.com/en-us/iaas/releasenotes/generative-ai/xAI-grok-4-3.htm"
+  },
+  {
     "id": "1778719941102",
     "title": "Needle: IA de 26M de parámetros que lleva el Tool Calling de Gemini al Edge",
     "date": "2026-05-14",
