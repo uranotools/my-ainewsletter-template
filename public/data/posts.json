@@ -1,5 +1,23 @@
 [
   {
+    "id": "1778733469873",
+    "title": "Guía de Inferencia LLM 2026: vLLM, TensorRT-LLM y SGLang",
+    "date": "2026-05-14",
+    "categories": [
+      "infraestructura",
+      "ia",
+      "mlopps",
+      "vllm",
+      "tensorrt",
+      "sglang"
+    ],
+    "excerpt": "vLLM, TensorRT-LLM y SGLang dominan la inferencia en 2026. Analizamos throughput, TTFT y la diferencia entre PagedAttention y RadixAttention.",
+    "content": "# Guía de Inferencia LLM 2026: vLLM, TensorRT-LLM y SGLang\n\nCon la llegada de modelos cada vez más masivos, la elección del motor de inferencia es hoy el factor determinante entre un despliegue rentable y un \"agujero negro\" de costos de computación. Para 2026, el ecosistema se ha consolidado en tres frameworks principales, cada uno optimizado para un perfil de carga de trabajo diferente.\n\n## 🚀 Comparativa de Rendimiento (H100 80GB - Llama 3.3 70B FP8)\n\nBasado en benchmarks técnicos reproducibles, estas son las métricas clave para modelos densos de 70B en precisión FP8:\n\n| Motor | Throughput (50 req) | TTFT p50 | Cold Start | Especialidad |\n| :--- | :--- | :--- | :--- | :--- |\n| **vLLM** | ~1,850 tok/s | 120 ms | ~62 seg | Generalista / Flexibilidad |\n| **TensorRT-LLM** | ~2,100 tok/s | 105 ms | ~28 min* | Máximo Rendimiento |\n| **SGLang** | ~1,920 tok/s | 112 ms | ~58 seg | Prefix Caching / RAG |\n\n*\\*Requiere compilación previa del engine; el reinicio posterior es rápido.*\n\n## 🛠️ Análisis Técnico de Arquitectura\n\n### 1. vLLM: El Estándar de Flexibilidad\nvLLM popularizó la **PagedAttention**, tratando la memoria del KV Cache como páginas de memoria virtual. Esto elimina la fragmentación y permite un batching continuo extremadamente eficiente. Es la opción ideal para quienes necesitan desplegar múltiples modelos rápidamente sin fricciones de compilación.\n\n### 2. TensorRT-LLM: El \"Wring-out\" de NVIDIA\nEs un motor compilado. Al optimizar los kernels específicamente para la arquitectura del chip (H100, L40S), logra la menor latencia y el mayor throughput. Su principal desventaja es el tiempo de compilación inicial, lo que lo hace menos apto para entornos de auto-scaling agresivo desde cero.\n\n### 3. SGLang: La Optimización de Prefijos\nSGLang introduce **RadixAttention**, que organiza el KV Cache en un árbol de prefijos. Si múltiples solicitudes comparten el mismo prompt del sistema o contexto (común en RAG o agentes), SGLang no vuelve a computar esos tokens, reduciendo drásticamente la latencia de prefill.\n\n## 📊 Veredicto de Despliegue\n\n*   **¿Priorizas la velocidad de iteración y compatibilidad?** $\\rightarrow$ **vLLM**.\n*   **¿Tienes un solo modelo en producción masiva y buscas el costo por token más bajo?** $\\rightarrow$ **TensorRT-LLM**.\n*   **¿Tu aplicación depende de contextos largos compartidos o prompts complejos repetitivos?** $\\rightarrow$ **SGLang**.\n\n## 🔗 Fuentes Consultadas\n\nLa comparativa ha sido validada mediante los siguientes análisis técnicos:\n1. [Spheron Blog - H100 Benchmarks 2026](https://www.spheron.network/blog/vllm-vs-tensorrt-llm-vs-sglang-benchmarks/)\n2. [IoT Digital Twin PLM - Inference Throughput Analysis](https://iotdigitaltwinplm.com/vllm-tensorrt-llm-sglang-benchmark-2026/)\n3. [YottaLabs - Best LLM Inference Engines 2026](https://www.yottalabs.ai/post/best-llm-inference-engines-in-2026-vllm-tensorrt-llm-tgi-and-sglang-compared)\n",
+    "imageUrl": "https://www.marktechpost.com/wp-content/uploads/2025/11/Copy-of-infograp-1200x700-1-scaled.png",
+    "source": "Infrastructure Benchmarks 2026",
+    "originalUrl": "https://www.spheron.network/blog/vllm-vs-tensorrt-llm-vs-sglang-benchmarks/"
+  },
+  {
     "id": "1778733299143",
     "title": "DeepSeek V4: El nuevo titán Open-Source de 1.6 Trillones de Parámetros",
     "date": "2026-05-14",
