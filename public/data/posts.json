@@ -1,5 +1,18 @@
 [
   {
+    "id": "1778716968661",
+    "title": "Ciberseguridad: Sweet Security combate el \"Mythos Moment\" con IA Agéntica",
+    "date": "2026-05-14",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "content": "# La Era del \"Mythos Moment\": Sweet Security lanza defensa contra IA Agentica\n\nEl panorama de la ciberseguridad ha entrado en una nueva fase crítica denominada el **\"Mythos Moment\"**. Este término surge tras la revelación de modelos de IA frontera (como el *Claude Mythos Preview* de Anthropic) capaces de descubrir vulnerabilidades de software a una escala y velocidad que superan la capacidad humana, obligando a las empresas de seguridad a evolucionar sus tácticas.\n\n### 🛠️ El Lanzamiento: Sweet Attack\nPara combatir esta amenaza, **Sweet Security** ha lanzado la plataforma **\"Sweet Attack\"**, una solución de *Agentic AI Red Teaming*. A diferencia del red teaming tradicional, esta herramienta utiliza:\n- **Inteligencia de tiempo de ejecución (Runtime Intelligence):** Analiza el comportamiento del software mientras se ejecuta para detectar debilidades.\n- **Red Teaming Agéntico Continuo:** Despliega agentes de IA que simulan ataques persistentes y complejos, buscando \"cadenas de ataque\" que los equipos humanos suelen pasar por alto.\n- **Cierre de brecha de velocidad:** El objetivo es que los defensores puedan igualar la velocidad de descubrimiento de vulnerabilidades de los atacantes que ya utilizan IA.\n\n### ✅ Información Confirmada\n- **Concepto \"Mythos Moment\":** Confirmado como el punto de inflexión donde la IA puede descubrir y explotar vulnerabilidades masivamente (acuñado tras los hallazgos de Anthropic en abril 2026).\n- **Producto:** Lanzamiento oficial de la plataforma *Sweet Attack* por Sweet Security.\n- **Enfoque:** Uso de agentes autónomos para la detección proactiva de vulnerabilidades.\n\n### ⚠️ Datos no Comprobados / Especulativos\n- **Efectividad Real:** No se han publicado benchmarks comparativos que demuestren cuántas vulnerabilidades críticas \"estilo Mythos\" ha detectado la herramienta frente a métodos tradicionales.\n- **Tasa de Falsos Positivos:** No hay información técnica sobre la precisión de los agentes de IA de *Sweet Attack* al generar alertas de vulnerabilidades.\n\n### 🔗 Fuentes Consultadas\n1. **SecurityWeek:** [Sweet Security Launches Agentic AI Red Teaming to Counter 'Mythos Moment'](https://www.securityweek.com/latest-news/)\n2. **IBM Think:** [The Mythos moment: When discovery outpaces defense](https://www.ibm.com/think/insights/the-mythos-moment-when-discovery-outpaces-defense)\n3. **World Economic Forum:** [Anthropic's Mythos moment: How frontier AI is redefining cybersecurity](https://www.weforum.org/stories/2026/04/anthropic-mythos-ai-cybersecurity/)\n4. **Acronis:** [The Mythos moment: Why agentic AI changes cybersecurity](https://www.acronis.com/en/blog/posts/the-mythos-moment-why-agentic-ai-changes-cybersecurity-but-not-in-the-way-many-think/)",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
     "id": "1778715090482",
     "title": "Microsoft Edge Copilot: Razonamiento Multitarea y Análisis de Pestañas",
     "date": "2026-05-13",
