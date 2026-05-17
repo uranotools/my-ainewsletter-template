@@ -1,0 +1,13 @@
+{
+  "id": "1778754998983",
+  "title": "Microsoft implementa Cloud-Initiated Driver Recovery para revertir drivers defectuosos",
+  "date": "2026-05-14",
+  "categories": [
+    ""
+  ],
+  "excerpt": "",
+  "content": "# 🛠️ Windows Update: Cloud-Initiated Driver Recovery (CIDR)\n\nMicrosoft ha introducido una nueva funcionalidad técnica denominada **Cloud-Initiated Driver Recovery (CIDR)**, diseñada para mitigar los fallos de sistema causados por la instalación de controladores (drivers) defectuosos distribuidos a través de Windows Update.\n\n### ⚙️ Funcionamiento Técnico\nA diferencia del rollback manual tradicional, CIDR automatiza la recuperación del sistema mediante los siguientes procesos:\n\n1.  **Detección en la Nube:** Microsoft identifica un controlador como \"problemático\" basándose en telemetría y reportes de errores masivos.\n2.  **Instrucción de Rollback Remota:** El pipeline de Windows Update envía una instrucción específica al dispositivo afectado.\n3.  **Validación de Versión Estable:** El sistema confirma la disponibilidad de un controlador aprobado y previamente funcional antes de proceder.\n4.  **Desinstalación Automática:** El controlador rechazado es desinstalado y el sistema revierte a la versión estable sin intervención del usuario ni del OEM.\n\n### 🚀 Impacto en la Estabilidad del Sistema\nEsta medida reduce drásticamente la necesidad de entrar en \"Modo Seguro\" para revertir controladores y disminuye la carga de soporte técnico para los fabricantes de hardware (OEMs), ya que Microsoft gestiona la recuperación desde su infraestructura de nube.\n\n### 🔗 Fuentes Verificadas\n*   [Microsoft Tech Community - Introducing Cloud-Initiated Driver Recovery](https://techcommunity.microsoft.com/blog/hardware-dev-center/introducing-cloud-initiated-driver-recovery-for-windows-update/4519075)\n*   [TechSpot - Windows is getting a cloud feature that fixes bad drivers](https://www.techspot.com/news/112395-microsoft-new-cloud-initiated-driver-recovery-automatically-rolls.html)\n*   [Tom's Hardware - Microsoft launches Cloud-Initiated Driver Recovery for remote rollback](https://www.tomshardware.com/software/windows/microsoft-launches-cloud-initiated-driver-recovery-for-remote-rollback-of-faulty-updates-no-user-action-or-oem-intervention-will-be-needed-to-handle-broken-drivers-delivered-via-windows-update)\n*   [Neowin - Microsoft can now remotely roll back problematic Windows drivers](https://www.neowin.net/news/microsoft-can-now-remotely-roll-back-problematic-windows-drivers/)\n",
+  "imageUrl": null,
+  "source": "",
+  "originalUrl": ""
+}

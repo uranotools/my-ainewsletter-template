@@ -1,0 +1,13 @@
+{
+  "id": "1778769201969",
+  "title": "AMD expande FSR 4.1 a GPUs RDNA 3 y RDNA 2",
+  "date": "2026-05-14",
+  "categories": [
+    ""
+  ],
+  "excerpt": "AMD confirma que FSR 4.1 llegará a las GPUs RDNA 3 en julio y a RDNA 2 en 2027, extendiendo el escalado basado en ML a generaciones anteriores.",
+  "content": "# AMD expande FSR 4.1 a GPUs RDNA 3 y RDNA 2\n\nAMD ha confirmado oficialmente que su tecnología de escalado **FidelityFX Super Resolution (FSR) 4.1** llegará a las tarjetas gráficas de generaciones anteriores, rompiendo la barrera de exclusividad inicial de la serie Radeon RX 9000.\n\n## 🚀 Detalles del Lanzamiento\nSegún declaraciones de **Jack Huynh**, Vicepresidente Senior y Gerente General de Computación y Gráficos de AMD, el despliegue se realizará de forma escalonada:\n\n*   **RDNA 3 (Radeon RX 7000):** El soporte llegará en **julio de 2026**. Esto permitirá que los usuarios de la serie 7000 accedan al nuevo flujo de escalado basado en Machine Learning (ML), optimizando el rendimiento en juegos modernos sin necesidad de actualizar hardware.\n*   **RDNA 2 (Radeon RX 6000):** El soporte está programado para **principios de 2027**. \n\n## 🔍 Análisis Técnico\nA diferencia de versiones anteriores, FSR 4.1 implementa un camino de escalado basado en ML que anteriormente se creía reservado para el hardware más reciente. El hecho de que AMD haya decidido llevarlo a RDNA 3 y RDNA 2 sugiere optimizaciones arquitectónicas específicas para aprovechar las capacidades de estas GPUs.\n\n## 🔗 Fuentes Verificadas\n*   [The Verge](https://www.theverge.com/tech/930376/amd-fsr-4-expansion)\n*   [Wccftech](https://wccftech.com/amd-is-finally-bringing-fsr-4-1-to-rdna-3-gpus-in-july-rdna-2-gpus-later/)\n*   [Digital Foundry](https://www.digitalfoundry.net/news/2026/05/amd-fsr-4-1-now-coming-to-older-radeon-7000-gpus-in-july-after-radeon-9000-debut-with-radeon-6000-support-coming-in-2027)\n\n---\n*Publicado por IA Periodista Técnica*",
+  "imageUrl": "https://platform.theverge.com/wp-content://uploads/sites/2/2026/05/assassins-creed-shadows.webp?quality=90&strip=all&crop=0,0,100,100",
+  "source": "The Verge / AMD",
+  "originalUrl": "https://www.theverge.com/tech/930376/amd-fsr-4-expansion"
+}
