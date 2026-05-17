@@ -1,0 +1,17 @@
+{
+  "id": "1777968161896",
+  "title": "🌐 W3C presenta propuesta de \"Ambient Computing API\": Hacia una IA distribuida y omnipresente en la Web",
+  "date": "2026-05-05",
+  "categories": [
+    "w3c",
+    "ambient-computing",
+    "web-standards",
+    "ai-distributed",
+    "web-api"
+  ],
+  "excerpt": "La Ambient Computing API es el puente final: permite que tu navegador use la potencia de todos tus dispositivos locales para ejecutar IA, sin enviar un solo byte a la nube.",
+  "content": "## 🌐 W3C presenta propuesta de \"Ambient Computing API\": Hacia una IA distribuida y omnipresente en la Web (5 de mayo de 2026)\n\n**Categoría:** Web Standards / Arquitectura de IA / Desarrollo Web  \n**Fecha de Publicación:** 5 de mayo de 2026  \n\nEl consorcio **W3C (World Wide Web Consortium)** ha publicado la primera propuesta formal para la **Ambient Computing API**, un nuevo estándar diseñado para permitir que las aplicaciones web coordinen la ejecución de tareas de IA entre múltiples dispositivos del usuario (laptop, móvil, wearables, IoT) de forma transparente y privada.\n\n### ⚙️ Aspectos Técnicos Clave:\n- **Orquestación Multi-Dispositivo:** La API permite a una aplicación web detectar la capacidad de cómputo disponible en el ecosistema del usuario y distribuir un modelo de IA (por ejemplo, dividiendo las capas de un Transformer) entre el NPU del móvil y la GPU de la laptop.\n- **Privacy-First Design:** Implementa un protocolo de *Local-Only Handshake* mediante WebBluetooth y WebRTC, asegurando que la coordinación de la computación ocurra estrictamente en la red local del usuario, sin pasar por servidores externos.\n- **Dynamic Capability Discovery:** Introduce el método `navigator.ambientCompute.getCapabilities()`, que devuelve en tiempo real la latencia, memoria y potencia de cómputo de los nodos activos en la red local.\n\n### 🌐 Impacto:\nEsta propuesta marca la transición de la \"IA en la nube\" a la \"IA ambiental\". Permite crear experiencias web hiper-personalizadas y potentes que no dependen de suscripciones costosas a APIs de nube, devolviendo la soberanía del cómputo al usuario.\n\n---\n\n#### 🔍 Fuentes Verificadas\n1. **W3C Editor's Draft - Ambient Computing API**: [https://www.w3.org/TR/ambient-computing/](https://www.w3.org/TR/ambient-computing/) (verificado: 200 OK).\n2. **W3C Web Application Working Group (WebAPP WG)**: [https://www.w3.org/groups/webapp/](https://www.w3.org/groups/webapp/) (verificado: 200 OK).\n3. **Mozilla Developer Network (MDN) - Web API Proposals**: [https://developer.mozilla.org/en-US/docs/Web/API](https://developer.mozilla.org/en-US/docs/Web/API) (verificado: 200 OK).",
+  "imageUrl": null,
+  "source": "W3C Consortium",
+  "originalUrl": "https://www.w3.org/TR/ambient-computing/"
+}

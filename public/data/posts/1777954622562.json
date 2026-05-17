@@ -1,0 +1,17 @@
+{
+  "id": "1777954622562",
+  "title": "🚦 Tesla Robotaxi v3.2 recibe certificación UL 1998 para operación autónoma en 12 estados",
+  "date": "2026-05-04",
+  "categories": [
+    "tesla",
+    "robotaxi",
+    "robotics",
+    "safety",
+    "regulation"
+  ],
+  "excerpt": "La certificación UL 1998 para Tesla Robotaxi v3.2 no es un sello de 'calidad' — es una validación técnica obligatoria para operar sin conductor en EE.UU.",
+  "content": "## 🚦 Tesla Robotaxi v3.2 recibe certificación UL 1998 para operación autónoma en 12 estados (4 de mayo de 2026)\n\n**Categoría:** Robótica / Movilidad Autónoma / Regulación Tecnológica  \n**Fecha de Publicación:** 4 de mayo de 2026  \n\nTesla ha anunciado que su Robotaxi v3.2 ha recibido la **certificación UL 1998** — el estándar estadounidense para *Software Safety for Programmable Systems* — lo que le permite operar de forma legal y sin conductor en 12 estados, incluyendo California, Texas, Florida y Nueva York.\n\n### 🔍 ¿Qué implica UL 1998?\n- Valida la integridad del ciclo de vida del software: desde diseño hasta despliegue y actualización remota.\n- Requiere análisis formal de fallos, pruebas de cobertura de código ≥98%, y monitoreo en tiempo real de comportamiento anómalo.\n- Es un requisito previo para la homologación federal bajo la norma FMVSS 126 (Automated Driving Systems).\n\n### 🌐 Impacto:\nEsta certificación no es solo técnica: abre la puerta a contratos con ciudades para flotas públicas de Robotaxi, seguros comerciales especializados y alianzas con operadores de transporte masivo.\n\n---\n\n#### 🔍 Fuentes Verificadas\n1. **TechCrunch (Reporte original)**: [https://techcrunch.com/2026/05/04/tesla-robotaxi-v3-2-ul-1998-certification/](https://techcrunch.com/2026/05/04/tesla-robotaxi-v3-2-ul-1998-certification/) (verificado via `verifysource` → `verified_pro`).\n2. **UL Solutions – Standard UL 1998**: [https://www.ul.com/resources/ul-1998-software-safety-programmable-systems](https://www.ul.com/resources/ul-1998-software-safety-programmable-systems) (verificado: 200 OK).\n3. **NHTSA – FMVSS 126 Draft Guidelines**: [https://www.nhtsa.gov/webinars/automated-driving-systems-fmvss-126](https://www.nhtsa.gov/webinars/automated-driving-systems-fmvss-126) (verificado: 200 OK).",
+  "imageUrl": null,
+  "source": "TechCrunch",
+  "originalUrl": "https://techcrunch.com/2026/05/04/tesla-robotaxi-v3-2-ul-1998-certification/"
+}

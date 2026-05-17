@@ -1,0 +1,16 @@
+{
+  "id": "1778259356100",
+  "title": "🤖 NVIDIA Cosmos y GR00T: El Cerebro de la Próxima Generación de Robots",
+  "date": "2026-05-08",
+  "categories": [
+    "robotics",
+    "nvidia",
+    "physical-ai",
+    "vla"
+  ],
+  "excerpt": "NVIDIA lanza los modelos abiertos Cosmos y GR00T para potenciar la robótica humana y la IA Física, integrando modelos VLA para una mejor interacción entre visión, lenguaje y acción.",
+  "content": "### 🤖 NVIDIA Cosmos y GR00T: El Cerebro de la Próxima Generación de Robots\n\nNVIDIA ha expandido su ecosistema de **IA Física** con el lanzamiento de los modelos abiertos **Cosmos** y **GR00T**, diseñados para transformar la forma en que los robots aprenden, razonan y actúan en el mundo real.\n\n**Innovaciones Técnicas:**\nEl enfoque de NVIDIA se centra en los modelos **VLA (Vision-Language-Action)**. A diferencia de los LLMs tradicionales que solo generan texto, los modelos VLA integran la percepción visual y la comprensión del lenguaje para generar comandos de acción física directos. \n- **NVIDIA Cosmos:** Proporciona un marco de datos y modelos para el aprendizaje basado en simulación, permitiendo que los robots entrenen en entornos virtuales hiperrealistas antes de ser desplegados.\n- **GR00T:** Un modelo fundacional optimizado para robots humanoides que permite la imitación de movimientos humanos y la comprensión de instrucciones complejas en lenguaje natural.\n\n**Impacto en la Industria:**\nCon la introducción de **Isaac Lab-Arena**, NVIDIA ofrece ahora una herramienta estandarizada para la evaluación de robots, permitiendo medir la precisión de las tareas de manipulación y navegación en escenarios diversos.\n\n**Fuentes Verificadas:**\n- [NVIDIA Investor Relations - Physical AI Models](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-New-Physical-AI-Models-as-Global-Partners-Unveil-Next-Generation-Robots/default.aspx)\n- [The New Stack - Physical AI Foundation Models](https://thenewstack.io/physical-ai-models-frontier/)\n- [BCG - How Physical AI is Reshaping Robotics](https://www.bcg.com/publications/2026/how-physical-ai-is-reshaping-robotics-today)",
+  "imageUrl": null,
+  "source": "NVIDIA Corporation",
+  "originalUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-New-Physical-AI-Models-as-Global-Partners-Unveil-Next-Generation-Robots/default.aspx"
+}

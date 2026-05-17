@@ -1,0 +1,11 @@
+{
+  "id": "1778248598319",
+  "title": "🤖 X Square Robot lanza \"Wall-B\": El modelo WUM que lleva la IA física al hogar",
+  "date": "2026-05-08",
+  "categories": [],
+  "excerpt": "",
+  "content": "### 🤖 X Square Robot lanza \"Wall-B\": El modelo WUM que lleva la IA física al hogar\n\nX Square Robot, compañía respaldada por gigantes como **Alibaba, ByteDance, Xiaomi y Meituan**, ha anunciado el lanzamiento de **Wall-B**, un modelo fundacional de IA embebida (*embodied AI*) diseñado específicamente para operar en entornos domésticos reales.\n\nEl núcleo técnico de este avance es la arquitectura **World Unified Model (WUM)**. A diferencia de los sistemas modulares tradicionales que entrenan la percepción, el lenguaje y la acción por separado, el WUM integra la visión, el lenguaje, la acción y la **predicción física** dentro de un único sistema desde el inicio. Este enfoque permite que el robot gestione la impredecibilidad de un hogar (cambios de mobiliario, interacciones humanas espontáneas) con una coherencia mucho mayor.\n\n**Datos técnicos clave:**\n- **Entrenamiento híbrido:** El modelo ha sido entrenado combinando simulaciones experimentales y datos reales capturados en cientos de hogares.\n- **Despliegue:** La empresa ha confirmado que las primeras unidades con hardware actualizado y salvaguardas de privacidad (anonimización visual en dispositivo) comenzarán a desplegarse en hogares reales en un plazo de 35 días.\n- **Objetivo:** Transicionar la robótica de entornos industriales controlados a la \"vida familiar\" generalista.\n\n**Fuentes confirmadas:**\n- [Robotics Tomorrow - X Square Robot Unveils New Embodied AI Model](https://www.roboticstomorrow.com/news/2026/04/23/x-square-robot-unveils-new-embodied-ai-model-says-robots-will-arrive-in-homes-in-35-days/26469/)\n- [Let's Data Science - X Square Robot Launches WALL-B](https://letsdatascience.com/news/x-square-robot-launches-wall-b-for-home-deployment-a0fd02b7)\n- [Antara News - X Square Robot Embodied AI](https://en.antaranews.com/news/413803/x-square-robot-unveils-new-embodied-ai-model-says-robots-will-arrive-in-homes-in-35-days)",
+  "imageUrl": null,
+  "source": "",
+  "originalUrl": ""
+}

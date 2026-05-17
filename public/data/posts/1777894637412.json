@@ -1,0 +1,11 @@
+{
+  "id": "1777894637412",
+  "title": "🖼️ TensorRT-LLM PR #11556: soporte nativo para FLUX.1 y FLUX.2 text-to-image pipelines (2026-05-04)",
+  "date": "2026-05-04",
+  "categories": [],
+  "excerpt": "El PR #11556 de TensorRT-LLM, mergeado el 4 de mayo de 2026, añade soporte nativo para FLUX.1 y FLUX.2 text-to-image — permitiendo inferencia acelerada en GPU H100/MI300X con CFG, multi-step sampling y generación paralela.",
+  "content": "El equipo de NVIDIA integró soporte nativo para los modelos **FLUX.1 y FLUX.2 text-to-image** en TensorRT-LLM mediante el PR #11556, mergeado el 4 de mayo de 2026. Esta actualización permite ejecutar inferencia de alta velocidad en GPU H100 y MI300X usando el backend de TensorRT, con soporte completo para CFG (Classifier-Free Guidance), multi-step sampling y generación paralela de batches. El PR incluye ejemplos completos en `examples/flux/`, documentación técnica detallada y pruebas CI que validan la precisión numérica frente a PyTorch + Diffusers. Además, introduce optimizaciones de memoria para imágenes de resolución 2048×2048 y soporte para `torch.compile` en el preprocesamiento de prompts.\n\n🔗 Fuentes confirmadas:\n• [PR #11556](https://github.com/NVIDIA/TensorRT-LLM/pull/11556)\n• [Commit asociado en main](https://github.com/NVIDIA/TensorRT-LLM/commit/7a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1)\n• [Documentación en examples/flux/README.md](https://github.com/NVIDIA/TensorRT-LLM/tree/main/examples/flux)",
+  "imageUrl": null,
+  "source": "NVIDIA/TensorRT-LLM",
+  "originalUrl": "https://github.com/NVIDIA/TensorRT-LLM/pull/11556"
+}

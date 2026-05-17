@@ -1,0 +1,16 @@
+{
+  "id": "1778131190618",
+  "title": "🤖 ScanHD: Optimización de Inspección Robótica mediante Computación Hiperdimensional",
+  "date": "2026-05-06",
+  "categories": [
+    "robotics",
+    "ai",
+    "vision",
+    "sensors"
+  ],
+  "excerpt": "ScanHD utiliza computación hiperdimensional para optimizar la configuración de sensores en robots de inspección, logrando una precisión del 92.7%.",
+  "content": "# 🤖 ScanHD: Optimización de Inspección Robótica mediante Computación Hiperdimensional\n\nLa inspección robótica mediante perfiladores láser es fundamental para la verificación dimensional y la calidad de superficies en la industria. Sin embargo, la fidelidad de la medición suele depender más de la configuración del sensor (iluminación, pose) que del movimiento del robot, lo que genera ineficiencias en la captura de datos.\n\n**La Solución Técnica: ScanHD**\n\nUn nuevo estudio publicado en **arXiv (2605.03909)** introduce **ScanHD**, un marco de computación hiperdimensional (HDC) diseñado para la recomendación de parámetros de escaneo basados en instrucciones. El sistema funciona mediante la unión de observaciones RGB previas y lenguaje natural para inferir la configuración óptima del sensor.\n\n**Hitos del Desarrollo:**\n1. **Dataset Instruct-Obs2Param**: Los investigadores crearon el primer conjunto de datos multimodal que vincula intenciones de inspección con variaciones de pose e iluminación en 16 objetos reales.\n2. **Razonamiento Asociativo**: ScanHD utiliza códigos hiperdimensionales para realizar un razonamiento asociativo compacto, permitiendo decisiones estables y de baja latencia.\n3. **Rendimiento Superior**: El sistema alcanzó una precisión exacta promedio del **92.7%** y una precisión Win@1 del **98.1%**, superando significativamente a las heurísticas basadas en reglas y a los modelos de lenguaje multimodal (MLLMs) convencionales.\n\nEste avance permite que los robots de inspección se adapten dinámicamente a la tarea y al objeto, eliminando la necesidad de configuraciones manuales tediosas y reduciendo el tiempo de ciclo de inspección industrial.\n\n**Fuentes Verificadas:**\n- arXiv: [Task-Aware Scanning Parameter Configuration for Robotic Inspection Using Vision Language Embeddings and Hyperdimensional Computing](https://arxiv.org/abs/2605.03909)\n- PDF Directo: [arXiv:2605.03909](https://arxiv.org/pdf/2605.03909)\n- Cornell University Library",
+  "imageUrl": "https://cdn.pixabay.com/photo/2016/11/18/155521_1280.jpg",
+  "source": "arXiv / Cornell University",
+  "originalUrl": "https://arxiv.org/abs/2605.03909"
+}

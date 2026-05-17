@@ -1,0 +1,15 @@
+{
+  "id": "1778280889159",
+  "title": "🤖 Figure 03: El salto hacia la robótica generalista y el hogar",
+  "date": "2026-05-08",
+  "categories": [
+    "robotics",
+    "hardware",
+    "physical-ai"
+  ],
+  "excerpt": "Figure AI presenta el Figure 03, un humanoide rediseñado desde cero con la IA Helix, enfocado en la interacción segura en el hogar y la generalización de tareas.",
+  "content": "🤖 **Figure 03: El salto hacia la robótica generalista y el hogar**\n\nFigure AI ha presentado la tercera generación de su robot humanoide, el **Figure 03**, marcando un hito en la transición de prototipos de laboratorio a despliegues a escala real en entornos domésticos y comerciales.\n\n**Análisis Técnico y Rediseño:**\nEl Figure 03 no es una iteración menor, sino un rediseño total de hardware y software. La pieza central de esta evolución es **Helix**, la IA propietaria de Visión-Lenguaje-Acción (VLA) de Figure, que permite al robot aprender tareas directamente de la observación humana y ejecutar acciones complejas en tiempo real.\n\n**Mejoras Clave:**\n- **Interacción Humana:** A diferencia de sus predecesores, el Figure 03 presenta un exterior revestido de materiales blandos (\"soft goods\"), diseñado específicamente para la seguridad y la aceptación en entornos domésticos, alejándose de la estética industrial fría.\n- **Sistema Sensorial:** Incluye una suite sensorial completamente rediseñada y un sistema de manos optimizado para la manipulación de objetos delicados.\n- **Autonomía y Energía:** Implementa mejoras críticas en la seguridad de la batería y carga inalámbrica, facilitando su integración en el hogar sin necesidad de infraestructura de carga compleja.\n\nEl objetivo final de Figure AI con el modelo 03 es entregar un robot verdaderamente generalista, capaz de realizar tareas cotidianas y aprender de forma autónoma, posicionando a la compañía en la vanguardia de la \"IA Física\".\n\n**Fuentes Verificadas:**\n- **Figure AI Official:** [Introducing Figure 03](https://www.figure.ai/news/introducing-figure-03)\n- **Humanoid.guide:** [Figure 03 Specs & Capabilities](https://humanoid.guide/product/figure-03/)\n- **Humanoid Press:** [Figure 03 Database](https://www.humanoid.press/database/database-figure-03-humanoid-robot/)",
+  "imageUrl": null,
+  "source": "Figure AI",
+  "originalUrl": "https://www.figure.ai/news/introducing-figure-03"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "1777899748263",
+  "title": "🏠 Homebridge 2.0: Soporte Oficial para Matter y Ecosistema IoT Unificado (2026-05-04)",
+  "date": "2026-05-04",
+  "categories": [
+    "iot",
+    "home automation",
+    "matter",
+    "open source"
+  ],
+  "excerpt": "Homebridge 2.0 lanza oficialmente el soporte para el estándar Matter, permitiendo la creación de puentes virtuales para integrar cualquier dispositivo IoT en ecosistemas compatibles.",
+  "content": "🏠 **Homebridge 2.0 ha sido lanzado oficialmente**, marcando un hito fundamental en la interoperabilidad de hogares inteligentes. Tras más de tres años en fase beta, esta versión introduce soporte nativo para el estándar **Matter**, permitiendo que Homebridge actúe no solo como un puente para HomeKit, sino también como un **Matter bridge**. \n\nEsta capacidad técnica permite que dispositivos que anteriormente solo eran compatibles con APIs de nube, HTTP o MQTT sean expuestos como dispositivos Matter virtuales, haciéndolos accesibles en Apple Home y cualquier otra plataforma compatible con Matter (como Google Home o Amazon Alexa) sin necesidad de middleware propietario adicional. La actualización optimiza la gestión de plugins y mejora la estabilidad de la infraestructura de red para reducir la latencia en la ejecución de automatizaciones complejas.\n\n🔗 **Fuentes verificadas:**\n• [The Verge: Homebridge 2.0 is here](https://www.theverge.com/tech/922877/homebridge-2-0-matter-update-robot-vacuums)\n• [Sitio Oficial de Homebridge](https://homebridge.io/)\n• [Repositorio GitHub de Homebridge](https://github.com/homebridge/homebridge)",
+  "imageUrl": "/assets/images/1777899742527-homebridge.png",
+  "source": "The Verge / Homebridge",
+  "originalUrl": "https://www.theverge.com/tech/922877/homebridge-2-0-matter-update-robot-vacuums"
+}

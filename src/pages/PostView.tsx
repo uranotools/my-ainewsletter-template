@@ -14,9 +14,8 @@ export default function PostView() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
 
-  useEffect(() => {
-    // En una app real esto sería fetch(`/api/posts/${id}`) o buscar en un estado global
-    // Aquí cargaremos el JSON completo y buscaremos el post
+    useEffect(() => {
+    // Primero cargamos el índice para encontrar el post y los posts relacionados
     setLoading(true);
     fetch(`${POSTS_JSON_URL}?t=${Date.now()}`)
       .then(res => {
@@ -26,21 +25,39 @@ export default function PostView() {
       .then((data: Post[]) => {
         const found = data.find(p => p.id === id);
         if (found) {
-          setPost(found);
           const related = data
-            .filter(p => p.title && p.title.trim() !== '' && p.content && p.content.trim() !== '') // also filter empty ones
+            .filter(p => p.title && p.title.trim() !== '') // Ya no filtramos por content aquí
             .filter(p => p.id !== id && p.categories.some(c => found.categories.includes(c)))
             .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
             .slice(0, 3);
           setRelatedPosts(related);
+
+          // Si el post no tiene contenido (es de la nueva arquitectura Opción 3), 
+          // descargamos su archivo individual
+          if (!found.content || found.content.trim() === '') {
+            // Ajustamos la ruta base reemplazando 'posts.json'
+            const baseUrl = POSTS_JSON_URL.replace('posts.json', '');
+            return fetch(`${baseUrl}posts/${id}.json?t=${Date.now()}`)
+              .then(res => {
+                if (!res.ok) throw new Error('Detalle del artículo no encontrado');
+                return res.json();
+              })
+              .then(fullPost => {
+                setPost(fullPost);
+              });
+          } else {
+            // Es un post antiguo, ya tiene el contenido
+            setPost(found);
+          }
         } else {
           setError('Artículo no encontrado');
         }
-        setLoading(false);
       })
       .catch(err => {
         console.error(err);
         setError('Error al cargar el artículo');
+      })
+      .finally(() => {
         setLoading(false);
       });
   }, [id]);
