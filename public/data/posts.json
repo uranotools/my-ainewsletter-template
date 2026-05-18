@@ -1,5 +1,21 @@
 [
   {
+    "id": "1779075702280",
+    "title": "¡Tu Siri ahora podrá olvidar! Apple apuesta por la privacidad total en iOS 27",
+    "date": "2026-05-17",
+    "categories": [
+      "apple",
+      "siri",
+      "privacidad",
+      "ios27",
+      "tecnologia"
+    ],
+    "excerpt": "Apple prepara una nueva Siri para iOS 27 con un 'borrador mágico': la capacidad de eliminar automáticamente tus conversaciones para que tu privacidad esté más segura que nunca.",
+    "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/10817647/acastro_180510_1777_siri_0001.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "source": "The Verge / Bloomberg",
+    "originalUrl": "https://www.theverge.com/tech/932207/siri-apple-intelligence-auto-deleting-chats"
+  },
+  {
     "id": "1778772859323",
     "title": "🌐 WebAssembly (WASM) 2026: De la Optimización del Navegador al Runtime Universal",
     "date": "2026-05-14",
