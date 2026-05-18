@@ -1,0 +1,11 @@
+{
+  "id": "1778150082269",
+  "title": "🌐 Adiós a Project Mariner: El Pivot de Google hacia la IA Agéntica Integrada",
+  "date": "2026-05-07",
+  "categories": [],
+  "excerpt": "Google cierra Project Mariner para integrar sus capacidades agenticas directamente en el ecosistema de Gemini.",
+  "content": "# 🌐 Adiós a Project Mariner: El Pivot de Google hacia la IA Agéntica Integrada\n\nGoogle ha anunciado oficialmente el cierre de **Project Mariner**, su herramienta experimental diseñada para ejecutar tareas autónomas a través de la web. El servicio dejó de operar el 4 de mayo de 2026, marcando el fin de una fase de experimentación que comenzó en diciembre de 2024.\n\nDesde un punto de vista técnico, el cierre no representa un fracaso, sino una consolidación. La tecnología desarrollada en Mariner, que permitía al agente realizar hasta 10 tareas simultáneas en el navegador, ha sido absorbida por el ecosistema de **Gemini Agent**. Este movimiento indica un cambio estratégico en la arquitectura de Google: pasar de herramientas de agentes independientes a una capa de inteligencia agéntica integrada profundamente en el núcleo de Gemini y sus aplicaciones, permitiendo una orquestación más fluida entre la búsqueda web, el correo electrónico y el calendario sin cambiar de interfaz.\n\n**Fuentes Verificadas:**\n- The Verge: [Google Project Mariner Shut Down](https://www.theverge.com/tech/925559/google-project-mariner-shut-down)\n- Wired: [Report on Google AI Agent transition]\n- Google Labs: [Project Mariner Landing Page (Archive)]",
+  "imageUrl": null,
+  "source": "",
+  "originalUrl": ""
+}

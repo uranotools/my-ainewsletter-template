@@ -1,0 +1,16 @@
+{
+  "id": "1778056803046",
+  "title": "⚙️ Polheepo: El chip RISC-V que integra IA y Criptografía Post-Cuántica nativa",
+  "date": "2026-05-06",
+  "categories": [
+    "hardware",
+    "riscv",
+    "pqc",
+    "open-hardware"
+  ],
+  "excerpt": "El Politecnico di Torino desarrolla Polheepo, un chip RISC-V con aceleradores de IA y seguridad post-cuántica integrada.",
+  "content": "⚙️ **Polheepo: El chip RISC-V que integra IA y Criptografía Post-Cuántica nativa**\n\nInvestigadores del **Politecnico di Torino** han presentado **Polheepo**, un SoC (System on Chip) basado en la arquitectura abierta **RISC-V**, diseñado específicamente para ser personalizable y desplegable en una amplia gama de aplicaciones de borde (*edge computing*) y sistemas embebidos de bajo consumo.\n\n**Innovaciones Técnicas:**\nLo que distingue a Polheepo de otras implementaciones de RISC-V es la integración directa en el silicio de dos componentes críticos:\n1. **Aceleradores de IA:** Unidades optimizadas para inferencia local, reduciendo la dependencia de la nube y bajando la latencia en tareas de monitoreo biomédico y control industrial.\n2. **Criptografía Post-Cuántica (PQC):** Implementación de algoritmos resistentes a ataques de computadoras cuánticas directamente en el procesador. Esto garantiza que la comunicación y el almacenamiento de datos en dispositivos IoT sean seguros frente a las futuras amenazas de computación cuántica, eliminando la necesidad de software de seguridad pesado que consuma demasiados recursos.\n\nEste proyecto subraya la importancia de la soberanía tecnológica y el hardware abierto, permitiendo que la industria cree chips seguros y eficientes sin depender de arquitecturas propietarias cerradas.\n\n**Fuentes:**\n- Politecnico di Torino: [An open, customisable chip for the industry of the future](https://www.polito.it/en/polito/communication-and-press-office/poliflash/an-open-customisable-chip-for-the-industry-of-the-future)\n- LinkedIn RISC-V International: [This Week in RISC-V (May 1, 2026)](https://www.linkedin.com/pulse/week-risc-v-may-1-2026-risc-v-international-1l6me)\n- Tavily Technical Search (Hardware Open Source)",
+  "imageUrl": null,
+  "source": "Politecnico di Torino / RISC-V International",
+  "originalUrl": "Politecnico di Torino / RISC-V International"
+}

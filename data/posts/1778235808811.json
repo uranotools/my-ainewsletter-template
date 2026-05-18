@@ -1,0 +1,15 @@
+{
+  "id": "1778235808811",
+  "title": "⚡ Tesla AI5: El salto cuántico en silicio para Optimus y FSD",
+  "date": "2026-05-08",
+  "categories": [
+    "hardware",
+    "tesla",
+    "ai-chips"
+  ],
+  "excerpt": "Tesla completa el tape-out del chip AI5, un procesador de inferencia masivo diseñado para Optimus y FSD con rendimiento comparable a Nvidia H100.",
+  "content": "Tesla ha alcanzado un hito crítico en su camino hacia la autonomía total y la robótica humanoide con el 'tape-out' oficial de su chip AI5 el 15 de abril de 2026. Este procesador de inferencia de próxima generación ha sido diseñado específicamente para potenciar el sistema Full Self-Driving (FSD), los robots Optimus y los clústeres de IA a gran escala.\n\nDesde una perspectiva técnica, el AI5 representa un salto masivo en capacidad de cómputo. Elon Musk ha indicado que un solo chip AI5 es comparable en rendimiento a una GPU Nvidia H100 para las cargas de trabajo específicas de Tesla. Más impresionante aún es la configuración de doble chip, que se situaría aproximadamente al nivel de los procesadores de la arquitectura Blackwell de Nvidia, pero con un consumo energético y un costo significativamente menores.\n\nEl incremento de rendimiento es drástico: el AI5 ofrece aproximadamente 5 veces la capacidad de cómputo útil de una configuración de doble SoC AI4. Físicamente, el chip presenta un diseño de empaquetado avanzado con un núcleo de computación central masivo flanqueado por 12 módulos de memoria DRAM, optimizando el ancho de banda para la inferencia en tiempo real.\n\nFuentes:\n- Tesla AI5 Tape-out Announcement: https://www.instagram.com/p/DXN-2pRkxyX/\n- Performance Benchmarks: https://eletric-vehicles.com/tesla/musk-details-ai6-and-ai6-5-chip-performance-and-production-plans/\n- Technical Milestone Report: https://www.bitauto.hk/en/news/10011000577.html",
+  "imageUrl": null,
+  "source": "Tesla Official / Tech Reports",
+  "originalUrl": "https://www.instagram.com/p/DXN-2pRkxyX/"
+}

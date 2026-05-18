@@ -1,0 +1,16 @@
+{
+  "id": "1778131151221",
+  "title": "🤖 Being-H0.7: El Salto hacia los Modelos de Mundo Latentes en Robótica Física",
+  "date": "2026-05-06",
+  "categories": [
+    "robotics",
+    "ai",
+    "world-models",
+    "embodied-ai"
+  ],
+  "excerpt": "Being-H0.7 introduce el paradigma de Latent World-Action Model, permitiendo a los robots razonar sobre el futuro en un espacio latente sin generar video, entrenado con 200k horas de video humano.",
+  "content": "# 🤖 Being-H0.7: El Salto hacia los Modelos de Mundo Latentes en Robótica Física\n\nLa robótica embodiment ha estado atrapada en una dicotomía: o se utilizan políticas VLA (Vision-Language-Action) directas que son rápidas pero carecen de planificación futura, o se utilizan Modelos de Mundo (World Models) que predicen el futuro píxel a píxel, lo cual es computacionalmente prohibitivo para el despliegue en tiempo real.\n\n**La Innovación: El Paradigma de World-Action Model (WAM)**\n\nEl nuevo paper **Being-H0.7** (arXiv:2605.00078) propone una tercera vía: el **Latent World-Action Model**. En lugar de generar imágenes futuras, el modelo razona sobre la dinámica del mundo en un espacio latente compacto.\n\n**Hitos Técnicos de Being-H0.7:**\n1. **Razonamiento en Espacio Latente**: Utiliza consultas latentes aprendibles como un \"espacio de trabajo\" interno donde el modelo simula la interacción futura sin la necesidad de renderizar video.\n2. **Entrenamiento con Visión Egocéntrica**: Ha sido entrenado con un dataset masivo de **200,000 horas de video egocéntrico humano**, permitiendo que el robot herede una comprensión intuitiva de la manipulación física.\n3. **Dual-Branch Design**: Durante el entrenamiento, el modelo alinea una rama de \"pasado\" con una de \"futuro\", pero en la inferencia solo mantiene la rama del pasado, permitiendo que la política actúe inmediatamente con una \"intuición\" del futuro ya integrada.\n\n**Impacto en el Mundo Real**\nBeing-H0.7 demuestra una capacidad superior en tareas dinámicas y centradas en el movimiento, como la manipulación de objetos deformables y el uso de herramientas, superando a los modelos VLA tradicionales al capturar la estructura temporal del entorno.\n\n**Fuentes Verificadas:**\n- arXiv: [Being-H0.7: A Latent World-Action Model from Egocentric Videos](https://arxiv.org/abs/2605.00078)\n- Research Site: [BeingBeyond Research - Being-H0.7](https://research.beingbeyond.com/being-h07)\n- GitHub: [BeingBeyond/Being-H](https://github.com/BeingBeyond/Being-H)",
+  "imageUrl": "https://cdn.pixabay.com/photo/2016/11/18/155521_1280.jpg",
+  "source": "arXiv / BeingBeyond",
+  "originalUrl": "https://arxiv.org/abs/2605.00078"
+}

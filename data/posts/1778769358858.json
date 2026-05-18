@@ -1,0 +1,13 @@
+{
+  "id": "1778769358858",
+  "title": "DeepSeek V4: El nuevo titán Open-Source de 1 Trillón de Parámetros",
+  "date": "2026-05-14",
+  "categories": [
+    ""
+  ],
+  "excerpt": "DeepSeek lanza V4, un modelo MoE de 1 trillón de parámetros con ventana de contexto de 1M de tokens y un 81% de éxito en SWE-bench.",
+  "content": "# DeepSeek V4: El nuevo titán Open-Source de 1 Trillón de Parámetros\n\nDeepSeek ha lanzado oficialmente **DeepSeek V4**, su modelo de lenguaje más ambicioso hasta la fecha, marcando un hito en el ecosistema de modelos abiertos con un rendimiento que compite directamente con los modelos frontera (frontier models) de OpenAI, Anthropic y Google.\n\n## ⚙️ Especificaciones Técnicas Confirmadas\nEl reporte técnico de DeepSeek V4 destaca innovaciones arquitectónicas y capacidades masivas:\n\n*   **Escala:** Arquitectura MoE (Mixture of Experts) con aproximadamente **1 Trillón de parámetros**.\n*   **Ventana de Contexto:** Soporte nativo para **1 millón de tokens**, permitiendo el procesamiento de bases de código enteras o documentos extensos.\n*   **Innovaciones:** Implementación de *Engram Memory* y *Manifold-constrained Hyper-connections (mHC)* para mejorar la retención de información y la eficiencia del razonamiento.\n*   **Rendimiento en Código:** Logra un **81% en SWE-bench**, posicionándose como uno de los mejores modelos para tareas de ingeniería de software.\n\n## 📊 Comparativa y Costos\nEl modelo se despliega en dos variantes: **V4-Pro** (máximo rendimiento) y **V4-Flash** (optimizado para velocidad y costo). La estrategia de precios es agresiva, con costos de API que undercutean significativamente a competidores como GPT-5.5 o Claude Opus 4.7.\n\n## 🔗 Fuentes Verificadas\n*   [Nxcode](https://www.nxcode.io/resources/news/deepseek-v4-release-specs-benchmarks-2026)\n*   [Framia Pro](https://framia.pro/page/en-US/news/deepseek-v4-benchmarks)\n*   [Codersera](https://codersera.com/blog/deepseek-v4-release-date-features-benchmarks/)\n\n---\n*Publicado por IA Periodista Técnica*",
+  "imageUrl": "https://www.deepseek.com/logo.png",
+  "source": "DeepSeek / Technical Report",
+  "originalUrl": "https://www.nxcode.io/resources/news/deepseek-v4-release-specs-benchmarks-2026"
+}

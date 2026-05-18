@@ -1,0 +1,240 @@
+[
+  {
+    "id": "1778772859323",
+    "title": "🌐 WebAssembly (WASM) 2026: De la Optimización del Navegador al Runtime Universal",
+    "date": "2026-05-14",
+    "categories": [
+      ""
+    ],
+    "excerpt": "WASI 0.3.0 introduce el Component Model y Async I/O nativo, transformando WebAssembly en un runtime universal para edge computing y serverless.",
+    "imageUrl": "https://webassembly.org/assets/img/logo.png",
+    "source": "W3C / WebAssembly Community",
+    "originalUrl": "https://byteiota.com/wasi-0-3-0-webassembly-component-model-goes-production/"
+  },
+  {
+    "id": "1778772713983",
+    "title": "⚠️ Alerta de Seguridad: Zero-Days Críticos en Chrome, Linux y Windows (NTLM)",
+    "date": "2026-05-14",
+    "categories": [
+      ""
+    ],
+    "excerpt": "Alerta de seguridad crítica: RCE en Chrome (CVE-2026-2441), escalada de root en Linux (\"Dirty Frag\") y vulnerabilidad de coacción NTLM (CVE-2026-32202).",
+    "imageUrl": "https://cdn.orca.security/blog/chrome-zero-day.jpg",
+    "source": "Cybersecurity Intelligence",
+    "originalUrl": "https://orca.security/resources/blog/cve-2026-2441-chrome-chromium-zero-day-vulnerability/"
+  },
+  {
+    "id": "1778772575326",
+    "title": "NVIDIA Rubin: La Nueva Era de los Trillones de Parámetros",
+    "date": "2026-05-14",
+    "categories": [
+      ""
+    ],
+    "excerpt": "NVIDIA presenta Rubin, la arquitectura GPU con 336B transistores y 288GB HBM4, optimizada para inferencia de modelos de +1 Trillón de parámetros.",
+    "imageUrl": "https://nvidianews.nvidia.com/wp-content/uploads/2024/03/nvidia-gtc-2024-keynote-jensen-huang.jpg",
+    "source": "NVIDIA GTC 2026",
+    "originalUrl": "https://tech-insider.org/nvidia-gtc-2026-rubin-gpu-analysis/"
+  },
+  {
+    "id": "1778769358858",
+    "title": "DeepSeek V4: El nuevo titán Open-Source de 1 Trillón de Parámetros",
+    "date": "2026-05-14",
+    "categories": [
+      ""
+    ],
+    "excerpt": "DeepSeek lanza V4, un modelo MoE de 1 trillón de parámetros con ventana de contexto de 1M de tokens y un 81% de éxito en SWE-bench.",
+    "imageUrl": "https://www.deepseek.com/logo.png",
+    "source": "DeepSeek / Technical Report",
+    "originalUrl": "https://www.nxcode.io/resources/news/deepseek-v4-release-specs-benchmarks-2026"
+  },
+  {
+    "id": "1778769230813",
+    "title": "Dyson lanza el \"Find+Follow Purifier Cool\": Purificación con IA y Seguimiento Humano",
+    "date": "2026-05-14",
+    "categories": [
+      ""
+    ],
+    "excerpt": "Dyson presenta un purificador de aire con IA y cámara integrada que rastrea la posición del usuario para dirigir el flujo de aire purificado en tiempo real.",
+    "imageUrl": "https://www.dyson.com/air-treatment/air-purifiers/find-follow-purifier-cool",
+    "source": "The Verge / Dyson",
+    "originalUrl": "https://www.theverge.com/tech/930348/dyson-find-follow-air-purifier-cool-ai-tracking-camera-privacy"
+  },
+  {
+    "id": "1778769201969",
+    "title": "AMD expande FSR 4.1 a GPUs RDNA 3 y RDNA 2",
+    "date": "2026-05-14",
+    "categories": [
+      ""
+    ],
+    "excerpt": "AMD confirma que FSR 4.1 llegará a las GPUs RDNA 3 en julio y a RDNA 2 en 2027, extendiendo el escalado basado en ML a generaciones anteriores.",
+    "imageUrl": "https://platform.theverge.com/wp-content://uploads/sites/2/2026/05/assassins-creed-shadows.webp?quality=90&strip=all&crop=0,0,100,100",
+    "source": "The Verge / AMD",
+    "originalUrl": "https://www.theverge.com/tech/930376/amd-fsr-4-expansion"
+  },
+  {
+    "id": "1778754998983",
+    "title": "Microsoft implementa Cloud-Initiated Driver Recovery para revertir drivers defectuosos",
+    "date": "2026-05-14",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
+    "id": "1778754945663",
+    "title": "NVIDIA lanza Plataforma Rubin: 10x menos coste de inferencia y memoria HBM4",
+    "date": "2026-05-14",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
+    "id": "1778754851621",
+    "title": "Microsoft Edge integra Copilot Multi-Tab: Análisis de datos cruzado entre pestañas",
+    "date": "2026-05-14",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
+    "id": "1778754792427",
+    "title": "Microsoft implementa Cloud-Initiated Driver Recovery: Rollbacks automáticos para drivers fallidos",
+    "date": "2026-05-14",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
+    "id": "1778751618734",
+    "title": "Edge evoluciona: Copilot ahora es el núcleo del navegador",
+    "date": "2026-05-14",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "imageUrl": "https://www.windowslatest.com/wp-content/uploads/2025/11/Journeys-in-Edge.jpg",
+    "source": "",
+    "originalUrl": ""
+  },
+  {
+    "id": "1778751600626",
+    "title": "KAYTUS All-QLC: Almacenamiento masivo para la era de la IA",
+    "date": "2026-05-14",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "imageUrl": "https://content-media.pamedia.io/press-release/picture/2024/10/16/01JAAB064D2DGYNCPXK40FHF5E.jpg?format=jpg&dl=kaytus-all-liquid-cooling-cabinet.jpg",
+    "source": "",
+    "originalUrl": ""
+  },
+  {
+    "id": "1778751584764",
+    "title": "AMD Ryzen PRO 9000: 3D V-Cache llega a las Workstations",
+    "date": "2026-05-14",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "imageUrl": "https://thetechrevolutionist.com/wp-content/uploads/2025/09/AMD-Ryzen-PRO-9000-Series.jpg",
+    "source": "",
+    "originalUrl": ""
+  },
+  {
+    "id": "1778749768860",
+    "title": "NVIDIA Rubin: Hardware para la Era de la IA Agéntica",
+    "date": "2026-05-14",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
+    "id": "1778749748476",
+    "title": "KAYTUS All-QLC: Solucionando el Cuello de Botella de Datos en IA",
+    "date": "2026-05-14",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
+    "id": "1778749732520",
+    "title": "Arm AGI CPU: Revolucionando el Control de la IA en Datacenters",
+    "date": "2026-05-14",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
+    "id": "1778743256792",
+    "title": "Microsoft Edge Integra Copilot Nativamente y Retira el \"Modo Copilot\"",
+    "date": "2026-05-14",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
+    "id": "1778743235496",
+    "title": "Grave Ataque a la Cadena de Suministro: Worm Mini Shai-Hulud golpea TanStack y Mistral AI",
+    "date": "2026-05-14",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
+    "id": "1778743216163",
+    "title": "Salesforce Summer '26: De Asistentes de IA a Agentes Autónomos Empresariales",
+    "date": "2026-05-14",
+    "categories": [
+      ""
+    ],
+    "excerpt": "",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  },
+  {
+    "id": "1778741226573",
+    "title": "GPT-5.5: El Salto a la IA Agéntica y el Razonamiento Complejo",
+    "date": "2026-05-14",
+    "categories": [],
+    "excerpt": "OpenAI lanza GPT-5.5, un modelo base reentrenado con capacidades agénticas avanzadas y récords en Terminal-Bench 2.0.",
+    "imageUrl": null,
+    "source": "",
+    "originalUrl": ""
+  }
+]

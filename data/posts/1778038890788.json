@@ -1,0 +1,11 @@
+{
+  "id": "1778038890788",
+  "title": "⚛️ IBM presenta chips \"Nighthawk\" y \"Loon\": Camino al Ventaja Cuántica 2026",
+  "date": "2026-05-06",
+  "categories": [],
+  "excerpt": "",
+  "content": "⚛️ **IBM presenta chips \"Nighthawk\" y \"Loon\": Camino al Ventaja Cuántica 2026**\n\nIBM ha revelado sus nuevos procesadores cuánticos **\"Nighthawk\"** y **\"Loon\"**, diseñados para alcanzar la \"ventaja cuántica\" práctica antes de que termine 2026. \n\nEl chip **Nighthawk**, con 120 qubits, está optimizado para ejecutar circuitos cuánticos de alta complejidad, superando las limitaciones de ruido de versiones anteriores. Por otro lado, el procesador **Loon** es una unidad experimental dedicada específicamente a probar los bloques fundamentales de la computación cuántica con corrección de errores (*fault-tolerant*). \n\nEsta estrategia dual busca resolver el problema del ruido cuántico mediante la mitigación y la corrección activa, acercando a la industria a la capacidad de resolver problemas reales (como la simulación de materiales complejos o la optimización logística) que son intratables para las supercomputadoras clásicas actuales. IBM reafirma que la tolerancia a fallos total se espera alcanzar para el año 2029.\n\n**Fuentes:**\n- PostQuantum: https://postquantum.com/industry-news/ibm-loon-nighthawk/\n- Forbes: https://www.forbes.com/sites/moorinsights/2022/12/07/ibm-on-track-to-achieve-quantum-advantage-by-2026-using-error-mitigation/\n- X (KonstantHacker): https://x.com/KonstantHacker/status/1988635487351746973",
+  "imageUrl": null,
+  "source": "",
+  "originalUrl": ""
+}

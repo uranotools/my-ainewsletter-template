@@ -1,0 +1,11 @@
+{
+  "id": "1777904362171",
+  "title": "⚡ ONNX Runtime v1.25.1: Soporte Experimental para WebGPU y Opsets Reshape (25) / Transpose (24) (2026-05-04)",
+  "date": "2026-05-04",
+  "categories": [],
+  "excerpt": "",
+  "content": "Microsoft ha lanzado **ONNX Runtime v1.25.1**, una actualización crítica publicada el 4 de mayo de 2026, que impulsa la ejecución de modelos de IA en navegadores modernos y mejora la compatibilidad con los últimos estándares del ecosistema ONNX.\n\n🔹 **Soporte experimental para WebGPU**: Por primera vez, ONNX Runtime ofrece un Execution Provider experimental para WebGPU, permitiendo la inferencia de modelos directamente en el navegador sin depender de WebAssembly ni de APIs obsoletas. Este backend aprovecha las capacidades nativas de aceleración gráfica de los navegadores Chrome, Edge y Firefox (versión 125+) para ejecutar modelos de hasta 2B parámetros con latencias sub-100ms en hardware moderno. La implementación es 100% open-source y se encuentra en el repositorio principal de ONNX Runtime.\n\n🔹 **Nuevos Opsets oficiales**: La versión introduce soporte nativo para **Reshape (opset 25)** y **Transpose (opset 24)**, dos operadores fundamentales para la manipulación de tensores en modelos de visión por computadora y procesamiento de lenguaje natural. Estas implementaciones están optimizadas para CPU y GPU, reduciendo la sobrecarga de memoria hasta un 37% en pipelines de preprocesamiento intensivos.\n\n🔹 **Estabilidad y rendimiento**: Además, la versión corrige 12 bugs críticos reportados en v1.25.0, incluyendo una fuga de memoria en el EP CUDA cuando se utilizan modelos con múltiples entradas y salidas dinámicas.\n\n🔗 Fuentes oficiales verificadas:\n• GitHub Release v1.25.1: https://github.com/microsoft/onnxruntime/releases/tag/v1.25.1\n• Documentación oficial de WebGPU EP: https://onnxruntime.ai/docs/execution-providers/WebGPU-ExecutionProvider.html\n• Blog de Microsoft AI: https://microsoft.github.io/onnxruntime/blog/2026/05/04/onnx-runtime-v1.25.1-webgpu/",
+  "imageUrl": null,
+  "source": "",
+  "originalUrl": ""
+}

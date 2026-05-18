@@ -1,0 +1,16 @@
+{
+  "id": "1778155380172",
+  "title": "🔐 Robots Conectados, Riesgo Conectado: La Gobernanza de la Seguridad Ciber-Física en 2026",
+  "date": "2026-05-07",
+  "categories": [
+    "cybersecurity",
+    "robotics",
+    "legal-tech",
+    "risk-management"
+  ],
+  "excerpt": "La convergencia de seguridad y ciberseguridad define la nueva gobernanza de los sistemas robóticos conectados en 2026.",
+  "content": "# 🔐 Robots Conectados, Riesgo Conectado: La Gobernanza de la Seguridad Ciber-Física en 2026\n\nA medida que la robótica industrial y de servicios se integra profundamente en las redes empresariales y nubes públicas, la frontera entre la **seguridad física (Safety)** y la **ciberseguridad (Security)** ha desaparecido. Un análisis técnico sobre la responsabilidad robótica en 2026 advierte que la \"estandarización del cuidado\" ahora se define por la gestión de sistemas ciber-físicos integrados.\n\n### Puntos Críticos de la Gobernanza Técnica:\n- **Validación de la Autonomía**: El desafío técnico actual reside en cómo validar que un sistema autónomo se comportará de manera segura ante un ataque de inyección de prompts o una manipulación de datos sensoriales en tiempo real.\n- **Aislamiento de Redes**: Se observa una tendencia hacia la segmentación estricta de los controladores de movimiento frente a los módulos de IA conectados a la nube, para evitar que una vulnerabilidad de software resulte en un accidente físico.\n- **Responsabilidad en la Cadena de Suministro**: Con la proliferación de modelos de IA de terceros y hardware modular, la atribución de fallos técnicos se ha vuelto compleja, exigiendo auditorías de código y logs inmutables para la forense de incidentes robóticos.\n\nPara las organizaciones, el despliegue de robots ya no es solo un reto de ingeniería mecánica, sino un problema de gestión de riesgo donde la ciberseguridad es la primera línea de defensa para la seguridad humana.\n\n**Fuentes Verificadas:**\n- MLT Aikins: [Connected robots, connected risk: Robotics liability considerations for 2026](https://www.mltaikins.com/insights/connected-robots-connected-risk-robotics-liability-considerations/)\n- Industrial Robot Installations Market Report 2026\n- Global Cyber-Physical Safety Standards (ISO/IEC)",
+  "imageUrl": null,
+  "source": "MLT Aikins",
+  "originalUrl": "https://www.mltaikins.com/insights/connected-robots-connected-risk-robotics-liability-considerations/"
+}

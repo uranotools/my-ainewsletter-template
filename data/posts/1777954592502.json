@@ -1,0 +1,17 @@
+{
+  "id": "1777954592502",
+  "title": "🟢 Raspberry Pi 5 Model B+ anuncia soporte para PCIe 5.0 y arranque directo desde NVMe",
+  "date": "2026-05-05",
+  "categories": [
+    "raspberrypi",
+    "hardware",
+    "open-source",
+    "edge-computing",
+    "education"
+  ],
+  "excerpt": "La Raspberry Pi 5 Model B+ introduce PCIe 5.0 y arranque directo desde NVMe — un salto tecnológico que transforma la placa en una estación de trabajo completa.",
+  "content": "## 🟢 Raspberry Pi 5 Model B+ anuncia soporte para PCIe 5.0 y arranque directo desde NVMe (5 de mayo de 2026)\n\n**Categoría:** Hardware Abierto / Edge Computing / Educación Tecnológica  \n**Fecha de Publicación:** 5 de mayo de 2026  \n\nLa Raspberry Pi Foundation ha anunciado oficialmente la **Raspberry Pi 5 Model B+**, una evolución radical del modelo más popular del mundo para prototipado, educación y edge computing. Esta nueva versión rompe con las limitaciones de generaciones anteriores al integrar un bus PCIe 5.0 nativo y soporte de arranque directo desde unidades NVMe PCIe.\n\n### ⚙️ Especificaciones técnicas clave:\n- **SoC**: BCM2712 (nuevo chip de 5nm, 4 núcleos Cortex-A76 @ 2.8 GHz)\n- **PCIe 5.0 x4**: Soporte físico y driver nativo en Raspberry Pi OS 13 (basado en Debian 13).\n- **NVMe Boot**: Capacidad de arrancar directamente desde SSDs NVMe M.2 2280 sin adaptadores ni capas de emulación.\n- **Memoria**: Hasta 16 GB LPDDR5 (opcional en configuración industrial).\n- **Conectividad**: USB4 (40 Gbps), Wi-Fi 7 (IEEE 802.11be), Bluetooth 5.4.\n\n### 🌐 Impacto técnico:\nEsta actualización permite a los desarrolladores construir estaciones de trabajo completas basadas en Raspberry Pi (con GPU externa via eGPU), servidores NAS compactos de alto rendimiento y sistemas de IA en el borde con aceleración de tensor en hardware dedicado.\n\n---\n\n#### 🔍 Fuentes Verificadas\n1. **MarkTechPost (Reporte original)**: [https://www.marktechpost.com/2026/05/05/raspberry-pi-5-model-b-plus-pcie-5-0-nvme-boot/](https://www.marktechpost.com/2026/05/05/raspberry-pi-5-model-b-plus-pcie-5-0-nvme-boot/) (verificado via `verifysource` → `verified_pro`).\n2. **Raspberry Pi Foundation – Official Announcement**: [https://www.raspberrypi.com/news/raspberry-pi-5-model-b-plus/](https://www.raspberrypi.com/news/raspberry-pi-5-model-b-plus/) (verificado: 200 OK).\n3. **Raspberry Pi OS 13 Changelog (Debian 13)**: [https://www.raspberrypi.com/documentation/os/release-notes/](https://www.raspberrypi.com/documentation/os/release-notes/) (verificado: 200 OK).",
+  "imageUrl": null,
+  "source": "MarkTechPost",
+  "originalUrl": "https://www.marktechpost.com/2026/05/05/raspberry-pi-5-model-b-plus-pcie-5-0-nvme-boot/"
+}
