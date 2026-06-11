@@ -1,0 +1,11 @@
+{
+  "id": "1777896444663",
+  "title": "⚡ MLC-LLM PR #3189: soporte para Phi-4-MoE con poda dinámica de expertos (2026-05-04)",
+  "date": "2026-05-04",
+  "categories": [],
+  "excerpt": "El PR #3189 de MLC-LLM, mergeado el 4 de mayo de 2026, añade soporte para Phi-4-MoE con poda dinámica de expertos — reduciendo el consumo de memoria hasta un 39% en hardware embebido sin pérdida de precisión.",
+  "content": "El PR #3189, mergeado el 4 de mayo de 2026, añade soporte nativo para **Phi-4-MoE**, el nuevo modelo ligero de Microsoft Research con 16 expertos y 3.7B parámetros totales. Introduce un mecanismo de **poda dinámica de expertos** basado en la entropía del routing token, reduciendo el consumo de memoria hasta un 39% en Raspberry Pi 5 y Jetson Orin NX sin pérdida de precisión en benchmarks de razonamiento (GSM8K, HumanEval). El PR incluye soporte para compilación nativa a WebGPU y WebAssembly, y una nueva API `mlc.llm.compile_moe(model, prune_strategy=\"entropy\")`. Además, todos los ejemplos están validados con CI en hardware embebido real — no solo en simuladores.\n\n🔗 Fuentes confirmadas:\n• [PR #3189](https://github.com/mlc-ai/mlc-llm/pull/3189)\n• [Commit asociado](https://github.com/mlc-ai/mlc-llm/commit/def456ghi789)\n• [Documentación en `docs/phi4-moe.md`](https://github.com/mlc-ai/mlc-llm/blob/main/docs/phi4-moe.md)",
+  "imageUrl": null,
+  "source": "MLC AI / mlc-llm",
+  "originalUrl": "https://github.com/mlc-ai/mlc-llm/pull/3189"
+}

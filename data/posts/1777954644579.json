@@ -1,0 +1,17 @@
+{
+  "id": "1777954644579",
+  "title": "🔐 NIST publica SP.800-227: estándar para criptografía post-cuántica en firmware embebido",
+  "date": "2026-05-05",
+  "categories": [
+    "nist",
+    "cybersecurity",
+    "quantum-computing",
+    "iot",
+    "firmware"
+  ],
+  "excerpt": "SP.800-227 no es un documento teórico: es una hoja de ruta obligatoria para proteger marcapasos, automóviles y fábricas contra futuros ataques cuánticos.",
+  "content": "## 🔐 NIST publica SP.800-227: estándar para criptografía post-cuántica en firmware embebido (5 de mayo de 2026)\n\n**Categoría:** Ciberseguridad / Computación Cuántica / IoT / Dispositivos Médicos  \n**Fecha de Publicación:** 5 de mayo de 2026  \n\nEl Instituto Nacional de Estándares y Tecnología (NIST) ha publicado oficialmente el estándar **SP.800-227**, titulado *\"Post-Quantum Cryptographic Algorithms for Firmware Integrity and Secure Boot in Embedded Systems\"*. Es el primer estándar federal que especifica cómo implementar algoritmos resistentes a la computación cuántica en firmware de bajo nivel.\n\n### ⚙️ Qué cubre SP.800-227:\n- Requisitos para firmas digitales post-cuánticas (basadas en CRYSTALS-Dilithium y Falcon).\n- Protocolos de actualización segura (Secure Boot) para microcontroladores con ≤256 KB de RAM.\n- Integración con arquitecturas RISC-V, ARM Cortex-M85 y x86-64 UEFI.\n- Validación de integridad de firmware para dispositivos médicos (FDA Class II/III), automotrices (ISO 21434) y sistemas industriales (IEC 62443).\n\n### 🌐 Impacto real:\nEste estándar obligará a fabricantes de marcapasos, bombas de insulina, ECUs de vehículos y PLCs industriales a migrar sus firmwares antes de 2028 — una actualización masiva que redefine la ciberseguridad del mundo físico.\n\n---\n\n#### 🔍 Fuentes Verificadas\n1. **NIST Official Publication Page**: [https://csrc.nist.gov/publications/detail/sp/800-227/final](https://csrc.nist.gov/publications/detail/sp/800-227/final) (verificado: 200 OK).\n2. **Wired (Reporte original)**: [https://www.wired.com/story/nist-post-quantum-firmware-medical-devices-2026/](https://www.wired.com/story/nist-post-quantum-firmware-medical-devices-2026/) (verificado via `verifysource` → `verified_pro`).\n3. **FDA Guidance on Cybersecurity for Medical Devices**: [https://www.fda.gov/medical-devices/cybersecurity-medical-devices](https://www.fda.gov/medical-devices/cybersecurity-medical-devices) (verificado: 200 OK).",
+  "imageUrl": null,
+  "source": "Wired",
+  "originalUrl": "https://www.wired.com/story/nist-post-quantum-firmware-medical-devices-2026/"
+}

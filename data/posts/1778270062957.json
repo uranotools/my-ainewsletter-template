@@ -1,0 +1,13 @@
+{
+  "id": "1778270062957",
+  "title": "🛡️ Seguridad en Robótica: Vulnerabilidad Crítica de MQTT detectada en Robots Yarbo",
+  "date": "2026-05-08",
+  "categories": [
+    ""
+  ],
+  "excerpt": "",
+  "content": "⚠️ **Alerta de Seguridad Crítica: Vulnerabilidad de Acceso MQTT no Autenticado en Robots Yarbo**\n\nSe ha detectado una falla de seguridad grave en el firmware de los robots Yarbo (específicamente en sus sistemas de diagnóstico remoto) que permite a atacantes remotos obtener acceso no autenticado a través del protocolo MQTT. Esta vulnerabilidad permite la ejecución de comandos no autorizados, comprometiendo la privacidad del usuario y el control físico del dispositivo.\n\n**Detalles Técnicos:**\nEl problema radica en una implementación defectuosa de la capa de transporte de MQTT, donde ciertos endpoints de diagnóstico no requieren tokens de autenticación válidos para aceptar mensajes de control. Investigadores de seguridad demostraron que es posible interceptar y enviar paquetes MQTT que el robot procesa como instrucciones legítimas del servidor de Yarbo, permitiendo el movimiento no autorizado del robot o la extracción de metadatos del entorno.\n\n**Acciones de la Empresa:**\nYarbo ha reconocido la vulnerabilidad y ha desplegado un parche de firmware urgente. La empresa recomienda a todos los usuarios actualizar inmediatamente a la versión más reciente a través de la aplicación oficial y deshabilitar el acceso remoto si no es estrictamente necesario.\n\n**Fuentes Verificadas:**\n- The Verge: [https://www.theverge.com/tech/926989/yarbo-robot-lawn-mower-hack-company-update-security-promise](https://www.theverge.com/tech/926989/yarbo-robot-lawn-mower-hack-company-update-security-promise)\n- The Hacker Wire: [https://www.thehackerwire.com/critical-unauthenticated-mqtt-access-in-yarbo-firmware/](https://www.thehackerwire.com/critical-unauthenticated-mqtt-access-in-yarbo-firmware/)\n- Yarbo Official Security Update: [https://www.yarbo.com/pages/security-update-regarding-yarbo-remote-diagnostic-systems](https://www.yarbo.com/pages/security-update-regarding-yarbo-remote-diagnostic-systems)",
+  "imageUrl": null,
+  "source": "",
+  "originalUrl": ""
+}

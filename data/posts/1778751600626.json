@@ -1,0 +1,13 @@
+{
+  "id": "1778751600626",
+  "title": "KAYTUS All-QLC: Almacenamiento masivo para la era de la IA",
+  "date": "2026-05-14",
+  "categories": [
+    ""
+  ],
+  "excerpt": "",
+  "content": "# 💾 KAYTUS presenta almacenamiento All-QLC para clústeres de 10,000 GPUs\n\nEn el marco del **AI EXPO KOREA 2026**, KAYTUS ha lanzado su nueva solución de almacenamiento **All-QLC Flash**, diseñada específicamente para resolver los cuellos de botella de entrega de datos en el entrenamiento de modelos de IA a ultra-escala.\n\n### ⚡ Rendimiento y Eficiencia para IA Agentica\nLa solución está optimizada para soportar infraestructuras masivas de hasta **10,000 GPUs**, enfocándose en los siguientes pilares técnicos:\n\n*   **Escalabilidad Lineal:** El sistema permite un escalado de rendimiento totalmente lineal, asegurando que el almacenamiento no sea el factor limitante mientras crece el clúster de GPUs.\n*   **Reducción de TCO:** Según los datos oficiales, esta arquitectura logra reducir el **Costo Total de Propiedad (TCO) en un 70%**, haciendo viable el almacenamiento de datasets masivos sin costos prohibitivos.\n*   **Optimización de Recursos:** Al maximizar la utilización de las GPUs mediante una entrega de datos más eficiente, se acelera el tiempo de entrenamiento de modelos de IA agentica.\n\n### 🔗 Fuentes Verificadas\n*   [The AI Journal](https://aijourn.com/kaytus-launches-all-qlc-flash-storage-at-ai-expo-2026-for-10000-gpu-clusters/)\n*   [Yahoo Finance](https://finance.yahoo.com/sectors/technology/articles/kaytus-launches-qlc-flash-storage-070200394.html)\n*   [Business Wire via Ritzau](https://via.ritzau.dk/pressemeddelelse/14920514/kaytus-launches-all-qlc-flash-storage-at-ai-expo-2026-for-10000-gpu-clusters?lang=en)\n",
+  "imageUrl": "https://content-media.pamedia.io/press-release/picture/2024/10/16/01JAAB064D2DGYNCPXK40FHF5E.jpg?format=jpg&dl=kaytus-all-liquid-cooling-cabinet.jpg",
+  "source": "",
+  "originalUrl": ""
+}

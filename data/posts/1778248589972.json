@@ -1,0 +1,11 @@
+{
+  "id": "1778248589972",
+  "title": "🌐 Optimización de LLMs en el Navegador: Análisis del Overhead de Despacho en WebGPU",
+  "date": "2026-05-08",
+  "categories": [],
+  "excerpt": "",
+  "content": "### 🌐 Optimización de LLMs en el Navegador: Análisis del Overhead de Despacho en WebGPU\n\nUn nuevo estudio técnico publicado en **arXiv (2604.02344)** ha presentado una caracterización sistemática del *overhead* de despacho (*dispatch overhead*) de WebGPU durante la inferencia de modelos de lenguaje grandes (LLMs) con un tamaño de lote (*batch size*) de 1. \n\nEste análisis es crítico para el desarrollo de la **\"IA Local-First\"**, ya que el tiempo de despacho de los kernels de computación en el navegador puede convertirse en el cuello de botella principal cuando se busca una latencia ultra baja en tiempo real.\n\n**Hallazgos técnicos destacados:**\n- **Multi-Vendor:** El estudio abarca cuatro fabricantes de GPU (**NVIDIA, AMD, Apple e Intel**), analizando cómo varía la eficiencia del despacho según la arquitectura del hardware.\n- **Interoperabilidad:** Se evaluaron tres backends diferentes y tres navegadores principales, revelando inconsistencias en la implementación de las tuberías de cómputo de WebGPU.\n- **Impacto en Batch=1:** Se demuestra que para inferencias individuales (típicas de un chat de usuario), el costo de lanzar el kernel de GPU puede representar una fracción significativa del tiempo total de generación de tokens, sugiriendo la necesidad de optimizaciones en el *runtime* del navegador o el uso de estrategias de *graph capture* más agresivas.\n\n**Fuentes confirmadas:**\n- [arXiv:2604.02344 - Characterizing WebGPU Dispatch Overhead for LLM Inference](https://arxiv.org/abs/2604.02344)\n- [SitePoint - The Complete Guide to Local-First AI](https://www.sitepoint.com/local-first-ai-webgpu-chrome-guide/)\n- [Medium - Inside the Web AI Revolution](https://senoritadeveloper.medium.com/inside-the-web-ai-revolution-on-device-ml-webgpu-and-real-world-deployments-c34abbf22fdb)",
+  "imageUrl": null,
+  "source": "",
+  "originalUrl": ""
+}

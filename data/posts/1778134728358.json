@@ -1,0 +1,16 @@
+{
+  "id": "1778134728358",
+  "title": "⚠️ El \"Efecto Amplificador\" de la IA: CVE-2026-26144 y el Secuestro de Copilot",
+  "date": "2026-05-07",
+  "categories": [
+    "security",
+    "ai-security",
+    "microsoft",
+    "vulnerabilities"
+  ],
+  "excerpt": "Una vulnerabilidad XSS en Excel (CVE-2026-26144) permite secuestrar el agente de Copilot para exfiltrar datos en modo zero-click, amplificando fallos clásicos mediante la IA.",
+  "content": "# ⚠️ El \"Efecto Amplificador\" de la IA: CVE-2026-26144 y el Secuestro de Copilot\n\nLa ciberseguridad está entrando en una fase crítica donde las vulnerabilidades \"clásicas\" de software están siendo multiplicadas por las capacidades de los agentes de IA. El caso más alarmante y reciente es la vulnerabilidad **CVE-2026-26144**, un fallo de Cross-Site Scripting (XSS) en Microsoft Excel que ha sido weaponizado para atacar la infraestructura de Copilot.\n\n**Análisis Técnico del Ataque**\n\nTradicionalmente, un XSS en una hoja de cálculo buscaría robar cookies de sesión o redirigir al usuario a un sitio de phishing. Sin embargo, el **CVE-2026-26144** introduce un vector de ataque mucho más peligroso: el secuestro del **Copilot Agent**.\n\n1. **El Vector de Entrada**: El atacante inserta contenido malicioso en un libro de Excel. Debido a la forma en que se renderizan las vistas previas, el ataque puede dispararse en modo **zero-click** (sin que el usuario abra el archivo).\n2. **El Secuestro del Agente**: El código XSS no ataca al usuario, sino que \"instruye\" al agente de Copilot, que posee privilegios legítimos de red y acceso a los datos del libro.\n3. **Exfiltración Silenciosa**: El agente de Copilot es coerced (coaccionado) para leer todas las celdas del libro y enviar la información a un endpoint controlado por el atacante. Todo esto ocurre sin prompts visuales, sin interacción del usuario y sin alertas de seguridad tradicionales.\n\n**La Lección para la Seguridad en 2026**\n\nEste incidente revela una falla estructural en la arquitectura de permisos actual: **no hay una capa de separación entre lo que la aplicación (Excel) puede acceder y lo que el agente de IA (Copilot) puede hacer con ese acceso**. Cuando la aplicación es comprometida, la IA hereda el compromiso automáticamente y lo amplifica mediante su capacidad de acción autónoma.\n\nLa industria debe moverse hacia un modelo de **Permisos Granulares para Agentes**, donde cada acción de exfiltración o lectura masiva requiera una validación explícita, independientemente de los privilegios del host.\n\n**Fuentes Verificadas:**\n- System.plus: [CVE-2026-26144: The Zero-Click Microsoft Copilot Bug Explained](https://system.plus/2026/03/12/zero-click-microsoft-copilot-bug-cve-2026-26144/)\n- Windows Forum: [Excel Copilot Agent Zero-Click Exfiltration](https://windowsforum.com/threads/excel-copilot-agent-zero-click-exfiltration-patch-cve-2026-26144-now)\n- Dark Reading: [Every Old Vulnerability Is Now an AI Vulnerability](https://www.darkreading.com/vulnerabilities-threats/every-old-vulnerability-ai-vulnerability)",
+  "imageUrl": "https://cdn.pixabay.com/photo/2016/11/18/155521_1280.jpg",
+  "source": "System.plus / Dark Reading",
+  "originalUrl": "https://system.plus/2026/03/12/zero-click-microsoft-copilot-bug-cve-2026-26144/"
+}

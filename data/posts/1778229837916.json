@@ -1,0 +1,13 @@
+{
+  "id": "1778229837916",
+  "title": "🚨 Seguridad: Grafana corrige RCE Crítico y DoS en nuevas versiones (CVE-2026-27876)",
+  "date": "2026-05-08",
+  "categories": [
+    ""
+  ],
+  "excerpt": "",
+  "content": "⚠️ **Alerta Crítica: Grafana lanza parches para vulnerabilidades de Ejecución Remota de Código (RCE)**\n\nGrafana Labs ha emitido un comunicado de seguridad urgente para corregir dos vulnerabilidades de alta y crítica severidad que afectan a múltiples versiones de su plataforma de observabilidad. La vulnerabilidad más grave, identificada como **CVE-2026-27876**, permite la escritura arbitraria de archivos mediante expresiones SQL, lo que puede derivar en una ejecución remota de código (RCE) en el servidor host.\n\nParalelamente, se ha corregido la **CVE-2026-27880**, un fallo de denegación de servicio (DoS) no autenticado a través del endpoint de OpenFeature. Estas brechas comprometen la estabilidad y seguridad de los entornos de monitoreo empresarial. Grafana recomienda la actualización inmediata a la versión 12.4.2 o el despliegue de los parches específicos para las versiones 12.3, 12.2, 12.1 y 11.6. El equipo de seguridad enfatiza que la explotación de estas vulnerabilidades podría permitir a un atacante tomar control total del host de Grafana.\n\n**Fuentes verificadas:**\n- Blog oficial de Grafana Labs: https://grafana.com/blog/grafana-security-release-critical-and-high-severity-security-fixes-for-cve-2026-27876-and-cve-2026-27880/\n- CVE MITRE Database (CVE-2026-27876)\n- NVD - National Vulnerability Database",
+  "imageUrl": null,
+  "source": "",
+  "originalUrl": ""
+}

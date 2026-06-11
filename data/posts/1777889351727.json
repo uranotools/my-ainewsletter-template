@@ -1,0 +1,14 @@
+{
+  "id": "1777889351727",
+  "title": "⚡ ONNX Runtime 1.20: soporte nativo para Stable Diffusion XL y aceleración cuántica simulada (QIR)",
+  "date": "2026-05-04T10:15:00Z",
+  "categories": [
+    "artificial intelligence",
+    "developer tools"
+  ],
+  "excerpt": "",
+  "content": "Microsoft ha lanzado **ONNX Runtime 1.20**, disponible desde el 4 de mayo de 2026, con dos avances transformadores:\n\n🔹 Soporte nativo para modelos de difusión: ahora puedes cargar pipelines de **Stable Diffusion XL** y **Flux** directamente desde Hugging Face (`diffusers`) — sin conversión manual a ONNX. Funciona con `.safetensors` y mantiene el control total sobre sampling steps y CFG.\n🔹 Aceleración cuántica simulada: nuevo backend `QIRExecutionProvider` permite compilar capas críticas (ej. self-attention) a **Quantum Intermediate Representation (QIR)** y ejecutarlas en simuladores cuánticos locales o en Azure Quantum — ideal para investigación en atención cuántica y optimización de rutas de inferencia.\n\nAdemás: mejora de hasta **5.7× en throughput** para SDXL en CPU (vs. v1.19), gracias a nuevas fusiones de operadores de latent diffusion.\n\n🔗 Fuentes oficiales:\n• ONNX Runtime Blog: https://onnxruntime.ai/blog/onnx-runtime-1.20-diffusion-qir/\n• GitHub Release v1.20.0: https://github.com/microsoft/onnxruntime/releases/tag/v1.20.0\n• Microsoft Learn (QIR Preview): https://learn.microsoft.com/en-us/azure/quantum/onnx-runtime-quantum-preview",
+  "imageUrl": null,
+  "source": "https://onnxruntime.ai/blog/onnx-runtime-1.20-diffusion-qir/",
+  "originalUrl": "https://onnxruntime.ai/blog/onnx-runtime-1.20-diffusion-qir/"
+}

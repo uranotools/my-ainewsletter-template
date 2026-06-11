@@ -1,0 +1,16 @@
+{
+  "id": "1778181314004",
+  "title": "🚨 Vulnerabilidad Crítica en Qualcomm Software Center: RCE con CVSS 9.8",
+  "date": "2026-05-07",
+  "categories": [
+    "security",
+    "qualcomm",
+    "rce",
+    "chipset"
+  ],
+  "excerpt": "Una falla de autorización impropia en la interfaz SocketIO del Qualcomm Software Center permite la ejecución remota de código (RCE) sin autenticación, con un puntaje CVSS de 9.8.",
+  "content": "# 🚨 Vulnerabilidad Crítica en Qualcomm Software Center: RCE con CVSS 9.8\n\nSe ha detectado una vulnerabilidad de severidad crítica en el **Qualcomm Software Center (QSC)**, identificada como **CVE-2026-25254**, que permite a un atacante no autenticado lograr la **Ejecución Remota de Código (RCE)**.\n\n### 🔍 Análisis Técnico del Vector de Ataque\nLa vulnerabilidad radica en una **autorización impropia** dentro de la interfaz **SocketIO**, el transporte de comunicación utilizado para gestionar el sistema operativo Linux en placas de desarrollo y dispositivos basados en chipsets Snapdragon. \n\nEl fallo permite que un atacante externo interactúe con la interfaz de SocketIO sin las credenciales adecuadas, aprovechando una falla en la validación de permisos para inyectar comandos arbitrarios que son ejecutados con privilegios elevados en el sistema objetivo.\n\n### 📉 Impacto y Severidad\n- **CVSS Score**: 9.8 (Crítico).\n- **Vector**: Remoto / Sin Autenticación.\n- **Alcance**: Millones de dispositivos que utilizan el ecosistema de desarrollo de Qualcomm y dispositivos finales con implementaciones vulnerables del QSC.\n\n### 🛡️ Mitigación\nQualcomm ha incluido este fallo en su **Security Bulletin de mayo de 2026**. Se insta a todos los desarrolladores y fabricantes de dispositivos a:\n1. Actualizar inmediatamente el Qualcomm Software Center a la última versión parcheada.\n2. Restringir el acceso a la interfaz de SocketIO mediante firewalls, permitiendo únicamente conexiones desde IPs de gestión confiables.\n3. Revisar los logs de comunicación del QSC en busca de patrones de acceso inusuales.\n\n**Fuentes Técnicas Verificadas:**\n- Qualcomm May 2026 Security Bulletin: [docs.qualcomm.com/securitybulletin/may-2026-bulletin.html](https://docs.qualcomm.com/securitybulletin/may-2026-bulletin.html)\n- SecurityOnline: [Critical 9.8 CVSS Flaws in Qualcomm Chipsets](https://securityonline.info/qualcomm-may-2026-securitybulletin-critical-rce-bootloader-vulnerabilities/)\n- Cybersecurity News: [Qualcomm Chipset Vulnerabilities Enable Remote Code Execution](https://cybersecuritynews.com/qualcomm-chipset-vulnerabilities/)",
+  "imageUrl": null,
+  "source": "Qualcomm Security Bulletin",
+  "originalUrl": "https://docs.qualcomm.com/securitybulletin/may-2026-bulletin.html"
+}

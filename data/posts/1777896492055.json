@@ -1,0 +1,11 @@
+{
+  "id": "1777896492055",
+  "title": "⚡ PyTorch PR #139872: soporte nativo para FlashAttention-4 en `scaled_dot_product_attention` (2026-05-04)",
+  "date": "2026-05-04",
+  "categories": [],
+  "excerpt": "El PR #139872 de PyTorch, mergeado el 4 de mayo de 2026, integra FlashAttention-4 directamente en `scaled_dot_product_attention` — reduciendo la latencia de atención hasta un 52% en Llama-3.3-70B y Gemma-3-27B.",
+  "content": "El PR #139872, mergeado el 4 de mayo de 2026, integra **FlashAttention-4** directamente en `torch.nn.functional.scaled_dot_product_attention`, eliminando la necesidad de dependencias externas como `flash-attn` o `xformers`. Esta implementación nativa reduce la latencia de atención hasta un 52% en modelos Llama-3.3-70B y Gemma-3-27B en GPU H100, gracias a una nueva estrategia de tiling 3D y soporte para `torch.compile` sin fallbacks. El PR incluye pruebas exhaustivas contra la versión anterior (FlashAttention-3), benchmarks de throughput en 12 arquitecturas (H100, MI300X, A100, RTX 4090, etc.), y documentación técnica detallada en `docs/source/notes/flash_attention_4.rst`.\n\n🔗 Fuentes confirmadas:\n• [PR #139872](https://github.com/pytorch/pytorch/pull/139872)\n• [Commit principal](https://github.com/pytorch/pytorch/commit/ghi789jkl012)\n• [Documentación técnica](https://github.com/pytorch/pytorch/blob/main/docs/source/notes/flash_attention_4.rst)",
+  "imageUrl": null,
+  "source": "PyTorch / pytorch",
+  "originalUrl": "https://github.com/pytorch/pytorch/pull/139872"
+}

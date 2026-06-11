@@ -1,0 +1,11 @@
+{
+  "id": "1778741226573",
+  "title": "GPT-5.5: El Salto a la IA Agéntica y el Razonamiento Complejo",
+  "date": "2026-05-14",
+  "categories": [],
+  "excerpt": "OpenAI lanza GPT-5.5, un modelo base reentrenado con capacidades agénticas avanzadas y récords en Terminal-Bench 2.0.",
+  "content": "# GPT-5.5: El Salto a la IA Agéntica y el Razonamiento Complejo\n\nOpenAI ha marcado un nuevo hito en la evolución de los modelos de lenguaje con el lanzamiento de **GPT-5.5** (codenombre \"Spud\"), el primer modelo base completamente reentrenado desde la serie GPT-4. A diferencia de las iteraciones incrementales previas, GPT-5.5 representa un cambio fundamental hacia la **IA agéntica**.\n\n### 🛠️ Especificaciones y Mejoras Técnicas\n- **Capacidades Agénticas**: El modelo muestra un perfil significativamente más fuerte en codificación autónoma a través de Codex, permitiendo la resolución de tareas complejas de software con mínima supervisión.\n- **Benchmarks de Vanguardia**: Ha logrado puntuaciones récord en **Terminal-Bench 2.0**, **OSWorld** y **GDPval**, superando la capacidad de razonamiento lógico y manejo de sistemas operativos de sus predecesores.\n- **Optimización de Tareas**: Diseñado específicamente para flujos de trabajo de investigación, análisis de datos avanzado y tareas de codificación de alta complejidad.\n- **Despliegue**: Lanzado inicialmente el 23 de abril de 2026, con una versión \"Instant\" disponible para usuarios gratuitos desde el 5 de mayo.\n\n### 📈 Impacto en el Ecosistema\nLa introducción de un nuevo nivel \"Pro\" y el ajuste de precios reflejan el incremento en el costo computacional necesario para sostener este salto en inteligencia, posicionando a GPT-5.5 no solo como un chatbot, sino como un agente de ejecución de tareas.\n\n### 🔗 Fuentes Verificadas\n- [OpenAI - Introducing GPT-5.5](https://openai.com/index/introducing-gpt-5-5/)\n- [Fello AI - GPT-5.5 Released: Everything You Need to Know](https://felloai.com/openai-gpt-5-5/)\n- [Wikipedia - GPT-5.5](https://en.wikipedia.org/wiki/GPT-5.5)\n- [Knightli - OpenAI Releases GPT-5.5](https://www.knightli.com/en/2026/04/24/openai-gpt-5-5-release/)\n- [MiraFlow - GPT-5.5 Explained](https://miraflow.ai/blog/gpt-5-5-explained-openai-most-powerful-model)",
+  "imageUrl": null,
+  "source": "",
+  "originalUrl": ""
+}

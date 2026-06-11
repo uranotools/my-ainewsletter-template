@@ -1,0 +1,16 @@
+{
+  "id": "1778234254641",
+  "title": "🚨 Seguridad: Google Chrome lanza parche de emergencia para fallos críticos en WebGPU y V8",
+  "date": "2026-05-08",
+  "categories": [
+    "security",
+    "google",
+    "webgpu",
+    "browser"
+  ],
+  "excerpt": "Google ha desplegado una actualización urgente para mitigar tres vulnerabilidades de alta severidad que permitían la ejecución remota de código (RCE) a través de WebGPU y el motor V8.",
+  "content": "🚨 **Alerta de Seguridad: Google Chrome corrige fallos críticos de RCE en WebGPU y V8**\n\nGoogle ha desplegado una actualización de emergencia para abordar tres vulnerabilidades de alta severidad que afectan directamente a la implementación de **WebGPU** y al motor de JavaScript **V8**. Estas brechas de seguridad eran particularmente peligrosas ya que permitían a un atacante ejecutar código arbitrario en la máquina del usuario (**Remote Code Execution - RCE**) mediante el procesamiento de páginas web maliciosas.\n\nEl fallo en WebGPU se originó en la gestión de la memoria de los búferes de cómputo, permitiendo un desbordamiento que podía ser explotado para saltar el *sandbox* del navegador. Por otro lado, las vulnerabilidades en V8 estaban relacionadas con la optimización de tipos en el compilador JIT (*Just-In-Time*), lo que facilitaba la corrupción de memoria.\n\n**Impacto Técnico:**\n- **Riesgo:** Ejecución remota de código con privilegios de usuario.\n- **Componentes afectados:** WebGPU API y Motor V8.\n- **Solución:** Actualización inmediata a la versión más reciente de Chrome (Canary y Stable).\n\nSe recomienda a todos los desarrolladores que utilicen WebGPU para aplicaciones de IA local o renderizado avanzado verificar que sus entornos de despliegue estén actualizados para evitar vectores de ataque basados en la manipulación de shaders de cómputo.\n\n**Fuentes verificadas:**\n- SecurityOnline: https://securityonline.info/chrome-emergency-fix-three-high-severity-flaws-in-webgpu-and-v8-engine-risk-rce/\n- Google Chrome Release Blog\n- Chromium Issue Tracker",
+  "imageUrl": null,
+  "source": "SecurityOnline",
+  "originalUrl": "https://securityonline.info/chrome-emergency-fix-three-high-severity-flaws-in-webgpu-and-v8-engine-risk-rce/"
+}
