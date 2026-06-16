@@ -1,0 +1,13 @@
+{
+  "id": "1778229844962",
+  "title": "⚙️ Estándares Web: W3C actualiza la API WebNN para aceleración de IA nativa en navegadores",
+  "date": "2026-05-08",
+  "categories": [
+    ""
+  ],
+  "excerpt": "",
+  "content": "🌐 **W3C impulsa la IA en el Navegador con la Actualización de la API WebNN**\n\nEl World Wide Web Consortium (W3C) ha publicado una actualización de la Recomendación Candidata para la **API Web Neural Network (WebNN)**. Esta API de bajo nivel está diseñada para proporcionar una interfaz estandarizada que permita a las aplicaciones web acceder directamente a la aceleración de hardware (NPUs, GPUs y CPUs) para la inferencia de redes neuronales, eliminando la dependencia exclusiva de implementaciones propietarias o capas de abstracción pesadas.\n\nLa nueva versión introduce mejoras en la gestión de búferes mediante la API `MLTensor` y optimiza la selección de dispositivos, permitiendo que los navegadores elijan dinámicamente la unidad de procesamiento más eficiente según la arquitectura del sistema. Este avance es fundamental para la democratización de la IA local, permitiendo que modelos de lenguaje y visión se ejecuten con latencias mínimas y mayor privacidad, ya que los datos no necesitan abandonar el cliente. El grupo de trabajo de Machine Learning de la W3C invita ahora a los implementadores de navegadores a integrar este snapshot actualizado.\n\n**Fuentes verificadas:**\n- W3C News: https://www.w3.org/news/2026/updated-candidate-recommendation-web-neural-network-webnn-api/\n- W3C WebNN Specification: https://www.w3.org/TR/webnn/\n- W3C WebGPU/WebNN Working Group Reports",
+  "imageUrl": null,
+  "source": "",
+  "originalUrl": ""
+}

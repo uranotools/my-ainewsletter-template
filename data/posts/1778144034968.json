@@ -1,0 +1,16 @@
+{
+  "id": "1778144034968",
+  "title": "⚠️ Alerta Crítica vLLM: CVE-2026-22778 permite RCE mediante enlaces de video maliciosos",
+  "date": "2026-05-07",
+  "categories": [
+    "security",
+    "vllm",
+    "rce",
+    "ai-infrastructure"
+  ],
+  "excerpt": "Una vulnerabilidad crítica (CVSS 9.8) en vLLM permite a atacantes ejecutar código remoto (RCE) mediante el envío de enlaces de video maliciosos, explotando un bypass de ASLR y un heap overflow.",
+  "content": "# ⚠️ Alerta Crítica vLLM: CVE-2026-22778 permite RCE mediante enlaces de video maliciosos\n\nSe ha revelado una vulnerabilidad crítica de Ejecución Remota de Código (RCE) en **vLLM**, uno de los frameworks más utilizados para el despliegue de modelos de lenguaje (LLMs) de alto rendimiento. La vulnerabilidad, identificada como **CVE-2026-22778** (CVSS 9.8), pone en riesgo millones de servidores de IA que soportan endpoints multimodales.\n\n### Análisis Técnico del Vector de Ataque\n\nEl ataque es una cadena de dos vulnerabilidades distintas que permiten al atacante saltar las protecciones modernas del sistema operativo:\n\n1. **Bypass de ASLR vía Fuga de Memoria (PIL)**: El atacante envía una imagen o video inválido al endpoint multimodal de vLLM. La librería **PIL (Python Imaging Library)** genera una excepción que, debido a una falta de sanitización en vLLM, es devuelta directamente al cliente. Esta excepción contiene la dirección de memoria de un objeto `BytesIO`, exponiendo direcciones del heap y permitiendo el bypass de la **ASLR (Address Space Layout Randomization)**.\n2. **Heap Overflow en JPEG2000**: Una vez obtenida la dirección de memoria, el atacante explota un desbordamiento de memoria (heap overflow) conocido en el decodificador **JPEG2000** utilizado por **OpenCV/FFmpeg**. Al combinar la fuga de memoria con este overflow, es posible lograr la ejecución de comandos arbitrarios en el servidor.\n\n### Impacto y Mitigación\n\nDado que los despliegues de vLLM suelen ejecutarse en clusters de GPUs de alto valor con acceso a datos sensibles y prompts de usuarios, el riesgo es extremo. El compromiso de un servidor vLLM podría dar acceso total a la infraestructura de cómputo subyacente.\n\n**Acción Requerida**: Se insta a todos los administradores de sistemas que utilicen vLLM con soporte para modelos de video y multimodales a actualizar inmediatamente a la **versión 0.14.1** o superior, donde se ha corregido la exposición de errores de PIL.\n\n**Fuentes Verificadas:**\n- Ox Security: [CVE-2026-22778 vLLM RCE Vulnerability](https://www.ox.security/blog/cve-2026-22778-vllm-rce-vulnerability/)\n- SentinelOne: [vLLM ASLR Bypass and RCE](https://www.sentinelone.com/vulnerability-database/cve-2026-22778/)\n- GitHub Advisory: [GHSA-4r2x-xpjr-7cvv](https://github.com/advisories/GHSA-4r2x-xpjr-7cvv)",
+  "imageUrl": null,
+  "source": "Ox Security / SentinelOne / GitHub",
+  "originalUrl": "https://www.ox.security/blog/cve-2026-22778-vllm-rce-vulnerability/"
+}

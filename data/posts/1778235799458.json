@@ -1,0 +1,15 @@
+{
+  "id": "1778235799458",
+  "title": "🎮 Nintendo Switch 2: Especificaciones Técnicas Confirmadas",
+  "date": "2026-05-08",
+  "categories": [
+    "hardware",
+    "nintendo",
+    "gaming"
+  ],
+  "excerpt": "Se confirman las specs de la Nintendo Switch 2: Procesador T239 Ampere, 12GB LPDDR5X y salto a almacenamiento UFS.",
+  "content": "Tras meses de especulaciones, se han confirmado las especificaciones técnicas finales de la sucesora de la Nintendo Switch. La nueva consola se apoya en el procesador T239 de Nvidia, basado en la arquitectura Ampere, marcando un salto generacional significativo en el procesamiento gráfico para dispositivos híbridos.\n\nEl apartado técnico revela una GPU con 1,536 núcleos CUDA distribuidos en 6 TPCs, fabricada en el nodo 8N de Samsung. En términos de rendimiento bruto, la GPU alcanza hasta 3.072 TFLOPs, situándose en benchmarks sintéticos en un nivel comparable a una GeForce GTX 750 Ti, lo que permitirá una mejora sustancial en la calidad visual y la resolución.\n\nEn cuanto a la memoria, la consola integra 12GB de RAM LPDDR5X, con un ancho de banda confirmado de 102GB/s en modo docked y 68GB/s en modo portátil. El procesador es un ARM Cortex A78C de ocho núcleos, operando a 1100MHz en modo móvil y ajustándose a 998MHz en el modo de rendimiento optimizado para el dock. El almacenamiento se ha actualizado a 256GB UFS, eliminando los cuellos de botella de carga de la generación anterior.\n\nFuentes:\n- Digital Foundry Tech Analysis: https://www.digitalfoundry.net/articles/digitalfoundry-2025-nintendo-switch-2-final-tech-specs-and-system-reservations-confirmed\n- Nintendo Life Specifications: https://www.nintendolife.com/news/2025/05/nintendo-switch-2-final-tech-specs-have-been-confirmed\n- Notebookcheck Performance Leak: https://www.notebookcheck.net/Massive-Nintendo-Switch-2-leak-reveals-CPU-GPU-specs-and-emulates-real-world-performance.1011699.0.html",
+  "imageUrl": null,
+  "source": "Digital Foundry / Nintendo Life",
+  "originalUrl": "https://www.digitalfoundry.net/articles/digitalfoundry-2025-nintendo-switch-2-final-tech-specs-and-system-reservations-confirmed"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "1778131129076",
+  "title": "🤖 Being-H0.7: Razonamiento de Mundo Latente para Robótica de Nueva Generación",
+  "date": "2026-05-06",
+  "categories": [
+    "robotics",
+    "ai",
+    "vla",
+    "embodied-ai"
+  ],
+  "excerpt": "Being-H0.7 introduce el Latent World-Action Modeling, permitiendo a los robots razonar sobre el futuro en un espacio latente compacto sin generar imágenes, optimizando la eficiencia y la precisión.",
+  "content": "# 🤖 Being-H0.7: Razonamiento de Mundo Latente para Robótica de Nueva Generación\n\nUno de los mayores desafíos en la robótica embodiment es la capacidad de un agente para razonar sobre el futuro sin incurrir en el costo computacional de generar imágenes o videos predictivos en tiempo real. La mayoría de los modelos VLA (Vision-Language-Action) actúan de forma reactiva o requieren rollouts visuales lentos.\n\n**El avance técnico: Being-H0.7**\n\nPublicado recientemente en **arXiv (2605.00078)**, **Being-H0.7** introduce el concepto de un **Latent World-Action Model (WAM)**. En lugar de generar frames futuros, el modelo utiliza consultas latentes aprendibles (*learnable latent queries*) que actúan como un espacio de trabajo interno para el razonamiento.\n\n**Diseño de Doble Rama (Dual-Branch Design)**\n\nLa clave de su eficiencia reside en su entrenamiento:\n1. **Rama Posterior (Solo Entrenamiento)**: Utiliza observaciones futuras reales para dar forma al espacio de razonamiento latente.\n2. **Rama Prior (Entrenamiento e Inferencia)**: Aprende a inferir esos mismos estados latentes basándose únicamente en el contexto actual.\n\nAl momento de la inferencia, se descarta la rama posterior. El robot puede así \"imaginar\" la estructura futura y la acción necesaria en un espacio compacto, permitiendo una ejecución inmediata y fluida sin generar un solo píxel de predicción visual.\n\n**Resultados y Capacidades**\nEntrenado con un dataset masivo de **200,000 horas de video egocéntrico humano** y 15,000 horas de demostraciones robóticas, Being-H0.7 demuestra superioridad en:\n- **Entornos Dinámicos**: Mejor manejo de objetos en movimiento.\n- **Manipulación de Líquidos y Objetos Deformables**: Tareas donde la física es compleja y la predicción visual suele fallar.\n- **Uso de Herramientas**: Mayor precisión en la interacción con objetos externos.\n\nEste enfoque permite escalar la inteligencia encarnada aprendiendo de la vasta cantidad de datos humanos disponibles, manteniendo un loop de inferencia lo suficientemente ligero para desplegarse en plataformas robóticas reales.\n\n**Fuentes Verificadas:**\n- arXiv: [Being-H0.7: A Latent World-Action Model from Egocentric Videos](https://arxiv.org/abs/2605.00078)\n- Research Portal: [BeingBeyond Project Page](https://research.beingbeyond.com/being-h07)\n- GitHub: [Being-H Repository](https://github.com/BeingBeyond/Being-H)",
+  "imageUrl": "https://cdn.pixabay.com/photo/2016/11/18/155521_1280.jpg",
+  "source": "arXiv / BeingBeyond",
+  "originalUrl": "https://arxiv.org/abs/2605.00078"
+}

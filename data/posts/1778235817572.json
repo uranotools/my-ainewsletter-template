@@ -1,0 +1,15 @@
+{
+  "id": "1778235817572",
+  "title": "🛡️ Project Glasswing: El escudo de IA de Anthropic",
+  "date": "2026-05-08",
+  "categories": [
+    "cybersecurity",
+    "anthropic",
+    "ai-safety"
+  ],
+  "excerpt": "Anthropic presenta Project Glasswing y el modelo Claude Mythos Preview, una IA especializada en ciberseguridad capaz de detectar vulnerabilidades críticas.",
+  "content": "Anthropic ha lanzado \"Project Glasswing\", una iniciativa estratégica diseñada para utilizar la inteligencia artificial en la protección de infraestructuras críticas contra ciberataques. El núcleo de este proyecto es el modelo 'Claude Mythos Preview', una variante especializada de sus modelos de lenguaje con capacidades excepcionales para el análisis de código.\n\nTécnicamente, Claude Mythos Preview ha demostrado una habilidad sorprendente para leer y razonar sobre código complejo, permitiéndole identificar vulnerabilidades críticas y diseñar exploits potenciales con una precisión sin precedentes. Debido a la potencia de estas capacidades, Anthropic ha determinado que el modelo es demasiado peligroso para una liberación pública general, optando por un modelo de asociación restringida bajo el marco de Project Glasswing.\n\nEl objetivo es colaborar con agencias gubernamentales y empresas de seguridad para parchear vulnerabilidades antes de que sean explotadas por actores maliciosos. Este enfoque de 'Red Teaming' a escala industrial busca asegurar redes corporativas, sistemas de salud y hubs de transporte, transformando la IA de una herramienta de ataque en el escudo defensivo más potente de la era digital.\n\nFuentes:\n- Official Project Glasswing Page: https://www.anthropic.com/glasswing\n- ASIS Security Management: https://www.asisonline.org/security-management-magazine/latest-news/today-in-security/2026/april/project-glasswing/\n- Cyber Defense Analysis: https://www.venturebeat.com/technology/anthropic-says-its-most-powerful-ai-cyber-model-is-too-dangerous-to-release",
+  "imageUrl": null,
+  "source": "Anthropic / VentureBeat",
+  "originalUrl": "https://www.anthropic.com/glasswing"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "1778257321407",
+  "title": "🚀 Estándares Web: W3C Eleva la API WebNN a Recomendación Candidata",
+  "date": "2026-05-08",
+  "categories": [
+    "web",
+    "ai",
+    "w3c"
+  ],
+  "excerpt": "El W3C avanza en la estandarización de WebNN, permitiendo que los navegadores accedan directamente a aceleradores de IA (NPU/GPU) para inferencia de bajo nivel.",
+  "content": "### 🚀 Estándares Web: W3C Eleva la API WebNN a Recomendación Candidata\n\nEl Consorcio World Wide Web (**W3C**) ha anunciado que la API de Redes Neuronales Web (**WebNN**) ha alcanzado el estado de **Recomendación Candidata**, marcando un hito fundamental para el despliegue de la IA local en el navegador.\n\n**¿Qué es WebNN y en qué se diferencia de WebGPU?**\nMientras que **WebGPU** es una API de cómputo general que permite escribir shaders personalizados (WGSL) para ejecutar cualquier cálculo en la GPU, **WebNN** es una API de alto nivel diseñada específicamente para la inferencia de redes neuronales. WebNN permite definir grafos de computación que el navegador puede optimizar y ejecutar directamente en el hardware más eficiente disponible, ya sea una GPU o una **NPU (Neural Processing Unit)**.\n\n**Beneficios Técnicos:**\n- **Eficiencia Energética:** Al delegar la ejecución a la NPU, se reduce drásticamente el consumo de batería en dispositivos móviles.\n- **Latencia Reducida:** Eliminación de la necesidad de traducir modelos a shaders generales, permitiendo una ejecución nativa más rápida.\n- **Privacidad:** Los modelos se ejecutan 100% en el cliente, sin enviar datos a la nube.\n\n**Fuentes:**\n- [W3C News - WebNN Update](https://www.w3.org/news/)\n- [Web.dev - Browser AI Capabilities](https://web.dev/)\n- [Chrome Developers Blog](https://developer.chrome.com/blog/)",
+  "imageUrl": null,
+  "source": "W3C",
+  "originalUrl": "https://www.w3.org/news/"
+}

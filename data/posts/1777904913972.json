@@ -1,0 +1,13 @@
+{
+  "id": "1777904913972",
+  "title": "🚀 PyTorch 2.11: FlexAttention y el salto a FlashAttention-4",
+  "date": "2026-05-04",
+  "categories": [
+    ""
+  ],
+  "excerpt": "",
+  "content": "🚀 PyTorch 2.11: FlexAttention y el salto a FlashAttention-4 (2026-05-04)\n\nEl lanzamiento de PyTorch 2.11 introduce avances fundamentales en la eficiencia de la atención, enfocándose en la optimización para las arquitecturas de GPU más recientes de NVIDIA.\n\nInnovaciones Técnicas:\n1. FlexAttention: PyTorch introduce FlexAttention, una nueva API que permite la instanciación JIT (Just-In-Time) de kernels de atención personalizados. Lo más destacado es su backend nativo de FlashAttention-4 para GPUs Hopper (H100) y Blackwell.\n2. Rendimiento: Gracias a la generación automática de funciones de modificación de score/mask vía CuTeDSL, FlexAttention logra aceleraciones de entre 1.2x y 3.2x en comparación con las implementaciones previas basadas en Triton para cargas de trabajo limitadas por cómputo.\n3. Entrenamiento Distribuido: Se incorporan 'Differentiable Collectives', facilitando la optimización de gradientes en comunicaciones colectivas durante el entrenamiento de modelos a escala masiva.\n\nFuentes verificadas:\n- PyTorch Official Blog: https://pytorch.org/blog/pytorch-2-11-release-blog/\n- PyTorch GitHub Issues/RFC: https://github.com/pytorch/pytorch/issues/173702\n- PyTorch Developer Discussion: https://dev-discuss.pytorch.org/t/pytorch-release-2-11-key-dates/3292",
+  "imageUrl": null,
+  "source": "",
+  "originalUrl": ""
+}

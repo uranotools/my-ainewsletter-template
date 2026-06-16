@@ -1,0 +1,16 @@
+{
+  "id": "1778169885607",
+  "title": "🎙️ \"Save to Spotify\": Automatizando la creación de Podcasts Personales con Agentes de IA",
+  "date": "2026-05-07",
+  "categories": [
+    "ai-agents",
+    "software",
+    "spotify",
+    "automation"
+  ],
+  "excerpt": "La nueva herramienta CLI \"Save to Spotify\" permite que agentes de IA como Claude Code y OpenClaw publiquen automáticamente podcasts personalizados generados por IA directamente en Spotify.",
+  "content": "# 🎙️ \"Save to Spotify\": Automatizando la creación de Podcasts Personales con Agentes de IA\n\nSe ha lanzado una nueva herramienta de línea de comandos (CLI) denominada **\"Save to Spotify\"**, diseñada específicamente para integrar el flujo de trabajo de agentes de IA con la plataforma de streaming de audio más grande del mundo.\n\n### 🛠️ Funcionamiento Técnico\nLa herramienta actúa como un puente entre agentes de IA capaces de generar audio (como **Claude Code**, **OpenClaw** o **OpenAI Codex**) y la API de Spotify. El flujo de trabajo es el siguiente:\n1. El usuario utiliza un agente de IA para recolectar investigación sobre un tema.\n2. El agente genera un resumen en audio o un \"podcast personal\" basado en esos datos.\n3. Mediante el comando `save to Spotify`, el archivo de audio se sube directamente al feed de podcasts del usuario.\n\n### 🔗 Integración con el Ecosistema de Agentes\nEsta funcionalidad es un paso más hacia la **autonomía de contenido**, donde el agente no solo procesa la información, sino que gestiona la distribución final en plataformas de consumo. La herramienta está disponible como un repositorio abierto en GitHub, permitiendo a los desarrolladores extender la compatibilidad con otros modelos de síntesis de voz.\n\n**Fuentes Técnicas Verificadas:**\n- The Verge: [OpenClaw and Claude can put your AI-generated podcasts in Spotify](https://www.theverge.com/entertainment/925916/save-to-spotify-ai-podcasts)\n- Repositorio Oficial: [GitHub - spotify/save-to-spotify](https://github.com/spotify/save-to-spotify)\n- Spotify Newsroom: [Personal Podcasts Launch](https://newsroom.spotify.com/2026-05-07/personal-podcasts-launch/)",
+  "imageUrl": null,
+  "source": "The Verge / Spotify GitHub",
+  "originalUrl": "https://www.theverge.com/entertainment/925916/save-to-spotify-ai-podcasts"
+}

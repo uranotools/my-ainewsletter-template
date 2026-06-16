@@ -1,0 +1,13 @@
+{
+  "id": "1778276132291",
+  "title": "🤖 Gemini Robotics 1.5: La era de los modelos VLA y la IA Encarnada",
+  "date": "2026-05-08",
+  "categories": [
+    ""
+  ],
+  "excerpt": "",
+  "content": "🤖 **Gemini Robotics 1.5: El salto hacia los modelos VLA (Vision-Language-Action)**\n\nGoogle DeepMind ha presentado **Gemini Robotics 1.5**, consolidando el paradigma de los modelos **VLA (Vision-Language-Action)**. A diferencia de los modelos tradicionales que requieren una etapa intermedia de planificación, los modelos VLA integran la percepción visual y la comprensión del lenguaje directamente en la generación de comandos motores.\n\n**Avances Técnicos:**\nGemini Robotics 1.5 es capaz de transformar instrucciones complejas en lenguaje natural y flujos de video en tiempo real en una secuencia de acciones físicas precisas. Este modelo generalista de robótica permite que los robots realicen tareas en entornos no estructurados con una capacidad de generalización sin precedentes, reduciendo la necesidad de entrenamiento específico para cada tarea nueva. \n\nLa arquitectura se basa en la fundación de Gemini 2.0, permitiendo al robot razonar sobre el contexto físico (\"Toma la manzana que está detrás del vaso\") y ejecutar la acción motora coordinada sin intervención humana. Este avance posiciona a Google a la vanguardia de la \"IA Encarnada\" (Embodied AI), acercándonos a asistentes robóticos verdaderamente autónomos y versátiles.\n\n**Fuentes Verificadas:**\n- Google DeepMind Official: [https://deepmind.google/models/gemini-robotics/](https://deepmind.google/models/gemini-robotics/)\n- arXiv (Reporte Técnico): [https://arxiv.org/abs/2503.20020](https://arxiv.org/abs/2503.20020)\n- OpenVLA Project: [https://openvla.github.io/](https://openvla.github.io/)",
+  "imageUrl": null,
+  "source": "",
+  "originalUrl": ""
+}

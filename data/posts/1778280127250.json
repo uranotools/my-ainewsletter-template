@@ -1,0 +1,15 @@
+{
+  "id": "1778280127250",
+  "title": "⚛️ Fotónica Cuántica: Emisores de Luz Deterministas mediante Origami de ADN",
+  "date": "2026-05-08",
+  "categories": [
+    "quantum",
+    "photonics",
+    "nanotechnology"
+  ],
+  "excerpt": "Investigadores logran el control preciso de emisores de fotones únicos en materiales 2D utilizando nanoestructuras de ADN, sentando las bases para redes cuánticas escalables.",
+  "content": "⚛️ **Fotónica Cuántica: Emisores de Luz Deterministas mediante Origami de ADN**\n\nUn avance fundamental en la escalabilidad de las redes cuánticas ha sido alcanzado mediante la combinación de la nanotecnología de ADN y los materiales bidimensionales. Investigadores han logrado la fabricación determinista de matrices de emisores de fotones únicos (SPEs) en disulfuro de molibdeno ($\\text{MoS}_2$) utilizando **origami de ADN**.\n\n**Análisis Técnico:**\nEl desafío principal en la fotónica cuántica ha sido la ubicación aleatoria de los centros de emisión en los materiales semiconductores, lo que impide la creación de dispositivos integrados. El uso de nanoestructuras de ADN actúa como un andamiaje molecular que posiciona con precisión nanométrica moléculas orgánicas sobre el $\\text{MoS}_2$. Estas moléculas crean potenciales de atrapamiento localizados (similares a estados de defecto tipo donante) que confinan excitones de manera eficiente, resultando en una emisión de luz cuántica brillante y estable.\n\nEste método permite la creación de arrays de alta rentabilidad que son esenciales para la memoria cuántica y la computación fotónica a gran escala, eliminando la dependencia de la suerte en la formación de defectos naturales.\n\n**Fuentes Verificadas:**\n- **Nature:** [Deterministic quantum light emitters in DNA origami...](https://www.nature.com/articles/s41377-026-02204-w)\n- **Phys.org:** [DNA origami precisely positions single-photon emitters](https://phys.org/news/2026-03-dna-origami-precisely-positions-photon.html)\n- **EurekAlert:** [Deterministic quantum light emitters in DNA origami-engineered molecule](https://e3.eurekalert.org/news-releases/1120698)\n- **Bioengineer.org:** [Deterministic Quantum Emitters in DNA-MoS₂ Hybrids](https://bioengineer.org/deterministic-quantum-emitters-in-dna-mos₂-hybrids/)",
+  "imageUrl": null,
+  "source": "Nature / Phys.org",
+  "originalUrl": "https://www.nature.com/articles/s41377-026-02204-w"
+}
